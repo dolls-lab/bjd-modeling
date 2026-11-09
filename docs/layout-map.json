@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "purpose": "Resolve paths recorded by the original migration manifests after organizing preserved assets by character and scale.",
+  "prefixes": {
+    "outputs/": "characters/march-7th/1-4/versions/",
+    "references/local/official-models/": "characters/march-7th/references/local/official-models/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reviewed_images": [
+    "fourth-vs-third.png",
+    "third-multiview.png",
+    "neck-interface.png"
+  ],
+  "model_sha256": "45972a012f29686fe2c783e118d61d400e24d8af5e9a3be4e6f3f0e444ae5c81",
+  "visual_result": "Actual new and original renders reviewed. Face/cranium proportions preserved; rear cap and neck cavity visible; no obvious new surface seams outside the intended neck interface.",
+  "independent_stl_validation_pass": true,
+  "physical_fit": "Not tested; no body selected.",
+  "no_image_retouching": true
+}

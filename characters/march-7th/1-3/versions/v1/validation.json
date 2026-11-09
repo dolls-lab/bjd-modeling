@@ -1,0 +1,1619 @@
+{
+  "version": "march7-1-3-v1",
+  "units": "mm",
+  "scale_factor": 1.25,
+  "method": "Independent STL reload; no rebuilding or mesh repair; scipy KDTree and Manifold geometric queries.",
+  "trimesh_version": "5.2.0",
+  "parts": {
+    "head": {
+      "file": "march7-head-shell-1-3-v1.stl",
+      "sha256": "c1708a6ff2167af87430c36967e9d4fd7fb43322cba7e2093d5052679a0e0dde",
+      "vertices": 257309,
+      "triangles": 514626,
+      "finite_coordinates": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "component_triangles": [
+        514626
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_overused_edges": 0,
+      "degenerate_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangles": 0,
+      "euler_number": -4,
+      "expected_euler_number": -4,
+      "signed_volume_mm3": 48820.174177860026,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 48820.17417786002,
+      "bounds_mm": [
+        [
+          -34.72108459472656,
+          -41.86587905883789,
+          0.08662223815917969
+        ],
+        [
+          34.72380447387695,
+          30.068946838378906,
+          87.23051452636719
+        ]
+      ],
+      "dimensions_mm": [
+        69.44488906860352,
+        71.9348258972168,
+        87.14389228820801
+      ],
+      "pass": true
+    },
+    "cap": {
+      "file": "march7-head-cap-1-3-v1.stl",
+      "sha256": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953",
+      "vertices": 48537,
+      "triangles": 97070,
+      "finite_coordinates": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "component_triangles": [
+        97070
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_overused_edges": 0,
+      "degenerate_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangles": 0,
+      "euler_number": 2,
+      "expected_euler_number": 2,
+      "signed_volume_mm3": 10350.812855536042,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 10350.812855536044,
+      "bounds_mm": [
+        [
+          -27.381641387939453,
+          11.775178909301758,
+          22.971954345703125
+        ],
+        [
+          27.381717681884766,
+          38.13658905029297,
+          84.75360107421875
+        ]
+      ],
+      "dimensions_mm": [
+        54.76335906982422,
+        26.36141014099121,
+        61.781646728515625
+      ],
+      "pass": true
+    }
+  },
+  "source_v14_hashes_match": true,
+  "physical_fit": "NOT TESTED",
+  "limitations": [
+    "Digital validation does not verify resin shrinkage, printed strength, actual magnets, eye profiles or body-neck fit.",
+    "Manifold accepts closed oriented solids; this is not an exhaustive independent all-triangle self-intersection test.",
+    "Cap removal uses discrete straight-line collision samples, not a continuous swept-volume proof.",
+    "Eye test verifies conservative scaled-nominal sphere endpoint clearance only; no new insertion route is proven.",
+    "STL has no unit metadata. These files use millimeters by convention."
+  ],
+  "validated_parameters": {
+    "uniform_scale": 1.25,
+    "neck_seat_diameter_mm": 32.0,
+    "neck_slot_width_mm": 9.0,
+    "neck_slot_length_mm": 18.0,
+    "neck_roof_thickness_mm": 4.0,
+    "assumed_neck_ball_diameter_mm": 31.5,
+    "nominal_eye_diameter_mm": 20.0,
+    "eye_diameter_basis": "Source nominal eye diameter multiplied by the current uniform scale."
+  },
+  "shape_preservation": {
+    "method": "Bidirectional nearest-vertex distances after uniform scaling, without alignment, fitting or mesh repair.",
+    "uniform_scale_factor": 1.25,
+    "tolerance_mm_strictly_less_than": 3e-05,
+    "allowed_neck_change_box_mm": {
+      "x": [
+        -16.3,
+        16.3
+      ],
+      "y": [
+        -8.057366750505638,
+        24.542633249494365
+      ],
+      "z": [
+        null,
+        24.82789974848309
+      ]
+    },
+    "checks": {
+      "head_source_protected_to_target": {
+        "query_vertices": 242900,
+        "target_vertices": 257309,
+        "maximum_distance_mm": 4.271620003502111e-06,
+        "rms_distance_mm": 1.500012391006072e-06,
+        "worst_query_point_mm": [
+          -5.874313116073608,
+          -32.396535873413086,
+          65.61029434204102
+        ],
+        "points_at_or_above_tolerance": 0,
+        "pass": true
+      },
+      "head_target_protected_to_source": {
+        "query_vertices": 242900,
+        "target_vertices": 252695,
+        "maximum_distance_mm": 4.271620003502111e-06,
+        "rms_distance_mm": 1.500012391006072e-06,
+        "worst_query_point_mm": [
+          -5.8743133544921875,
+          -32.39653778076172,
+          65.61029052734375
+        ],
+        "points_at_or_above_tolerance": 0,
+        "pass": true
+      },
+      "whole_cap_source_to_target": {
+        "query_vertices": 48537,
+        "target_vertices": 48537,
+        "maximum_distance_mm": 4.291534423828125e-06,
+        "rms_distance_mm": 1.8149513171126138e-06,
+        "worst_query_point_mm": [
+          8.038508892059326,
+          32.19191551208496,
+          65.01615524291992
+        ],
+        "points_at_or_above_tolerance": 0,
+        "pass": true
+      },
+      "whole_cap_target_to_source": {
+        "query_vertices": 48537,
+        "target_vertices": 48537,
+        "maximum_distance_mm": 4.291534423828125e-06,
+        "rms_distance_mm": 1.8149513171126138e-06,
+        "worst_query_point_mm": [
+          8.038509368896484,
+          32.191917419433594,
+          65.01615905761719
+        ],
+        "points_at_or_above_tolerance": 0,
+        "pass": true
+      }
+    },
+    "pass": true,
+    "interpretation": "All protected face, ears, cranium and the complete cap preserve v14 positions up to STL float precision; changes are confined to the neck support."
+  },
+  "assembly_intersection": {
+    "status": "Error.NoError",
+    "volume_mm3": 0.0,
+    "empty": true,
+    "triangles": 0,
+    "volume_tolerance_mm3": 1e-05,
+    "strict_volume_pass": true,
+    "pass": true
+  },
+  "assembly_minimum_gap_mm_search_limited_to_1mm": 0.31232615927535223,
+  "fully_seated_cap_intersection": {
+    "status": "Error.NoError",
+    "volume_mm3": 0.00030927125138431073,
+    "empty": false,
+    "triangles": 27240,
+    "volume_tolerance_mm3": 1e-05,
+    "strict_volume_pass": false,
+    "pass": true,
+    "seam_plane_precision_contact": {
+      "checked_vertices": 14486,
+      "max_distance_to_plane_mm": 3.2988116593912764e-06,
+      "plane_tolerance_mm": 1e-05,
+      "is_precision_contact_sheet": true,
+      "note": "Only a fully seated cap can use this plane-local classification; raw overlap volume is retained."
+    },
+    "translation_mm": [
+      -0.0,
+      -0.2993207136189552,
+      -0.08979621594833176
+    ]
+  },
+  "cap_exit_samples": {
+    "outward_unit_axis": [
+      0.0,
+      0.9578262835806566,
+      0.28734789103466163
+    ],
+    "samples": [
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 0.0,
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 0.25,
+        "translation_mm": [
+          0.0,
+          0.23945657089516414,
+          0.07183697275866541
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 0.5,
+        "translation_mm": [
+          0.0,
+          0.4789131417903283,
+          0.14367394551733081
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 1.0,
+        "translation_mm": [
+          0.0,
+          0.9578262835806566,
+          0.28734789103466163
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 2.0,
+        "translation_mm": [
+          0.0,
+          1.9156525671613132,
+          0.5746957820693233
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 3.0,
+        "translation_mm": [
+          0.0,
+          2.8734788507419697,
+          0.8620436731039849
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 5.0,
+        "translation_mm": [
+          0.0,
+          4.789131417903283,
+          1.4367394551733081
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 10.0,
+        "translation_mm": [
+          0.0,
+          9.578262835806566,
+          2.8734789103466163
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 20.0,
+        "translation_mm": [
+          0.0,
+          19.15652567161313,
+          5.746957820693233
+        ]
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "outward_distance_from_delivered_pose_mm": 30.0,
+        "translation_mm": [
+          0.0,
+          28.734788507419697,
+          8.620436731039849
+        ]
+      }
+    ],
+    "pass": true
+  },
+  "neck_interface": {
+    "center_y_mm": 8.242633249494363,
+    "platform_top_mm": 24.72789974848309,
+    "slot_measurement_z_mm": 23.72789974848309,
+    "slot_axes": {
+      "width_x": {
+        "nominal_mm": 9.0,
+        "measured_mm": 9.0,
+        "first_hit_positions_mm": [
+          [
+            -4.5,
+            8.242633249494363,
+            23.72789974848309
+          ],
+          [
+            4.5,
+            8.242633249494363,
+            23.72789974848309
+          ]
+        ],
+        "half_distances_mm": [
+          4.5,
+          4.5
+        ],
+        "tolerance_mm": 0.03,
+        "pass": true
+      },
+      "length_y": {
+        "nominal_mm": 18.0,
+        "measured_mm": 18.000000474525066,
+        "first_hit_positions_mm": [
+          [
+            0.0,
+            -0.7573666572570801,
+            23.72789974848309
+          ],
+          [
+            0.0,
+            17.242633817267986,
+            23.72789974848309
+          ]
+        ],
+        "half_distances_mm": [
+          8.999999906751443,
+          9.000000567773624
+        ],
+        "tolerance_mm": 0.03,
+        "pass": true
+      }
+    },
+    "through_slot_rays": [
+      {
+        "start_mm": [
+          -4.25,
+          3.8676332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -4.25,
+          3.8676332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -4.25,
+          6.055133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -4.25,
+          6.055133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -4.25,
+          8.242633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -4.25,
+          8.242633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -4.25,
+          10.430133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -4.25,
+          10.430133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -4.25,
+          12.617633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -4.25,
+          12.617633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          1.6801332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          1.6801332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          3.8676332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          3.8676332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          6.055133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          6.055133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          8.242633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          8.242633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          10.430133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          10.430133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          12.617633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          12.617633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -2.125,
+          14.805133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          -2.125,
+          14.805133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          -0.5073667505056374,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          -0.5073667505056374,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          1.6801332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          1.6801332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          3.8676332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          3.8676332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          6.055133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          6.055133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          8.242633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          8.242633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          10.430133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          10.430133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          12.617633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          12.617633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          14.805133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          14.805133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          0.0,
+          16.99263324949436,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          0.0,
+          16.99263324949436,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          1.6801332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          1.6801332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          3.8676332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          3.8676332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          6.055133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          6.055133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          8.242633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          8.242633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          10.430133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          10.430133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          12.617633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          12.617633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          2.125,
+          14.805133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          2.125,
+          14.805133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          4.25,
+          3.8676332494943626,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          4.25,
+          3.8676332494943626,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          4.25,
+          6.055133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          4.25,
+          6.055133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          4.25,
+          8.242633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          4.25,
+          8.242633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          4.25,
+          10.430133249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          4.25,
+          10.430133249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          4.25,
+          12.617633249494363,
+          -1.9133777618408203
+        ],
+        "end_mm": [
+          4.25,
+          12.617633249494363,
+          25.22789974848309
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      }
+    ],
+    "through_slot_pass": true,
+    "socket": {
+      "nominal_diameter_mm": 32.0,
+      "center_mm": [
+        0.0,
+        8.242633249494363,
+        4.72789974848309
+      ],
+      "nominal_roof_thickness_at_sphere_apex_mm": 4.0,
+      "sampled_spherical_wall_rays": [
+        {
+          "direction": [
+            0.7071067811865476,
+            0.0,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 0.0,
+          "first_hit_radius_mm": 15.999998233109078,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.6532814824381883,
+            0.2705980500730985,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 22.5,
+          "first_hit_radius_mm": 15.999996478332925,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.5000000000000001,
+            0.5,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 45.0,
+          "first_hit_radius_mm": 15.999996445143454,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.27059805007309856,
+            0.6532814824381883,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 67.5,
+          "first_hit_radius_mm": 15.999996452079696,
+          "pass": true
+        },
+        {
+          "direction": [
+            4.329780281177467e-17,
+            0.7071067811865476,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 90.0,
+          "first_hit_radius_mm": 15.999997272421181,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.2705980500730985,
+            0.6532814824381883,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 112.5,
+          "first_hit_radius_mm": 15.999996705553341,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.5,
+            0.5000000000000001,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 135.0,
+          "first_hit_radius_mm": 15.999996683529734,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.6532814824381883,
+            0.2705980500730986,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 157.5,
+          "first_hit_radius_mm": 15.999996838802437,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.7071067811865476,
+            8.659560562354934e-17,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 180.0,
+          "first_hit_radius_mm": 15.999998224933035,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.6532814824381884,
+            -0.27059805007309845,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 202.5,
+          "first_hit_radius_mm": 15.999997062474153,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.5000000000000001,
+            -0.5,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 225.0,
+          "first_hit_radius_mm": 15.999997071821994,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.2705980500730989,
+            -0.6532814824381882,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 247.49999999999997,
+          "first_hit_radius_mm": 15.999997199363458,
+          "pass": true
+        },
+        {
+          "direction": [
+            -1.29893408435324e-16,
+            -0.7071067811865476,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 270.0,
+          "first_hit_radius_mm": 15.999998494340382,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.2705980500730987,
+            -0.6532814824381882,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 292.5,
+          "first_hit_radius_mm": 15.99999721547215,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.4999999999999999,
+            -0.5000000000000001,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 315.0,
+          "first_hit_radius_mm": 15.999997565197672,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.6532814824381882,
+            -0.27059805007309895,
+            0.7071067811865475
+          ],
+          "elevation_degrees": 45.0,
+          "azimuth_degrees": 337.5,
+          "first_hit_radius_mm": 15.999997316108676,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.5000000000000001,
+            0.0,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 0.0,
+          "first_hit_radius_mm": 15.99892797865033,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.4619397662556435,
+            0.19134171618254495,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 22.5,
+          "first_hit_radius_mm": 15.998927802864051,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.35355339059327384,
+            0.3535533905932738,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 45.0,
+          "first_hit_radius_mm": 15.998928240882055,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.3535533905932738,
+            0.35355339059327384,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 135.0,
+          "first_hit_radius_mm": 15.998923931788315,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.4619397662556435,
+            0.191341716182545,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 157.5,
+          "first_hit_radius_mm": 15.998924630921906,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.5000000000000001,
+            6.123233995736767e-17,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 180.0,
+          "first_hit_radius_mm": 15.998925250277189,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.46193976625564354,
+            -0.1913417161825449,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 202.5,
+          "first_hit_radius_mm": 15.998925159264187,
+          "pass": true
+        },
+        {
+          "direction": [
+            -0.3535533905932739,
+            -0.3535533905932738,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 225.0,
+          "first_hit_radius_mm": 15.998925621980955,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.35355339059327373,
+            -0.3535533905932739,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 315.0,
+          "first_hit_radius_mm": 15.998926982501336,
+          "pass": true
+        },
+        {
+          "direction": [
+            0.46193976625564337,
+            -0.19134171618254525,
+            0.8660254037844386
+          ],
+          "elevation_degrees": 60.0,
+          "azimuth_degrees": 337.5,
+          "first_hit_radius_mm": 15.998927390543507,
+          "pass": true
+        }
+      ],
+      "radial_tolerance_mm": 0.05,
+      "upper_support_pass": true,
+      "lower_opening_diagnostics": [
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 0.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 22.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 45.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 67.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 90.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 112.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 135.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 157.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 180.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 202.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.856698413451992,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 225.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.371167495278856,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": 15.998925280375513,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 247.49999999999997,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.371165361355498,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": 15.99892649643992,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 270.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.371164589340072,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": 15.998927342607635,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 292.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.371163846440643,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": 15.998926829085127,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 315.0,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.37116133680602,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": 15.998926249039373,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          }
+        },
+        {
+          "elevation_degrees": 30.0,
+          "azimuth_degrees": 337.5,
+          "source_scaled_v14": {
+            "first_hit_radius_mm": 14.852308083258123,
+            "classification": "surface_hit",
+            "used_as_support_pass": false
+          },
+          "new_socket": {
+            "first_hit_radius_mm": null,
+            "classification": "open_direction_unmeasured",
+            "used_as_support_pass": false
+          }
+        }
+      ],
+      "lower_opening_note": "No-hit lower directions are explicitly unmeasured openings, not successful spherical-wall checks. Source v14 already has open lower directions.",
+      "reference_ball_clearance": {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "nominal_analytic_diameter_mm": 31.5,
+        "center_mm": [
+          0.0,
+          8.242633249494363,
+          4.72789974848309
+        ],
+        "enclosing_polyhedron_circumradius_mm": 15.7627682196638,
+        "unit_polyhedron_minimum_face_support": 0.9991899760571324,
+        "minimum_clearance_mm_search_limited_to_1mm": 0.23495495748993225,
+        "method": "Convex polyhedron enclosing the complete analytic reference ball, including its lower half; strict intersection tolerance unchanged."
+      },
+      "roof_thickness_samples": [
+        {
+          "x_mm": -7.0,
+          "y_mm": 8.242633249494363,
+          "hit_z_mm": [
+            19.114067103285123,
+            24.727901458740234
+          ],
+          "expected_spherical_ceiling_z_mm": 19.11539431842125,
+          "expected_platform_top_z_mm": 24.72789974848309,
+          "measured_material_thickness_mm": 5.613834355455111,
+          "expected_material_thickness_mm": 5.612505430061841,
+          "pass": true
+        },
+        {
+          "x_mm": -5.5,
+          "y_mm": 8.242633249494363,
+          "hit_z_mm": [
+            19.751802988060984,
+            24.727901458740234
+          ],
+          "expected_spherical_ceiling_z_mm": 19.752878949799808,
+          "expected_platform_top_z_mm": 24.72789974848309,
+          "measured_material_thickness_mm": 4.976098470679251,
+          "expected_material_thickness_mm": 4.975020798683282,
+          "pass": true
+        },
+        {
+          "x_mm": 5.5,
+          "y_mm": 8.242633249494363,
+          "hit_z_mm": [
+            19.75180406529461,
+            24.727901458740234
+          ],
+          "expected_spherical_ceiling_z_mm": 19.752878949799808,
+          "expected_platform_top_z_mm": 24.72789974848309,
+          "measured_material_thickness_mm": 4.976097393445624,
+          "expected_material_thickness_mm": 4.975020798683282,
+          "pass": true
+        },
+        {
+          "x_mm": 7.0,
+          "y_mm": 8.242633249494363,
+          "hit_z_mm": [
+            19.114067593284148,
+            24.727901458740234
+          ],
+          "expected_spherical_ceiling_z_mm": 19.11539431842125,
+          "expected_platform_top_z_mm": 24.72789974848309,
+          "measured_material_thickness_mm": 5.613833865456087,
+          "expected_material_thickness_mm": 5.612505430061841,
+          "pass": true
+        }
+      ],
+      "roof_samples_pass": true,
+      "pass": true
+    },
+    "pass": true,
+    "limitation": "Nominal local dimensions and straight passage samples only; no measured body, real S-hook, range-of-motion or physical neck fit is established."
+  },
+  "nominal_eye_sphere_clearance": {
+    "method": "A tessellated convex polyhedron enlarged until all face support planes enclose the analytic sphere.",
+    "unit_sphere_minimum_face_support": 0.9991899760571324,
+    "enclosing_polyhedron_circumradius_mm": 10.008106806135746,
+    "eyes": [
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "center_mm": [
+          17.079953650184503,
+          -16.611665289057534,
+          34.591395964050236
+        ],
+        "nominal_analytic_diameter_mm": 20.0,
+        "minimum_clearance_mm_search_limited_to_1mm": 0.22679726325005983
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "center_mm": [
+          -17.079953650184503,
+          -16.611665289057534,
+          34.591395964050236
+        ],
+        "nominal_analytic_diameter_mm": 20.0,
+        "minimum_clearance_mm_search_limited_to_1mm": 0.22556063521817643
+      }
+    ],
+    "pass": true
+  },
+  "eyes_20mm": {
+    "method": "A tessellated convex polyhedron enlarged until all face support planes enclose the analytic sphere.",
+    "unit_sphere_minimum_face_support": 0.9991899760571324,
+    "enclosing_polyhedron_circumradius_mm": 10.008106806135746,
+    "eyes": [
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "center_mm": [
+          17.079953650184503,
+          -16.611665289057534,
+          34.591395964050236
+        ],
+        "nominal_analytic_diameter_mm": 20.0,
+        "minimum_clearance_mm_search_limited_to_1mm": 0.22679726325005983
+      },
+      {
+        "status": "Error.NoError",
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "volume_tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "center_mm": [
+          -17.079953650184503,
+          -16.611665289057534,
+          34.591395964050236
+        ],
+        "nominal_analytic_diameter_mm": 20.0,
+        "minimum_clearance_mm_search_limited_to_1mm": 0.22556063521817643
+      }
+    ],
+    "pass": true
+  },
+  "input_files_unchanged": true,
+  "input_sha256": {
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-3/versions/v1/march7-head-shell-1-3-v1.stl": "c1708a6ff2167af87430c36967e9d4fd7fb43322cba7e2093d5052679a0e0dde",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-3/versions/v1/march7-head-cap-1-3-v1.stl": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+  },
+  "pass": true,
+  "duration_seconds": 5.549541708081961
+}

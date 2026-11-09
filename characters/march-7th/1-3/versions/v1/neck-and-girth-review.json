@@ -1,0 +1,1998 @@
+{
+  "review_target": "Final exported 1/3 v1 STL files; not in-memory candidate geometry.",
+  "inputs": {
+    "source_head": {
+      "path": "1-4/versions/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+    },
+    "source_cap": {
+      "path": "1-4/versions/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+    },
+    "final_head": {
+      "path": "1-3/versions/v1/march7-head-shell-1-3-v1.stl",
+      "sha256": "c1708a6ff2167af87430c36967e9d4fd7fb43322cba7e2093d5052679a0e0dde"
+    },
+    "final_cap": {
+      "path": "1-3/versions/v1/march7-head-cap-1-3-v1.stl",
+      "sha256": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953"
+    }
+  },
+  "input_files_unchanged_after_review": true,
+  "source_comparison": "Source v14 STL scaled uniformly by 1.25 and rounded once to float32, matching STL export coordinate precision; both source and final cap moved -0.3125 mm along the normalized rear-cap opening axis for the seated measurement.",
+  "cap_seated_translation_mm": [
+    -0.0,
+    -0.2993207136189552,
+    -0.08979621594833176
+  ],
+  "source_scale_float32_rounding_max_vertex_difference_mm": {
+    "march7-head-shell-v0.14-draft.stl": 4.271620003502111e-06,
+    "march7-head-cap-v0.14-draft.stl": 4.291534423828125e-06
+  },
+  "unrounded_float64_baseline_ray_diagnostics": {
+    "views": [
+      {
+        "view": "front_full",
+        "rays": 6248,
+        "surface_hits": 4479,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 1,
+        "maximum_position_difference_mm": 5.38450873319718e-05,
+        "outside_change_examples": [
+          {
+            "before": [
+              -7.0,
+              -0.9189009996358737,
+              86.25
+            ],
+            "after": [
+              -7.0,
+              -0.9188471545485417,
+              86.25
+            ],
+            "distance": 5.38450873319718e-05
+          }
+        ]
+      },
+      {
+        "view": "front_neck_height_dense",
+        "rays": 3672,
+        "surface_hits": 3082,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 1.2122973618744481e-05,
+        "outside_change_examples": []
+      },
+      {
+        "view": "rear",
+        "rays": 2726,
+        "surface_hits": 1986,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 81,
+        "changes_outside_neck_roi": 2,
+        "maximum_position_difference_mm": 6.840807740062013,
+        "outside_change_examples": [
+          {
+            "before": [
+              -23.0,
+              -13.337543175699125,
+              18.5
+            ],
+            "after": [
+              -23.0,
+              -13.3374646871276,
+              18.5
+            ],
+            "distance": 7.848857152481514e-05
+          },
+          {
+            "before": [
+              19.0,
+              1.024812482070736,
+              80.0
+            ],
+            "after": [
+              19.0,
+              1.0248691672135632,
+              80.0
+            ],
+            "distance": 5.668514282719528e-05
+          }
+        ]
+      },
+      {
+        "view": "left",
+        "rays": 3132,
+        "surface_hits": 2187,
+        "missing_hit_changes": 4,
+        "changes_inside_neck_roi": 4,
+        "changes_outside_neck_roi": 1,
+        "maximum_position_difference_mm": 6.66195750360643e-05,
+        "outside_change_examples": [
+          {
+            "before": [
+              -1.0254526286851096,
+              19.5,
+              80.0
+            ],
+            "after": [
+              -1.0255192482601456,
+              19.5,
+              80.0
+            ],
+            "distance": 6.66195750360643e-05
+          }
+        ]
+      },
+      {
+        "view": "right",
+        "rays": 3132,
+        "surface_hits": 2187,
+        "missing_hit_changes": 4,
+        "changes_inside_neck_roi": 4,
+        "changes_outside_neck_roi": 1,
+        "maximum_position_difference_mm": 7.446514403453008e-05,
+        "outside_change_examples": [
+          {
+            "before": [
+              1.0214034592992707,
+              19.5,
+              80.0
+            ],
+            "after": [
+              1.0213289941552361,
+              19.5,
+              80.0
+            ],
+            "distance": 7.446514403453008e-05
+          }
+        ]
+      },
+      {
+        "view": "top",
+        "rays": 2538,
+        "surface_hits": 1812,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 1,
+        "maximum_position_difference_mm": 5.431926973642476e-05,
+        "outside_change_examples": [
+          {
+            "before": [
+              -26.0,
+              24.0,
+              46.18824233497023
+            ],
+            "after": [
+              -26.0,
+              24.0,
+              46.18829665423996
+            ],
+            "distance": 5.431926973642476e-05
+          }
+        ]
+      }
+    ],
+    "explanation": "Initial float64 mathematical scaling comparison produced six grazing-ray differences between 0.000054 and 0.000079 mm outside the neck region; the export stores float32 coordinates. The main comparison below uses the same float32 coordinate precision and preserves the raw diagnostic here."
+  },
+  "girth_reference": {
+    "source_scaled": {
+      "z_mm": 50.61622206816031,
+      "outer_surface_contour": {
+        "signed_area_mm2": 3992.105479978476,
+        "perimeter_mm": 224.9793788378546,
+        "vertices": 1603
+      },
+      "convex_hull_perimeter_mm": 224.81527138837052,
+      "material_contours": 2
+    },
+    "final": {
+      "z_mm": 50.61622206816031,
+      "outer_surface_contour": {
+        "signed_area_mm2": 3992.105479978476,
+        "perimeter_mm": 224.9793788378546,
+        "vertices": 1603
+      },
+      "convex_hull_perimeter_mm": 224.81527138837052,
+      "material_contours": 2
+    },
+    "surface_contour_difference_mm": 0.0,
+    "measurement_closing_epsilon_mm": 1.25e-05
+  },
+  "scalp_horizontal_scan": {
+    "z_range_mm": [
+      43.75,
+      84.375
+    ],
+    "step_mm": 0.625,
+    "maximum_sampled_convex_hull": {
+      "z_mm": 46.875,
+      "outer_surface_contour": {
+        "signed_area_mm2": 4023.954833740576,
+        "perimeter_mm": 226.16906189013685,
+        "vertices": 1701
+      },
+      "convex_hull_perimeter_mm": 226.01058652372933,
+      "material_contours": 2
+    },
+    "sections": [
+      {
+        "z_mm": 43.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3976.5619302679006,
+          "perimeter_mm": 225.43167017050095,
+          "vertices": 2040
+        },
+        "convex_hull_perimeter_mm": 225.23420540426923,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 44.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3991.8281664149067,
+          "perimeter_mm": 225.6914873484563,
+          "vertices": 1907
+        },
+        "convex_hull_perimeter_mm": 225.51924465874248,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 45.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4004.130582780394,
+          "perimeter_mm": 225.89933080193452,
+          "vertices": 1819
+        },
+        "convex_hull_perimeter_mm": 225.73860795342162,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 45.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4013.4904247073837,
+          "perimeter_mm": 226.0490457155524,
+          "vertices": 1761
+        },
+        "convex_hull_perimeter_mm": 225.8918150601877,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 46.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4020.0512200192557,
+          "perimeter_mm": 226.13915288043782,
+          "vertices": 1756
+        },
+        "convex_hull_perimeter_mm": 225.981441661004,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 46.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4023.954833740576,
+          "perimeter_mm": 226.16906189013685,
+          "vertices": 1701
+        },
+        "convex_hull_perimeter_mm": 226.01058652372933,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 47.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4025.221712067919,
+          "perimeter_mm": 226.13619864202155,
+          "vertices": 1611
+        },
+        "convex_hull_perimeter_mm": 225.9771940373501,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 48.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4023.782946092468,
+          "perimeter_mm": 226.0381945572145,
+          "vertices": 1558
+        },
+        "convex_hull_perimeter_mm": 225.87891608038902,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 48.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4019.676309888046,
+          "perimeter_mm": 225.87279906944536,
+          "vertices": 1595
+        },
+        "convex_hull_perimeter_mm": 225.7114832381235,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 49.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4012.8939007317103,
+          "perimeter_mm": 225.63825976814337,
+          "vertices": 1643
+        },
+        "convex_hull_perimeter_mm": 225.47516130703724,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 50.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 4003.679760832043,
+          "perimeter_mm": 225.3391934960321,
+          "vertices": 1577
+        },
+        "convex_hull_perimeter_mm": 225.17629591771458,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 50.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3991.9233729739867,
+          "perimeter_mm": 224.9737637944951,
+          "vertices": 1600
+        },
+        "convex_hull_perimeter_mm": 224.80964417207312,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 51.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3977.6877039747615,
+          "perimeter_mm": 224.54069229425343,
+          "vertices": 1598
+        },
+        "convex_hull_perimeter_mm": 224.37469671773763,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 51.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3960.911150319159,
+          "perimeter_mm": 224.03928461286742,
+          "vertices": 1643
+        },
+        "convex_hull_perimeter_mm": 223.87251056761556,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 52.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3941.832952112089,
+          "perimeter_mm": 223.47363224308225,
+          "vertices": 1625
+        },
+        "convex_hull_perimeter_mm": 223.3065750591054,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 53.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3920.3391801291805,
+          "perimeter_mm": 222.84151613826202,
+          "vertices": 1590
+        },
+        "convex_hull_perimeter_mm": 222.67387214744565,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 53.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3896.3818408677475,
+          "perimeter_mm": 222.14314831448206,
+          "vertices": 1594
+        },
+        "convex_hull_perimeter_mm": 221.9724621229252,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 54.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3870.1804337523445,
+          "perimeter_mm": 221.37710546106905,
+          "vertices": 1607
+        },
+        "convex_hull_perimeter_mm": 221.20601520426342,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 55.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3841.76722864837,
+          "perimeter_mm": 220.54828094666442,
+          "vertices": 1617
+        },
+        "convex_hull_perimeter_mm": 220.37707123057032,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 55.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3811.051739396484,
+          "perimeter_mm": 219.6581277242704,
+          "vertices": 1594
+        },
+        "convex_hull_perimeter_mm": 219.48432418196344,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 56.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3778.0454523915687,
+          "perimeter_mm": 218.695897251627,
+          "vertices": 1620
+        },
+        "convex_hull_perimeter_mm": 218.52106022918457,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 56.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3742.8252057417576,
+          "perimeter_mm": 217.66945024716182,
+          "vertices": 1614
+        },
+        "convex_hull_perimeter_mm": 217.4937406092364,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 57.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3705.324747365414,
+          "perimeter_mm": 216.5709834213937,
+          "vertices": 1616
+        },
+        "convex_hull_perimeter_mm": 216.39429834677543,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 58.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3665.712148709549,
+          "perimeter_mm": 215.40721959487811,
+          "vertices": 1641
+        },
+        "convex_hull_perimeter_mm": 215.2294162509105,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 58.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3623.9593274591352,
+          "perimeter_mm": 214.1766096057077,
+          "vertices": 1663
+        },
+        "convex_hull_perimeter_mm": 213.99617589701484,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 59.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3580.111049733382,
+          "perimeter_mm": 212.87716372254425,
+          "vertices": 1643
+        },
+        "convex_hull_perimeter_mm": 212.6950000185634,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 60.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3534.2410884714122,
+          "perimeter_mm": 211.5082533543016,
+          "vertices": 1601
+        },
+        "convex_hull_perimeter_mm": 211.325734247222,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 60.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3486.2741472696935,
+          "perimeter_mm": 210.0684711675578,
+          "vertices": 1615
+        },
+        "convex_hull_perimeter_mm": 209.8848137618631,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 61.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3436.4004266081406,
+          "perimeter_mm": 208.56281068483247,
+          "vertices": 1611
+        },
+        "convex_hull_perimeter_mm": 208.37657104161377,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 61.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3384.760889871304,
+          "perimeter_mm": 206.99173008936765,
+          "vertices": 1543
+        },
+        "convex_hull_perimeter_mm": 206.8044848397992,
+        "material_contours": 5
+      },
+      {
+        "z_mm": 62.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3331.350963043599,
+          "perimeter_mm": 205.34472069696955,
+          "vertices": 1621
+        },
+        "convex_hull_perimeter_mm": 205.15708511850391,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 63.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3276.4744198020176,
+          "perimeter_mm": 203.6393855165142,
+          "vertices": 1640
+        },
+        "convex_hull_perimeter_mm": 203.45103224111458,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 63.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3220.4170096976086,
+          "perimeter_mm": 201.88392981489707,
+          "vertices": 1596
+        },
+        "convex_hull_perimeter_mm": 201.69349827818382,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 64.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3162.9468825393974,
+          "perimeter_mm": 200.06453072047827,
+          "vertices": 1561
+        },
+        "convex_hull_perimeter_mm": 199.87316405986275,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 65.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3104.1408773836115,
+          "perimeter_mm": 198.18301279547467,
+          "vertices": 1557
+        },
+        "convex_hull_perimeter_mm": 197.99152771216237,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 65.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 3044.003748547003,
+          "perimeter_mm": 196.2403647483875,
+          "vertices": 1530
+        },
+        "convex_hull_perimeter_mm": 196.0472546479397,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 66.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2982.5293137095096,
+          "perimeter_mm": 194.23489107936138,
+          "vertices": 1470
+        },
+        "convex_hull_perimeter_mm": 194.03992688440633,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 66.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2919.54264672891,
+          "perimeter_mm": 192.15704036244142,
+          "vertices": 1501
+        },
+        "convex_hull_perimeter_mm": 191.9613065974036,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 67.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2854.9148373144153,
+          "perimeter_mm": 189.99877958126422,
+          "vertices": 1466
+        },
+        "convex_hull_perimeter_mm": 189.80262922603205,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 68.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2788.6193320107973,
+          "perimeter_mm": 187.76141900879446,
+          "vertices": 1462
+        },
+        "convex_hull_perimeter_mm": 187.56395740362024,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 68.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2720.511344003544,
+          "perimeter_mm": 185.43673239226584,
+          "vertices": 1510
+        },
+        "convex_hull_perimeter_mm": 185.23652816045183,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 69.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2650.579154979231,
+          "perimeter_mm": 183.01977521802843,
+          "vertices": 1458
+        },
+        "convex_hull_perimeter_mm": 182.8174788264318,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 70.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2578.841170590622,
+          "perimeter_mm": 180.50768819759008,
+          "vertices": 1430
+        },
+        "convex_hull_perimeter_mm": 180.30464128789265,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 70.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2505.13691290745,
+          "perimeter_mm": 177.89263317713142,
+          "vertices": 1482
+        },
+        "convex_hull_perimeter_mm": 177.68800080370005,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 71.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2429.465808053084,
+          "perimeter_mm": 175.17091288196602,
+          "vertices": 1442
+        },
+        "convex_hull_perimeter_mm": 174.96395890890486,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 71.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2351.8268232512864,
+          "perimeter_mm": 172.33474436507416,
+          "vertices": 1392
+        },
+        "convex_hull_perimeter_mm": 172.12667798608726,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 72.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2272.1510652065617,
+          "perimeter_mm": 169.37998308440973,
+          "vertices": 1388
+        },
+        "convex_hull_perimeter_mm": 169.1690466795559,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 73.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2190.502530494815,
+          "perimeter_mm": 166.30037995443004,
+          "vertices": 1400
+        },
+        "convex_hull_perimeter_mm": 166.0869412287184,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 73.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2106.9084200113475,
+          "perimeter_mm": 163.08925431045193,
+          "vertices": 1389
+        },
+        "convex_hull_perimeter_mm": 162.87410239247436,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 74.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 2021.3406986872556,
+          "perimeter_mm": 159.73723847656692,
+          "vertices": 1388
+        },
+        "convex_hull_perimeter_mm": 159.520794988505,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 75.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1933.8650132533028,
+          "perimeter_mm": 156.24215111924087,
+          "vertices": 1319
+        },
+        "convex_hull_perimeter_mm": 156.02229863357815,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 75.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1844.6498585932668,
+          "perimeter_mm": 152.59099446196822,
+          "vertices": 1279
+        },
+        "convex_hull_perimeter_mm": 152.37350480516315,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 76.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1753.685361277061,
+          "perimeter_mm": 148.78393854554082,
+          "vertices": 1281
+        },
+        "convex_hull_perimeter_mm": 148.56277225977146,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 76.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1661.051142131223,
+          "perimeter_mm": 144.80818058999245,
+          "vertices": 1303
+        },
+        "convex_hull_perimeter_mm": 144.58346100327057,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 77.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1566.9496538951134,
+          "perimeter_mm": 140.64339118216367,
+          "vertices": 1219
+        },
+        "convex_hull_perimeter_mm": 140.42452114667117,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 78.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1471.4452954833232,
+          "perimeter_mm": 136.3013439313823,
+          "vertices": 1251
+        },
+        "convex_hull_perimeter_mm": 136.07758450339236,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 78.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1374.609787598878,
+          "perimeter_mm": 131.7498068731179,
+          "vertices": 1180
+        },
+        "convex_hull_perimeter_mm": 131.52722514797324,
+        "material_contours": 4
+      },
+      {
+        "z_mm": 79.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1276.7036244672877,
+          "perimeter_mm": 126.97646255663845,
+          "vertices": 1187
+        },
+        "convex_hull_perimeter_mm": 126.75749450505143,
+        "material_contours": 5
+      },
+      {
+        "z_mm": 80.0,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1177.7420685150555,
+          "perimeter_mm": 121.97346675006303,
+          "vertices": 1156
+        },
+        "convex_hull_perimeter_mm": 121.75204257282732,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 80.625,
+        "outer_surface_contour": {
+          "signed_area_mm2": 1077.9121400837755,
+          "perimeter_mm": 116.6956342920007,
+          "vertices": 1089
+        },
+        "convex_hull_perimeter_mm": 116.48415684549386,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 81.25,
+        "outer_surface_contour": {
+          "signed_area_mm2": 977.4717095215515,
+          "perimeter_mm": 111.13546019608302,
+          "vertices": 1030
+        },
+        "convex_hull_perimeter_mm": 110.93025834269781,
+        "material_contours": 3
+      },
+      {
+        "z_mm": 81.875,
+        "outer_surface_contour": {
+          "signed_area_mm2": 876.2893089106932,
+          "perimeter_mm": 105.2462909724546,
+          "vertices": 1003
+        },
+        "convex_hull_perimeter_mm": 105.04386626211915,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 82.5,
+        "outer_surface_contour": {
+          "signed_area_mm2": 774.8056480312907,
+          "perimeter_mm": 98.97724447116634,
+          "vertices": 961
+        },
+        "convex_hull_perimeter_mm": 98.78951928875729,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 83.125,
+        "outer_surface_contour": {
+          "signed_area_mm2": 673.1499870583052,
+          "perimeter_mm": 92.26082134633009,
+          "vertices": 893
+        },
+        "convex_hull_perimeter_mm": 92.09826360747357,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 83.75,
+        "outer_surface_contour": {
+          "signed_area_mm2": 571.3317869229109,
+          "perimeter_mm": 84.99276618296514,
+          "vertices": 847
+        },
+        "convex_hull_perimeter_mm": 84.86939353682406,
+        "material_contours": 2
+      },
+      {
+        "z_mm": 84.375,
+        "outer_surface_contour": {
+          "signed_area_mm2": 470.13500490648136,
+          "perimeter_mm": 77.05634390836941,
+          "vertices": 858
+        },
+        "convex_hull_perimeter_mm": 77.00773407794145,
+        "material_contours": 1
+      }
+    ],
+    "note": "Sampled horizontal convex hull is a taut-tape measure, distinct from surface contour. Finite section spacing does not identify the exact continuous maximum."
+  },
+  "outer_surface_ray_comparison": {
+    "tolerance_mm": 5e-05,
+    "neck_roi": {
+      "abs_x_lt_mm": 18,
+      "y_range_mm": [
+        -10,
+        26
+      ],
+      "z_lt_mm": 26
+    },
+    "views": [
+      {
+        "view": "front_full",
+        "rays": 6248,
+        "surface_hits": 4479,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 0.0,
+        "outside_change_examples": []
+      },
+      {
+        "view": "front_neck_height_dense",
+        "rays": 3672,
+        "surface_hits": 3082,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 0.0,
+        "outside_change_examples": []
+      },
+      {
+        "view": "rear",
+        "rays": 2726,
+        "surface_hits": 1986,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 81,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 6.840807632653535,
+        "outside_change_examples": []
+      },
+      {
+        "view": "left",
+        "rays": 3132,
+        "surface_hits": 2187,
+        "missing_hit_changes": 4,
+        "changes_inside_neck_roi": 4,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 3.1833827485172606e-07,
+        "outside_change_examples": []
+      },
+      {
+        "view": "right",
+        "rays": 3132,
+        "surface_hits": 2187,
+        "missing_hit_changes": 4,
+        "changes_inside_neck_roi": 4,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 2.618973820034398e-07,
+        "outside_change_examples": []
+      },
+      {
+        "view": "top",
+        "rays": 2538,
+        "surface_hits": 1812,
+        "missing_hit_changes": 0,
+        "changes_inside_neck_roi": 0,
+        "changes_outside_neck_roi": 0,
+        "maximum_position_difference_mm": 0.0,
+        "outside_change_examples": []
+      }
+    ],
+    "no_detected_changes_outside_neck_roi": true,
+    "front_has_no_changes": true,
+    "limitation": "Finite ray sampling complements source vertex and triangle preservation checks; it is not a complete surface distance proof."
+  },
+  "neck_radial_wall_samples": {
+    "center_y_mm": 8.242633249494363,
+    "height_values_mm": [
+      7.5,
+      10.0,
+      12.5,
+      15.0,
+      17.5,
+      20.0
+    ],
+    "angular_step_deg": 15,
+    "rays": 144,
+    "valid_pairs": 74,
+    "minimum": {
+      "height_z_mm": 15.0,
+      "angle_deg": 345,
+      "inner_radius_mm": 12.264848365821571,
+      "outer_radius_mm": 14.580502937969314,
+      "radial_material_thickness_mm": 2.315654572147743,
+      "intersection_count": 2
+    },
+    "samples": [
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 0,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 15,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 30,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 45,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 60,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 75,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 90,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 105,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 120,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 135,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 150,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 165,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 180,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 195,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 210,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 225,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 240,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 255,
+        "inner_radius_mm": 15.756547101344923,
+        "outer_radius_mm": 38.8411325988478,
+        "radial_material_thickness_mm": 23.08458549750288,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 270,
+        "inner_radius_mm": 15.75760257115601,
+        "outer_radius_mm": 19.760927073180714,
+        "radial_material_thickness_mm": 4.003324502024704,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 285,
+        "inner_radius_mm": 15.75654823480096,
+        "outer_radius_mm": 38.840616030122675,
+        "radial_material_thickness_mm": 23.084067795321715,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 300,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 315,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 330,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 7.5,
+        "angle_deg": 345,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 0,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 15,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 30,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 45,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 60,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 75,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 90,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 105,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 120,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 135,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 150,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 165,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 180,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 195,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 210,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 225,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 240,
+        "inner_radius_mm": 15.10433606059029,
+        "outer_radius_mm": 33.478178441020624,
+        "radial_material_thickness_mm": 18.373842380430332,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 255,
+        "inner_radius_mm": 15.104334366239867,
+        "outer_radius_mm": 17.885849808444608,
+        "radial_material_thickness_mm": 2.781515442204741,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 270,
+        "inner_radius_mm": 15.105345573731253,
+        "outer_radius_mm": 17.499997618999558,
+        "radial_material_thickness_mm": 2.3946520452683053,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 285,
+        "inner_radius_mm": 15.104334843104146,
+        "outer_radius_mm": 17.88983972898442,
+        "radial_material_thickness_mm": 2.7855048858802736,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 300,
+        "inner_radius_mm": 15.104334928391156,
+        "outer_radius_mm": 33.47780570765183,
+        "radial_material_thickness_mm": 18.37347077926068,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 315,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 330,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 10.0,
+        "angle_deg": 345,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 0,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 15,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 30,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 45,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 60,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 75,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 90,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 105,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 120,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 135,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 150,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 165,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 180,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 195,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 210,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 225,
+        "inner_radius_mm": 13.984283284361325,
+        "outer_radius_mm": 25.14345975080355,
+        "radial_material_thickness_mm": 11.159176466442226,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 240,
+        "inner_radius_mm": 13.983349075727338,
+        "outer_radius_mm": 17.49999956400389,
+        "radial_material_thickness_mm": 3.516650488276552,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 255,
+        "inner_radius_mm": 13.983348582746258,
+        "outer_radius_mm": 17.49999923154515,
+        "radial_material_thickness_mm": 3.516650648798892,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 270,
+        "inner_radius_mm": 13.98428429891774,
+        "outer_radius_mm": 17.499997926394798,
+        "radial_material_thickness_mm": 3.5157136274770586,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 285,
+        "inner_radius_mm": 13.983348735482675,
+        "outer_radius_mm": 17.499996885214227,
+        "radial_material_thickness_mm": 3.5166481497315516,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 300,
+        "inner_radius_mm": 13.983347701063929,
+        "outer_radius_mm": 17.500001588781796,
+        "radial_material_thickness_mm": 3.516653887717867,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 315,
+        "inner_radius_mm": 13.984283510290734,
+        "outer_radius_mm": 25.140400966846883,
+        "radial_material_thickness_mm": 11.15611745655615,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 330,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 12.5,
+        "angle_deg": 345,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 0,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 15,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 30,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 45,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 60,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 75,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 90,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 105,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 120,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 135,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 150,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 165,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 180,
+        "radial_material_thickness_mm": null,
+        "intersection_count": 0
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 195,
+        "inner_radius_mm": 12.264844906621423,
+        "outer_radius_mm": 14.581939520339086,
+        "radial_material_thickness_mm": 2.3170946137176625,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 210,
+        "inner_radius_mm": 12.264846404486672,
+        "outer_radius_mm": 19.159248173187173,
+        "radial_material_thickness_mm": 6.894401768700501,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 225,
+        "inner_radius_mm": 12.265666582327214,
+        "outer_radius_mm": 29.77170315110425,
+        "radial_material_thickness_mm": 17.506036568777038,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 240,
+        "inner_radius_mm": 12.264845063524227,
+        "outer_radius_mm": 17.499999990486632,
+        "radial_material_thickness_mm": 5.235154926962405,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 255,
+        "inner_radius_mm": 12.264845393297284,
+        "outer_radius_mm": 17.49999923154515,
+        "radial_material_thickness_mm": 5.235153838247866,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 270,
+        "inner_radius_mm": 12.265666538160632,
+        "outer_radius_mm": 17.499998233790038,
+        "radial_material_thickness_mm": 5.234331695629406,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 285,
+        "inner_radius_mm": 12.26484644359869,
+        "outer_radius_mm": 17.499997364922645,
+        "radial_material_thickness_mm": 5.235150921323955,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 300,
+        "inner_radius_mm": 12.264847891771648,
+        "outer_radius_mm": 17.500001588781796,
+        "radial_material_thickness_mm": 5.235153697010148,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 315,
+        "inner_radius_mm": 12.265667794751142,
+        "outer_radius_mm": 29.772287952438028,
+        "radial_material_thickness_mm": 17.506620157686886,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 330,
+        "inner_radius_mm": 12.264847212135052,
+        "outer_radius_mm": 19.13605297220047,
+        "radial_material_thickness_mm": 6.871205760065418,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 15.0,
+        "angle_deg": 345,
+        "inner_radius_mm": 12.264848365821571,
+        "outer_radius_mm": 14.580502937969314,
+        "radial_material_thickness_mm": 2.315654572147743,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 0,
+        "inner_radius_mm": 9.635310815389017,
+        "outer_radius_mm": 16.92635376329871,
+        "radial_material_thickness_mm": 7.291042947909693,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 15,
+        "inner_radius_mm": 9.634663562236689,
+        "outer_radius_mm": 15.862991179337989,
+        "radial_material_thickness_mm": 6.2283276171013,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 30,
+        "inner_radius_mm": 9.634662986700828,
+        "outer_radius_mm": 15.483459917310133,
+        "radial_material_thickness_mm": 5.848796930609305,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 45,
+        "inner_radius_mm": 9.635307422341123,
+        "outer_radius_mm": 15.40797938704194,
+        "radial_material_thickness_mm": 5.772671964700818,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 60,
+        "inner_radius_mm": 9.63466296337396,
+        "outer_radius_mm": 15.426071246099399,
+        "radial_material_thickness_mm": 5.791408282725438,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 75,
+        "inner_radius_mm": 9.63466340768739,
+        "outer_radius_mm": 15.469674914556904,
+        "radial_material_thickness_mm": 5.835011506869515,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 90,
+        "inner_radius_mm": 9.635313285746163,
+        "outer_radius_mm": 15.495966223777726,
+        "radial_material_thickness_mm": 5.8606529380315635,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 105,
+        "inner_radius_mm": 9.634666554013892,
+        "outer_radius_mm": 15.47023152573829,
+        "radial_material_thickness_mm": 5.8355649717243985,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 120,
+        "inner_radius_mm": 9.634666832105978,
+        "outer_radius_mm": 15.426717213096396,
+        "radial_material_thickness_mm": 5.792050380990418,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 135,
+        "inner_radius_mm": 9.635312142913522,
+        "outer_radius_mm": 15.408517579335152,
+        "radial_material_thickness_mm": 5.77320543642163,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 150,
+        "inner_radius_mm": 9.634667951806263,
+        "outer_radius_mm": 15.482661132813737,
+        "radial_material_thickness_mm": 5.847993181007475,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 165,
+        "inner_radius_mm": 9.634668182833416,
+        "outer_radius_mm": 15.864500283114312,
+        "radial_material_thickness_mm": 6.2298321002808965,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 180,
+        "inner_radius_mm": 9.635313989777543,
+        "outer_radius_mm": 16.926175854402178,
+        "radial_material_thickness_mm": 7.290861864624635,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 195,
+        "inner_radius_mm": 9.634667415480346,
+        "outer_radius_mm": 19.02314934485888,
+        "radial_material_thickness_mm": 9.388481929378534,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 210,
+        "inner_radius_mm": 9.63466695653064,
+        "outer_radius_mm": 23.246947067167582,
+        "radial_material_thickness_mm": 13.612280110636942,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 225,
+        "inner_radius_mm": 9.635311345472754,
+        "outer_radius_mm": 17.500000910395848,
+        "radial_material_thickness_mm": 7.8646895649230935,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 240,
+        "inner_radius_mm": 9.634667092495134,
+        "outer_radius_mm": 17.50000040150556,
+        "radial_material_thickness_mm": 7.865333309010426,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 255,
+        "inner_radius_mm": 9.634666750193743,
+        "outer_radius_mm": 17.49999923154515,
+        "radial_material_thickness_mm": 7.865332481351407,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 270,
+        "inner_radius_mm": 9.635312784906716,
+        "outer_radius_mm": 17.49999854118528,
+        "radial_material_thickness_mm": 7.864685756278565,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 285,
+        "inner_radius_mm": 9.63466628329153,
+        "outer_radius_mm": 17.49999784463107,
+        "radial_material_thickness_mm": 7.865331561339541,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 300,
+        "inner_radius_mm": 9.634665479162548,
+        "outer_radius_mm": 17.500001588781796,
+        "radial_material_thickness_mm": 7.865336109619248,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 315,
+        "inner_radius_mm": 9.635309543869912,
+        "outer_radius_mm": 17.500000931724845,
+        "radial_material_thickness_mm": 7.864691387854933,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 330,
+        "inner_radius_mm": 9.634665298615467,
+        "outer_radius_mm": 23.246551947527596,
+        "radial_material_thickness_mm": 13.61188664891213,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 17.5,
+        "angle_deg": 345,
+        "inner_radius_mm": 9.634665024957963,
+        "outer_radius_mm": 19.031596990350526,
+        "radial_material_thickness_mm": 9.396931965392563,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 0,
+        "inner_radius_mm": 4.7674851917535905,
+        "outer_radius_mm": 20.61589966596492,
+        "radial_material_thickness_mm": 15.848414474211332,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 15,
+        "inner_radius_mm": 4.7671673927806015,
+        "outer_radius_mm": 19.830419678879164,
+        "radial_material_thickness_mm": 15.063252286098562,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 30,
+        "inner_radius_mm": 5.196152422706632,
+        "outer_radius_mm": 19.396741643964692,
+        "radial_material_thickness_mm": 14.20058922125806,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 45,
+        "inner_radius_mm": 6.363960960252115,
+        "outer_radius_mm": 19.171946459390387,
+        "radial_material_thickness_mm": 12.807985499138272,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 60,
+        "inner_radius_mm": 7.792830454896807,
+        "outer_radius_mm": 19.104900161704798,
+        "radial_material_thickness_mm": 11.312069706807991,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 75,
+        "inner_radius_mm": 8.692087616050266,
+        "outer_radius_mm": 19.114564881731607,
+        "radial_material_thickness_mm": 10.42247726568134,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 90,
+        "inner_radius_mm": 9.000000559154389,
+        "outer_radius_mm": 19.127042349401194,
+        "radial_material_thickness_mm": 10.127041790246805,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 105,
+        "inner_radius_mm": 8.692087535463198,
+        "outer_radius_mm": 19.115037002582323,
+        "radial_material_thickness_mm": 10.422949467119125,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 120,
+        "inner_radius_mm": 7.792830557435001,
+        "outer_radius_mm": 19.104886626828158,
+        "radial_material_thickness_mm": 11.312056069393158,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 135,
+        "inner_radius_mm": 6.36396101768085,
+        "outer_radius_mm": 19.172726801810644,
+        "radial_material_thickness_mm": 12.808765784129793,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 150,
+        "inner_radius_mm": 5.196152422706632,
+        "outer_radius_mm": 19.39800291437677,
+        "radial_material_thickness_mm": 14.20185049167014,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 165,
+        "inner_radius_mm": 4.7671690348505855,
+        "outer_radius_mm": 19.831608652777124,
+        "radial_material_thickness_mm": 15.064439617926539,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 180,
+        "inner_radius_mm": 4.76748759550614,
+        "outer_radius_mm": 20.61125445660755,
+        "radial_material_thickness_mm": 15.843766861101411,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 195,
+        "inner_radius_mm": 4.767167695432469,
+        "outer_radius_mm": 22.432291873985413,
+        "radial_material_thickness_mm": 17.665124178552944,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 210,
+        "inner_radius_mm": 5.196152422706633,
+        "outer_radius_mm": 17.499999584515486,
+        "radial_material_thickness_mm": 12.303847161808854,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 225,
+        "inner_radius_mm": 6.363960986253541,
+        "outer_radius_mm": 17.500000910395848,
+        "radial_material_thickness_mm": 11.136039924142306,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 240,
+        "inner_radius_mm": 7.792830756497579,
+        "outer_radius_mm": 17.50000081217167,
+        "radial_material_thickness_mm": 9.70717005567409,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 255,
+        "inner_radius_mm": 8.692087796790927,
+        "outer_radius_mm": 17.49999923154515,
+        "radial_material_thickness_mm": 8.807911434754223,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 270,
+        "inner_radius_mm": 8.999999906751443,
+        "outer_radius_mm": 17.49999884858052,
+        "radial_material_thickness_mm": 8.499998941829078,
+        "intersection_count": 2
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 285,
+        "inner_radius_mm": 8.692087771672014,
+        "outer_radius_mm": 17.49999832433949,
+        "radial_material_thickness_mm": 8.807910552667476,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 300,
+        "inner_radius_mm": 7.792830870911082,
+        "outer_radius_mm": 17.500001588781796,
+        "radial_material_thickness_mm": 9.707170717870714,
+        "intersection_count": 3
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 315,
+        "inner_radius_mm": 6.36396103067893,
+        "outer_radius_mm": 17.500000931724845,
+        "radial_material_thickness_mm": 11.136039901045915,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 330,
+        "inner_radius_mm": 5.196152422706634,
+        "outer_radius_mm": 17.499999584509716,
+        "radial_material_thickness_mm": 12.303847161803082,
+        "intersection_count": 4
+      },
+      {
+        "height_z_mm": 20.0,
+        "angle_deg": 345,
+        "inner_radius_mm": 4.767167530742658,
+        "outer_radius_mm": 22.44262427519653,
+        "radial_material_thickness_mm": 17.67545674445387,
+        "intersection_count": 2
+      }
+    ],
+    "limitation": "Distance between first two material intersections along outward horizontal radial rays. This is a local support-ring sample, not global minimum normal wall thickness or physical strength certification."
+  },
+  "physical_fit": "No target body selected and no physical fit or print test performed."
+}
