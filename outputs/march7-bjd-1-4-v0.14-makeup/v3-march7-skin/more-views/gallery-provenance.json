@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-09T03:15:27.216101+00:00",
+  "script_path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/assemble_gallery.py",
+  "script_sha256": "76002d6d1514b1c887f5e64d529510c84d7c03a58c75d5a9fd5c1bd124f52265",
+  "font_path": "/System/Library/Fonts/STHeiti Medium.ttc",
+  "layout": {
+    "rows": 2,
+    "columns": 2,
+    "cell_dimensions_px": [
+      600,
+      600
+    ],
+    "background_rgb": [
+      28,
+      30,
+      34
+    ],
+    "resize_filter": "Pillow LANCZOS",
+    "operations": [
+      "aspect-ratio-preserving resize",
+      "centered placement",
+      "Chinese labels"
+    ],
+    "crop": false,
+    "color_adjustment": false,
+    "retouching": false
+  },
+  "footer": "实际三维渲染 · 当前浅肤色模型 · 仅切换观察角度",
+  "galleries": [
+    {
+      "title": "三月七浅肤色 · 面部与俯仰角度",
+      "subtitle": "面部近景与正面俯仰 · 四个观察角度",
+      "inputs": [
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/face-front-close.png",
+          "sha256": "c9b910d50810157cb4423534c4fc5a4759061ac4845147b3d21f9a222c17f062",
+          "original_dimensions_px": [
+            1200,
+            1200
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            90,
+            146
+          ],
+          "cell_position": {
+            "row": 1,
+            "column": 1
+          },
+          "title": "正面特写",
+          "subtitle": "近距离观察面部整体"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/face-quarter-close.png",
+          "sha256": "499688a5a259bf71f6e2f459a66bc518a09008effdbf9ebdd8357e3257f889f1",
+          "original_dimensions_px": [
+            1200,
+            1200
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            706,
+            146
+          ],
+          "cell_position": {
+            "row": 1,
+            "column": 2
+          },
+          "title": "斜侧面特写",
+          "subtitle": "斜侧视角观察面部轮廓"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/front-high.png",
+          "sha256": "ea66d3fee73762aee7cfd76754fecea6109ae340a4b9e002036c17a751a55885",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            90,
+            762
+          ],
+          "cell_position": {
+            "row": 2,
+            "column": 1
+          },
+          "title": "前斜侧俯视",
+          "subtitle": "从较高视点观察面部与头部"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/front-low.png",
+          "sha256": "b52f32ba48f489845259e358cd9608eb6db0eac1ecb96ffc88e46149a71307a3",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            706,
+            762
+          ],
+          "cell_position": {
+            "row": 2,
+            "column": 2
+          },
+          "title": "前斜侧仰视",
+          "subtitle": "从较低视点观察下颌与颈部"
+        }
+      ],
+      "output": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/face-angles.png",
+        "sha256": "9153a4e703134af1fd4ac17f8dd9fedd34e82a44c5157d45fc3db4807bd14d4a",
+        "dimensions_px": [
+          1264,
+          1448
+        ]
+      }
+    },
+    {
+      "title": "三月七浅肤色 · 侧后与头顶",
+      "subtitle": "侧面、后方与顶部 · 四个观察角度",
+      "inputs": [
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/right-profile.png",
+          "sha256": "276738da9a0208cbe54287aa2a5d9e161bdea838e68035e7b6d017fae9529b9f",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            90,
+            146
+          ],
+          "cell_position": {
+            "row": 1,
+            "column": 1
+          },
+          "title": "右侧面",
+          "subtitle": "观察头部侧面与面部轮廓"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/rear-quarter.png",
+          "sha256": "58e1c12073c43d3a3d59493f317e72ee1d6ff4a2afa9fbade875d7998b761a30",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            706,
+            146
+          ],
+          "cell_position": {
+            "row": 1,
+            "column": 2
+          },
+          "title": "后侧视角",
+          "subtitle": "从斜后方观察头部形态"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/rear.png",
+          "sha256": "e7a90db019254c9b962b3ba3bfefc7516e2e4d69414d3ac8963dbaa588cbb3c1",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            90,
+            762
+          ],
+          "cell_position": {
+            "row": 2,
+            "column": 1
+          },
+          "title": "正后方",
+          "subtitle": "观察头部与颈部的后方轮廓"
+        },
+        {
+          "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/top.png",
+          "sha256": "173a3f2c7c67b03a008f4ec0cc04489e695c753230a0f6beaaf719f319a11e5f",
+          "original_dimensions_px": [
+            1100,
+            1100
+          ],
+          "display_dimensions_px": [
+            468,
+            468
+          ],
+          "image_position_px": [
+            706,
+            762
+          ],
+          "cell_position": {
+            "row": 2,
+            "column": 2
+          },
+          "title": "头顶视角",
+          "subtitle": "从顶部观察头部整体形态"
+        }
+      ],
+      "output": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/more-views/head-angles.png",
+        "sha256": "d4a98754f405c065184a4f874da3ed5af4e2d6dcf733c0ed487e3d7bd9cc4ffe",
+        "dimensions_px": [
+          1264,
+          1448
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "skin-tone-comparison.png",
+    "sha256": "5a22af5bfa533e551b3cd7064f6fca41873917929e0f94be1842977cd33649e5",
+    "inputs": [
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-front.png",
+        "sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v5-fair-skin/previews/face-front.png",
+        "sha256": "354bf08991d7eb99b0516973f57ed05b295d623b29eb617741256a89e84e699c"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-face-front.png",
+        "sha256": "b6f74c81f00327850664eb92c167902198cfab8ebed92fc8df4cecd945b38364"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-quarter.png",
+        "sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v5-fair-skin/previews/face-quarter.png",
+        "sha256": "738ade8f4cc1f98916664d340dd01932032ebf06a8c6b669660015beb9ba29c5"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-face-quarter.png",
+        "sha256": "32aa006375e448267e4f6e9a097d4d71d8b25efdd178bc4b707eb0720726484a"
+      }
+    ],
+    "operations": "Resize and arrange only; no recoloring or retouching."
+  },
+  {
+    "file": "new-original-overall.png",
+    "sha256": "ec7a5c9e15b293840d0956495dd74e8fd343324340cd612345ddd27960268f24",
+    "inputs": [
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v5-fair-skin/previews/front.png",
+        "sha256": "c549e38cdf58ee194fcab59554dd3b724d2f05042b0c933f047675a89fe7ff7f"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-front.png",
+        "sha256": "b22e725f6d060b37ab5e34bffac9ef135d5a8bba823cbad24e3fbeadf6ee33cc"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v5-fair-skin/previews/quarter-left.png",
+        "sha256": "2e333cad8067b140b001708b58c51ff60f4ed1a15f79c240a0b13dea640f665c"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-quarter-left.png",
+        "sha256": "aa752cd5aebad7a0ffefdcd383b5e67155329d72ee0836b8da54fa6a60b9c11e"
+      }
+    ],
+    "operations": "Resize and arrange only; no recoloring or retouching."
+  }
+]

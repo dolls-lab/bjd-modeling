@@ -1,0 +1,103 @@
+{
+  "model_sha256": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8",
+  "saved_models_unchanged_by_render": true,
+  "image_method": "Actual Blender render; no image retouching.",
+  "views": [
+    {
+      "file": "front.png",
+      "label": "正面",
+      "camera_mm": [
+        0,
+        -220,
+        27
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 133,
+      "sha256": "2a87f3374bb7a5aeb06425a99df497a0d8f23710b4908a89e137b78005b5e659"
+    },
+    {
+      "file": "quarter-left.png",
+      "label": "左前斜侧",
+      "camera_mm": [
+        -140,
+        -210,
+        58
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135,
+      "sha256": "03a854f7a6634bf144c8eba0e049e358e002b6aef85f0c809dad35efa462c393"
+    },
+    {
+      "file": "quarter-right.png",
+      "label": "右前斜侧",
+      "camera_mm": [
+        140,
+        -210,
+        58
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135,
+      "sha256": "29af403f43bbb08893f509a860c6970386b13ddaaf2fb5f996b779e2fff7b3b7"
+    },
+    {
+      "file": "side.png",
+      "label": "侧面",
+      "camera_mm": [
+        -240,
+        0,
+        30
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135,
+      "sha256": "18409a92bd928a490226916e52daec1ceb5c1f3532c5d47452d020bbd3d87739"
+    },
+    {
+      "file": "face-front.png",
+      "label": "面部正面近景",
+      "camera_mm": [
+        0,
+        -220,
+        28
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 61,
+      "sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff"
+    },
+    {
+      "file": "face-quarter.png",
+      "label": "面部斜侧近景",
+      "camera_mm": [
+        -125,
+        -200,
+        60
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 65,
+      "sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08"
+    }
+  ]
+}

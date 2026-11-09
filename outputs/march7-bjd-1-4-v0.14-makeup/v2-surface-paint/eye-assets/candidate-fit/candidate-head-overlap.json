@@ -1,0 +1,142 @@
+{
+  "head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "eye_npz_sha256": "66095c9290d198d613b03cc4e41cd7aa167a060ee96c3aacf30d7769c4e7729c",
+  "all_inputs_unchanged": true,
+  "units": "mm",
+  "candidate": "R9, nasal center shift 1.5 mm, forward center shift 2 mm",
+  "parts": [
+    {
+      "eye": "negative",
+      "center_mm": [
+        -12.163962920147602,
+        -15.289332231246028,
+        27.67311677124019
+      ],
+      "cup_status": "Error.NoError",
+      "cup_volume_mm3": 285.36374760061244,
+      "intersection_status": "Error.NoError",
+      "intersection_empty": false,
+      "intersection_volume_mm3": 31.244818859883978,
+      "intersection_bbox_min_mm": [
+        -21.011079458909016,
+        -22.96134361662487,
+        20.49326072183084
+      ],
+      "intersection_bbox_max_mm": [
+        -7.063055050771629,
+        -15.289332231246028,
+        33.445454694421144
+      ],
+      "intersection_vertex_count": 5432,
+      "intersection_triangle_count": 10856,
+      "intersection_components": [
+        {
+          "volume_mm3": 31.094770754900175,
+          "bbox_min_mm": [
+            -21.011079458909016,
+            -22.936685220125263,
+            20.49326072183084
+          ],
+          "bbox_max_mm": [
+            -8.890619288578163,
+            -15.289332231246028,
+            33.445454694421144
+          ]
+        },
+        {
+          "volume_mm3": 0.0190071882441981,
+          "bbox_min_mm": [
+            -8.614624505255229,
+            -22.687117482238968,
+            23.558257069804466
+          ],
+          "bbox_max_mm": [
+            -7.958086098824299,
+            -22.322349548339844,
+            24.3742500928743
+          ]
+        },
+        {
+          "volume_mm3": 0.1310409167396074,
+          "bbox_min_mm": [
+            -7.937183263290841,
+            -22.96134361662487,
+            24.55173179175131
+          ],
+          "bbox_max_mm": [
+            -7.063055050771629,
+            -22.441787719726562,
+            27.07116988554158
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "positive",
+      "center_mm": [
+        12.163962920147602,
+        -15.289332231246028,
+        27.67311677124019
+      ],
+      "cup_status": "Error.NoError",
+      "cup_volume_mm3": 285.36374760061244,
+      "intersection_status": "Error.NoError",
+      "intersection_empty": false,
+      "intersection_volume_mm3": 31.28902377115478,
+      "intersection_bbox_min_mm": [
+        7.05066251357326,
+        -22.952296895266578,
+        20.493539957157047
+      ],
+      "intersection_bbox_max_mm": [
+        21.01144331927281,
+        -15.289332231246028,
+        33.445781373270904
+      ],
+      "intersection_vertex_count": 5454,
+      "intersection_triangle_count": 10900,
+      "intersection_components": [
+        {
+          "volume_mm3": 0.014977550016063332,
+          "bbox_min_mm": [
+            7.912598447615011,
+            -22.684846623996126,
+            23.57850778074497
+          ],
+          "bbox_max_mm": [
+            8.585229022312422,
+            -22.327346801757812,
+            24.395712450391773
+          ]
+        },
+        {
+          "volume_mm3": 31.145864581576404,
+          "bbox_min_mm": [
+            8.900041197763185,
+            -22.931703683685033,
+            20.493539957157047
+          ],
+          "bbox_max_mm": [
+            21.01144331927281,
+            -15.289332231246028,
+            33.445781373270904
+          ]
+        },
+        {
+          "volume_mm3": 0.12818163956231193,
+          "bbox_min_mm": [
+            7.05066251357326,
+            -22.952296895266578,
+            24.52842999567742
+          ],
+          "bbox_max_mm": [
+            7.901029260515722,
+            -22.44344711303711,
+            27.140662261265874
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Actual closed cup material versus actual head Boolean intersection only. Bounding boxes and overlap volume cannot by themselves prove that overlap is hidden inside the socket; external protrusion must be checked in the rendered scene or by a separate visibility test. No model was modified."
+}

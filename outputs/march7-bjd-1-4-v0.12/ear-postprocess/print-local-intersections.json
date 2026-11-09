@@ -1,0 +1,12 @@
+{
+  "solution_sha256": "0b4eff172136fbdcb31247535faa2170171105589b449ada29d4670b0e3a7ac0",
+  "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps the changed-region bounds; unchanged-only pairs are excluded.",
+  "changed_triangles": 18460,
+  "candidate_region_triangles": 53879,
+  "nonadjacent_aabb_pairs": 2163,
+  "hits": [],
+  "new_strict_intersections": 0,
+  "new_ambiguous_contacts": 0,
+  "elapsed_seconds": 1.8922228813171387,
+  "unchanged_input": true
+}

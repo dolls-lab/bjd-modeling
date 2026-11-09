@@ -1,0 +1,169 @@
+{
+  "baseline": "v0.12",
+  "current": "v0.13",
+  "inputs": {
+    "v0.12": {
+      "head": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.12/march7-head-shell-v0.12-draft.stl",
+        "sha256": "d2013af41c3585389af0108cd00afd863a6d7587f60a78666b63b702bed3257c"
+      },
+      "cap": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.12/march7-head-cap-v0.12-draft.stl",
+        "sha256": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591"
+      }
+    },
+    "v0.13": {
+      "head": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-head-shell-v0.13-draft.stl",
+        "sha256": "a382b257380f066a1e616298d869e88a5f6c39ffa208c962383c3db8949b6c9d"
+      },
+      "cap": {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-head-cap-v0.13-draft.stl",
+        "sha256": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591"
+      }
+    }
+  },
+  "method": "Project every actual assembled head/cap STL triangle into each orthographic plane, union rasterized projected material, then fill internal projection holes to measure only the outside silhouette. Compare both exterior raster boundaries by symmetric Euclidean distance. No convex-hull replacement.",
+  "limitations": "Raster comparison has approximately one-pixel uncertainty per edge (up to2*pitch in a difference). Interior facial detail and eye holes are not certified by exterior silhouettes; independent eye projection and protected-coordinate tests cover them. This is nine sampled views, not every possible viewpoint.",
+  "sample_pitch_mm": 0.05,
+  "boundary_difference_resolution_bound_mm": 0.1,
+  "views": {
+    "front": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 2841.2350000000006,
+      "current_area_mm2": 2841.1275000000005,
+      "symmetric_difference_area_mm2": 0.15750000000000003,
+      "intersection_over_union": 0.9999445668471031,
+      "maximum_raster_boundary_distance_mm": 0.05,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    "left": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 3176.1525000000006,
+      "current_area_mm2": 3176.1525000000006,
+      "symmetric_difference_area_mm2": 0.0,
+      "intersection_over_union": 1.0,
+      "maximum_raster_boundary_distance_mm": 0.0,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": true,
+      "view_toward_camera": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "right": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 3176.3100000000004,
+      "current_area_mm2": 3176.3100000000004,
+      "symmetric_difference_area_mm2": 0.0,
+      "intersection_over_union": 1.0,
+      "maximum_raster_boundary_distance_mm": 0.0,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": true,
+      "view_toward_camera": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "front_left": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 3085.9650000000006,
+      "current_area_mm2": 3085.6300000000006,
+      "symmetric_difference_area_mm2": 0.37500000000000006,
+      "intersection_over_union": 0.9998784828830989,
+      "maximum_raster_boundary_distance_mm": 0.1,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        -0.6963106238227914,
+        -0.6963106238227914,
+        0.17407765595569785
+      ]
+    },
+    "front_right": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 3086.0350000000008,
+      "current_area_mm2": 3085.702500000001,
+      "symmetric_difference_area_mm2": 0.38250000000000006,
+      "intersection_over_union": 0.9998760555530353,
+      "maximum_raster_boundary_distance_mm": 0.1,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        0.6963106238227914,
+        -0.6963106238227914,
+        0.17407765595569785
+      ]
+    },
+    "rear": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 2841.2700000000004,
+      "current_area_mm2": 2841.2325000000005,
+      "symmetric_difference_area_mm2": 0.07750000000000001,
+      "intersection_over_union": 0.999972723657212,
+      "maximum_raster_boundary_distance_mm": 0.05,
+      "p95_raster_boundary_distance_mm": 0.0,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "rear_left": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 2982.2675000000004,
+      "current_area_mm2": 2981.5425000000005,
+      "symmetric_difference_area_mm2": 0.7250000000000001,
+      "intersection_over_union": 0.9997568963884025,
+      "maximum_raster_boundary_distance_mm": 0.1,
+      "p95_raster_boundary_distance_mm": 0.05,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        -0.6963106238227914,
+        0.6963106238227914,
+        0.17407765595569785
+      ]
+    },
+    "rear_right": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 2982.3175000000006,
+      "current_area_mm2": 2981.6275000000005,
+      "symmetric_difference_area_mm2": 0.7000000000000002,
+      "intersection_over_union": 0.9997652836002813,
+      "maximum_raster_boundary_distance_mm": 0.1,
+      "p95_raster_boundary_distance_mm": 0.05,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        0.6963106238227914,
+        0.6963106238227914,
+        0.17407765595569785
+      ]
+    },
+    "top": {
+      "sample_pitch_mm": 0.05,
+      "baseline_area_mm2": 2625.0525000000007,
+      "current_area_mm2": 2624.9800000000005,
+      "symmetric_difference_area_mm2": 1.5975000000000004,
+      "intersection_over_union": 0.999391617459722,
+      "maximum_raster_boundary_distance_mm": 0.1,
+      "p95_raster_boundary_distance_mm": 0.05,
+      "identical_at_sampled_pitch": false,
+      "view_toward_camera": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "all_inputs_unchanged": true,
+  "maximum_sampled_view_boundary_distance_mm": 0.1
+}

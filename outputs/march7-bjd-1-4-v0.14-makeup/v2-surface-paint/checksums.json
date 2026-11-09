@@ -1,0 +1,138 @@
+{
+  ".gitignore": {
+    "bytes": 150,
+    "sha256": "a074ef47d27848755e1ce266251cd75857cbcfe5f640b8f678afd62c64c5ed47"
+  },
+  "README.md": {
+    "bytes": 2169,
+    "sha256": "65d48cb80adf7ac5245955d403c1c4e2aa6cca9ca07c846ce3b0b352260ba109"
+  },
+  "assemble_boards.py": {
+    "bytes": 2467,
+    "sha256": "c9f86bd719c967d8b0d6b728c86d0529e123b9c99b585d96d44bc200e3dce4c2"
+  },
+  "board-provenance.json": {
+    "bytes": 672,
+    "sha256": "1d2a5836cad3b3e17f9a13df4719b00050bb04bec9c89f1932e7d13ad192cab5"
+  },
+  "build_surface_preview.py": {
+    "bytes": 8642,
+    "sha256": "1a09ca15d09553008363ca8a2ccba9c4f1d2b9bf1102f501d7ed6b2f187de783"
+  },
+  "eye-assets/README.md": {
+    "bytes": 2791,
+    "sha256": "9c5dd1f0e8c061e20f04dc114ad1a8fa2b96595a55fd80a9c1dae14add440961"
+  },
+  "eye-assets/build_hemisphere_eyes.py": {
+    "bytes": 4057,
+    "sha256": "28f41bd70ed48eb29ca84145dbad74d9feff99de973d7df25b2cb0764fa69fe0"
+  },
+  "eye-assets/eye-assets-report.json": {
+    "bytes": 6173,
+    "sha256": "e116016c066c0cc55a943a18368198ec9675c2d50d17f0eac0b92c96443bcb50"
+  },
+  "eye-assets/hemisphere-eye-geometry.npz": {
+    "bytes": 1700643,
+    "sha256": "e4f9c4f6d07d078dbe21501327b0ee76a4c82b7bdf3583d7377f85a546c19297"
+  },
+  "eye-assets/march7-hemisphere-eye-negative.png": {
+    "bytes": 211266,
+    "sha256": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27"
+  },
+  "eye-assets/march7-hemisphere-eye-positive.png": {
+    "bytes": 212678,
+    "sha256": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e"
+  },
+  "eye-assets/selected-eye-assets.json": {
+    "bytes": 1325,
+    "sha256": "3b66d10ee7d3adfec3be9e00e7e8432fcfcd19485c9f7c336fa27f56324d672a"
+  },
+  "final-content-review.json": {
+    "bytes": 1108,
+    "sha256": "2dd83c8c8b8691cf01bc6f0e0add4f0b4b3a78f0893da4b734e8d4fb0bb8c7d1"
+  },
+  "local-makeup-multiview.png": {
+    "bytes": 939703,
+    "sha256": "cb8e43eb86dab8791619ed56f258ac8b10e565d5b2e3d06eb9a077baf457ebe3"
+  },
+  "march7-v14-local-makeup-v2.blend": {
+    "bytes": 25838558,
+    "sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8"
+  },
+  "paint-assets/generate_local_paint.py": {
+    "bytes": 4484,
+    "sha256": "d75592f6fe38fc3be9d8bcc95f69b92805767ea242278ca6308ae8a9ccb2b8f2"
+  },
+  "paint-assets/local-paint-checker-preview.png": {
+    "bytes": 102576,
+    "sha256": "919e79305e34a4250e1f8286751e0eed0277aeecb8def59c285be124a800f930"
+  },
+  "paint-assets/local-paint-mapping.json": {
+    "bytes": 1390,
+    "sha256": "631eee9ffc53ccbf4f29a45927f77d963c358af3fb30321edae56b9f36b79bae"
+  },
+  "paint-assets/local-paint.png": {
+    "bytes": 101726,
+    "sha256": "3b64525fa479eb432f59f0bd2d2a7d4477480453fca86433bd64b45fd9ec83b5"
+  },
+  "preview-build-report.json": {
+    "bytes": 4841,
+    "sha256": "ebac28fcadf397276aa34420c9d8535344e91304f797bb9ec2906fa234c4d5bb"
+  },
+  "previews/bare-front.png": {
+    "bytes": 1238862,
+    "sha256": "be8bcd8074e36c88b896f00a672b5fd4acec38c34004da884c9ebbfc006aabd6"
+  },
+  "previews/bare-quarter-left.png": {
+    "bytes": 1243742,
+    "sha256": "55b204e0b431af4971b4582be9972881637450d6d90d19ed5ef3cd0ba657f676"
+  },
+  "previews/hemisphere-cups.png": {
+    "bytes": 1222501,
+    "sha256": "e75e20b8ad8b464b2d00e7160cbc18c12a24e7ac6f1bfb1163ad47fa321843e4"
+  },
+  "previews/inside-back-open.png": {
+    "bytes": 1287578,
+    "sha256": "fdb7820d85b4f71d55be09138b94ed587aa86a32d0a0c5373c95449d162ea8bc"
+  },
+  "previews/makeup-closeup.png": {
+    "bytes": 1309593,
+    "sha256": "f19fa9a25b0c22c4f3f4ae9c3072b31b0d6015b0e8bbfca6e629aa5c9ffc88ba"
+  },
+  "previews/makeup-front.png": {
+    "bytes": 1279863,
+    "sha256": "b91c63baae5b32a898d11002338df11227bce56ca771b6195331dda36768a1ae"
+  },
+  "previews/makeup-quarter-left.png": {
+    "bytes": 1281169,
+    "sha256": "29c263e5ebf8e6f5aaed2f0e7e65aafc5a26655c128ee0ac920a9b4974e68c5d"
+  },
+  "previews/makeup-quarter-right.png": {
+    "bytes": 1273353,
+    "sha256": "b76a4366806f1bc243a814414e227d45ee743ead5ce1b36e2db0bae36e9e653f"
+  },
+  "previews/makeup-side.png": {
+    "bytes": 1253116,
+    "sha256": "c99c460dcbcb316360a89c853d371ffdfeb0fd02d8e6099623680f9b1a5fef29"
+  },
+  "render-provenance.json": {
+    "bytes": 2425,
+    "sha256": "4a45452e29756054203f7ddbeaaa982c41a61a9caa1883c2323e6ff9662896a0"
+  },
+  "render_surface_preview.py": {
+    "bytes": 2533,
+    "sha256": "724d9b88015cc68fd52fed63a48dd7443f28e21f99e6815fd5c20d3a494ecb9f"
+  },
+  "surface-and-interior.png": {
+    "bytes": 814415,
+    "sha256": "adb4278153f6fdd5124aca9c6c0576e9d941931477daa67d5585e486623b1d8c"
+  },
+  "v14-baseline-integrity.json": {
+    "bytes": 86,
+    "sha256": "fd607ae77aab9bbd2854823efcb168b9f1987bf085f1a578849ab515ca9b096f"
+  },
+  "visual-review.json": {
+    "bytes": 886,
+    "sha256": "f5d180fa62dcd0eb0d47b63d525aaed73d870e1ffcb6fd979ddec5db15bcdc5f"
+  }
+}

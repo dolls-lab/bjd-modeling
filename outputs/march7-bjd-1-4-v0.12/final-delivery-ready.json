@@ -1,0 +1,224 @@
+{
+  "qa_verified": true,
+  "visual_review": {
+    "actual_final_prints_reviewed": true,
+    "reviewed_boards": [
+      "local-repair-comparison.png",
+      "whole-head-comparison.png"
+    ],
+    "findings": "Upper-eye horn reduced; forehead-crown hump replaced by continuous broad arc; ear-back beaded edge reduced while natural attachment groove remains. Central forehead is slightly steeper than v11. No claim of microscopic perfection or physical fit."
+  },
+  "files": {
+    "README.md": "b3e4e96631b9bd61bf0cfc8d129475b2b87ff0e1888ab29c4742a2d2544ed7dd",
+    "parameters.json": "8a0ed8e0fc1551c105e0a80abc197725e84a39c519f13400562872223ebedfec",
+    "mother-surface.npz": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+    "actual-eye-geodesic.npz": "9c083924f403904881a25c41d7d7c9d3cda97e305192e46e17581c25e96a1cbb",
+    "source-feature-reference.npz": "691a407eb490b85a0d9d5ebc580e1e803dd2c6f6f561cb25809f47e6d1232860",
+    "march7-bjd-head-v0.12-draft.blend": "d8aba34db9f1013902c94c1f532044e4d92c31af43fee0f041e8938f7c4b296f",
+    "march7-head-shell-v0.12-draft.stl": "d2013af41c3585389af0108cd00afd863a6d7587f60a78666b63b702bed3257c",
+    "march7-head-cap-v0.12-draft.stl": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591",
+    "build_head.py": "d38c40b210e395c2cc6dc68ea97321ee8ebc7a82d95411c340fa7fb5d66ea5b8",
+    "solve_front.py": "e677f3234b6586b6cd11ee6f8462cf287f5c72efcfa2ba472c2922f2ac9f7c4f",
+    "apply_ear_finish.py": "5f6cbb9b48c745d28d03adc1195e12ddd4edca46791681d25f408938715366d5",
+    "parse_pmx.py": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+    "source-usage-rules.txt": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+    "render_review.py": "3888811e82c79914bfbce010372ed0260425233f2132593b6d1edb7514ff3cd7",
+    "assemble_comparisons.py": "58945f697c71e70ca7a3247942e5187b1bb6cd8094534f6a0aec230bd3ca0a5a",
+    "package_delivery.py": "b94cb5a44da1512caf52624c391c27ad124184783711bee8933fb9234cc6ff1f",
+    "validate_mesh.py": "7deab76f2657d00c69c8977a791e543cc18ad7b9ceb00043a831ac0772a40dc0",
+    "review_source_surface.py": "36946e640f35464574408622b840934f5a47a229b83e742aef88a7195ed9bc5b",
+    "review_shell_thickness.py": "504865a07ba36737923f44afceff4cd0a1cc1934d20d5eb3b4483ab6076bf0b3",
+    "check_print_intersections.py": "60615f3b1ff41f01af57392858851f4e8efa70d6225205e8b29c08a71dcaa6b5",
+    "triangle_intersection_helpers.py": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+    "check_eye_insertion.py": "1933dabc8419992b5f1381f202fdc5f89e75551f362dd78041ab3db7b514ee67",
+    "compare_eye_apertures.py": "a8c45c4a005ce164e54f078ea0ef5068f8da2c8edff799181f523c071cd3152b",
+    "check_front_intersections.py": "8dbba6cbceb1583dbfa4ab7ab5f55338543288483fcb7a147d9a71ffe12e3011",
+    "review_front_horns.py": "6709681eb380f3adacbc88c3ab95e95813ce421e8de55409500695ecae073dda",
+    "review_front_profiles.py": "d3ee8d35374d38d8f72276c4192cbe3b7e2857a9154b36f18285776555b00ff7",
+    "review_crown_profiles.py": "a33860985fe3ee95e32e7288e26caa2e9efe32e61a40d8771817e7499537805e",
+    "build-report.json": "25291a5d041e893e56a6d42917349b6ce1ef729e24f1783313a7de729f274c0c",
+    "mother-surface-report.json": "c73427e16a5977b8713314d5ede563c48064a8694b7d7b5a98526db64c3ea646",
+    "front-solution-report.json": "f24934a5403f99d186a2c2b26b4109725e477d318e476939571427f582ff448a",
+    "front-horn-review.json": "d3a7c44090a6aee8b51743da808281f1bbc78992dce7ad28d566b638fe8ce971",
+    "front-intersection-check.json": "4539493a4b38c15c9ce96b763ac6b652b49341afca400be720013ff6147a9d43",
+    "candidate-profile-review.json": "05ef2edadc7351c8786c981da53a08371e22cc2f7326ea3a171721a03ca02180",
+    "candidate-profile-review.png": "7b5b9818968c4e8e53638ec91ce3433ce3173b3c7c39ed3aaa9bb8b327a5e35c",
+    "crown-profile-review.json": "95ad7121bd61b3d002d4aa37e3c9444286adcccc93710b1ed0f3ab640b7950b9",
+    "crown-profile-review.png": "9c379c914aca4a54145d08cb9297796a7f3163a573b5cfff1f66a354aa1ba495",
+    "upper-eye-horn-diagnosis.json": "882ef86ace2ab64f2577d1240b0594990bb081290f49a343943abeea241f67c0",
+    "validation.json": "fb5300c35958eaf2e346ba79fb39d26d3f66fe62f17e0a15479891f4f4deb8fc",
+    "source-surface-review.json": "3732a3e8cdbad246cf13b77d7c3eb3ad25c5716099a6c15f915d06070b963fb8",
+    "side-shell-review.json": "74edfaac831f45ef360bc09ce49078f0e0bd9af8087418cae0bb6660f672f521",
+    "side-shell-review.png": "ebe561af573199b92da53564e38851e242c2abe9a1545c9dbb980241302adfeb",
+    "print-intersection-check.json": "b5eada564efdd8fd7e50669a9c6c0e6ff484593561cf17a8a889b973c7d2c731",
+    "eye-insertion-check.json": "10966e5b5e16a81466ddd318f08bccf19f0e42c136b1ba5f741e30655602e076",
+    "face-opening-comparison.json": "7785a4ef1699d8c7bc78e1567e57f7b36688a1244bfc17cc8ad19c29c5da0993",
+    "eye-aperture-comparison.png": "02a2081f5016048829ee7ef680e5822db095089575bba1c0aa730dda2ce1445d",
+    "local-quality-review.json": "7f75c02c95e3a59ffa8c4fbe87a3dbf28ec384ef4ae5992a81317f6f45faee8f",
+    "local-repair-comparison.png": "2762864a629d2043ba36a656702abbb9de94c497c0c0f78dfb8e97026118fbd4",
+    "earback-two-views.png": "c2bc9ef4d63511dc1fa2ee7df180b5fe565d7ecee79b4666cc458e022c8c551e",
+    "whole-head-comparison.png": "bd0a852cdcfab2d2363305f789e331df85b643c2f215c6991f23362c1b205a02",
+    "comparison-renders/v11-brow-close.png": "e4e5cebc1f0b7e9fa2e3aca8a5451eab72b990bcb829bf3a3e21ec85dd3b6f39",
+    "comparison-renders/v11-crown-close.png": "6bd1dca507489b09d5b04d4b193b7aed68226365dc45427cc8640404dbd277c2",
+    "comparison-renders/v11-earback-close.png": "297dadf69430c503608f44a0a256b2e3efdf9cef2717b6ffd61edde790cd7844",
+    "comparison-renders/v11-earback-outside.png": "005fd413018682478bb1fc716304196cfb41ac1be0ba3c6f2e4d23157dc9c3fd",
+    "comparison-renders/v11-front.png": "f6538ab76c4794726b11e150cf7df4e2148b4ca2207e5ec51a173a47022c1acb",
+    "comparison-renders/v11-quarter.png": "7d0116e894b31189f98017e344d49accad1f9ee5827c9bb9bc8af5931efa6470",
+    "comparison-renders/v11-render-provenance.json": "33ccc7557c6d3edcb9826b55a4306def019bd2952cf63faf610770da3bc567ca",
+    "comparison-renders/v11-side.png": "f0cbe1c1c824250a62f94622c73abf57f23e04692055458fbc7f28080756b455",
+    "comparison-renders/v11-top.png": "30e0e4b920d6115d566a8321ff79d7e156cff4b8a22834dbb316aabca16737f9",
+    "comparison-renders/v12-brow-close.png": "39f1656f354be483b0c6260b7e29f4f1d7a7805eac259feda9d3c6ba02afc73c",
+    "comparison-renders/v12-crown-close.png": "d810c1f3163eaac2c190a3fa31208e4caf49f706352dc422e01a14428a5c6123",
+    "comparison-renders/v12-earback-close.png": "6bd05c22283f2ff894e017601d235a6d6e52185b6949c44b71f3286deb0d7e74",
+    "comparison-renders/v12-earback-outside.png": "6da2122659f6b003775b0e84820318d901b5a74712f8634d2da2a1436156d673",
+    "comparison-renders/v12-front.png": "a5028a12f9b95596dea7c4b457cf3512601673866650f0b867f880b462701931",
+    "comparison-renders/v12-quarter.png": "b073a7fd2c6e8a9ab9ddb0339b9f188ddeef5a265f2aa735f4447dcbbf1bf7a1",
+    "comparison-renders/v12-render-provenance.json": "d0d457f24f5cf21142712b658a7b64cf4891b64e183c559e824ea1655bb85a63",
+    "comparison-renders/v12-side.png": "87ca73653583c2cd366b101ff8d88c803d165ad1a3fd4d50b2d898ee2d6db79b",
+    "comparison-renders/v12-top.png": "68b77d1062d10cfb58b46108128d66c6c75683ede9c6c36f02a50e05f6d8b38f",
+    "ear-postprocess/README.md": "ffe3d99c2c0ce82429e9584ecdd3eeaeb8db9bf47bc1ed425743bf9f04ff54c9",
+    "ear-postprocess/check_print_local_intersections.py": "68eef80c507028e017434b096499931d8a624af1d2b42f86c4731f7715ef7013",
+    "ear-postprocess/check_print_thickness.py": "c9f25e5cc562d19f578b5104e7c01cdda47788bbaca2e004645586b59cb4860c",
+    "ear-postprocess/ear-after-outside.png": "9beae986567c36a841ff0a9c7ac88e7c772d4008e3e51e570a8e8b410d020bc3",
+    "ear-postprocess/ear-after-rear.png": "5a222469a0a97e7b0f92d47463eafad65014cf479d98390ac329b5b1acb728dd",
+    "ear-postprocess/ear-before-outside.png": "6e14e4f0893b7f9f972c5b9f176702f6c814c2bc0262a2bad88b6726be3cac28",
+    "ear-postprocess/ear-before-rear.png": "16502cbbe313929795fef1c8937c212f768c6f7dd52087bbeab450d17020cc8a",
+    "ear-postprocess/ear-finish-provenance.json": "09e169547d812e3348a19dcb6edfe33d2d3ccc09b11e41f0b106e814b3869066",
+    "ear-postprocess/print-local-intersections.json": "93c22f6e31009eef435bec32e8746097dad08185a592fba2ecd927fb3626ce17",
+    "ear-postprocess/print-local-thickness.json": "3975758df96b3459a9e1b33f796babad327b759797fe2939f9ec2380327f4bcc",
+    "ear-postprocess/print-protection.json": "0d4b45c355176728028cedc6304c874e567fed69cfe1cc784c047c7e595130ac",
+    "ear-postprocess/print-protection.npz": "e26bca3669e3424d9dbb35822bdfd3a35db988cae6f33626806a98129ad6d5b6",
+    "ear-postprocess/print-solution-report.json": "c1bc403d77284ff109c0669df195cb85b1d2f517c59821080c12116d31ff7e1d",
+    "ear-postprocess/print-solution.npz": "0b4eff172136fbdcb31247535faa2170171105589b449ada29d4670b0e3a7ac0",
+    "ear-postprocess/semantic-ear-protection.npz": "9aba51017aba2bfaacb0ec65d9d26243826242cfe80a56f31e2c5bd14e9006d8",
+    "ear-postprocess/solve_print_fairing.py": "17696bd73cd54aa3d57cc9b22b706452865f7f65e060de78b2bb674d6ef00562",
+    "ear-postprocess/triangle_intersection_helpers.py": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec"
+  },
+  "checks": [
+    {
+      "file": "validation.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/all_listed_checks_pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/inputs/head/sha256",
+      "equals_sha256_of": "march7-head-shell-v0.12-draft.stl"
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/inputs/cap/sha256",
+      "equals_sha256_of": "march7-head-cap-v0.12-draft.stl"
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/inputs/blend/sha256",
+      "equals_sha256_of": "march7-bjd-head-v0.12-draft.blend"
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/inputs/mother/sha256",
+      "equals_sha256_of": "mother-surface.npz"
+    },
+    {
+      "file": "source-surface-review.json",
+      "pointer": "/all_integrity_checks_pass",
+      "equals": true
+    },
+    {
+      "file": "source-surface-review.json",
+      "pointer": "/input_files_unchanged_during_audit",
+      "equals": true
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/completed_both_parts",
+      "equals": true
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/no_strict_nonadjacent_self_intersections",
+      "equals": true
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/all_inputs_unchanged",
+      "equals": true
+    },
+    {
+      "file": "eye-insertion-check.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "face-opening-comparison.json",
+      "pointer": "/all_projections_valid",
+      "equals": true
+    },
+    {
+      "file": "front-intersection-check.json",
+      "pointer": "/new_strict_intersections",
+      "equals": 0
+    },
+    {
+      "file": "front-intersection-check.json",
+      "pointer": "/new_ambiguous_contacts",
+      "equals": 0
+    },
+    {
+      "file": "front-intersection-check.json",
+      "pointer": "/normal_over_90_count",
+      "equals": 0
+    },
+    {
+      "file": "front-intersection-check.json",
+      "pointer": "/solution_sha256",
+      "equals_sha256_of": "mother-surface.npz"
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/final_head_stl_sha256",
+      "equals_sha256_of": "march7-head-shell-v0.12-draft.stl"
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/final_cap_stl_sha256",
+      "equals_sha256_of": "march7-head-cap-v0.12-draft.stl"
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/final_blend_sha256",
+      "equals_sha256_of": "march7-bjd-head-v0.12-draft.blend"
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/outside_support_exactly_unchanged",
+      "equals": true
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/normal_rotation_over_90_triangles",
+      "equals": 0
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/local_nonadjacent_new_intersections",
+      "equals": 0
+    },
+    {
+      "file": "ear-postprocess/ear-finish-provenance.json",
+      "pointer": "/solution_sha256",
+      "equals_sha256_of": "ear-postprocess/print-solution.npz"
+    },
+    {
+      "file": "comparison-renders/v12-render-provenance.json",
+      "pointer": "/model_sha256",
+      "equals_sha256_of": "march7-bjd-head-v0.12-draft.blend"
+    }
+  ]
+}

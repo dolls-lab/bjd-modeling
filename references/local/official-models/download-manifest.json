@@ -1,0 +1,112 @@
+{
+  "download_date": "2026-11-03",
+  "source_page": "https://www.bilibili.com/blackboard/activity-Hk1xELkY1x.html",
+  "download_url": "https://activity.hdslb.com/blackboard/static/20221205/d7f098333308ba7412aa9b57601bfa1d/KkVjYLh8y3.zip",
+  "files": [
+    {
+      "path": "extracted/星穹铁道—三月七/mc1.png",
+      "bytes": 64509,
+      "sha256": "b27ed743548b98eca92f39cb8bc2156fb598828e1a29651cafb6e66321eebf16"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/mc3.png",
+      "bytes": 33861,
+      "sha256": "988d8189318072892936e5cf90582c6edfa8dea026c611ec2dcdde84279c1535"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/toon2.png",
+      "bytes": 5586,
+      "sha256": "9498ddbcb2e57a67e932deadf72d1001238a3f85f6aa58e4b8e4307ce2a47720"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/toon3.png",
+      "bytes": 5628,
+      "sha256": "dad85338aa2800ef4cfeaab41b3767318441630163ec078a64ce0f0da87ad695"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/三月七 1.0.pmx",
+      "bytes": 3762813,
+      "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/使用规则.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/头发.png",
+      "bytes": 543697,
+      "sha256": "7c77b3d60b90884f45b2da826ac09739cf27a63f6af5e3d367e640ef680f2f5c"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/弓1.0.pmx",
+      "bytes": 132918,
+      "sha256": "7c693b7abc272786fb06f3c4544ce1ce230c4a4f6a1d606ecb9ca97c8f7aba38"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/武器.png",
+      "bytes": 264772,
+      "sha256": "e26a8641c8ac324c1afbe2d4ddeb23991b831293d76198ea9bb795f2a1f56ac1"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/箭1.0.pmx",
+      "bytes": 13082,
+      "sha256": "a5d7d3489512653031dc7b6c1ae79e9f0bd45a1ae248a3b461500dd27f4c0bc2"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/脸.png",
+      "bytes": 291609,
+      "sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/衣服.png",
+      "bytes": 444308,
+      "sha256": "8fd4e6c536aeb20944e12a0e1fdce2b6dda4337e05a42b19abb6f84b26356cc9"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/衣服1.png",
+      "bytes": 426448,
+      "sha256": "2162ac99267929757b2300474e667352e3fd396daccb818708bdad3db4133d67"
+    },
+    {
+      "path": "extracted/星穹铁道—三月七/表情.png",
+      "bytes": 136533,
+      "sha256": "fbd77c78e95fbb9e149e969705548017fabc3a169647385acedfdecc38605136"
+    },
+    {
+      "path": "march-7th-preservation-official.zip",
+      "bytes": 3655358,
+      "sha256": "4256b27d90175166460d6ef31d23b3e0ea163d351ad25881a90d87f4d7c41483"
+    },
+    {
+      "path": "official-release-preview.jpg",
+      "bytes": 534948,
+      "sha256": "9db6385c2c76088d7033dec17ce29d2fdd9c5af10b09d9dcbe4f8ae9d31fbe3f"
+    },
+    {
+      "path": "rendered/back.png",
+      "bytes": 123418,
+      "sha256": "9f2496e02546d9dcd9efc1708fa34e340fba0fdf71c886323e7f261c54dd6d49"
+    },
+    {
+      "path": "rendered/four-views.png",
+      "bytes": 415005,
+      "sha256": "5894dfa94214834ad28073b5c4a1ed852d46e3380d8a842ec8a5ee737e54c7c5"
+    },
+    {
+      "path": "rendered/front.png",
+      "bytes": 142381,
+      "sha256": "b2fb46a5020db5e76cb4d8152f48e16b66cda2eb517e3f0726a1ed179b7b0dab"
+    },
+    {
+      "path": "rendered/left.png",
+      "bytes": 86682,
+      "sha256": "3585f7fd2cd39c3860544569b3ab5eaf2ccce0d52cfd2390cd1a6b9c6193eddb"
+    },
+    {
+      "path": "rendered/right.png",
+      "bytes": 86705,
+      "sha256": "f9457082081cd2636b82b4f99ec185c1938ce2f73e958bea4eb39a82c71f2415"
+    }
+  ]
+}

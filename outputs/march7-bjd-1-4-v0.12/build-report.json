@@ -1,0 +1,410 @@
+{
+  "version": "v0.12-draft",
+  "source_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "source_face_triangles": 2176,
+  "source_to_mm_scale": 27.47544416498121,
+  "units": "mm",
+  "historical_target_girth_mm": 190.0,
+  "girth_measure_z_mm": 40.49297765452825,
+  "cap_plane_origin_mm": [
+    0.0,
+    14.5,
+    50.0
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "cap_local_axes": {
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      0.0,
+      0.2873478829860687,
+      -0.9578262567520142
+    ],
+    "n": [
+      0.0,
+      0.9578262567520142,
+      0.2873478829860687
+    ]
+  },
+  "eye_centers_mm": [
+    [
+      13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ],
+    [
+      -13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ]
+  ],
+  "eye_nominal_diameter_mm": 16.0,
+  "magnet_centers_mm": [
+    [
+      -16.63362693786621,
+      14.5,
+      50.0
+    ],
+    [
+      16.63362693786621,
+      14.5,
+      50.0
+    ]
+  ],
+  "rear_pin_center_mm": [
+    0.0,
+    11.274858474731445,
+    60.75047302246094
+  ],
+  "neck_center_y_mm": 6.59410659959549,
+  "neck_platform_top_mm": 19.78231979878647,
+  "neck_seat_center_z_mm": 5.082319798786472,
+  "parts": {
+    "PRINT_01_Head_Shell": {
+      "vertices": 252695,
+      "faces": 505342,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 24904.95176729877,
+      "bounds_mm": [
+        55.55591011047363,
+        57.54785919189453,
+        69.7151107788086
+      ]
+    },
+    "PRINT_02_Removable_Cap": {
+      "vertices": 48537,
+      "faces": 97046,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5220.93855546999,
+      "bounds_mm": [
+        43.81068801879883,
+        21.089126586914062,
+        49.425315856933594
+      ]
+    }
+  },
+  "cleanup": {
+    "PRINT_01_Head_Shell": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 24
+    },
+    "PRINT_02_Removable_Cap": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 0
+    }
+  },
+  "physical_fit": "Not printed or physically fitted",
+  "unified_mother_surface": {
+    "method": "Wide full-XYZ cotangent bi-Laplacian fairing of v10 low-frequency reference, evaluated as delta from v11. This removes the v11 localized Y bulge, frees the actual outer-brow horn region, and allows the entire front crown to adjust instead of stopping at a Z64 plane.",
+    "reference_v10_sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52",
+    "baseline_v11_sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033",
+    "prior_base_alpha": 0.01,
+    "eye_protection": "Actual 248-vertex opening boundary and its .8mm surface-geodesic eyelid ring fixed. Upper non-feature skin beyond this is released; nose/mouth/cheek/chin masks remain fixed.",
+    "protected_core_count": 18846,
+    "released_old_core_upper_eye_skin_count": 951,
+    "apex_anchor_count": 3,
+    "apex_anchor_radius_mm": 0.8,
+    "near_apex_soft_prior_radius_mm": 7.0,
+    "free_vertices": 9261,
+    "maximum_move_from_v11_mm": 1.7311205992656198,
+    "maximum_fairing_move_from_v10_mm": 0.8163082902681438,
+    "released_upper_eye_skin_maximum_move_mm": 0.20852548408469368,
+    "eye_boundary_maximum_move_mm": 0.0,
+    "eye_guard_maximum_move_mm": 0.0,
+    "ear_maximum_move_mm": 0.0,
+    "core_maximum_move_mm": 0.0,
+    "crown_before_after_z_mm": [
+      69.79233785101658,
+      69.79233785101658
+    ],
+    "before_bounds_mm": [
+      [
+        -27.835521697998047,
+        -33.61177444458008,
+        0.05165863037109375
+      ],
+      [
+        27.835521697998047,
+        30.524676653682935,
+        69.79233785101658
+      ]
+    ],
+    "after_bounds_mm": [
+      [
+        -27.835521697998047,
+        -33.61177444458008,
+        0.05165863037109375
+      ],
+      [
+        27.835521697998047,
+        30.524676653682935,
+        69.79233785101658
+      ]
+    ],
+    "changed_support_bounds_mm": [
+      [
+        -27.019625019833352,
+        -29.944328749038558,
+        30.0343060819916
+      ],
+      [
+        27.01144632443002,
+        13.870291104329006,
+        69.77144988793042
+      ]
+    ],
+    "ear_support_overlap_vertices": 0,
+    "normal_rotations_over90": 0,
+    "minimum_normal_dot": 0.9429471290113827,
+    "degenerate_triangles": 0,
+    "horn_vertex_changes": {
+      "113": {
+        "before": [
+          -20.388621514555485,
+          -22.544027534529214,
+          34.73382478975567
+        ],
+        "after": [
+          -20.208221996556002,
+          -22.407425239879064,
+          34.693547643854
+        ],
+        "delta": [
+          0.18039951799948284,
+          0.1366022946501495,
+          -0.04027714590167619
+        ],
+        "weight": 1.0
+      },
+      "17599": {
+        "before": [
+          -20.516364726903497,
+          -22.464906706664074,
+          35.29503818269353
+        ],
+        "after": [
+          -20.3035330202872,
+          -22.33328728608634,
+          35.22868116375095
+        ],
+        "delta": [
+          0.2128317066162957,
+          0.131619420577735,
+          -0.06635701894258261
+        ],
+        "weight": 1.0
+      },
+      "80": {
+        "before": [
+          -21.812401851342518,
+          -20.828858934134725,
+          33.19518003467814
+        ],
+        "after": [
+          -21.63200569720259,
+          -20.748915685022848,
+          33.18098719535465
+        ],
+        "delta": [
+          0.1803961541399275,
+          0.07994324911187789,
+          -0.014192839323484918
+        ],
+        "weight": 1.0
+      },
+      "9049": {
+        "before": [
+          -22.032865026021785,
+          -20.60732860070321,
+          33.619889617303095
+        ],
+        "after": [
+          -21.81677479651886,
+          -20.53218271105333,
+          33.584226370818946
+        ],
+        "delta": [
+          0.21609022950292456,
+          0.07514588964987823,
+          -0.0356632464841482
+        ],
+        "weight": 1.0
+      }
+    },
+    "front_solution_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+    "status": "One render candidate; independent intersections and close visual review required before combining with separate ear solution.",
+    "mother_surface_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+    "ear_surface_policy": "Mother ear unchanged; ear-back roughness will be refined on the final reconstructed print mesh and separately reported."
+  },
+  "internal_inset_envelope_method": "0.65 mm along one snapshot of original envelope vertex normals; no sequential normal recomputation. This tool limits internal bosses/platform, not the exterior sculpt.",
+  "ear_postprocess": {
+    "method": "Actual print outer rear-ear/root groove and narrow shared-rim strip constrained3D cotangent minimum-bending fairing, actual mesh-border0.25mm C2 feather. Rim receives8x position prior and<=0.17mm displacement; remaining support<=0.30mm. Small active-set constraints retain>=25% baseline projected triangle area at groove slivers. No topology change or displacement clipping.",
+    "performed_after_voxel_reconstruction": true,
+    "mother_unchanged_by_ear_finish": true,
+    "editable_final_object": "PRINT_01_Head_Shell",
+    "pre_ear_blend_sha256": "0b4a088fc8d72fbe75d02f09541070630a5ab1a042a948f1b9b0b3d84796a86d",
+    "pre_ear_head_stl_sha256": "395ce00ef55727de3e7f4a6ed8d5d6a182cd7bac8e3c5a8f99786d9b330d2dce",
+    "solution_file": "ear-postprocess/print-solution.npz",
+    "solution_sha256": "0b4eff172136fbdcb31247535faa2170171105589b449ada29d4670b0e3a7ac0",
+    "moved_vertices": 8858,
+    "free_vertices": 8860,
+    "maximum_actual_displacement_mm": 0.22196894169612638,
+    "maximum_rim_actual_displacement_mm": 0.15640461851166199,
+    "outside_support_exactly_unchanged": true,
+    "all_other_mesh_objects_exactly_unchanged": true,
+    "cap_stl_bytes_unchanged": true,
+    "normal_rotation_over_90_triangles": 0,
+    "local_nonadjacent_new_intersections": 0,
+    "local_new_ambiguous_contacts": 0,
+    "thickness_sampling": {
+      "solution_sha256": "0b4eff172136fbdcb31247535faa2170171105589b449ada29d4670b0e3a7ac0",
+      "method": "Same baseline vertex-normal inward rays from before/after changed exterior positions, accepting an opposing oriented wall within8mm; skips immediate same-surface hits. Local regression sampling only, not global minimum thickness.",
+      "before": {
+        "count": 8126,
+        "min_mm": 1.0149191260337829,
+        "p01_mm": 1.6957963049411773,
+        "p05_mm": 1.888434225320816,
+        "median_mm": 2.5987959146499633,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "after": {
+        "count": 8118,
+        "min_mm": 1.1688784599304198,
+        "p01_mm": 1.6911260712146758,
+        "p05_mm": 1.8874573290348051,
+        "median_mm": 2.600815200805664,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "paired_valid": 8110,
+      "missing_before": 734,
+      "missing_after": 742,
+      "maximum_thickness_reduction_mm": 3.8933070182800287,
+      "new_below_0p4_count": 0,
+      "worst_reductions": [
+        {
+          "vertex_id": 248729,
+          "point_mm": [
+            23.556705474853516,
+            -1.7632369995117188,
+            19.29606819152832
+          ],
+          "before_mm": 6.567608785629272,
+          "after_mm": 2.674301767349243,
+          "reduction_mm": 3.8933070182800287
+        },
+        {
+          "vertex_id": 98456,
+          "point_mm": [
+            -27.642040252685547,
+            0.2712516784667969,
+            28.530059814453125
+          ],
+          "before_mm": 6.225733661651612,
+          "after_mm": 2.5157894134521483,
+          "reduction_mm": 3.7099442481994633
+        },
+        {
+          "vertex_id": 98480,
+          "point_mm": [
+            -27.730581283569336,
+            0.45690345764160156,
+            28.16277503967285
+          ],
+          "before_mm": 6.253418350219727,
+          "after_mm": 2.6590439319610595,
+          "reduction_mm": 3.5943744182586674
+        },
+        {
+          "vertex_id": 98459,
+          "point_mm": [
+            -27.5559139251709,
+            0.09950637817382812,
+            28.879541397094727
+          ],
+          "before_mm": 6.080488586425782,
+          "after_mm": 2.560212993621826,
+          "reduction_mm": 3.5202755928039555
+        },
+        {
+          "vertex_id": 236348,
+          "point_mm": [
+            27.6077880859375,
+            0.9899425506591797,
+            26.190595626831055
+          ],
+          "before_mm": 6.138374251127242,
+          "after_mm": 2.663530969619751,
+          "reduction_mm": 3.4748432815074914
+        },
+        {
+          "vertex_id": 98395,
+          "point_mm": [
+            -27.31007957458496,
+            -0.4344215393066406,
+            29.421850204467773
+          ],
+          "before_mm": 5.756139200925826,
+          "after_mm": 2.394678735733032,
+          "reduction_mm": 3.361460465192794
+        },
+        {
+          "vertex_id": 98481,
+          "point_mm": [
+            -27.746158599853516,
+            0.4659843444824219,
+            27.989404678344727
+          ],
+          "before_mm": 2.770084762573242,
+          "after_mm": 2.511509561538696,
+          "reduction_mm": 0.2585752010345459
+        },
+        {
+          "vertex_id": 99595,
+          "point_mm": [
+            -27.36783790588379,
+            1.164358139038086,
+            25.36137580871582
+          ],
+          "before_mm": 2.927388095855713,
+          "after_mm": 2.679722452163696,
+          "reduction_mm": 0.2476656436920166
+        },
+        {
+          "vertex_id": 99593,
+          "point_mm": [
+            -27.40045928955078,
+            1.166081428527832,
+            25.471969604492188
+          ],
+          "before_mm": 2.900213623046875,
+          "after_mm": 2.665434741973877,
+          "reduction_mm": 0.23477888107299805
+        },
+        {
+          "vertex_id": 98452,
+          "point_mm": [
+            -27.584014892578125,
+            0.1044168472290039,
+            28.708026885986328
+          ],
+          "before_mm": 2.6905516624450683,
+          "after_mm": 2.4558419227600097,
+          "reduction_mm": 0.2347097396850586
+        }
+      ]
+    },
+    "solver_report": "ear-postprocess/print-solution-report.json",
+    "local_intersection_report": "ear-postprocess/print-local-intersections.json",
+    "visual_review": "Same two close views of actual geometry before/after, no raster retouching. Narrow natural attachment groove retained; original beaded rim explicitly released for micro-fairing.",
+    "preservation_note": "Eye/nose/mouth/major face and ear concha/lobe beyond local support are unchanged by this step. Rear ear and narrow rim intentionally move; do not claim all original ear vertices remain fixed."
+  }
+}

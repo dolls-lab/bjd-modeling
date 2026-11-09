@@ -1,0 +1,63 @@
+{
+  "model_sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+  "source_model_unchanged": true,
+  "image_method": "Actual Blender renders with unchanged v2 studio and camera settings; no retouching.",
+  "views": [
+    {
+      "file": "skin-front.png",
+      "camera_mm": [
+        0,
+        -200,
+        35
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88
+    },
+    {
+      "file": "skin-quarter-left.png",
+      "camera_mm": [
+        -130,
+        -190,
+        55
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88
+    },
+    {
+      "file": "skin-quarter-right.png",
+      "camera_mm": [
+        130,
+        -190,
+        55
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88
+    },
+    {
+      "file": "skin-side.png",
+      "camera_mm": [
+        -220,
+        0,
+        35
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88
+    }
+  ]
+}

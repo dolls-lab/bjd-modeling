@@ -1,0 +1,377 @@
+{
+  "solution": "/private/tmp/march7-bjd-work/v12-analysis/front-solution.npz",
+  "solution_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+  "input_unchanged": true,
+  "units": "mm",
+  "normal_dihedral_definition": "acos(dot(normal of each adjacent triangle)); smaller angle means more nearly coplanar neighboring triangles. This diagnoses mesh creases and does not by itself certify aesthetic curvature or likeness.",
+  "features": [
+    {
+      "name": "upper_negative",
+      "vertex_ids": [
+        113,
+        17599
+      ],
+      "v11_center_mm": [
+        -20.452493120729493,
+        -22.504467120596644,
+        35.0144314862246
+      ],
+      "v12_center_mm": [
+        -20.2558775084216,
+        -22.370356262982703,
+        34.96111440380247
+      ],
+      "dihedral_degrees": {
+        "v10": 17.876541326002698,
+        "v11": 13.446947158230634,
+        "v12_front": 1.5876949202968245
+      },
+      "vertex_displacements_xyz_mm": [
+        [
+          0.18039951799948284,
+          0.1366022946501495,
+          -0.04027714590167619
+        ],
+        [
+          0.2128317066162957,
+          0.131619420577735,
+          -0.06635701894258261
+        ]
+      ],
+      "vertex_displacement_lengths_mm": [
+        0.22983999103749744,
+        0.2588904424218282
+      ],
+      "solver_weights": [
+        1.0,
+        1.0
+      ],
+      "current_eye_edge_geodesic_mm": [
+        4.466814296931661,
+        5.047795282950892
+      ],
+      "neighborhoods": [
+        {
+          "radius_mm": 1.5,
+          "edge_count": 151,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 3.126306328959201,
+              "p95": 7.938771271949427,
+              "max": 17.876541326002698
+            },
+            "v11": {
+              "mean": 2.6073432436766564,
+              "p95": 6.6016197859886,
+              "max": 13.446947158230634
+            },
+            "v12_front": {
+              "mean": 1.123871642802948,
+              "p95": 2.2202680092594442,
+              "max": 2.8128154696915892
+            }
+          }
+        },
+        {
+          "radius_mm": 3.0,
+          "edge_count": 623,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 2.5074661382745638,
+              "p95": 6.961163505882228,
+              "max": 17.876541326002698
+            },
+            "v11": {
+              "mean": 2.161257360431694,
+              "p95": 5.686222792192195,
+              "max": 13.446947158230634
+            },
+            "v12_front": {
+              "mean": 1.2451153754132696,
+              "p95": 2.766231943550383,
+              "max": 6.210644167031823
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "upper_positive",
+      "vertex_ids": [
+        1059,
+        16397
+      ],
+      "v11_center_mm": [
+        20.45248251498601,
+        -22.504460615460566,
+        35.01438441452186
+      ],
+      "v12_center_mm": [
+        20.255895621381697,
+        -22.370428479203717,
+        34.96105319683054
+      ],
+      "dihedral_degrees": {
+        "v10": 17.87260703614869,
+        "v11": 13.444167644046034,
+        "v12_front": 1.5878635831235401
+      },
+      "vertex_displacements_xyz_mm": [
+        [
+          -0.18037404602797125,
+          0.13653259228773607,
+          -0.04029062820038831
+        ],
+        [
+          -0.21279974118065326,
+          0.13153168022596518,
+          -0.06637180718225011
+        ]
+      ],
+      "vertex_displacement_lengths_mm": [
+        0.22978093906608482,
+        0.25882335585927396
+      ],
+      "solver_weights": [
+        1.0,
+        1.0
+      ],
+      "current_eye_edge_geodesic_mm": [
+        4.4667658823901615,
+        5.047748164747528
+      ],
+      "neighborhoods": [
+        {
+          "radius_mm": 1.5,
+          "edge_count": 151,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 3.126280721035479,
+              "p95": 7.937632071966453,
+              "max": 17.87260703614869
+            },
+            "v11": {
+              "mean": 2.6072998977885553,
+              "p95": 6.601522129240088,
+              "max": 13.444167644046034
+            },
+            "v12_front": {
+              "mean": 1.1238981442845701,
+              "p95": 2.220385307865831,
+              "max": 2.8131459352827406
+            }
+          }
+        },
+        {
+          "radius_mm": 3.0,
+          "edge_count": 623,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 2.5074911909388784,
+              "p95": 6.956748646064531,
+              "max": 17.87260703614869
+            },
+            "v11": {
+              "mean": 2.161269196555234,
+              "p95": 5.68721633302142,
+              "max": 13.444167644046034
+            },
+            "v12_front": {
+              "mean": 1.2450753549745008,
+              "p95": 2.7662053060842298,
+              "max": 6.211111401907896
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "outer_negative",
+      "vertex_ids": [
+        80,
+        9049
+      ],
+      "v11_center_mm": [
+        -21.92263343868215,
+        -20.718093767418967,
+        33.407534825990616
+      ],
+      "v12_center_mm": [
+        -21.724390246860725,
+        -20.640549198038087,
+        33.3826067830868
+      ],
+      "dihedral_degrees": {
+        "v10": 12.14595782384115,
+        "v11": 12.14595782384115,
+        "v12_front": 1.522279579614904
+      },
+      "vertex_displacements_xyz_mm": [
+        [
+          0.1803961541399275,
+          0.07994324911187789,
+          -0.014192839323484918
+        ],
+        [
+          0.21609022950292456,
+          0.07514588964987823,
+          -0.0356632464841482
+        ]
+      ],
+      "vertex_displacement_lengths_mm": [
+        0.197826014960375,
+        0.2315464514253833
+      ],
+      "solver_weights": [
+        1.0,
+        1.0
+      ],
+      "current_eye_edge_geodesic_mm": [
+        4.501845719535041,
+        5.029157704600244
+      ],
+      "neighborhoods": [
+        {
+          "radius_mm": 1.5,
+          "edge_count": 168,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 3.266995229519837,
+              "p95": 8.42325772912002,
+              "max": 12.14595782384115
+            },
+            "v11": {
+              "mean": 3.2724248631664987,
+              "p95": 8.38214755286812,
+              "max": 12.14595782384115
+            },
+            "v12_front": {
+              "mean": 1.402636586116416,
+              "p95": 2.9336826460803644,
+              "max": 4.356897641248601
+            }
+          }
+        },
+        {
+          "radius_mm": 3.0,
+          "edge_count": 584,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 2.737976285346983,
+              "p95": 7.278946025014841,
+              "max": 14.858148496341915
+            },
+            "v11": {
+              "mean": 2.6831125293311344,
+              "p95": 7.057945840116063,
+              "max": 14.785398396973337
+            },
+            "v12_front": {
+              "mean": 1.3984971714385288,
+              "p95": 2.993552367983713,
+              "max": 5.39453723461371
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "outer_positive",
+      "vertex_ids": [
+        1092,
+        3458
+      ],
+      "v11_center_mm": [
+        21.922628529450847,
+        -20.718091045612347,
+        33.40750340451726
+      ],
+      "v12_center_mm": [
+        21.724381812533828,
+        -20.640557259563742,
+        33.38257767792618
+      ],
+      "dihedral_degrees": {
+        "v10": 12.144409962947352,
+        "v11": 12.144409962947352,
+        "v12_front": 1.5221320175272328
+      },
+      "vertex_displacements_xyz_mm": [
+        [
+          -0.18040695159051623,
+          0.0799396940954189,
+          -0.014190678045792993
+        ],
+        [
+          -0.21608648224351867,
+          0.075127878001787,
+          -0.03566077513637822
+        ]
+      ],
+      "vertex_displacement_lengths_mm": [
+        0.19783426957342698,
+        0.2315367287165413
+      ],
+      "solver_weights": [
+        1.0,
+        1.0
+      ],
+      "current_eye_edge_geodesic_mm": [
+        4.501834846806591,
+        5.029088381863909
+      ],
+      "neighborhoods": [
+        {
+          "radius_mm": 1.5,
+          "edge_count": 168,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 3.266964847168225,
+              "p95": 8.423359428850869,
+              "max": 12.144409962947352
+            },
+            "v11": {
+              "mean": 3.2724005967267984,
+              "p95": 8.38228071039706,
+              "max": 12.144409962947352
+            },
+            "v12_front": {
+              "mean": 1.4025856698610897,
+              "p95": 2.933826247728928,
+              "max": 4.356130478501954
+            }
+          }
+        },
+        {
+          "radius_mm": 3.0,
+          "edge_count": 584,
+          "method": "Same interior-edge set in each version; both endpoints within baseline-v11 graph-geodesic radius of the original feature edge vertices.",
+          "dihedral_summary_degrees": {
+            "v10": {
+              "mean": 2.7378003397062347,
+              "p95": 7.278547702434553,
+              "max": 14.857502201970963
+            },
+            "v11": {
+              "mean": 2.682945583037881,
+              "p95": 7.05730130110326,
+              "max": 14.784753697321646
+            },
+            "v12_front": {
+              "mean": 1.3984114158426226,
+              "p95": 2.993106889837213,
+              "max": 5.394504310236002
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

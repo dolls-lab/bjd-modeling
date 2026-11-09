@@ -1,0 +1,17 @@
+{
+  "method": "Frontmost mid-sagittal line intersected with triangles at X0, Z40..68 step0.1mm. Curvature uses 2.1mm Savitzky-Golay cubic smoothing to avoid tessellation derivative spikes. This is one profile, not proof of whole-surface curvature.",
+  "candidates": {
+    "c3 capped forehead": {
+      "curvature_abs_max_48_66_per_mm": 0.2087200112999162,
+      "curvature_p95_abs_48_66_per_mm": 0.15066167045170986,
+      "forward_inflexion_samples_48_66": 55,
+      "sha256": "51065b0a92498a534d4021870771a0a177c7882b4a8502fd7f56006eea85715c"
+    },
+    "c5 unified forehead": {
+      "curvature_abs_max_48_66_per_mm": 0.0586233023601311,
+      "curvature_p95_abs_48_66_per_mm": 0.03693589764445375,
+      "forward_inflexion_samples_48_66": 0,
+      "sha256": "db379e1fccc1ad524768b4c0b31a9241dbbf6f398fbe23747ff9ed2e5c21d0e2"
+    }
+  }
+}

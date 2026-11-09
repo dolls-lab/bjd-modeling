@@ -1,0 +1,68 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v2-surface-paint/march7-v14-local-makeup-v2.blend",
+  "model_sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+  "input_model_modified": false,
+  "image_method": "Actual Blender renders, no raster retouching.",
+  "views": [
+    {
+      "file": "quick-makeup-front.png",
+      "camera_mm": [
+        0,
+        -200,
+        35
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "mode": "paint"
+    },
+    {
+      "file": "quick-makeup-quarter-left.png",
+      "camera_mm": [
+        -130,
+        -190,
+        55
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "mode": "paint"
+    },
+    {
+      "file": "quick-inside-back-open.png",
+      "camera_mm": [
+        0,
+        200,
+        75
+      ],
+      "target_mm": [
+        0,
+        -3,
+        31
+      ],
+      "ortho_width_mm": 88,
+      "mode": "inside"
+    },
+    {
+      "file": "quick-hemisphere-cups.png",
+      "camera_mm": [
+        -65,
+        170,
+        80
+      ],
+      "target_mm": [
+        0,
+        -13,
+        28
+      ],
+      "ortho_width_mm": 54,
+      "mode": "eyes"
+    }
+  ]
+}

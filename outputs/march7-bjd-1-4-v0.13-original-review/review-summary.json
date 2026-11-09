@@ -1,0 +1,22 @@
+{
+  "task": "Read-only final v13 comparison with local original March 7th PMX",
+  "v13_manifest_files_verified_unchanged": 60,
+  "render_inputs_verified_unchanged": true,
+  "source_transform": "[PMX X,PMX Z,PMX Y-18.16621208190918]*27.47544416498121",
+  "conclusion_zh": {
+    "face": "鼻口、主颊、下巴主体接近，但并非逐点一致；眼洞有效投影略窄略高，鼻尖更圆顺。",
+    "headshape": "原脸片上额与v13有明显重塑差异；原头顶及后脑皮肤缺失，主体发壳仅作外界参照，不能当作原颅骨。当前为圆顺紧凑的BJD补建头型，不判定原后脑完全一致。"
+  },
+  "primary_artifacts": [
+    "original-comparison-grid.png",
+    "face-audit-overview.png",
+    "eye-original-comparison.png",
+    "headshape-sections.png"
+  ],
+  "reports": [
+    "face-audit.json",
+    "eye-original-comparison.json",
+    "headshape-audit.json",
+    "render-provenance.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "five_comparison_pairs_reviewed": true,
+  "boards": [
+    "overall-comparison.png",
+    "face-comparison.png",
+    "profile-comparison.png"
+  ],
+  "left": "Current pale BJD with original hair",
+  "right": "Original local PMX head re-rendered in Blender",
+  "same_framing_and_original_hair": true,
+  "not_in_game_capture": true,
+  "original_model_eye_shadow_layer_included": true,
+  "no_proportion_or_color_image_edits": true,
+  "both_saved_model_files_unchanged": true
+}

@@ -1,0 +1,143 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/march7-v14-makeup-preview.blend",
+  "model_sha256": "178c0119afa160f73df1b7dc40c1493aa14e3ff0ef1f6c5d95ccce93cac2d314",
+  "input_model_modified": false,
+  "image_method": "Actual Blender render, no image retouching.",
+  "views": [
+    {
+      "file": "makeup-front.png",
+      "mode": "makeup",
+      "camera": [
+        0,
+        -200,
+        35
+      ],
+      "target": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 98
+    },
+    {
+      "file": "makeup-quarter-left.png",
+      "mode": "makeup",
+      "camera": [
+        -130,
+        -190,
+        55
+      ],
+      "target": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 98
+    },
+    {
+      "file": "makeup-quarter-right.png",
+      "mode": "makeup",
+      "camera": [
+        130,
+        -190,
+        55
+      ],
+      "target": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 98
+    },
+    {
+      "file": "makeup-side.png",
+      "mode": "makeup",
+      "camera": [
+        -220,
+        0,
+        35
+      ],
+      "target": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 98
+    },
+    {
+      "file": "hair-front.png",
+      "mode": "hair",
+      "camera": [
+        0,
+        -200,
+        28
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    },
+    {
+      "file": "hair-quarter-left.png",
+      "mode": "hair",
+      "camera": [
+        -130,
+        -190,
+        48
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    },
+    {
+      "file": "hair-quarter-right.png",
+      "mode": "hair",
+      "camera": [
+        130,
+        -190,
+        48
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    },
+    {
+      "file": "original-front.png",
+      "mode": "original",
+      "camera": [
+        0,
+        -200,
+        28
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    },
+    {
+      "file": "original-quarter-left.png",
+      "mode": "original",
+      "camera": [
+        -130,
+        -190,
+        48
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    }
+  ]
+}

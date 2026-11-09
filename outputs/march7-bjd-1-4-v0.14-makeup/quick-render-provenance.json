@@ -1,0 +1,53 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/march7-v14-makeup-preview.blend",
+  "model_sha256": "cfc69cea79e649ae1f7b5c907775578f8561ac6564362e9e4747dffed4b7141e",
+  "input_model_modified": false,
+  "image_method": "Actual Blender render, no image retouching.",
+  "views": [
+    {
+      "file": "makeup-front.png",
+      "mode": "makeup",
+      "camera": [
+        0,
+        -200,
+        35
+      ],
+      "target": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 98
+    },
+    {
+      "file": "hair-front.png",
+      "mode": "hair",
+      "camera": [
+        0,
+        -200,
+        28
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    },
+    {
+      "file": "original-front.png",
+      "mode": "original",
+      "camera": [
+        0,
+        -200,
+        28
+      ],
+      "target": [
+        0,
+        0,
+        28
+      ],
+      "ortho_width_mm": 120
+    }
+  ]
+}

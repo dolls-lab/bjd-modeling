@@ -1,0 +1,22 @@
+{
+  "version": "v0.1-draft",
+  "units": "mm",
+  "source_pmx": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+  "target_head_girth_mm": 190.0,
+  "body_neck_circumference_reference_mm": 66.0,
+  "eye_diameter_mm": 16.0,
+  "wall_mm": 2.6,
+  "voxel_mm": 0.18,
+  "cap_seam_source_height": 20.23,
+  "cap_gap_mm": 0.25,
+  "magnet_diameter_mm": 4.0,
+  "magnet_thickness_mm": 2.0,
+  "magnet_hole_diameter_mm": 4.25,
+  "magnet_hole_depth_mm": 2.2,
+  "neck_seat_diameter_mm": 23.0,
+  "neck_slot_width_mm": 7.0,
+  "neck_slot_length_mm": 14.0,
+  "source_spec_url": "https://dolk.jp/portal/itemDetail/?ItmID=215136",
+  "source_spec_status": "Retailer table attributes values to manufacturer. Head 190, neck circumference 66, eyes 16; not physical measurements.",
+  "design_assumptions": "Wall, neck seat, hook slot, magnet pockets and clearances are adjustable prototype design values, NOT UFdoll interface specifications. Physical fit untested."
+}

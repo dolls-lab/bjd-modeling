@@ -1,0 +1,443 @@
+{
+  "description_zh": "原人物·贴图预览：本地原 PMX 几何与原贴图的无光照 Blender 渲染；不是游戏截图。",
+  "source_pmx": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+  "source_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "world_transform": "(srcX, srcZ, srcY - 18.16621208190918) * 27.47544416498121",
+  "geometry": "All PMX rest-pose vertices and triangles are imported. No morph, subdivision, smoothing modifier, remesh, reconstruction, or vertex sculpt is applied. Original per-vertex normals are transformed and retained.",
+  "geometry_float32_max_coordinate_roundoff_mm": 1.5243233008277457e-05,
+  "texture_method": "Original sRGB texture multiplied by original PMX diffuse RGB into Emission strength 1; original texture alpha multiplied by PMX diffuse alpha mixes with Transparent BSDF. No illumination, shadows or geometry changes; Standard view transform, exposure 0, gamma 1.",
+  "shader_limitations": "Original MMD toon ramps, sphere maps, edge outlines, material draw flags and runtime/game shading are not reproduced. Appearance is a Blender reconstruction, not an official game render.",
+  "framing": "front/quarter/side use the same 105 mm orthographic framing as the BJD comparison. Lowest hair tips may be cropped.",
+  "materials": [
+    {
+      "original_material": "口腔",
+      "triangles": 684,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "牙",
+      "triangles": 224,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "眉毛",
+      "triangles": 608,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "眼白",
+      "triangles": 474,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "眼睛",
+      "triangles": 234,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "眼睛1",
+      "triangles": 50,
+      "diffuse_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        0.30000001192092896
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "脸",
+      "triangles": 2176,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "脖子",
+      "triangles": 500,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "手",
+      "triangles": 1878,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "手套",
+      "triangles": 896,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "腿",
+      "triangles": 1958,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "衣服",
+      "triangles": 5359,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "袖子",
+      "triangles": 992,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "袖子1",
+      "triangles": 328,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "袖子2",
+      "triangles": 892,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "腿环",
+      "triangles": 574,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "鞋子",
+      "triangles": 1236,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "鞋饰",
+      "triangles": 684,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "衣饰",
+      "triangles": 22,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "衣饰1",
+      "triangles": 100,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "衣饰铁",
+      "triangles": 492,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "腰饰",
+      "triangles": 228,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "腰带",
+      "triangles": 614,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "相机",
+      "triangles": 470,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "背饰",
+      "triangles": 660,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "背饰1",
+      "triangles": 40,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "头饰",
+      "triangles": 82,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "脖饰",
+      "triangles": 574,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "头发",
+      "triangles": 4568,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/头发.png",
+      "geometry_modifiers": []
+    },
+    {
+      "original_material": "表情",
+      "triangles": 442,
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/表情.png",
+      "geometry_modifiers": []
+    }
+  ],
+  "textures": [
+    {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5"
+    },
+    {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "sha256": "2162ac99267929757b2300474e667352e3fd396daccb818708bdad3db4133d67"
+    },
+    {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服.png",
+      "sha256": "8fd4e6c536aeb20944e12a0e1fdce2b6dda4337e05a42b19abb6f84b26356cc9"
+    },
+    {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/头发.png",
+      "sha256": "7c77b3d60b90884f45b2da826ac09739cf27a63f6af5e3d367e640ef680f2f5c"
+    },
+    {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/表情.png",
+      "sha256": "fbd77c78e95fbb9e149e969705548017fabc3a169647385acedfdecc38605136"
+    }
+  ],
+  "views": [
+    {
+      "name": "front",
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/views/character-texture-front.png",
+      "camera_world": [
+        0,
+        -180,
+        37
+      ],
+      "target_world": [
+        0,
+        0,
+        37
+      ],
+      "ortho_scale_mm": 105
+    },
+    {
+      "name": "quarter",
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/views/character-texture-quarter.png",
+      "camera_world": [
+        115,
+        -180,
+        100
+      ],
+      "target_world": [
+        0,
+        0,
+        37
+      ],
+      "ortho_scale_mm": 105
+    },
+    {
+      "name": "side",
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/views/character-texture-side.png",
+      "camera_world": [
+        180,
+        0,
+        40
+      ],
+      "target_world": [
+        0,
+        0,
+        37
+      ],
+      "ortho_scale_mm": 105
+    }
+  ],
+  "blender_version": "4.5.9 LTS"
+}

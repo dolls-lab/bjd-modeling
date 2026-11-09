@@ -1,0 +1,168 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/march7-v14-local-makeup-v3-skin.blend",
+  "model_sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+  "saved_model_unchanged": true,
+  "image_method": "Actual Blender renders. Only camera framing and render resolution changed in unsaved memory; no material, geometry, lighting or image edits.",
+  "views": [
+    {
+      "file": "face-front-close.png",
+      "label": "面部正面近景",
+      "camera_mm": [
+        0,
+        -220,
+        28
+      ],
+      "target_mm": [
+        0,
+        -18,
+        26
+      ],
+      "ortho_width_mm": 55,
+      "resolution": [
+        1200,
+        1200
+      ],
+      "image_sha256": "c9b910d50810157cb4423534c4fc5a4759061ac4845147b3d21f9a222c17f062"
+    },
+    {
+      "file": "face-quarter-close.png",
+      "label": "面部斜侧近景",
+      "camera_mm": [
+        -125,
+        -200,
+        60
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 59,
+      "resolution": [
+        1200,
+        1200
+      ],
+      "image_sha256": "499688a5a259bf71f6e2f459a66bc518a09008effdbf9ebdd8357e3257f889f1"
+    },
+    {
+      "file": "front-high.png",
+      "label": "前斜侧俯视",
+      "camera_mm": [
+        -90,
+        -180,
+        145
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "ea66d3fee73762aee7cfd76754fecea6109ae340a4b9e002036c17a751a55885"
+    },
+    {
+      "file": "front-low.png",
+      "label": "前斜侧仰视",
+      "camera_mm": [
+        -80,
+        -200,
+        -28
+      ],
+      "target_mm": [
+        0,
+        -3,
+        32
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "b52f32ba48f489845259e358cd9608eb6db0eac1ecb96ffc88e46149a71307a3"
+    },
+    {
+      "file": "right-profile.png",
+      "label": "右侧面",
+      "camera_mm": [
+        220,
+        0,
+        35
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "276738da9a0208cbe54287aa2a5d9e161bdea838e68035e7b6d017fae9529b9f"
+    },
+    {
+      "file": "rear-quarter.png",
+      "label": "后斜侧",
+      "camera_mm": [
+        -145,
+        170,
+        75
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "58e1c12073c43d3a3d59493f317e72ee1d6ff4a2afa9fbade875d7998b761a30"
+    },
+    {
+      "file": "rear.png",
+      "label": "正后方",
+      "camera_mm": [
+        0,
+        220,
+        40
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "e7a90db019254c9b962b3ba3bfefc7516e2e4d69414d3ac8963dbaa588cbb3c1"
+    },
+    {
+      "file": "top.png",
+      "label": "头顶俯视",
+      "camera_mm": [
+        0,
+        -15,
+        240
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 88,
+      "resolution": [
+        1100,
+        1100
+      ],
+      "image_sha256": "173a3f2c7c67b03a008f4ec0cc04489e695c753230a0f6beaaf719f319a11e5f"
+    }
+  ]
+}

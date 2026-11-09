@@ -1,0 +1,68 @@
+{
+  "source_model_sha256": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8",
+  "new_model_sha256": "1133e110e71d8df3e880de6cf476a0bebb01637ba6717307a9b3029e45c0ba30",
+  "source_model_unchanged": true,
+  "all_six_meshes_and_uv_unchanged": true,
+  "existing_meshes": {
+    "PRINT_01_Head_Shell": {
+      "geometry": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+      "uv": {
+        "UVMap": "10b11728dc4f87d1e853b5dc0499d4c8f17a6366d5abc7b270783758d8d42757",
+        "Local_Eye_Lip_Paint": "4d858df4eaf03b19bac5b7ff7fcc2047f58a83f163bb19fd610d2311bcfb4692"
+      }
+    },
+    "PRINT_02_Removable_Cap": {
+      "geometry": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8",
+      "uv": {
+        "UVMap": "5d809aae1438d72268f41afce3435e77b5ace689b6a70ae40db87887e4c3ce8a"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_NEGATIVE": {
+      "geometry": "6ca10dc3d438b90eccb61505bee08424806f88a0e6dba9a9a2810b1cc580e38c",
+      "uv": {
+        "Iris_On_Spherical_Surface": "09bb987f0fb6e4c381658990de78a0bbc8976d59813919397478efe8d938670b"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_POSITIVE": {
+      "geometry": "9d3d09dbeaf03de4bd2d766bceace0473750f6c201a0cdd707d7743ddea9d46a",
+      "uv": {
+        "Iris_On_Spherical_Surface": "19a3355ec29089e76a8cd367de629e72b01611283febb9da3f224c9b7413d7c6"
+      }
+    },
+    "LOOK_Original_March7_Hair_Accessory": {
+      "geometry": "d521f5d54c1a83089dd943ef6633636ee1436e578aa4d45b33eeaddd1542837a",
+      "uv": {
+        "Original_PMX_UV": "969189e9f7b1b09032ca78f3e86aefacf00f5b2661d06889aeae1bdd76e9c9da"
+      }
+    },
+    "LOOK_Original_March7_Hair": {
+      "geometry": "3789953e272f4d062f81708b6ca6fa1a9727ec3bcc94d6d4e103567f0d774cf7",
+      "uv": {
+        "Original_PMX_UV": "6b1a1d1df31e748164d0d1efd850c7bf72544079d42478295dbba3ec95747d24"
+      }
+    }
+  },
+  "all_packed_textures_unchanged": true,
+  "packed_textures": {
+    "local-paint.png": "3b64525fa479eb432f59f0bd2d2a7d4477480453fca86433bd64b45fd9ec83b5",
+    "march7-hemisphere-eye-negative.png": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+    "march7-hemisphere-eye-positive.png": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e",
+    "头发.png": "7c77b3d60b90884f45b2da826ac09739cf27a63f6af5e3d367e640ef680f2f5c",
+    "衣服1.png": "2162ac99267929757b2300474e667352e3fd396daccb818708bdad3db4133d67"
+  },
+  "previous_skin_linear_rgba": [
+    0.8879231214523315,
+    0.6653872728347778,
+    0.5906188488006592,
+    1.0
+  ],
+  "new_skin_linear_rgba": [
+    0.9559733532492861,
+    0.8069522576692516,
+    0.768151147247507,
+    1.0
+  ],
+  "new_skin_srgb": "#FAE8E3",
+  "lighting_exposure_and_non_skin_materials_unchanged": true,
+  "change_scope": "Only uniform head/cap skin base color; no full-face texture, no emission, no geometry change."
+}

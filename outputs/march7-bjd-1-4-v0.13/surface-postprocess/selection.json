@@ -1,0 +1,17 @@
+{
+  "baseline_sha256": "d8aba34db9f1013902c94c1f532044e4d92c31af43fee0f041e8938f7c4b296f",
+  "free": 18860,
+  "bounds": [
+    [
+      -27.03544807434082,
+      -24.883060455322266,
+      23.04043960571289
+    ],
+    [
+      27.03048324584961,
+      2.948390007019043,
+      44.9348030090332
+    ]
+  ],
+  "method": "actual exterior-only temple/ear-front skin weights with continuous spatial fades; true eye edge 1.0 mm hard guard + 1.6 mm C2 transition; all source auricle and prior rear-ear result locked; no remesh"
+}

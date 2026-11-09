@@ -1,0 +1,139 @@
+{
+  "input_npz_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+  "method": "Actual triangle-plane intersections at X=0/8/14/20/24, frontmost Y samples every0.1mm in Z. Derivatives use 3.1mm cubic Savitzky-Golay. Upper arc measured from Z50, or 7mm below each section maximum if that is lower, excluding the last1.6mm before that maximum to avoid endpoint singularity. Negative signed curvature corresponds to local reverse bend in Y(Z).",
+  "limitations": "Diagnostic sampled sections, not a global all-directions convexity proof. Crown apex and full surface have also been directly visually reviewed. Raw mother shading differs from final voxelized printable surface.",
+  "sections": {
+    "0.0": {
+      "v11": {
+        "section_sample_max_z_mm": 69.7000000000005,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          68.10000000000048
+        ],
+        "upper_arc_min_curvature_per_mm": -0.011404675019681478,
+        "upper_arc_max_curvature_per_mm": 0.07432284937512187,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 21,
+        "upper_arc_min_dY_dZ": 0.27784771537430736,
+        "local_Y_extrema_in_upper_arc": 0
+      },
+      "v12front": {
+        "section_sample_max_z_mm": 69.7000000000005,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          68.10000000000048
+        ],
+        "upper_arc_min_curvature_per_mm": 0.018389971782776744,
+        "upper_arc_max_curvature_per_mm": 0.05439088179484493,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.44043164667419593,
+        "local_Y_extrema_in_upper_arc": 0
+      }
+    },
+    "8.0": {
+      "v11": {
+        "section_sample_max_z_mm": 67.90000000000046,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          66.30000000000044
+        ],
+        "upper_arc_min_curvature_per_mm": -0.003932422320414462,
+        "upper_arc_max_curvature_per_mm": 0.0737299320449397,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 10,
+        "upper_arc_min_dY_dZ": 0.3493425696240925,
+        "local_Y_extrema_in_upper_arc": 0
+      },
+      "v12front": {
+        "section_sample_max_z_mm": 67.90000000000046,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          66.30000000000044
+        ],
+        "upper_arc_min_curvature_per_mm": 0.01597529974641297,
+        "upper_arc_max_curvature_per_mm": 0.05688551707869357,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.5225379056340773,
+        "local_Y_extrema_in_upper_arc": 0
+      }
+    },
+    "14.0": {
+      "v11": {
+        "section_sample_max_z_mm": 64.10000000000042,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          62.50000000000039
+        ],
+        "upper_arc_min_curvature_per_mm": 0.023365943881807606,
+        "upper_arc_max_curvature_per_mm": 0.058761571542370564,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.46570820275361136,
+        "local_Y_extrema_in_upper_arc": 0
+      },
+      "v12front": {
+        "section_sample_max_z_mm": 64.10000000000042,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          62.50000000000039
+        ],
+        "upper_arc_min_curvature_per_mm": 0.024257866414794712,
+        "upper_arc_max_curvature_per_mm": 0.06368245512399248,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.6073146704212373,
+        "local_Y_extrema_in_upper_arc": 0
+      }
+    },
+    "20.0": {
+      "v11": {
+        "section_sample_max_z_mm": 57.800000000000324,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          56.2000000000003
+        ],
+        "upper_arc_min_curvature_per_mm": 0.04777896152739651,
+        "upper_arc_max_curvature_per_mm": 0.07134114289497913,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.7678996204306208,
+        "local_Y_extrema_in_upper_arc": 0
+      },
+      "v12front": {
+        "section_sample_max_z_mm": 57.800000000000324,
+        "upper_arc_evaluation_z_mm": [
+          50.0,
+          56.2000000000003
+        ],
+        "upper_arc_min_curvature_per_mm": 0.04115981654846366,
+        "upper_arc_max_curvature_per_mm": 0.07147170205894585,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.8060954656616197,
+        "local_Y_extrema_in_upper_arc": 0
+      }
+    },
+    "24.0": {
+      "v11": {
+        "section_sample_max_z_mm": 51.30000000000023,
+        "upper_arc_evaluation_z_mm": [
+          44.30000000000023,
+          49.70000000000021
+        ],
+        "upper_arc_min_curvature_per_mm": 0.05816181506728417,
+        "upper_arc_max_curvature_per_mm": 0.10865976247051774,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.5727229397392491,
+        "local_Y_extrema_in_upper_arc": 0
+      },
+      "v12front": {
+        "section_sample_max_z_mm": 51.20000000000023,
+        "upper_arc_evaluation_z_mm": [
+          44.20000000000023,
+          49.60000000000021
+        ],
+        "upper_arc_min_curvature_per_mm": 0.052523218865620544,
+        "upper_arc_max_curvature_per_mm": 0.1046823747300733,
+        "upper_arc_reverse_curvature_samples_below_minus0p002": 0,
+        "upper_arc_min_dY_dZ": 0.6178685810526755,
+        "local_Y_extrema_in_upper_arc": 0
+      }
+    }
+  },
+  "visual_review": "Brow close and crown close inspected directly: prominent outer-eye horn and previous upper-forehead bump removed. Eye corner sculpted fold remains. Central forehead is slightly steeper than v11 in Z44-50; this is explicitly retained as a tradeoff for one uninterrupted crown arc, not claimed to replicate v8 slope.",
+  "candidate_upper_arc_reverse_bend_detected": false
+}

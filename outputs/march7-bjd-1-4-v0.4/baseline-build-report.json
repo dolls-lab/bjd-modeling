@@ -1,0 +1,114 @@
+{
+  "version": "v0.3-draft",
+  "face_fairing": {
+    "method": "Protected moving least squares quadratic surface fairing in physical-radius neighborhoods before hollowing",
+    "passes": 3,
+    "cheek_radius_mm": 3.2,
+    "forehead_radius_mm": 6.0,
+    "maximum_vertex_displacement_mm": 0.272874831588375,
+    "affected_vertices": 19250,
+    "eye_boundary_max_displacement_mm": 0.0,
+    "scale_reference": "same pre-fairing 190 mm calculation as v0.2; no global rescale after face edit"
+  },
+  "source_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "source_face_triangles": 2176,
+  "source_to_mm_scale": 27.47544416498121,
+  "units": "mm",
+  "girth_mm": 190.0,
+  "girth_measure_z_mm": 40.49297765452825,
+  "cap_plane_origin_mm": [
+    0.0,
+    14.5,
+    50.0
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "cap_local_axes": {
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      0.0,
+      0.2873478829860687,
+      -0.9578262567520142
+    ],
+    "n": [
+      0.0,
+      0.9578262567520142,
+      0.2873478829860687
+    ]
+  },
+  "eye_centers_mm": [
+    [
+      13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ],
+    [
+      -13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ]
+  ],
+  "eye_nominal_diameter_mm": 16.0,
+  "magnet_centers_mm": [
+    [
+      -19.416961669921875,
+      14.5,
+      50.0
+    ],
+    [
+      19.416961669921875,
+      14.5,
+      50.0
+    ]
+  ],
+  "rear_pin_center_mm": [
+    0.0,
+    9.987937927246094,
+    65.04020690917969
+  ],
+  "neck_center_y_mm": 6.59410659959549,
+  "neck_platform_top_mm": 19.78231979878647,
+  "neck_seat_center_z_mm": 5.082319798786472,
+  "parts": {
+    "PRINT_01_Head_Shell": {
+      "vertices": 273666,
+      "faces": 547282,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 27260.186946136502,
+      "bounds_mm": [
+        58.04324722290039,
+        57.420204162597656,
+        72.6563949584961
+      ]
+    },
+    "PRINT_02_Removable_Cap": {
+      "vertices": 55093,
+      "faces": 110164,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 6411.94825144783,
+      "bounds_mm": [
+        48.58040237426758,
+        22.04743003845215,
+        53.33818054199219
+      ]
+    }
+  },
+  "cleanup": {
+    "PRINT_01_Head_Shell": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 48
+    },
+    "PRINT_02_Removable_Cap": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 0
+    }
+  },
+  "physical_fit": "Not printed or physically fitted"
+}

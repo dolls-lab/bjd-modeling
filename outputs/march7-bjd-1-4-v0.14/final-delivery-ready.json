@@ -1,0 +1,218 @@
+{
+  "qa_verified": true,
+  "visual_review": "Final PRINT front, quarter, side, top, crown-front, eye-front and eye-quarter renders inspected; same cameras and lights as v13. Accepted round crown and no newly visible inner-eye triangle defect. No raster retouching.",
+  "files": {
+    "march7-bjd-head-v0.14-draft.blend": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+    "parameters.json": "8d67a0d9f76d3ef1c1e187900d5a507207769d0cd539bc3f9cc580f55a6aa48d",
+    "preservation-report.json": "54e6997391b9dee65caef1aef4aebce7d127f6d8306f95b8604538c47fdaa6fb",
+    "print-intersection-check.json": "b7670dbce63884ed8697c38abb287f1117e4dc9a5420e0815821e8c694843fe4",
+    "front-comparison.png": "7dda8bbdfacb13117c634e91720149a92866f83a436dfb47c7dfa496a7f74865",
+    "review_crown_wall.py": "0769d3f24a0f9d86a5af53a1f0d62ab6caf65e35c3a839b35f0e0c18634d6e2f",
+    "check_print_intersections.py": "cdd5f69a48c8478859b6d2a30f92e6ca4d8ed95298ddad5358e9b813c32149f6",
+    "package_delivery.py": "7272a080f01e8b07c75478cf88bbeef2b2d2263fdf1d6531f68a5407a5ed2ebe",
+    "render_review.py": "d6887abced8041fb24d645a16732631e65ba645f16cbd3d83f22c1a8abed385f",
+    "triangle_intersection_helpers.py": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+    "validate_mesh.py": "b2d20790ad21e4ae6fe25fa918b3ec15d5613e77d8aa285afa2f207b084cc16b",
+    "parse_pmx.py": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+    "README.md": "5bcd7a1195af4d29bd9f033172f08fb565a7b53e5e33822e4b2bf45c213cfaf1",
+    "shape-and-eyes-comparison.png": "67879c33821a091a85cdb617e26c54196c44bf2867b6500620f9896a2554e662",
+    "final-change-solution.npz": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92",
+    "march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "validation.json": "4c9174533abe93ccece0b690618c4b31f745b2f3b5d975447b25051bd2d21c51",
+    "assemble_comparisons.py": "a242eb95e972f829786cd0d8765c76f6938497616f562066776136b989cfca98",
+    "local-quality-review.json": "6c17ec35479342987560ba2169843dfce055fae72c3f19b1262086e6dfcd96bb",
+    "source-usage-rules.txt": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+    "crown-wall-review.json": "1fe75685edcad5c867545a05b3c296ddffed247728d8ff79696f2d015434312d",
+    "final-files-provenance.json": "5ca86bd5aae497bfd77df023faf562c0afa02d062795f25d4bd383a428ca16eb",
+    "previous-version-integrity.json": "d1e871f4b848d035a015ffa6fd3e9e3bdd957b896facc3e1b31cde2c5fb0a2ee",
+    "audit_preservation.py": "6886daad2a9149dd2e2981e73a96c3a15fb524c1b3e791484fe40cb41a20a1e9",
+    "whole-head-comparison.png": "34e8326a6ec6c579359ceafaa0306cd03e915628fd556b71378ec42c1d09eeb4",
+    "apply_shape_and_eyes.py": "36ac579ea9f00486e2249329d58fe2f1397956a7ec5ad021489c03792d35dfec",
+    "build-report.json": "038c4e5583ad075fcc636125a38db4d0271c540e5ef7bf1b61c72a4ca42a7907",
+    "march7-head-cap-v0.14-draft.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "crown-postprocess/crown-solution.npz": "416271160c308727016059e5519a0a8774e4a7b5b40ab0d5769cf3f39dae3f12",
+    "crown-postprocess/mapping.py": "2fd613ac27fb29dbb0223791706aebd350ecdd73b6a5205ffc9fdc986183315b",
+    "crown-postprocess/crown-report.json": "2d7139dfb18abcc00a297da57c422c42057ec9b482506dc13c182e4c3dd00367",
+    "eye-review/compare_original_eyes.py": "16a8d70f8b41377b8995fae77de3c3087ec7e4987f3107a1be427982d95e6652",
+    "eye-review/check_eye_local_intersections.py": "1d9b7b48686b50f5581a2a237267f12716baee95854e0e47aadaea6c1b831d01",
+    "eye-review/eye-endpoint-check.json": "b02676e01b9ca93f3d325172815eb968dd43b2caa28aca10aa659af56019ffd0",
+    "eye-review/eye-section-comparison.png": "48b33f859fa7ab8edfed766868e29ae4528d423fcb3a0a670f738c25279767bd",
+    "eye-review/triangle_intersection_helpers.py": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+    "eye-review/eye-local-intersection-check.json": "746c33cd6aebf8b075d32a9b237a0d5a66f4d67f6325a7ae058d615867ca355d",
+    "eye-review/check_eye_wall_chords.py": "9ef2c11ff354bbeb8231742a05862909afcd16acc9659be24e9e73b449a34e63",
+    "eye-review/eye-section-and-residual-review.json": "4fff9b52835f5f084ba1da23c072dffbc463bc559e4b140c31e21e750f8e7a28",
+    "eye-review/eye-review-summary.json": "63f998ede2cccf4efbec48475cea32bafbb1adbe0890a6a7258e3c6ce76ac4a9",
+    "eye-review/check_eye_insertion.py": "0520c6fdcdf0dfc9437adebfe834243af09961a3bdb080dfac2c4e5d18f34b18",
+    "eye-review/final_eye_inputs.py": "e508fae56778dbb1a469a00d3702846984ae85afecc05b535d7bf429920ddff1",
+    "eye-review/eye-wall-chord-review.json": "ffe078598d317c2f7258940639355b90addc2861abd92e978e7bc44b1269ed02",
+    "eye-review/summarize_eye_review.py": "fce8a79825f0b7e13e973c903490dd6644859ff34ec07f265005292443b76880",
+    "eye-review/eye-original-comparison.json": "d959d93b60d215af8dd82f01083ae04d04f17fa9723ec5f6b1a366209bd287e9",
+    "eye-review/review_eye_sections.py": "81d1b6e6f0235af658cf8a180a87b0eaaeb6e8435d889b470f6358dd8c05a954",
+    "eye-review/check_eye_endpoints.py": "dac200659d435e8db3144ae6526b697fb59aba5162f9ff30d5a812bca390ca10",
+    "eye-review/eye-insertion-check.json": "8e1e0b2c52694a92ec0090302151f04382d8a79618f38c8f921a49f62057a69a",
+    "eye-review/eye-original-comparison.png": "368d0ab2de4b4e511b82e066fc59010ec0b63cbd98d2400b980ddc1a6d76f2a5",
+    "eye-postprocess/eye-solution.npz": "83948585ee2ed7e622ddb6e65697361d4af750cdee07e21c34ebdbe31a305348",
+    "eye-postprocess/eye-solution-report.json": "9578381a1e9007c8f507213065c2eb2b3d5d4b5b865f2a4324564ff214bd75b5",
+    "eye-postprocess/repair_sliver.py": "4473dc830fb0b548e7d797ab082a51a8ea338eea63ff8524f05dd25cde34f833",
+    "eye-postprocess/solve_eyes.py": "62755b399046e1cb3035c77b72044de7504b760a42e315d90256a4a0e0321a70",
+    "eye-postprocess/finish_sliver_tangent.py": "e9e98e9c989fe534edc56b93b13d7bfd7f6013017c2e6617d98ec45e14baf74e",
+    "comparison-renders/v13-side.png": "f77d22ae0beb36390234d6127b1d393db6c786a668be038c1b488e5ca655461d",
+    "comparison-renders/v14-eye-quarter.png": "a5fa7a2ccdbd27fbd4a93bf1402056b9f553bf63537f3d27b244571811b36fd1",
+    "comparison-renders/v14-front.png": "2ba5dadd57b3083d5a8534fb178b851f71c809fb2d10627e7a6db87753fca80e",
+    "comparison-renders/v13-eye-quarter.png": "850848a68a1094e7fa948f34ed4c5b621fcf9e0f28cc8568390137f77dc34543",
+    "comparison-renders/v14-top.png": "3167cce607e6ab8f90572d6e3d6a523f387edd3fad0c51bb88eac7152a1aa2ca",
+    "comparison-renders/v13-quarter.png": "3ec7d3a7bef90617f43fdb25e08532225e5276d170517946e3c41b4e0d6307f6",
+    "comparison-renders/v13-eye-front.png": "4433c96548272cd074360bf98b7f8edc13501f308be10a3f5879f41880e563aa",
+    "comparison-renders/v14-eye-front.png": "77d2041903c35322c00b711c71da1f494f652e57e439348fbad6f49b59dedf51",
+    "comparison-renders/v14-side.png": "53dd076b19e879621225157e7260a969a5b1fb2614c39848f60bf2f2ba2c84d0",
+    "comparison-renders/v13-front.png": "f3e51946a5e9571a9f7f08661bf028ecc1f2dc25ba683efb4df0fd214bd78456",
+    "comparison-renders/v13-crown-front.png": "98e44682f0ccd63ab195c040775bc85cb91a32ecba9c022e5cbd2e9883b9c3ae",
+    "comparison-renders/v14-quarter.png": "c2771797106c6a27ef3256e8b8469ef61ffe6214df0ade44345531cf16b621a6",
+    "comparison-renders/v13-top.png": "fa4f858607fc93f44eed6eff7db3042882dc7608b6423df727aca13abc5beb35",
+    "comparison-renders/v14-crown-front.png": "eb8afb318d7153b6ed4e8c774ab87bec8b89e50e3368946eed60563f0c2b8f32",
+    "comparison-renders/v14-render-provenance.json": "f0be6f8c85a2f58bc1d55e1740a0ba1fca69df2536fe27436e8ceaf097608dbb",
+    "comparison-renders/v13-render-provenance.json": "88b052e8d5550b6283e72cf9b3cb9ae597ac60f9faa29ba037bfb2b17209f21a"
+  },
+  "checks": [
+    {
+      "file": "validation.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/all_integrity_checks_pass",
+      "equals": true
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/no_strict_nonadjacent_self_intersections",
+      "equals": true
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/all_inputs_unchanged",
+      "equals": true
+    },
+    {
+      "file": "previous-version-integrity.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "eye-review/eye-insertion-check.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "eye-review/eye-endpoint-check.json",
+      "pointer": "/pass",
+      "equals": true
+    },
+    {
+      "file": "eye-review/eye-local-intersection-check.json",
+      "pointer": "/new_strict_intersections",
+      "equals": 0
+    },
+    {
+      "file": "eye-review/eye-local-intersection-check.json",
+      "pointer": "/new_ambiguous_contacts",
+      "equals": 0
+    },
+    {
+      "file": "eye-review/eye-local-intersection-check.json",
+      "pointer": "/degenerate_triangles",
+      "equals": 0
+    },
+    {
+      "file": "eye-review/eye-review-summary.json",
+      "pointer": "/all_eye_reports_bind_final_combined_head",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/structural_validation_pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/preservation_audit_pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/both_parts_no_detected_strict_nonadjacent_self_intersections",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/eye_endpoints_pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/continuous_eye_insertion_pass",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/inputs_unchanged_and_final_hashes_rechecked",
+      "equals": true
+    },
+    {
+      "file": "local-quality-review.json",
+      "pointer": "/digital_geometry_assessment/manufacturing_strength_or_minimum_wall_certified",
+      "equals": false
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/final_blend/sha256",
+      "equals_sha256_of": "march7-bjd-head-v0.14-draft.blend"
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/head_stl/sha256",
+      "equals_sha256_of": "march7-head-shell-v0.14-draft.stl"
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/cap_stl/sha256",
+      "equals_sha256_of": "march7-head-cap-v0.14-draft.stl"
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/solution/sha256",
+      "equals_sha256_of": "final-change-solution.npz"
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/eye_solution/sha256",
+      "equals_sha256_of": "eye-postprocess/eye-solution.npz"
+    },
+    {
+      "file": "preservation-report.json",
+      "pointer": "/files/crown_solution/sha256",
+      "equals_sha256_of": "crown-postprocess/crown-solution.npz"
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/parts/head/sha256",
+      "equals_sha256_of": "march7-head-shell-v0.14-draft.stl"
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/parts/head/ambiguous_contact_count",
+      "equals": 0
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/parts/cap/sha256",
+      "equals_sha256_of": "march7-head-cap-v0.14-draft.stl"
+    },
+    {
+      "file": "print-intersection-check.json",
+      "pointer": "/parts/cap/ambiguous_contact_count",
+      "equals": 0
+    }
+  ]
+}

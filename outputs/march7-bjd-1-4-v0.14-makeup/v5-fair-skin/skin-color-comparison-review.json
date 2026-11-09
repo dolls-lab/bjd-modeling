@@ -1,0 +1,224 @@
+{
+  "method": "Same-position 24px-square median RGB in seven unpainted facial patches of identically framed original and BJD renders. Diagnostic for this studio only; geometry/normal differences remain.",
+  "patches": [
+    {
+      "approximate_surface_XZ_mm": [
+        -9,
+        18
+      ],
+      "pixel_center": [
+        387,
+        712
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        188.0,
+        177.0,
+        174.0
+      ],
+      "after_rgb": [
+        190.0,
+        185.0,
+        184.0
+      ],
+      "reference_rgb": [
+        190.0,
+        185.0,
+        184.0
+      ],
+      "before_mean_abs_channel_difference": 6.666666666666667,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        9,
+        18
+      ],
+      "pixel_center": [
+        712,
+        712
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        188.0,
+        177.0,
+        174.0
+      ],
+      "after_rgb": [
+        190.0,
+        185.0,
+        184.0
+      ],
+      "reference_rgb": [
+        190.0,
+        185.0,
+        184.0
+      ],
+      "before_mean_abs_channel_difference": 6.666666666666667,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        -6,
+        14
+      ],
+      "pixel_center": [
+        441,
+        784
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        177.0,
+        165.0,
+        162.0
+      ],
+      "after_rgb": [
+        180.0,
+        174.0,
+        174.0
+      ],
+      "reference_rgb": [
+        180.0,
+        174.0,
+        174.0
+      ],
+      "before_mean_abs_channel_difference": 8.0,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        6,
+        14
+      ],
+      "pixel_center": [
+        658,
+        784
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        179.0,
+        167.0,
+        164.0
+      ],
+      "after_rgb": [
+        181.0,
+        176.0,
+        175.0
+      ],
+      "reference_rgb": [
+        181.0,
+        176.0,
+        175.0
+      ],
+      "before_mean_abs_channel_difference": 7.333333333333333,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        -3,
+        18
+      ],
+      "pixel_center": [
+        495,
+        712
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        186.0,
+        175.0,
+        171.0
+      ],
+      "after_rgb": [
+        189.0,
+        183.0,
+        182.0
+      ],
+      "reference_rgb": [
+        189.0,
+        183.0,
+        182.0
+      ],
+      "before_mean_abs_channel_difference": 7.333333333333333,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        3,
+        18
+      ],
+      "pixel_center": [
+        604,
+        712
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        193.0,
+        183.0,
+        180.0
+      ],
+      "after_rgb": [
+        196.0,
+        190.0,
+        189.0
+      ],
+      "reference_rgb": [
+        196.0,
+        190.0,
+        189.0
+      ],
+      "before_mean_abs_channel_difference": 6.333333333333333,
+      "after_mean_abs_channel_difference": 0.0
+    },
+    {
+      "approximate_surface_XZ_mm": [
+        0,
+        5
+      ],
+      "pixel_center": [
+        550,
+        946
+      ],
+      "sample_size_px": [
+        24,
+        24
+      ],
+      "before_rgb": [
+        169.0,
+        157.0,
+        154.0
+      ],
+      "after_rgb": [
+        172.0,
+        166.0,
+        166.0
+      ],
+      "reference_rgb": [
+        170.0,
+        165.0,
+        164.0
+      ],
+      "before_mean_abs_channel_difference": 6.333333333333333,
+      "after_mean_abs_channel_difference": 1.6666666666666667
+    }
+  ],
+  "mean_difference_before": 6.952380952380953,
+  "mean_difference_after": 0.2380952380952381
+}

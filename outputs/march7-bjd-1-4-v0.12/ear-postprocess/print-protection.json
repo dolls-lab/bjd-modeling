@@ -1,0 +1,21 @@
+{
+  "baseline_blend": "/private/tmp/v12-ear/pre-ear-v12/march7-bjd-head-v0.12-draft.blend",
+  "baseline_blend_sha256": "0b4a088fc8d72fbe75d02f09541070630a5ab1a042a948f1b9b0b3d84796a86d",
+  "vertices": 252695,
+  "free": 9659,
+  "ear_back_free": 5699,
+  "root_scalp_free": 3960,
+  "bounds_mm": [
+    [
+      -27.782543182373047,
+      -5.983633041381836,
+      18.503097534179688
+    ],
+    [
+      27.786937713623047,
+      2.1975479125976562,
+      35.565818786621094
+    ]
+  ],
+  "selection": "Actual print exterior points <=0.65 mm from the semantically classified mother rear-ear/root patch, plus the released narrow shared rim. Jagged groove normals do not create fixed islands. Front/concha and lobe beyond this narrow support remain fixed; deep cavity walls are excluded by distance. Actual support and final feather are recorded as arrays."
+}

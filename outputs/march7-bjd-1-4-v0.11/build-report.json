@@ -1,0 +1,152 @@
+{
+  "version": "v0.11-draft",
+  "source_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "source_face_triangles": 2176,
+  "source_to_mm_scale": 27.47544416498121,
+  "units": "mm",
+  "historical_target_girth_mm": 190.0,
+  "girth_measure_z_mm": 40.49297765452825,
+  "cap_plane_origin_mm": [
+    0.0,
+    14.5,
+    50.0
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "cap_local_axes": {
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      0.0,
+      0.2873478829860687,
+      -0.9578262567520142
+    ],
+    "n": [
+      0.0,
+      0.9578262567520142,
+      0.2873478829860687
+    ]
+  },
+  "eye_centers_mm": [
+    [
+      13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ],
+    [
+      -13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ]
+  ],
+  "eye_nominal_diameter_mm": 16.0,
+  "magnet_centers_mm": [
+    [
+      -16.63362693786621,
+      14.5,
+      50.0
+    ],
+    [
+      16.63362693786621,
+      14.5,
+      50.0
+    ]
+  ],
+  "rear_pin_center_mm": [
+    0.0,
+    11.272168159484863,
+    60.759437561035156
+  ],
+  "neck_center_y_mm": 6.59410659959549,
+  "neck_platform_top_mm": 19.78231979878647,
+  "neck_seat_center_z_mm": 5.082319798786472,
+  "parts": {
+    "PRINT_01_Head_Shell": {
+      "vertices": 255093,
+      "faces": 510138,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 25034.231518779314,
+      "bounds_mm": [
+        55.569480895996094,
+        57.547874450683594,
+        69.71512603759766
+      ]
+    },
+    "PRINT_02_Removable_Cap": {
+      "vertices": 47586,
+      "faces": 95153,
+      "nonmanifold_edges": 0,
+      "volume_mm3": 5220.664401624274,
+      "bounds_mm": [
+        43.810691833496094,
+        21.091440200805664,
+        49.432945251464844
+      ]
+    }
+  },
+  "cleanup": {
+    "PRINT_01_Head_Shell": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 24
+    },
+    "PRINT_02_Removable_Cap": {
+      "duplicate_faces_removed": 0,
+      "microscopic_fragment_faces_removed": 0
+    }
+  },
+  "physical_fit": "Not printed or physically fitted",
+  "unified_mother_surface": {
+    "version": "v0.11-candidate1",
+    "method": "Local scalar-Y cotangent bi-Laplacian minimum bending on accepted v10 mother. X/Z, crown, back, original eyes/nose/mouth/cheek/chin and all original ears fixed. One candidate, no parameter sweep.",
+    "baseline_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.10/mother-surface.npz",
+    "baseline_sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52",
+    "mask_file": "/private/tmp/v11-source/v11-forehead-protection.npz",
+    "mask_sha256": "691a407eb490b85a0d9d5ebc580e1e803dd2c6f6f561cb25809f47e6d1232860",
+    "reference": "Mean of v8 central X0/8mm front profiles after applying same 3mm C2 Z lowering; outer v8 forehead never copied. Reference delta softened by 2.2*tanh(.75*delta/2.2), feathered from |X|8 to20.",
+    "support": {
+      "z_mm": [
+        34,
+        42,
+        55,
+        64
+      ],
+      "lateral_abs_x_mm": [
+        16,
+        24
+      ],
+      "front_y_mm": [
+        -10,
+        -2
+      ],
+      "core_geodesic_feather_mm": 5
+    },
+    "alpha": 0.12,
+    "free_vertices": 4337,
+    "protected_core_vertices": 19797,
+    "protected_ear_vertices": 1834,
+    "released_old_forehead_vertices": 651,
+    "maximum_displacement_mm": 1.7286266461154547,
+    "released_old_forehead_maximum_mm": 0.08982987428331413,
+    "core_maximum_mm": 0.0,
+    "ear_maximum_mm": 0.0,
+    "crown_before_after_z_mm": [
+      69.79233785101658,
+      69.79233785101658
+    ],
+    "X_Z_exactly_unchanged": true,
+    "back_y_ge_0_exactly_unchanged": true,
+    "outer_abs_x_ge_24_exactly_unchanged": true,
+    "maximum_abs_x_ge_20_move_mm": 0.049676808595702227,
+    "minimum_normal_dot": 0.9840328854670964,
+    "normal_rotation_over_90_triangles": 0,
+    "degenerate_triangles": 0,
+    "mother_surface_sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033",
+    "status": "Geometry candidate pending independent self-intersection and actual quarter/side/top review; hollow shell not generated here."
+  }
+}

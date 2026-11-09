@@ -1,0 +1,19 @@
+{
+  "previous_srgb_8bit": [
+    242,
+    213,
+    202
+  ],
+  "previous_hex": "#F2D5CA",
+  "new_srgb_8bit": [
+    250,
+    232,
+    227
+  ],
+  "new_hex": "#FAE8E3",
+  "reference_texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+  "reference_sampling": "Dominant original texture color on anterior cheek vertices with |X|5..14mm, Z12..22mm, Y<-18mm; cross-checked on unpainted jaw and nose sides.",
+  "cheek_vertex_samples": 66,
+  "dominant_sample_count": 50,
+  "adjustment_scope": "Uniform head and cap base color only. Preserve local painted marks, eyeballs, hair, lighting and geometry."
+}

@@ -1,0 +1,296 @@
+{
+  "inputs": {
+    "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a"
+  },
+  "input_hashes_unchanged": true,
+  "head_vertices": 252695,
+  "head_triangles": 505398,
+  "geometry_modified": false,
+  "source_transform": "[PMX X, PMX Z, PMX Y - 18.16621208190918] * 27.47544416498121",
+  "source_material": {
+    "name": "脸",
+    "name_en": "",
+    "start": 2274,
+    "end": 4450,
+    "count": 2176,
+    "texture_index": 0,
+    "diffuse": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "memo": ""
+  },
+  "texture_path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+  "texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+  "uv_convention": "Blender bottom-origin: (u, 1 - raw_pmx_v), flip already applied. Shape (triangle_count,3,2) is final head_triangles corner order.",
+  "mask_convention": "per-corner float 0..1; mix solid skin color at 0 with original texture at 1. Mask only affects material, never alpha or geometry.",
+  "method": "Nearest raw face triangle and barycentric original UV interpolation. Separate original-index connected UV islands for face/ear; mixed-island final triangles use the source island nearest their centroid and reproject their corners within it.",
+  "mask_method": "C2 distance fade 0.7..4.0 mm times source-to-head outward-normal agreement C2 0.05..0.40. Candidate point must be the first surface seen from 10 mm along interpolated source outward normal (tolerance 0.12 mm), excluding hidden inner walls/back-side projection. Failed exact-vertex rays are retried at four 0.001 mm tangential offsets to avoid vertex-hit numerical misses.",
+  "source_uv_islands": [
+    {
+      "island": 0,
+      "triangles": 26,
+      "world_bounds_mm": [
+        [
+          18.439757013636953,
+          -5.624088534041389,
+          15.486223277567733
+        ],
+        [
+          28.064377649518942,
+          1.9604173847545356,
+          31.73918778052655
+        ]
+      ]
+    },
+    {
+      "island": 1,
+      "triangles": 48,
+      "world_bounds_mm": [
+        [
+          18.439757013636953,
+          -5.794977962948646,
+          15.486223277567733
+        ],
+        [
+          28.064377649518942,
+          1.7636287076878614,
+          31.73918778052655
+        ]
+      ]
+    },
+    {
+      "island": 2,
+      "triangles": 26,
+      "world_bounds_mm": [
+        [
+          -28.064377649518942,
+          -5.624088534041389,
+          15.486223277567733
+        ],
+        [
+          -18.439757013636953,
+          1.9604173847545356,
+          31.73918778052655
+        ]
+      ]
+    },
+    {
+      "island": 3,
+      "triangles": 48,
+      "world_bounds_mm": [
+        [
+          -28.064377649518942,
+          -5.794977962948646,
+          15.486223277567733
+        ],
+        [
+          -18.439757013636953,
+          1.7636287076878614,
+          31.73918778052655
+        ]
+      ]
+    },
+    {
+      "island": 4,
+      "triangles": 2028,
+      "world_bounds_mm": [
+        [
+          -26.0325212630202,
+          -33.79090575710274,
+          0.0
+        ],
+        [
+          26.0325212630202,
+          1.7250013295168412,
+          60.44977130312121
+        ]
+      ]
+    }
+  ],
+  "mixed_island_head_triangles": 5620,
+  "ray_retry": {
+    "offset_mm": 0.001,
+    "attempted_vertices": 2510,
+    "recovered_vertices": 145,
+    "recovered_ids": [
+      2293,
+      3504,
+      7010,
+      17714,
+      17744,
+      48055,
+      48070,
+      48076,
+      48077,
+      48084,
+      48118,
+      48166,
+      49479,
+      49482,
+      49544,
+      52284,
+      55217,
+      56035,
+      56274,
+      56370,
+      56425,
+      58806,
+      61990,
+      62086,
+      62346,
+      62618,
+      62845,
+      62945,
+      63863,
+      65187,
+      65518,
+      66914,
+      67521,
+      72735,
+      73752,
+      75481,
+      75593,
+      75751,
+      77124,
+      78413,
+      79282,
+      79284,
+      79396,
+      81983,
+      82005,
+      83776,
+      86151,
+      88952,
+      89124,
+      89321,
+      89362,
+      89553,
+      89565,
+      91315,
+      91614,
+      91624,
+      91625,
+      95891,
+      97729,
+      98456,
+      100563,
+      101027,
+      101101,
+      101137,
+      103690,
+      104145,
+      105400,
+      105405,
+      105715,
+      111371,
+      111771,
+      113167,
+      113553,
+      115353,
+      137444,
+      138022,
+      145288,
+      174795,
+      176255,
+      176812,
+      179677,
+      181421,
+      181437,
+      185966,
+      186188,
+      186192,
+      186966,
+      187199,
+      190327,
+      192253,
+      192438,
+      192630,
+      194753,
+      196800,
+      197785,
+      199675,
+      200582,
+      201053,
+      201143,
+      201572,
+      201595,
+      201676,
+      201693,
+      201699,
+      201713,
+      202079,
+      204204,
+      204255,
+      204663,
+      204864,
+      204865,
+      204875,
+      205241,
+      205246,
+      205297,
+      205298,
+      205320,
+      205321,
+      205429,
+      205609,
+      206914,
+      212380,
+      212500,
+      216095,
+      216481,
+      216720,
+      217403,
+      217815,
+      218226,
+      233598,
+      233623,
+      233641,
+      233718,
+      234470,
+      234599,
+      235876,
+      244905,
+      245257,
+      246058,
+      246133,
+      246181,
+      246227,
+      246453,
+      247403,
+      248573
+    ]
+  },
+  "mask_counts": {
+    "positive_vertices": 89276,
+    "weight_gt0p99": 69491,
+    "normal_backfacing_positive": 0,
+    "occluded_positive": 0,
+    "back_y_gt4_positive": 274,
+    "distance_ge4_positive": 0
+  },
+  "skin_base_linear_rgb": [
+    0.8879232508413973,
+    0.6653874228050042,
+    0.5906189613800338
+  ],
+  "skin_base_srgb_rgb": [
+    0.9490196704864502,
+    0.8352941870689392,
+    0.7921569347381592
+  ],
+  "skin_sample": "Median original forehead UV u=.43..57, v_blender=.77..82, 8-bit PNG buffer independently verified equal to PIL encoded sRGB; explicitly decoded by IEC sRGB transfer function for shader socket.",
+  "limitations": [
+    "Preview-only appearance transfer, not printer color data.",
+    "Reconstructed cranial surfaces do not possess original PMX facial UV; they fade to matched skin.",
+    "Original eyebrows and eyelashes are separate source geometry and should be displayed separately, not baked into this face material.",
+    "Ray visibility is directional and a conservative material mask; it is not a global geometric visibility proof.",
+    "Original game shading is not reproduced by this UV transfer."
+  ],
+  "duration_seconds": 5.924880743026733
+}

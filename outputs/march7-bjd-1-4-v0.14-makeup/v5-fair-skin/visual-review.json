@@ -1,0 +1,10 @@
+{
+  "reviewed_images": [
+    "skin-tone-comparison.png",
+    "new-original-overall.png"
+  ],
+  "visual_result": "Front and quarter views show a lighter, less yellow BJD skin tone, closer to the original PMX face rendered in the same studio. Existing eye shading differences are visible and retained.",
+  "verified_scope": "Only head and removable-cap uniform skin base changed; six mesh/UV fingerprints and all packed textures unchanged.",
+  "reference": "Local original PMX rerender in Blender, not an in-game screenshot.",
+  "provenance_hash_checks_passed": true
+}

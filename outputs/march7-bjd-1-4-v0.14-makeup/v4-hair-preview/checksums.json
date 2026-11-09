@@ -1,0 +1,122 @@
+{
+  "README.md": {
+    "bytes": 1236,
+    "sha256": "0eab7703c43eaa5b6b591ecb75d69a2e47e4b03d0da5380dc9b82f10b3667568"
+  },
+  "add_original_hair.py": {
+    "bytes": 5951,
+    "sha256": "b15e6051c8bff9069047f451411ee773035fdb1a5cbbe60b1fef426c1e10121a"
+  },
+  "assemble_hair_views.py": {
+    "bytes": 1982,
+    "sha256": "04c8cacedea34b0f731f374bb1967d660d0e65793ce16c3b772b23df0042e6b6"
+  },
+  "board-provenance.json": {
+    "bytes": 1277,
+    "sha256": "257337d0533566a8ce3b2fddba1be6c532988ee53695a6b1e59fdfba68022428"
+  },
+  "hair-preview-report.json": {
+    "bytes": 2761,
+    "sha256": "db7bd0be303b193507bd0064e2ae97b2e4bbfa3049d0b430700cfd557a2f2264"
+  },
+  "march7-v14-pale-skin-original-hair.blend": {
+    "bytes": 27007087,
+    "sha256": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8"
+  },
+  "original-comparison/README.md": {
+    "bytes": 1463,
+    "sha256": "ae2c43d743cbb50a3587d7e6fe27cb74662822c799cda4fd9e92f30b9b678a49"
+  },
+  "original-comparison/assemble_comparisons.py": {
+    "bytes": 2280,
+    "sha256": "9f8cadc046fb1878185765160681e5a9fb352e8e92a293648680c0bd0b2bfece"
+  },
+  "original-comparison/board-provenance.json": {
+    "bytes": 3189,
+    "sha256": "30ff703b5237ba4b0a7e08da074859cd73cae8cd4dcf9d532a4a22a42ecdb2a6"
+  },
+  "original-comparison/comparison-provenance.json": {
+    "bytes": 7936,
+    "sha256": "3d8b2bf8a6b02c02a65fc49ffb5469cd6914f7974a3efcb3c464cd782d867438"
+  },
+  "original-comparison/face-comparison.png": {
+    "bytes": 1342945,
+    "sha256": "2a26a1b9ae1dd668849b37ecaf2087fdbbff2bf616afa29879f0322d126ee2f9"
+  },
+  "original-comparison/original-face-front.png": {
+    "bytes": 1361095,
+    "sha256": "b6f74c81f00327850664eb92c167902198cfab8ebed92fc8df4cecd945b38364"
+  },
+  "original-comparison/original-face-quarter.png": {
+    "bytes": 1348325,
+    "sha256": "32aa006375e448267e4f6e9a097d4d71d8b25efdd178bc4b707eb0720726484a"
+  },
+  "original-comparison/original-front.png": {
+    "bytes": 1331063,
+    "sha256": "b22e725f6d060b37ab5e34bffac9ef135d5a8bba823cbad24e3fbeadf6ee33cc"
+  },
+  "original-comparison/original-quarter-left.png": {
+    "bytes": 1314728,
+    "sha256": "aa752cd5aebad7a0ffefdcd383b5e67155329d72ee0836b8da54fa6a60b9c11e"
+  },
+  "original-comparison/original-side.png": {
+    "bytes": 1282029,
+    "sha256": "07385d387363ffe59ae3a63993fd2ee3d4f63582ba3db163e9818a7e613c56fc"
+  },
+  "original-comparison/overall-comparison.png": {
+    "bytes": 879232,
+    "sha256": "618358740886f13e6d7da2c66e0da40083a93f8bc6664af51732b4741a1cea17"
+  },
+  "original-comparison/profile-comparison.png": {
+    "bytes": 402857,
+    "sha256": "ed2b7dec267bb9a74e7ff62972c653121ae088ecb295bce836f3b52c37b026d8"
+  },
+  "original-comparison/render_original_comparison.py": {
+    "bytes": 5735,
+    "sha256": "32a6fe035164cbf9b04bb855d1ac579e93dfa646acac18623c8916014d66b272"
+  },
+  "original-comparison/visual-review.json": {
+    "bytes": 475,
+    "sha256": "f214d6e9bb34ba58564ab6196f0a9a14fc8c2a184bee1c8fb99d6e1e9eac305a"
+  },
+  "original-hair-face-closeups.png": {
+    "bytes": 842668,
+    "sha256": "8bef3eedf2d8f0d55d92ab77ef352fc517bc287f06d0116e9402ad3e3511ce19"
+  },
+  "original-hair-multiview.png": {
+    "bytes": 1117835,
+    "sha256": "f932751cd22ac9a239399db06659183e825ba2d4203859c2055643a163fb877c"
+  },
+  "previews/face-front.png": {
+    "bytes": 1359749,
+    "sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff"
+  },
+  "previews/face-quarter.png": {
+    "bytes": 1344690,
+    "sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08"
+  },
+  "previews/front.png": {
+    "bytes": 1330899,
+    "sha256": "2a87f3374bb7a5aeb06425a99df497a0d8f23710b4908a89e137b78005b5e659"
+  },
+  "previews/quarter-left.png": {
+    "bytes": 1313831,
+    "sha256": "03a854f7a6634bf144c8eba0e049e358e002b6aef85f0c809dad35efa462c393"
+  },
+  "previews/quarter-right.png": {
+    "bytes": 1316153,
+    "sha256": "29af403f43bbb08893f509a860c6970386b13ddaaf2fb5f996b779e2fff7b3b7"
+  },
+  "previews/side.png": {
+    "bytes": 1280450,
+    "sha256": "18409a92bd928a490226916e52daec1ceb5c1f3532c5d47452d020bbd3d87739"
+  },
+  "render-provenance.json": {
+    "bytes": 2123,
+    "sha256": "23d72f77f0c68fad85daed946a8f0160c883f89940eeb1ba953002f37b0ded15"
+  },
+  "visual-review.json": {
+    "bytes": 515,
+    "sha256": "b844971837a20a958ea218273edb5729fa3f57ada9dea5a5400aa2084766e3b0"
+  }
+}

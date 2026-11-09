@@ -1,0 +1,1849 @@
+{
+  "head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "eye_npz_sha256": "32ba6b9bf68c55bcd209e2a5c1c7e3e02789909c312a5222accfa5afe17d355a",
+  "method": "Actual head rays only to raw outer-rim membrane +0.1 mm; geometric sphere/hemisphere projected coverage, not collision or wall-occlusion validation. Separate central subset >=0.3mm from projected raw rim.",
+  "results": [
+    {
+      "view": "front",
+      "eye": "negative",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            -13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            -13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            -13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.960629681475621,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.623103658452185,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.281644955734339,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 6.978032761372038,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.778940052380487,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.475459604328001,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.281644955734339,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 6.978032761372038,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32664,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.778940052380487,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28865,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.475459604328001,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "front",
+      "eye": "positive",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.9535327302883845,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 5.637770918699193,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.270402225488582,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 6.9664770559005404,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.76654321067173,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.462723865535342,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.270402225488582,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 6.9664770559005404,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 32666,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.76654321067173,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 28874,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.462723865535342,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_negative34",
+      "eye": "negative",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            -13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 9878,
+              "required_radius_mm": 11.518156708295544,
+              "max_deficit_mm": 3.5181567082955443,
+              "hemisphere_miss_outward0": 9878,
+              "hemisphere_miss_outward20": 9878,
+              "hemisphere_miss_outward30": 9878
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 8344,
+              "required_radius_mm": 11.223476964374772,
+              "max_deficit_mm": 3.223476964374772,
+              "hemisphere_miss_outward0": 8344,
+              "hemisphere_miss_outward20": 8344,
+              "hemisphere_miss_outward30": 8344
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            -13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 9572,
+              "required_radius_mm": 11.434622967086336,
+              "max_deficit_mm": 3.4346229670863355,
+              "hemisphere_miss_outward0": 9572,
+              "hemisphere_miss_outward20": 9572,
+              "hemisphere_miss_outward30": 9572
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 8059,
+              "required_radius_mm": 11.14006268388834,
+              "max_deficit_mm": 3.14006268388834,
+              "hemisphere_miss_outward0": 8059,
+              "hemisphere_miss_outward20": 8059,
+              "hemisphere_miss_outward30": 8059
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 7820,
+              "required_radius_mm": 10.961801772783097,
+              "max_deficit_mm": 2.9618017727830974,
+              "hemisphere_miss_outward0": 7820,
+              "hemisphere_miss_outward20": 7820,
+              "hemisphere_miss_outward30": 7820
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 6434,
+              "required_radius_mm": 10.667968530876033,
+              "max_deficit_mm": 2.667968530876033,
+              "hemisphere_miss_outward0": 6434,
+              "hemisphere_miss_outward20": 6434,
+              "hemisphere_miss_outward30": 6434
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            -13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 6803,
+              "required_radius_mm": 10.684131116209178,
+              "max_deficit_mm": 2.684131116209178,
+              "hemisphere_miss_outward0": 6803,
+              "hemisphere_miss_outward20": 6803,
+              "hemisphere_miss_outward30": 6803
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 5498,
+              "required_radius_mm": 10.390769403985775,
+              "max_deficit_mm": 2.390769403985775,
+              "hemisphere_miss_outward0": 5498,
+              "hemisphere_miss_outward20": 5498,
+              "hemisphere_miss_outward30": 5498
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 5815,
+              "required_radius_mm": 10.40683440483388,
+              "max_deficit_mm": 2.40683440483388,
+              "hemisphere_miss_outward0": 5815,
+              "hemisphere_miss_outward20": 5815,
+              "hemisphere_miss_outward30": 5815
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 4602,
+              "required_radius_mm": 10.113980920319152,
+              "max_deficit_mm": 2.113980920319152,
+              "hemisphere_miss_outward0": 4602,
+              "hemisphere_miss_outward20": 4602,
+              "hemisphere_miss_outward30": 4602
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 5960,
+              "required_radius_mm": 10.961801772783097,
+              "max_deficit_mm": 2.4618017727830974,
+              "hemisphere_miss_outward0": 5960,
+              "hemisphere_miss_outward20": 5960,
+              "hemisphere_miss_outward30": 5960
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 4749,
+              "required_radius_mm": 10.667968530876033,
+              "max_deficit_mm": 2.167968530876033,
+              "hemisphere_miss_outward0": 4749,
+              "hemisphere_miss_outward20": 4749,
+              "hemisphere_miss_outward30": 4749
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 714,
+              "required_radius_mm": 9.16812941861311,
+              "max_deficit_mm": 0.6681294186131108,
+              "hemisphere_miss_outward0": 714,
+              "hemisphere_miss_outward20": 714,
+              "hemisphere_miss_outward30": 714
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 260,
+              "required_radius_mm": 8.875835195610488,
+              "max_deficit_mm": 0.37583519561048817,
+              "hemisphere_miss_outward0": 260,
+              "hemisphere_miss_outward20": 260,
+              "hemisphere_miss_outward30": 260
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 108,
+              "required_radius_mm": 8.755317386477675,
+              "max_deficit_mm": 0.25531738647767455,
+              "hemisphere_miss_outward0": 108,
+              "hemisphere_miss_outward20": 108,
+              "hemisphere_miss_outward30": 108
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.463249049463307,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 43,
+              "required_radius_mm": 9.16812941861311,
+              "max_deficit_mm": 0.16812941861311081,
+              "hemisphere_miss_outward0": 43,
+              "hemisphere_miss_outward20": 43,
+              "hemisphere_miss_outward30": 43
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.875835195610488,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.755317386477675,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 29586,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.463249049463307,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_negative34",
+      "eye": "positive",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 2238,
+              "required_radius_mm": 9.158493345737277,
+              "max_deficit_mm": 1.158493345737277,
+              "hemisphere_miss_outward0": 2238,
+              "hemisphere_miss_outward20": 2238,
+              "hemisphere_miss_outward30": 2238
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 1256,
+              "required_radius_mm": 8.85454849381337,
+              "max_deficit_mm": 0.8545484938133701,
+              "hemisphere_miss_outward0": 1256,
+              "hemisphere_miss_outward20": 1256,
+              "hemisphere_miss_outward30": 1256
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 1939,
+              "required_radius_mm": 9.077654558178615,
+              "max_deficit_mm": 1.0776545581786152,
+              "hemisphere_miss_outward0": 1939,
+              "hemisphere_miss_outward20": 1939,
+              "hemisphere_miss_outward30": 1939
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 1083,
+              "required_radius_mm": 8.773744414972397,
+              "max_deficit_mm": 0.7737444149723967,
+              "hemisphere_miss_outward0": 1083,
+              "hemisphere_miss_outward20": 1083,
+              "hemisphere_miss_outward30": 1083
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 859,
+              "required_radius_mm": 8.621221161787838,
+              "max_deficit_mm": 0.6212211617878385,
+              "hemisphere_miss_outward0": 859,
+              "hemisphere_miss_outward20": 859,
+              "hemisphere_miss_outward30": 859
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 326,
+              "required_radius_mm": 8.317580803789818,
+              "max_deficit_mm": 0.31758080378981823,
+              "hemisphere_miss_outward0": 326,
+              "hemisphere_miss_outward20": 326,
+              "hemisphere_miss_outward30": 326
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 400,
+              "required_radius_mm": 8.354232521426516,
+              "max_deficit_mm": 0.35423252142651585,
+              "hemisphere_miss_outward0": 400,
+              "hemisphere_miss_outward20": 400,
+              "hemisphere_miss_outward30": 400
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 25,
+              "required_radius_mm": 8.052525043009098,
+              "max_deficit_mm": 0.05252504300909777,
+              "hemisphere_miss_outward0": 25,
+              "hemisphere_miss_outward20": 25,
+              "hemisphere_miss_outward30": 25
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 58,
+              "required_radius_mm": 8.091008006309599,
+              "max_deficit_mm": 0.0910080063095986,
+              "hemisphere_miss_outward0": 58,
+              "hemisphere_miss_outward20": 58,
+              "hemisphere_miss_outward30": 58
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.797475229245312,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 84,
+              "required_radius_mm": 8.621221161787838,
+              "max_deficit_mm": 0.12122116178783848,
+              "hemisphere_miss_outward0": 84,
+              "hemisphere_miss_outward20": 84,
+              "hemisphere_miss_outward30": 84
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.317580803789818,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 1206,
+              "required_radius_mm": 9.309850577211108,
+              "max_deficit_mm": 0.8098505772111082,
+              "hemisphere_miss_outward0": 1206,
+              "hemisphere_miss_outward20": 1206,
+              "hemisphere_miss_outward30": 1206
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 593,
+              "required_radius_mm": 9.006196417181469,
+              "max_deficit_mm": 0.506196417181469,
+              "hemisphere_miss_outward0": 593,
+              "hemisphere_miss_outward20": 593,
+              "hemisphere_miss_outward30": 593
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 2199,
+              "required_radius_mm": 9.718075675870477,
+              "max_deficit_mm": 1.2180756758704767,
+              "hemisphere_miss_outward0": 2199,
+              "hemisphere_miss_outward20": 2199,
+              "hemisphere_miss_outward30": 2199
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 1341,
+              "required_radius_mm": 9.414309065042124,
+              "max_deficit_mm": 0.914309065042124,
+              "hemisphere_miss_outward0": 1341,
+              "hemisphere_miss_outward20": 1341,
+              "hemisphere_miss_outward30": 1341
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 319,
+              "required_radius_mm": 9.309850577211108,
+              "max_deficit_mm": 0.3098505772111082,
+              "hemisphere_miss_outward0": 319,
+              "hemisphere_miss_outward20": 319,
+              "hemisphere_miss_outward30": 319
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 2,
+              "required_radius_mm": 9.006196417181469,
+              "max_deficit_mm": 0.006196417181469016,
+              "hemisphere_miss_outward0": 2,
+              "hemisphere_miss_outward20": 2,
+              "hemisphere_miss_outward30": 2
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19319,
+              "full_sphere_miss": 1015,
+              "required_radius_mm": 9.718075675870477,
+              "max_deficit_mm": 0.7180756758704767,
+              "hemisphere_miss_outward0": 1015,
+              "hemisphere_miss_outward20": 1015,
+              "hemisphere_miss_outward30": 1015
+            },
+            "central": {
+              "rays": 16398,
+              "full_sphere_miss": 451,
+              "required_radius_mm": 9.414309065042124,
+              "max_deficit_mm": 0.41430906504212395,
+              "hemisphere_miss_outward0": 451,
+              "hemisphere_miss_outward20": 451,
+              "hemisphere_miss_outward30": 451
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_positive34",
+      "eye": "negative",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            -13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 2238,
+              "required_radius_mm": 9.155679648457767,
+              "max_deficit_mm": 1.1556796484577667,
+              "hemisphere_miss_outward0": 2238,
+              "hemisphere_miss_outward20": 2238,
+              "hemisphere_miss_outward30": 2238
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 1254,
+              "required_radius_mm": 8.861876533778682,
+              "max_deficit_mm": 0.8618765337786822,
+              "hemisphere_miss_outward0": 1254,
+              "hemisphere_miss_outward20": 1254,
+              "hemisphere_miss_outward30": 1254
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            -13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 1942,
+              "required_radius_mm": 9.074842594315953,
+              "max_deficit_mm": 1.0748425943159532,
+              "hemisphere_miss_outward0": 1942,
+              "hemisphere_miss_outward20": 1942,
+              "hemisphere_miss_outward30": 1942
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 1081,
+              "required_radius_mm": 8.781228589369936,
+              "max_deficit_mm": 0.7812285893699364,
+              "hemisphere_miss_outward0": 1081,
+              "hemisphere_miss_outward20": 1081,
+              "hemisphere_miss_outward30": 1081
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 860,
+              "required_radius_mm": 8.618420172313275,
+              "max_deficit_mm": 0.6184201723132752,
+              "hemisphere_miss_outward0": 860,
+              "hemisphere_miss_outward20": 860,
+              "hemisphere_miss_outward30": 860
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 325,
+              "required_radius_mm": 8.326005194007807,
+              "max_deficit_mm": 0.3260051940078075,
+              "hemisphere_miss_outward0": 325,
+              "hemisphere_miss_outward20": 325,
+              "hemisphere_miss_outward30": 325
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            -13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 401,
+              "required_radius_mm": 8.351456239286689,
+              "max_deficit_mm": 0.3514562392866889,
+              "hemisphere_miss_outward0": 401,
+              "hemisphere_miss_outward20": 401,
+              "hemisphere_miss_outward30": 401
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 25,
+              "required_radius_mm": 8.059782466921085,
+              "max_deficit_mm": 0.05978246692108513,
+              "hemisphere_miss_outward0": 25,
+              "hemisphere_miss_outward20": 25,
+              "hemisphere_miss_outward30": 25
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 58,
+              "required_radius_mm": 8.094341187362915,
+              "max_deficit_mm": 0.09434118736291452,
+              "hemisphere_miss_outward0": 58,
+              "hemisphere_miss_outward20": 58,
+              "hemisphere_miss_outward30": 58
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 7.794857879157194,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            -13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 81,
+              "required_radius_mm": 8.618420172313275,
+              "max_deficit_mm": 0.11842017231327517,
+              "hemisphere_miss_outward0": 81,
+              "hemisphere_miss_outward20": 81,
+              "hemisphere_miss_outward30": 81
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.326005194007807,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 1209,
+              "required_radius_mm": 9.30704913903952,
+              "max_deficit_mm": 0.8070491390395205,
+              "hemisphere_miss_outward0": 1209,
+              "hemisphere_miss_outward20": 1209,
+              "hemisphere_miss_outward30": 1209
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 597,
+              "required_radius_mm": 9.014565642050375,
+              "max_deficit_mm": 0.5145656420503748,
+              "hemisphere_miss_outward0": 597,
+              "hemisphere_miss_outward20": 597,
+              "hemisphere_miss_outward30": 597
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 2197,
+              "required_radius_mm": 9.71527000346951,
+              "max_deficit_mm": 1.2152700034695094,
+              "hemisphere_miss_outward0": 2197,
+              "hemisphere_miss_outward20": 2197,
+              "hemisphere_miss_outward30": 2197
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 1336,
+              "required_radius_mm": 9.422319730314728,
+              "max_deficit_mm": 0.9223197303147277,
+              "hemisphere_miss_outward0": 1336,
+              "hemisphere_miss_outward20": 1336,
+              "hemisphere_miss_outward30": 1336
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 321,
+              "required_radius_mm": 9.30704913903952,
+              "max_deficit_mm": 0.30704913903952047,
+              "hemisphere_miss_outward0": 321,
+              "hemisphere_miss_outward20": 321,
+              "hemisphere_miss_outward30": 321
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 3,
+              "required_radius_mm": 9.014565642050375,
+              "max_deficit_mm": 0.014565642050374805,
+              "hemisphere_miss_outward0": 3,
+              "hemisphere_miss_outward20": 3,
+              "hemisphere_miss_outward30": 3
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            -11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 19320,
+              "full_sphere_miss": 1015,
+              "required_radius_mm": 9.71527000346951,
+              "max_deficit_mm": 0.7152700034695094,
+              "hemisphere_miss_outward0": 1015,
+              "hemisphere_miss_outward20": 1015,
+              "hemisphere_miss_outward30": 1015
+            },
+            "central": {
+              "rays": 16401,
+              "full_sphere_miss": 449,
+              "required_radius_mm": 9.422319730314728,
+              "max_deficit_mm": 0.4223197303147277,
+              "hemisphere_miss_outward0": 449,
+              "hemisphere_miss_outward20": 449,
+              "hemisphere_miss_outward30": 449
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_positive34",
+      "eye": "positive",
+      "pitch_mm": 0.05,
+      "candidates": [
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0,
+          "center_mm": [
+            13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 9884,
+              "required_radius_mm": 11.50411980797002,
+              "max_deficit_mm": 3.504119807970021,
+              "hemisphere_miss_outward0": 9884,
+              "hemisphere_miss_outward20": 9884,
+              "hemisphere_miss_outward30": 9884
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 8356,
+              "required_radius_mm": 11.250782687734644,
+              "max_deficit_mm": 3.2507826877346435,
+              "hemisphere_miss_outward0": 8356,
+              "hemisphere_miss_outward20": 8356,
+              "hemisphere_miss_outward30": 8356
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 0.15,
+          "center_mm": [
+            13.663962920147602,
+            -13.439332231246029,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 9568,
+              "required_radius_mm": 11.42066594157221,
+              "max_deficit_mm": 3.42066594157221,
+              "hemisphere_miss_outward0": 9568,
+              "hemisphere_miss_outward20": 9568,
+              "hemisphere_miss_outward30": 9568
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 8060,
+              "required_radius_mm": 11.167283865695163,
+              "max_deficit_mm": 3.167283865695163,
+              "hemisphere_miss_outward0": 8060,
+              "hemisphere_miss_outward20": 8060,
+              "hemisphere_miss_outward30": 8060
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 7825,
+              "required_radius_mm": 10.948321045120483,
+              "max_deficit_mm": 2.9483210451204833,
+              "hemisphere_miss_outward0": 7825,
+              "hemisphere_miss_outward20": 7825,
+              "hemisphere_miss_outward30": 7825
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 6442,
+              "required_radius_mm": 10.694684253763944,
+              "max_deficit_mm": 2.6946842537639437,
+              "hemisphere_miss_outward0": 6442,
+              "hemisphere_miss_outward20": 6442,
+              "hemisphere_miss_outward30": 6442
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1.5,
+          "center_mm": [
+            13.663962920147602,
+            -14.789332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 6809,
+              "required_radius_mm": 10.670950839103673,
+              "max_deficit_mm": 2.670950839103673,
+              "hemisphere_miss_outward0": 6809,
+              "hemisphere_miss_outward20": 6809,
+              "hemisphere_miss_outward30": 6809
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 5506,
+              "required_radius_mm": 10.417165109392064,
+              "max_deficit_mm": 2.417165109392064,
+              "hemisphere_miss_outward0": 5506,
+              "hemisphere_miss_outward20": 5506,
+              "hemisphere_miss_outward30": 5506
+            }
+          }
+        },
+        {
+          "R_mm": 8,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 2,
+          "center_mm": [
+            13.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 5810,
+              "required_radius_mm": 10.393971085818677,
+              "max_deficit_mm": 2.393971085818677,
+              "hemisphere_miss_outward0": 5810,
+              "hemisphere_miss_outward20": 5810,
+              "hemisphere_miss_outward30": 5810
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 4597,
+              "required_radius_mm": 10.140038045475485,
+              "max_deficit_mm": 2.1400380454754853,
+              "hemisphere_miss_outward0": 4597,
+              "hemisphere_miss_outward20": 4597,
+              "hemisphere_miss_outward30": 4597
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 0,
+          "front_shift_mm": 1,
+          "center_mm": [
+            13.663962920147602,
+            -14.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 5964,
+              "required_radius_mm": 10.948321045120483,
+              "max_deficit_mm": 2.4483210451204833,
+              "hemisphere_miss_outward0": 5964,
+              "hemisphere_miss_outward20": 5964,
+              "hemisphere_miss_outward30": 5964
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 4753,
+              "required_radius_mm": 10.694684253763944,
+              "max_deficit_mm": 2.1946842537639437,
+              "hemisphere_miss_outward0": 4753,
+              "hemisphere_miss_outward20": 4753,
+              "hemisphere_miss_outward30": 4753
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 713,
+              "required_radius_mm": 9.155598226805086,
+              "max_deficit_mm": 0.6555982268050862,
+              "hemisphere_miss_outward0": 713,
+              "hemisphere_miss_outward20": 713,
+              "hemisphere_miss_outward30": 713
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 256,
+              "required_radius_mm": 8.901518232657898,
+              "max_deficit_mm": 0.40151823265789766,
+              "hemisphere_miss_outward0": 256,
+              "hemisphere_miss_outward20": 256,
+              "hemisphere_miss_outward30": 256
+            }
+          }
+        },
+        {
+          "R_mm": 8.5,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 99,
+              "required_radius_mm": 8.742917942114103,
+              "max_deficit_mm": 0.24291794211410256,
+              "hemisphere_miss_outward0": 99,
+              "hemisphere_miss_outward20": 99,
+              "hemisphere_miss_outward30": 99
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.488782747827203,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 1.5,
+          "front_shift_mm": 2,
+          "center_mm": [
+            12.163962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 43,
+              "required_radius_mm": 9.155598226805086,
+              "max_deficit_mm": 0.15559822680508617,
+              "hemisphere_miss_outward0": 43,
+              "hemisphere_miss_outward20": 43,
+              "hemisphere_miss_outward30": 43
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.901518232657898,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        },
+        {
+          "R_mm": 9,
+          "nasal_shift_mm": 2,
+          "front_shift_mm": 2,
+          "center_mm": [
+            11.663962920147602,
+            -15.289332231246028,
+            27.67311677124019
+          ],
+          "metrics": {
+            "window": {
+              "rays": 33290,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.742917942114103,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            },
+            "central": {
+              "rays": 29596,
+              "full_sphere_miss": 0,
+              "required_radius_mm": 8.488782747827203,
+              "max_deficit_mm": 0.0,
+              "hemisphere_miss_outward0": 0,
+              "hemisphere_miss_outward20": 0,
+              "hemisphere_miss_outward30": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

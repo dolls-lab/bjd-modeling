@@ -1,0 +1,1801 @@
+{
+  "comparison": "Original PMX face material directly versus final v13 actual PRINT STL",
+  "units": "mm",
+  "files": {
+    "pmx": {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+      "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc"
+    },
+    "head_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-head-shell-v0.13-draft.stl",
+      "sha256": "a382b257380f066a1e616298d869e88a5f6c39ffa208c962383c3db8949b6c9d"
+    },
+    "blend_identity_only": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-bjd-head-v0.13-draft.blend",
+      "sha256": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56"
+    }
+  },
+  "source_material": {
+    "name": "脸",
+    "name_en": "",
+    "start": 2274,
+    "end": 4450,
+    "count": 2176,
+    "texture_index": 0,
+    "diffuse": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "memo": ""
+  },
+  "source_welded_vertices": 1173,
+  "source_triangles": 2176,
+  "current_triangles": 505398,
+  "fixed_transform": {
+    "formula": "[sourceX, sourceZ, sourceY - 18.16621208190918] * 27.47544416498121",
+    "scale_mm": 27.47544416498121,
+    "offset_sourceY": 18.16621208190918,
+    "fit_or_registration_performed": false
+  },
+  "area_samples": {
+    "count": 63289,
+    "maximum_mean_area_per_sample_mm2": 0.08,
+    "seed": 73113,
+    "total_original_material_area_mm2": 4965.753938114289,
+    "weighting": "Each triangle contributes its exact area divided among its deterministic samples; region medians/p95 are area-weighted, maxima are sampled."
+  },
+  "source_to_final_surface": {
+    "all_original_face_material_including_ears": {
+      "source_surface_area_weighted": {
+        "count": 63289,
+        "mean_mm": 0.8911202752623397,
+        "median_mm": 0.11795682717926327,
+        "p95_mm": 4.341313738050651,
+        "max_mm": 6.318318843841553,
+        "sample_weight_sum": 4965.753938114288
+      },
+      "source_vertices": {
+        "count": 1173,
+        "mean_mm": 0.34109887869222605,
+        "median_mm": 0.07845080643892288,
+        "p95_mm": 1.888047981262207,
+        "max_mm": 6.3267951011657715,
+        "sample_weight_sum": 1173.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 6.3267951011657715,
+      "source_samples_bounds_mm": [
+        [
+          -28.013281679059336,
+          -33.72317505326188,
+          0.017858025535924856
+        ],
+        [
+          28.056773699736873,
+          1.9541477289691787,
+          60.42271669766463
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 168,
+          "source_point_mm": [
+            20.645180612972826,
+            -20.587936617971287,
+            57.55135823239463
+          ],
+          "closest_final_surface_mm": [
+            16.502702713012695,
+            -17.175251007080078,
+            54.217498779296875
+          ],
+          "nearest_distance_mm": 6.318318843841553
+        },
+        {
+          "source_triangle": 1545,
+          "source_point_mm": [
+            -20.08937136082736,
+            -20.984929550275528,
+            57.66390620727263
+          ],
+          "closest_final_surface_mm": [
+            -16.0592098236084,
+            -17.550203323364258,
+            54.379638671875
+          ],
+          "nearest_distance_mm": 6.231048107147217
+        },
+        {
+          "source_triangle": 465,
+          "source_point_mm": [
+            20.54496654944139,
+            -20.728023322285107,
+            57.356427848293876
+          ],
+          "closest_final_surface_mm": [
+            16.46521759033203,
+            -17.342864990234375,
+            54.09204864501953
+          ],
+          "nearest_distance_mm": 6.22573709487915
+        },
+        {
+          "source_triangle": 1249,
+          "source_point_mm": [
+            -20.95629352299788,
+            -20.24626387286878,
+            57.32859873620296
+          ],
+          "closest_final_surface_mm": [
+            -16.7759952545166,
+            -16.93626594543457,
+            54.11762619018555
+          ],
+          "nearest_distance_mm": 6.224252223968506
+        },
+        {
+          "source_triangle": 1249,
+          "source_point_mm": [
+            -20.93096888682362,
+            -20.29057016558474,
+            57.301535874762706
+          ],
+          "closest_final_surface_mm": [
+            -16.76436424255371,
+            -16.981233596801758,
+            54.0864143371582
+          ],
+          "nearest_distance_mm": 6.216857433319092
+        }
+      ]
+    },
+    "principal_front_face_below_Z35": {
+      "source_surface_area_weighted": {
+        "count": 31079,
+        "mean_mm": 0.06925505216368295,
+        "median_mm": 0.03243527747327243,
+        "p95_mm": 0.2669047882392109,
+        "max_mm": 1.2700319290161133,
+        "sample_weight_sum": 2408.096764287957
+      },
+      "source_vertices": {
+        "count": 905,
+        "mean_mm": 0.09049410049979867,
+        "median_mm": 0.05966343358159065,
+        "p95_mm": 0.25732069462537766,
+        "max_mm": 1.0073996782302856,
+        "sample_weight_sum": 905.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 1.2700319290161133,
+      "source_samples_bounds_mm": [
+        [
+          -23.99814332638862,
+          -33.72317505326188,
+          0.017858025535924856
+        ],
+        [
+          23.99958094985348,
+          -6.000039208286092,
+          34.99758181433082
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 2093,
+          "source_point_mm": [
+            -23.914104810489885,
+            -19.22437445132191,
+            34.99723622185901
+          ],
+          "closest_final_surface_mm": [
+            -22.75208282470703,
+            -18.713022232055664,
+            34.9625129699707
+          ],
+          "nearest_distance_mm": 1.2700319290161133
+        },
+        {
+          "source_triangle": 2092,
+          "source_point_mm": [
+            -23.926143264376076,
+            -19.12218701239725,
+            34.900426196712296
+          ],
+          "closest_final_surface_mm": [
+            -22.794109344482422,
+            -18.6240291595459,
+            34.866600036621094
+          ],
+          "nearest_distance_mm": 1.237257719039917
+        },
+        {
+          "source_triangle": 2093,
+          "source_point_mm": [
+            -23.796832353511817,
+            -19.38686117380489,
+            34.95963042976024
+          ],
+          "closest_final_surface_mm": [
+            -22.68076515197754,
+            -18.871824264526367,
+            34.926734924316406
+          ],
+          "nearest_distance_mm": 1.2296150922775269
+        },
+        {
+          "source_triangle": 2092,
+          "source_point_mm": [
+            -23.970903665294493,
+            -18.98735719541331,
+            34.94630809107399
+          ],
+          "closest_final_surface_mm": [
+            -22.841997146606445,
+            -18.510196685791016,
+            34.91560363769531
+          ],
+          "nearest_distance_mm": 1.2259914875030518
+        },
+        {
+          "source_triangle": 1013,
+          "source_point_mm": [
+            23.87152693003985,
+            -19.201302863072677,
+            34.749919535754685
+          ],
+          "closest_final_surface_mm": [
+            22.761211395263672,
+            -18.707029342651367,
+            34.72637939453125
+          ],
+          "nearest_distance_mm": 1.2155909538269043
+        }
+      ]
+    },
+    "nose": {
+      "source_surface_area_weighted": {
+        "count": 2464,
+        "mean_mm": 0.026952923391910834,
+        "median_mm": 0.018704909372518248,
+        "p95_mm": 0.08195023577160222,
+        "max_mm": 0.3575076758861542,
+        "sample_weight_sum": 190.3049205828165
+      },
+      "source_vertices": {
+        "count": 90,
+        "mean_mm": 0.05451888935381754,
+        "median_mm": 0.035246338695287704,
+        "p95_mm": 0.14516596496105194,
+        "max_mm": 0.47652336955070496,
+        "sample_weight_sum": 90.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.47652336955070496,
+      "source_samples_bounds_mm": [
+        [
+          -4.990292448567439,
+          -33.72317505326188,
+          13.003446099922526
+        ],
+        [
+          4.994921091650789,
+          -26.362492489474604,
+          26.99065555267431
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 255,
+          "source_point_mm": [
+            0.0004953748348797843,
+            -33.51035782463903,
+            19.543980509147737
+          ],
+          "closest_final_surface_mm": [
+            0.0005955742672085762,
+            -33.27415466308594,
+            19.27561378479004
+          ],
+          "nearest_distance_mm": 0.3575076758861542
+        },
+        {
+          "source_triangle": 532,
+          "source_point_mm": [
+            0.043067614091099916,
+            -33.72317505326188,
+            19.112518655513306
+          ],
+          "closest_final_surface_mm": [
+            0.043583620339632034,
+            -33.452735900878906,
+            18.968318939208984
+          ],
+          "nearest_distance_mm": 0.3064817488193512
+        },
+        {
+          "source_triangle": 255,
+          "source_point_mm": [
+            0.12274363033541344,
+            -33.528486774635255,
+            19.4316147655431
+          ],
+          "closest_final_surface_mm": [
+            0.04235731065273285,
+            -33.28846740722656,
+            19.263031005859375
+          ],
+          "nearest_distance_mm": 0.30412518978118896
+        },
+        {
+          "source_triangle": 1335,
+          "source_point_mm": [
+            -0.0038778861008756647,
+            -33.27478323549017,
+            19.712722826813707
+          ],
+          "closest_final_surface_mm": [
+            -0.0039015188813209534,
+            -33.07328796386719,
+            19.488990783691406
+          ],
+          "nearest_distance_mm": 0.3010925054550171
+        },
+        {
+          "source_triangle": 255,
+          "source_point_mm": [
+            0.09586762253301657,
+            -33.477249260369014,
+            19.49071509230125
+          ],
+          "closest_final_surface_mm": [
+            0.0545378215610981,
+            -33.26802444458008,
+            19.281028747558594
+          ],
+          "nearest_distance_mm": 0.2990843653678894
+        }
+      ]
+    },
+    "mouth_skin_2mm_geodesic_band": {
+      "source_surface_area_weighted": {
+        "count": 939,
+        "mean_mm": 0.040950688632418825,
+        "median_mm": 0.02862935009051767,
+        "p95_mm": 0.12714951960265736,
+        "max_mm": 0.24099287390708923,
+        "sample_weight_sum": 55.62406985874952
+      },
+      "source_vertices": {
+        "count": 136,
+        "mean_mm": 0.08658703668483855,
+        "median_mm": 0.07056885585188866,
+        "p95_mm": 0.22262198328971863,
+        "max_mm": 0.24916326999664307,
+        "sample_weight_sum": 136.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.24916326999664307,
+      "source_samples_bounds_mm": [
+        [
+          -6.590667665366349,
+          -29.18154209713135,
+          7.757924162757835
+        ],
+        [
+          6.455192063381612,
+          -24.804141134948953,
+          12.140697595215102
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 1850,
+          "source_point_mm": [
+            -2.8615577528044396,
+            -26.68357321278327,
+            9.677313664975319
+          ],
+          "closest_final_surface_mm": [
+            -2.7598538398742676,
+            -26.502424240112305,
+            9.555170059204102
+          ],
+          "nearest_distance_mm": 0.24099287390708923
+        },
+        {
+          "source_triangle": 1852,
+          "source_point_mm": [
+            -2.2170897954321767,
+            -27.042531821393656,
+            9.51414138907801
+          ],
+          "closest_final_surface_mm": [
+            -2.1501381397247314,
+            -26.880279541015625,
+            9.40456485748291
+          ],
+          "nearest_distance_mm": 0.20691867172718048
+        },
+        {
+          "source_triangle": 1848,
+          "source_point_mm": [
+            -3.1230904089634075,
+            -26.50598469965757,
+            9.676408289277656
+          ],
+          "closest_final_surface_mm": [
+            -3.051288366317749,
+            -26.33957862854004,
+            9.579968452453613
+          ],
+          "nearest_distance_mm": 0.20529799163341522
+        },
+        {
+          "source_triangle": 776,
+          "source_point_mm": [
+            1.1484270615561558,
+            -27.43283647224957,
+            9.489136196523367
+          ],
+          "closest_final_surface_mm": [
+            1.0905206203460693,
+            -27.25986099243164,
+            9.409772872924805
+          ],
+          "nearest_distance_mm": 0.19892749190330505
+        },
+        {
+          "source_triangle": 1854,
+          "source_point_mm": [
+            -1.8719568682276344,
+            -27.199029024570464,
+            9.483657830532048
+          ],
+          "closest_final_surface_mm": [
+            -1.8154480457305908,
+            -27.038867950439453,
+            9.384648323059082
+          ],
+          "nearest_distance_mm": 0.19659090042114258
+        }
+      ]
+    },
+    "chin": {
+      "source_surface_area_weighted": {
+        "count": 7424,
+        "mean_mm": 0.03636982180004031,
+        "median_mm": 0.027301962574589483,
+        "p95_mm": 0.10132287107262991,
+        "max_mm": 0.29857516288757324,
+        "sample_weight_sum": 580.0125882015334
+      },
+      "source_vertices": {
+        "count": 176,
+        "mean_mm": 0.06576799980081721,
+        "median_mm": 0.051648348569869995,
+        "p95_mm": 0.19427897334098812,
+        "max_mm": 0.38362786173820496,
+        "sample_weight_sum": 176.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.38362786173820496,
+      "source_samples_bounds_mm": [
+        [
+          -13.417651519155784,
+          -27.32030665759241,
+          0.017858025535924856
+        ],
+        [
+          13.482682988161972,
+          -6.4459839691871075,
+          7.998935982260656
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 435,
+          "source_point_mm": [
+            0.007463879883258135,
+            -9.986221362765976,
+            2.092969741044263
+          ],
+          "closest_final_surface_mm": [
+            0.009220220148563385,
+            -10.11495304107666,
+            2.3623619079589844
+          ],
+          "nearest_distance_mm": 0.29857516288757324
+        },
+        {
+          "source_triangle": 539,
+          "source_point_mm": [
+            0.29240693975781185,
+            -9.66177481116982,
+            2.2673670695921944
+          ],
+          "closest_final_surface_mm": [
+            0.26720792055130005,
+            -9.795271873474121,
+            2.53054141998291
+          ],
+          "nearest_distance_mm": 0.2961709201335907
+        },
+        {
+          "source_triangle": 539,
+          "source_point_mm": [
+            0.275765555097537,
+            -9.739982334006665,
+            2.240272025431726
+          ],
+          "closest_final_surface_mm": [
+            0.25968071818351746,
+            -9.864952087402344,
+            2.4947240352630615
+          ],
+          "nearest_distance_mm": 0.2839399576187134
+        },
+        {
+          "source_triangle": 1515,
+          "source_point_mm": [
+            -0.1282785622134611,
+            -9.998922954115788,
+            2.122245408753665
+          ],
+          "closest_final_surface_mm": [
+            -0.11210028827190399,
+            -10.11468505859375,
+            2.364614725112915
+          ],
+          "nearest_distance_mm": 0.269082635641098
+        },
+        {
+          "source_triangle": 539,
+          "source_point_mm": [
+            0.23881400134046543,
+            -9.893455477975591,
+            2.185342796273121
+          ],
+          "closest_final_surface_mm": [
+            0.22162885963916779,
+            -10.008108139038086,
+            2.4227302074432373
+          ],
+          "nearest_distance_mm": 0.26418429613113403
+        }
+      ]
+    },
+    "main_cheeks": {
+      "source_surface_area_weighted": {
+        "count": 10621,
+        "mean_mm": 0.041528404998431655,
+        "median_mm": 0.031576178760052316,
+        "p95_mm": 0.12225573767730347,
+        "max_mm": 0.255189448595047,
+        "sample_weight_sum": 832.754436278532
+      },
+      "source_vertices": {
+        "count": 210,
+        "mean_mm": 0.07939172265108764,
+        "median_mm": 0.0620899572968483,
+        "p95_mm": 0.22598597407341003,
+        "max_mm": 0.2675028443336487,
+        "sample_weight_sum": 210.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.2675028443336487,
+      "source_samples_bounds_mm": [
+        [
+          -20.99955361745623,
+          -26.678597242892778,
+          8.00276177849217
+        ],
+        [
+          20.997867487775796,
+          -8.002937624068176,
+          24.99741546043242
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 1441,
+          "source_point_mm": [
+            -12.629209198850893,
+            -21.72334365997428,
+            8.006218587425815
+          ],
+          "closest_final_surface_mm": [
+            -12.473240852355957,
+            -21.610031127929688,
+            8.173418998718262
+          ],
+          "nearest_distance_mm": 0.255189448595047
+        },
+        {
+          "source_triangle": 1479,
+          "source_point_mm": [
+            -14.098916638213348,
+            -21.67083120971748,
+            9.439764828521794
+          ],
+          "closest_final_surface_mm": [
+            -13.936895370483398,
+            -21.556598663330078,
+            9.587398529052734
+          ],
+          "nearest_distance_mm": 0.24717575311660767
+        },
+        {
+          "source_triangle": 361,
+          "source_point_mm": [
+            13.97018970019118,
+            -21.587374289675182,
+            9.245601238794658
+          ],
+          "closest_final_surface_mm": [
+            13.80616569519043,
+            -21.484403610229492,
+            9.396931648254395
+          ],
+          "nearest_distance_mm": 0.24577957391738892
+        },
+        {
+          "source_triangle": 399,
+          "source_point_mm": [
+            14.338604042521357,
+            -21.632813939265553,
+            9.680251481398951
+          ],
+          "closest_final_surface_mm": [
+            14.17712116241455,
+            -21.522506713867188,
+            9.824073791503906
+          ],
+          "nearest_distance_mm": 0.24275387823581696
+        },
+        {
+          "source_triangle": 355,
+          "source_point_mm": [
+            15.257194365444509,
+            -21.54058428453523,
+            10.728819435692609
+          ],
+          "closest_final_surface_mm": [
+            15.082139015197754,
+            -21.434364318847656,
+            10.857815742492676
+          ],
+          "nearest_distance_mm": 0.24200642108917236
+        }
+      ]
+    },
+    "left_cheek_negative_X": {
+      "source_surface_area_weighted": {
+        "count": 5305,
+        "mean_mm": 0.041675998258288625,
+        "median_mm": 0.031714469299130285,
+        "p95_mm": 0.12079908411713355,
+        "max_mm": 0.255189448595047,
+        "sample_weight_sum": 415.93028533162675
+      },
+      "source_vertices": {
+        "count": 105,
+        "mean_mm": 0.07946793695778719,
+        "median_mm": 0.06190739944577217,
+        "p95_mm": 0.22618427872657776,
+        "max_mm": 0.2675028443336487,
+        "sample_weight_sum": 105.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.2675028443336487,
+      "source_samples_bounds_mm": [
+        [
+          -20.99955361745623,
+          -26.656429674667287,
+          8.004216955636512
+        ],
+        [
+          -7.016949604893328,
+          -8.004383324546001,
+          24.99741546043242
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 1441,
+          "source_point_mm": [
+            -12.629209198850893,
+            -21.72334365997428,
+            8.006218587425815
+          ],
+          "closest_final_surface_mm": [
+            -12.473240852355957,
+            -21.610031127929688,
+            8.173418998718262
+          ],
+          "nearest_distance_mm": 0.255189448595047
+        },
+        {
+          "source_triangle": 1479,
+          "source_point_mm": [
+            -14.098916638213348,
+            -21.67083120971748,
+            9.439764828521794
+          ],
+          "closest_final_surface_mm": [
+            -13.936895370483398,
+            -21.556598663330078,
+            9.587398529052734
+          ],
+          "nearest_distance_mm": 0.24717575311660767
+        },
+        {
+          "source_triangle": 1471,
+          "source_point_mm": [
+            -13.790066528107287,
+            -21.717351177236296,
+            9.157915343127838
+          ],
+          "closest_final_surface_mm": [
+            -13.640140533447266,
+            -21.60390281677246,
+            9.309538841247559
+          ],
+          "nearest_distance_mm": 0.24153324961662292
+        },
+        {
+          "source_triangle": 1509,
+          "source_point_mm": [
+            -14.335727901901386,
+            -21.59206583334647,
+            9.662727991399843
+          ],
+          "closest_final_surface_mm": [
+            -14.181431770324707,
+            -21.491989135742188,
+            9.805676460266113
+          ],
+          "nearest_distance_mm": 0.23293077945709229
+        },
+        {
+          "source_triangle": 1509,
+          "source_point_mm": [
+            -14.627050262563177,
+            -21.597444320876487,
+            10.000056801254303
+          ],
+          "closest_final_surface_mm": [
+            -14.469002723693848,
+            -21.4935359954834,
+            10.13556957244873
+          ],
+          "nearest_distance_mm": 0.23267929255962372
+        }
+      ]
+    },
+    "right_cheek_positive_X": {
+      "source_surface_area_weighted": {
+        "count": 5316,
+        "mean_mm": 0.041381128247442334,
+        "median_mm": 0.03147082773512928,
+        "p95_mm": 0.12304255062699415,
+        "max_mm": 0.24577957391738892,
+        "sample_weight_sum": 416.8241509469054
+      },
+      "source_vertices": {
+        "count": 105,
+        "mean_mm": 0.07931550834438808,
+        "median_mm": 0.062235236167907715,
+        "p95_mm": 0.22593820467591286,
+        "max_mm": 0.26737305521965027,
+        "sample_weight_sum": 105.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.26737305521965027,
+      "source_samples_bounds_mm": [
+        [
+          7.0018610775926975,
+          -26.678597242892778,
+          8.00276177849217
+        ],
+        [
+          20.997867487775796,
+          -8.002937624068176,
+          24.978469030357562
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 361,
+          "source_point_mm": [
+            13.97018970019118,
+            -21.587374289675182,
+            9.245601238794658
+          ],
+          "closest_final_surface_mm": [
+            13.80616569519043,
+            -21.484403610229492,
+            9.396931648254395
+          ],
+          "nearest_distance_mm": 0.24577957391738892
+        },
+        {
+          "source_triangle": 399,
+          "source_point_mm": [
+            14.338604042521357,
+            -21.632813939265553,
+            9.680251481398951
+          ],
+          "closest_final_surface_mm": [
+            14.17712116241455,
+            -21.522506713867188,
+            9.824073791503906
+          ],
+          "nearest_distance_mm": 0.24275387823581696
+        },
+        {
+          "source_triangle": 355,
+          "source_point_mm": [
+            15.257194365444509,
+            -21.54058428453523,
+            10.728819435692609
+          ],
+          "closest_final_surface_mm": [
+            15.082139015197754,
+            -21.434364318847656,
+            10.857815742492676
+          ],
+          "nearest_distance_mm": 0.24200642108917236
+        },
+        {
+          "source_triangle": 361,
+          "source_point_mm": [
+            13.738850894071398,
+            -21.62590360089392,
+            9.03556942533391
+          ],
+          "closest_final_surface_mm": [
+            13.584468841552734,
+            -21.516035079956055,
+            9.185240745544434
+          ],
+          "nearest_distance_mm": 0.24146738648414612
+        },
+        {
+          "source_triangle": 361,
+          "source_point_mm": [
+            12.990637994987308,
+            -21.67700466268068,
+            8.337833670047038
+          ],
+          "closest_final_surface_mm": [
+            12.842452049255371,
+            -21.570022583007812,
+            8.488810539245605
+          ],
+          "nearest_distance_mm": 0.23706138134002686
+        }
+      ]
+    },
+    "original_eye_skin_2mm_band": {
+      "source_surface_area_weighted": {
+        "count": 2112,
+        "mean_mm": 0.03593698124847773,
+        "median_mm": 0.022782431207234544,
+        "p95_mm": 0.12018045775816852,
+        "max_mm": 0.25298118591308594,
+        "sample_weight_sum": 158.44638656860172
+      },
+      "source_vertices": {
+        "count": 160,
+        "mean_mm": 0.09355900729133282,
+        "median_mm": 0.06485067680478096,
+        "p95_mm": 0.22164420038461685,
+        "max_mm": 0.2736218571662903,
+        "sample_weight_sum": 160.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 0.2736218571662903,
+      "source_samples_bounds_mm": [
+        [
+          -20.970321804901364,
+          -26.034204212783198,
+          21.236106284152164
+        ],
+        [
+          20.95965158176032,
+          -19.46950995137941,
+          34.099823103120066
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 1192,
+          "source_point_mm": [
+            -14.843107460187076,
+            -24.078251763786483,
+            32.22658561330246
+          ],
+          "closest_final_surface_mm": [
+            -14.8301362991333,
+            -24.01936149597168,
+            32.47227478027344
+          ],
+          "nearest_distance_mm": 0.25298118591308594
+        },
+        {
+          "source_triangle": 40,
+          "source_point_mm": [
+            15.88886598226691,
+            -23.577108896107557,
+            32.034998039197966
+          ],
+          "closest_final_surface_mm": [
+            15.89769172668457,
+            -23.521974563598633,
+            32.25902557373047
+          ],
+          "nearest_distance_mm": 0.23087908327579498
+        },
+        {
+          "source_triangle": 1192,
+          "source_point_mm": [
+            -14.765841959611535,
+            -24.11927460808328,
+            32.262860719776086
+          ],
+          "closest_final_surface_mm": [
+            -14.752314567565918,
+            -24.023815155029297,
+            32.46923065185547
+          ],
+          "nearest_distance_mm": 0.2277817279100418
+        },
+        {
+          "source_triangle": 114,
+          "source_point_mm": [
+            17.103779498307407,
+            -22.955552805362135,
+            31.55895405774822
+          ],
+          "closest_final_surface_mm": [
+            17.22258949279785,
+            -22.89166259765625,
+            31.737625122070312
+          ],
+          "nearest_distance_mm": 0.22387774288654327
+        },
+        {
+          "source_triangle": 49,
+          "source_point_mm": [
+            19.17839231250802,
+            -21.221746248134558,
+            29.249566575571215
+          ],
+          "closest_final_surface_mm": [
+            19.263948440551758,
+            -21.07190704345703,
+            29.39154815673828
+          ],
+          "nearest_distance_mm": 0.2234509289264679
+        }
+      ]
+    },
+    "central_forehead_Z35_to45": {
+      "source_surface_area_weighted": {
+        "count": 4239,
+        "mean_mm": 0.3131243545780307,
+        "median_mm": 0.242314354763923,
+        "p95_mm": 0.8982569395033108,
+        "max_mm": 1.7124912738800049,
+        "sample_weight_sum": 335.70837121105905
+      },
+      "source_vertices": {
+        "count": 46,
+        "mean_mm": 0.3160876383367197,
+        "median_mm": 0.27003030478954315,
+        "p95_mm": 0.7866867065429685,
+        "max_mm": 1.0380054712295532,
+        "sample_weight_sum": 46.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 1.7124912738800049,
+      "source_samples_bounds_mm": [
+        [
+          -15.997830844433318,
+          -30.169759426850124,
+          35.000160179028114
+        ],
+        [
+          15.989931131140244,
+          -24.924500627118118,
+          44.997814924680476
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 188,
+          "source_point_mm": [
+            15.911379985182748,
+            -26.258497897646624,
+            44.90462207902071
+          ],
+          "closest_final_surface_mm": [
+            14.979486465454102,
+            -24.921106338500977,
+            44.37965774536133
+          ],
+          "nearest_distance_mm": 1.7124912738800049
+        },
+        {
+          "source_triangle": 188,
+          "source_point_mm": [
+            15.794127455573921,
+            -26.30680678153101,
+            44.83185952028661
+          ],
+          "closest_final_surface_mm": [
+            14.88856315612793,
+            -25.0072021484375,
+            44.32172775268555
+          ],
+          "nearest_distance_mm": 1.6641072034835815
+        },
+        {
+          "source_triangle": 1268,
+          "source_point_mm": [
+            -15.856942027876242,
+            -26.291776098148947,
+            44.70533739907178
+          ],
+          "closest_final_surface_mm": [
+            -14.958962440490723,
+            -25.005706787109375,
+            44.20053482055664
+          ],
+          "nearest_distance_mm": 1.6477770805358887
+        },
+        {
+          "source_triangle": 1268,
+          "source_point_mm": [
+            -15.438306076244993,
+            -26.431896049122834,
+            44.939201691093444
+          ],
+          "closest_final_surface_mm": [
+            -14.574939727783203,
+            -25.172142028808594,
+            44.45244216918945
+          ],
+          "nearest_distance_mm": 1.6029086112976074
+        },
+        {
+          "source_triangle": 1268,
+          "source_point_mm": [
+            -15.983733434794942,
+            -26.268079877418934,
+            44.34861202892762
+          ],
+          "closest_final_surface_mm": [
+            -15.113986015319824,
+            -25.024860382080078,
+            43.870750427246094
+          ],
+          "nearest_distance_mm": 1.5907255411148071
+        }
+      ]
+    },
+    "temple_nonfeature_skin": {
+      "source_surface_area_weighted": {
+        "count": 11382,
+        "mean_mm": 0.8957206081183098,
+        "median_mm": 0.5968501691002426,
+        "p95_mm": 2.718176893123458,
+        "max_mm": 3.4198713302612305,
+        "sample_weight_sum": 897.2759810361697
+      },
+      "source_vertices": {
+        "count": 172,
+        "mean_mm": 0.5629204999801681,
+        "median_mm": 0.21278700977563858,
+        "p95_mm": 2.177158260345459,
+        "max_mm": 3.12201189994812,
+        "sample_weight_sum": 172.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 3.4198713302612305,
+      "source_samples_bounds_mm": [
+        [
+          -25.934330955114827,
+          -25.48509537194728,
+          23.00215870429128
+        ],
+        [
+          25.933307753772556,
+          -6.000039208286092,
+          44.99773623785099
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 190,
+          "source_point_mm": [
+            23.056886370334503,
+            -21.34229955111707,
+            44.86543479837354
+          ],
+          "closest_final_surface_mm": [
+            20.34754753112793,
+            -19.517019271850586,
+            43.85382843017578
+          ],
+          "nearest_distance_mm": 3.4198713302612305
+        },
+        {
+          "source_triangle": 1270,
+          "source_point_mm": [
+            -23.014359482123105,
+            -21.42454419023652,
+            44.76222267143419
+          ],
+          "closest_final_surface_mm": [
+            -20.336688995361328,
+            -19.58960723876953,
+            43.75044250488281
+          ],
+          "nearest_distance_mm": 3.400090217590332
+        },
+        {
+          "source_triangle": 170,
+          "source_point_mm": [
+            22.73901751938726,
+            -21.709328060448332,
+            44.915236873889434
+          ],
+          "closest_final_surface_mm": [
+            20.09840965270996,
+            -19.854381561279297,
+            43.89714431762695
+          ],
+          "nearest_distance_mm": 3.3838067054748535
+        },
+        {
+          "source_triangle": 190,
+          "source_point_mm": [
+            23.34446087591451,
+            -20.86089866555981,
+            44.82514313254353
+          ],
+          "closest_final_surface_mm": [
+            20.632110595703125,
+            -19.08942985534668,
+            43.8537712097168
+          ],
+          "nearest_distance_mm": 3.382086753845215
+        },
+        {
+          "source_triangle": 170,
+          "source_point_mm": [
+            22.89338683757195,
+            -21.578023190697458,
+            44.74305205495717
+          ],
+          "closest_final_surface_mm": [
+            20.233213424682617,
+            -19.746673583984375,
+            43.739410400390625
+          ],
+          "nearest_distance_mm": 3.3819618225097656
+        }
+      ]
+    },
+    "high_forehead_Z45_plus": {
+      "source_surface_area_weighted": {
+        "count": 12156,
+        "mean_mm": 3.2885451436119832,
+        "median_mm": 3.4102211807902942,
+        "p95_mm": 5.507766928366073,
+        "max_mm": 6.318318843841553,
+        "sample_weight_sum": 969.1104535013404
+      },
+      "source_vertices": {
+        "count": 48,
+        "mean_mm": 3.7285653365155063,
+        "median_mm": 3.7430832386016846,
+        "p95_mm": 6.22612771987915,
+        "max_mm": 6.3267951011657715,
+        "sample_weight_sum": 48.0
+      },
+      "maximum_over_source_vertices_and_surface_samples_mm": 6.3267951011657715,
+      "source_samples_bounds_mm": [
+        [
+          -26.028203799528423,
+          -30.067219805325863,
+          45.00027964452511
+        ],
+        [
+          26.029085519363086,
+          -6.022221524330605,
+          60.42271669766463
+        ]
+      ],
+      "worst_surface_samples": [
+        {
+          "source_triangle": 168,
+          "source_point_mm": [
+            20.645180612972826,
+            -20.587936617971287,
+            57.55135823239463
+          ],
+          "closest_final_surface_mm": [
+            16.502702713012695,
+            -17.175251007080078,
+            54.217498779296875
+          ],
+          "nearest_distance_mm": 6.318318843841553
+        },
+        {
+          "source_triangle": 1545,
+          "source_point_mm": [
+            -20.08937136082736,
+            -20.984929550275528,
+            57.66390620727263
+          ],
+          "closest_final_surface_mm": [
+            -16.0592098236084,
+            -17.550203323364258,
+            54.379638671875
+          ],
+          "nearest_distance_mm": 6.231048107147217
+        },
+        {
+          "source_triangle": 465,
+          "source_point_mm": [
+            20.54496654944139,
+            -20.728023322285107,
+            57.356427848293876
+          ],
+          "closest_final_surface_mm": [
+            16.46521759033203,
+            -17.342864990234375,
+            54.09204864501953
+          ],
+          "nearest_distance_mm": 6.22573709487915
+        },
+        {
+          "source_triangle": 1249,
+          "source_point_mm": [
+            -20.95629352299788,
+            -20.24626387286878,
+            57.32859873620296
+          ],
+          "closest_final_surface_mm": [
+            -16.7759952545166,
+            -16.93626594543457,
+            54.11762619018555
+          ],
+          "nearest_distance_mm": 6.224252223968506
+        },
+        {
+          "source_triangle": 1249,
+          "source_point_mm": [
+            -20.93096888682362,
+            -20.29057016558474,
+            57.301535874762706
+          ],
+          "closest_final_surface_mm": [
+            -16.76436424255371,
+            -16.981233596801758,
+            54.0864143371582
+          ],
+          "nearest_distance_mm": 6.216857433319092
+        }
+      ]
+    }
+  },
+  "final_front_exterior_to_original_surface": {
+    "all_original_face_material_including_ears": {
+      "count": 97173,
+      "mean_mm": 0.33188769208991703,
+      "median_mm": 0.05199998583014189,
+      "p95_mm": 1.9684500891906094,
+      "max_mm": 3.573674201965332,
+      "sample_weight_sum": 2658.5660869755015
+    },
+    "principal_front_face_below_Z35": {
+      "count": 78008,
+      "mean_mm": 0.07246251764559515,
+      "median_mm": 0.03182734210908939,
+      "p95_mm": 0.3066991878948041,
+      "max_mm": 1.259873628616333,
+      "sample_weight_sum": 1868.9118963085982
+    },
+    "nose": {
+      "count": 10870,
+      "mean_mm": 0.02520125444342046,
+      "median_mm": 0.018440725166917558,
+      "p95_mm": 0.0739296821976222,
+      "max_mm": 0.27886220812797546,
+      "sample_weight_sum": 187.26682227551655
+    },
+    "mouth_skin_2mm_geodesic_band": {
+      "count": 4577,
+      "mean_mm": 0.05777983926371379,
+      "median_mm": 0.03133903752594781,
+      "p95_mm": 0.2242909306428111,
+      "max_mm": 0.5152393579483032,
+      "sample_weight_sum": 57.95095718528812
+    },
+    "chin": {
+      "count": 12134,
+      "mean_mm": 0.03491584362381231,
+      "median_mm": 0.023819752390760746,
+      "p95_mm": 0.10943166202178821,
+      "max_mm": 0.2528630495071411,
+      "sample_weight_sum": 263.76941606090674
+    },
+    "main_cheeks": {
+      "count": 24021,
+      "mean_mm": 0.04025664677654865,
+      "median_mm": 0.0302008921867394,
+      "p95_mm": 0.12121904840769698,
+      "max_mm": 0.41263362765312195,
+      "sample_weight_sum": 702.540255940318
+    },
+    "left_cheek_negative_X": {
+      "count": 11907,
+      "mean_mm": 0.04024031550100846,
+      "median_mm": 0.030300974463500482,
+      "p95_mm": 0.12135993935492422,
+      "max_mm": 0.28481000661849976,
+      "sample_weight_sum": 351.43632705624486
+    },
+    "right_cheek_positive_X": {
+      "count": 12114,
+      "mean_mm": 0.040272993513283346,
+      "median_mm": 0.03013799542206217,
+      "p95_mm": 0.12119786389275894,
+      "max_mm": 0.41263362765312195,
+      "sample_weight_sum": 351.1039288840732
+    },
+    "original_eye_skin_2mm_band": {
+      "count": 8491,
+      "mean_mm": 0.03459139225537897,
+      "median_mm": 0.022636913318687814,
+      "p95_mm": 0.11349110746183458,
+      "max_mm": 0.41263362765312195,
+      "sample_weight_sum": 155.44707258481859
+    },
+    "central_forehead_Z35_to45": {
+      "count": 8260,
+      "mean_mm": 0.32097153172080456,
+      "median_mm": 0.23720695166934383,
+      "p95_mm": 0.9623701410558546,
+      "max_mm": 1.8585026264190674,
+      "sample_weight_sum": 331.4385583739903
+    },
+    "temple_nonfeature_skin": {
+      "count": 23147,
+      "mean_mm": 0.8917441094248155,
+      "median_mm": 0.5255657793213578,
+      "p95_mm": 2.7742449314540583,
+      "max_mm": 3.504333257675171,
+      "sample_weight_sum": 729.7224250953493
+    },
+    "high_forehead_Z45_plus": {
+      "count": 180,
+      "mean_mm": 2.583158514415384,
+      "median_mm": 2.8633503456056406,
+      "p95_mm": 3.526928536268475,
+      "max_mm": 3.573674201965332,
+      "sample_weight_sum": 9.286559908957972
+    }
+  },
+  "reverse_scope": {
+    "actual_triangle_centroids_examined": 216471,
+    "normal_rejected_inner_or_back": 119298,
+    "gate": "Current Y<-6,Z<=45,|X|<=26. Actual triangle centroid must be frontmost along+Y within0.01mm and original PMX material must occupy that XZ ray. Nearest original face normal dot current normal>=.25; source-coordinate region membership; no distance cutoff. Thus new fill in original holes and internal cavity/neck returns are excluded; their mismatches are not mislabeled facial skin."
+  },
+  "source_landmark_queries": {
+    "nose_tip": {
+      "source_vertex": 594,
+      "source_mm": [
+        0.0,
+        -33.79090575710274,
+        19.34015783135665
+      ],
+      "closest_final_mm": [
+        0.000469159334897995,
+        -33.37825393676758,
+        19.101844787597656
+      ],
+      "delta_xyz_mm": [
+        0.000469159334897995,
+        0.4126518203351637,
+        -0.23831304375899265
+      ],
+      "distance_mm": 0.47652336955070496,
+      "meaning": "Closest final surface point to original extremum; not a semantically matched final landmark."
+    },
+    "chin_bottom": {
+      "source_vertex": 567,
+      "source_mm": [
+        0.0,
+        -22.858610345755178,
+        0.0
+      ],
+      "closest_final_mm": [
+        2.6747584342956543e-05,
+        -22.859149932861328,
+        0.07011877745389938
+      ],
+      "delta_xyz_mm": [
+        2.6747584342956543e-05,
+        -0.0005395871061502078,
+        0.07011877745389938
+      ],
+      "distance_mm": 0.07012085616588593,
+      "meaning": "Closest final surface point to original extremum; not a semantically matched final landmark."
+    }
+  },
+  "source_boundary_queries": {
+    "original_mouth_boundary": {
+      "source_vertices": 44,
+      "perimeter_mm": 21.976769353836353,
+      "source_3D_boundary_to_any_final_skin": {
+        "count": 244,
+        "mean_mm": 0.17458103031865435,
+        "median_mm": 0.18805806179054058,
+        "p95_mm": 0.2487667569141248,
+        "max_mm": 0.2526710629463196,
+        "sample_weight_sum": 21.976769353836353
+      },
+      "meaning": "Distance to nearest final skin, not to corresponding final aperture edge. Actual eye aperture outline is measured separately in eye-original-comparison.json."
+    },
+    "original_eye_negative": {
+      "source_vertices": 31,
+      "perimeter_mm": 34.3739203540664,
+      "source_3D_boundary_to_any_final_skin": {
+        "count": 360,
+        "mean_mm": 0.17635530784578676,
+        "median_mm": 0.17885095642308962,
+        "p95_mm": 0.2356318405827021,
+        "max_mm": 0.2729170620441437,
+        "sample_weight_sum": 34.3739203540664
+      },
+      "meaning": "Distance to nearest final skin, not to corresponding final aperture edge. Actual eye aperture outline is measured separately in eye-original-comparison.json."
+    },
+    "original_eye_positive": {
+      "source_vertices": 31,
+      "perimeter_mm": 34.373920354066406,
+      "source_3D_boundary_to_any_final_skin": {
+        "count": 360,
+        "mean_mm": 0.17472925962052374,
+        "median_mm": 0.17307986775230874,
+        "p95_mm": 0.24015262800229598,
+        "max_mm": 0.2774600088596344,
+        "sample_weight_sum": 34.373920354066406
+      },
+      "meaning": "Distance to nearest final skin, not to corresponding final aperture edge. Actual eye aperture outline is measured separately in eye-original-comparison.json."
+    }
+  },
+  "region_definitions": {
+    "nose": "|X|<=5,13<=Z<=27,Y<-12",
+    "mouth": "Original44-edge mouth boundary surface geodesic<=2mm",
+    "chin": "Z<=8,Y<-5",
+    "cheeks": "7<=|X|<=21,8<=Z<=25,Y<-8",
+    "eye_skin": "Geodesic<=2mm from original31-edge main eye loops; original small8-edge lid slits are not main-eye loops",
+    "principal_face": "|X|<=24,Y<-6,Z<=35",
+    "forehead": "Explicit geometric bands; these were intentionally remodeled and are not asserted original."
+  },
+  "interpretation": "These are direct geometric differences, not a likeness score or corresponding-vertex motion. Earlier0-motion protection does not prove raw PMX agreement. Original low-poly face, mouth/eyelid closure, subdivision/fairing and print conversion can all contribute.",
+  "limitations": [
+    "Original face material is an open face-and-ear patch; no original complete skull or removable cap exists for a whole-head comparison.",
+    "Median/p95 are sampling distributions; sampled maxima are not a certified continuous Hausdorff bound.",
+    "Nearest surface can slide tangentially; it can understate an aperture-edge shift. Eye outline is compared independently by same-depth projection.",
+    "Original PMX material, UV textures, eyelashes/eyebrows/eye whites/eyeballs and hair affect perceived likeness but are excluded from this face-skin geometry comparison.",
+    "No claim of exact source identity or unchanged facial sculpt is inferred from historical version-to-version locks."
+  ],
+  "all_input_hashes_unchanged": true,
+  "nose_protrusion_extrema": {
+    "original_tip_coordinate_mm": [
+      0.0,
+      -33.79090575710274,
+      19.34015783135665
+    ],
+    "v13_tip_coordinate_mm": [
+      -0.07091706991195679,
+      -33.49270248413086,
+      18.799461364746094
+    ],
+    "frontmost_Y_retreat_mm": 0.2982032729718824,
+    "delta_xyz_mm": [
+      -0.07091706991195679,
+      0.2982032729718824,
+      -0.5406964666105551
+    ],
+    "definition": "Minimum Y among source/final vertices in |X|<=5,13<=Z<=27,Y<-12; true coordinate extrema of each piecewise-linear mesh, not index correspondence. The original sharp low-poly nose tip and rounded PRINT extremum need not be the same anatomical point."
+  },
+  "eye_aperture_original_comparison": {
+    "report": "eye-original-comparison.json",
+    "figure": "eye-original-comparison.png",
+    "sample_pitch_mm": 0.05,
+    "eyes": [
+      {
+        "eye_id": "x_negative",
+        "original": {
+          "pixel_count": 32663,
+          "width_mm": 11.5,
+          "height_mm": 9.3,
+          "area_mm2": 81.65750000000001,
+          "centroid_xz_mm": [
+            -13.5576155240113,
+            27.771850047424252
+          ],
+          "bbox_xz_mm": [
+            [
+              -19.4139629201476,
+              23.02311677124019
+            ],
+            [
+              -7.913962920147601,
+              32.32311677124019
+            ]
+          ]
+        },
+        "v13": {
+          "pixel_count": 32967,
+          "width_mm": 11.0,
+          "height_mm": 9.55,
+          "area_mm2": 82.41750000000002,
+          "centroid_xz_mm": [
+            -13.323538404723088,
+            27.851746158202907
+          ],
+          "bbox_xz_mm": [
+            [
+              -18.763962920147602,
+              22.92311677124019
+            ],
+            [
+              -7.763962920147602,
+              32.473116771240186
+            ]
+          ]
+        },
+        "changes": {
+          "width_mm": -0.5,
+          "height_mm": 0.25,
+          "area_mm2": 0.7600000000000051,
+          "pixel_count": 304,
+          "area_percent": 0.9307167131004546,
+          "centroid_shift_xz_mm": [
+            0.2340771192882123,
+            0.07989611077865533
+          ],
+          "centroid_shift_distance_mm": 0.24733678717858193,
+          "intersection_over_union": 0.9260454878943507,
+          "raw_only_area_mm2": 2.7700000000000005,
+          "print_only_area_mm2": 3.5300000000000007,
+          "symmetric_difference_area_mm2": 6.300000000000002
+        }
+      },
+      {
+        "eye_id": "x_positive",
+        "original": {
+          "pixel_count": 32663,
+          "width_mm": 11.5,
+          "height_mm": 9.3,
+          "area_mm2": 81.65750000000001,
+          "centroid_xz_mm": [
+            13.557615524011302,
+            27.771850047424252
+          ],
+          "bbox_xz_mm": [
+            [
+              7.913962920147601,
+              23.02311677124019
+            ],
+            [
+              19.4139629201476,
+              32.32311677124019
+            ]
+          ]
+        },
+        "v13": {
+          "pixel_count": 32958,
+          "width_mm": 11.0,
+          "height_mm": 9.55,
+          "area_mm2": 82.39500000000001,
+          "centroid_xz_mm": [
+            13.323796647922348,
+            27.855853891211062
+          ],
+          "bbox_xz_mm": [
+            [
+              7.763962920147602,
+              22.92311677124019
+            ],
+            [
+              18.763962920147602,
+              32.473116771240186
+            ]
+          ]
+        },
+        "changes": {
+          "width_mm": -0.5,
+          "height_mm": 0.25,
+          "area_mm2": 0.7374999999999972,
+          "pixel_count": 295,
+          "area_percent": 0.9031625998836557,
+          "centroid_shift_xz_mm": [
+            -0.2338188760889537,
+            0.08400384378681025
+          ],
+          "centroid_shift_distance_mm": 0.2484510265353321,
+          "intersection_over_union": 0.9258944031931441,
+          "raw_only_area_mm2": 2.7875000000000005,
+          "print_only_area_mm2": 3.525000000000001,
+          "symmetric_difference_area_mm2": 6.312500000000001
+        }
+      }
+    ],
+    "pair_spacing": {
+      "raw_pmx": {
+        "area_centroid_horizontal_separation_mm": 27.1152310480226,
+        "area_centroid_xz_distance_mm": 27.1152310480226,
+        "inner_bbox_gap_mm": 15.827925840295203,
+        "outer_bbox_span_mm": 38.8279258402952,
+        "bbox_center_horizontal_separation_mm": 27.327925840295205
+      },
+      "print_v13": {
+        "area_centroid_horizontal_separation_mm": 26.64733505264544,
+        "area_centroid_xz_distance_mm": 26.647335369252527,
+        "inner_bbox_gap_mm": 15.527925840295204,
+        "outer_bbox_span_mm": 37.527925840295204,
+        "bbox_center_horizontal_separation_mm": 26.527925840295204
+      },
+      "changes_print_minus_raw": {
+        "area_centroid_horizontal_separation_mm": -0.4678959953771624,
+        "area_centroid_xz_distance_mm": -0.46789567877007343,
+        "inner_bbox_gap_mm": -0.29999999999999893,
+        "outer_bbox_span_mm": -1.2999999999999972,
+        "bbox_center_horizontal_separation_mm": -0.8000000000000007
+      }
+    },
+    "warning": "Original zero-thickness skin aperture versus final through-hole includes wall/eyeball-seat occlusion. It proves effective openings differ; it is not a pointwise rim displacement measure."
+  },
+  "main_face_contours": {
+    "report": "face-contour-comparison.json",
+    "figure": "face-audit-overview.png",
+    "horizontal_sections": [
+      {
+        "height_Z_mm": 4.0,
+        "original": {
+          "x_min_mm": -8.102355323017587,
+          "x_max_mm": 8.102355323017587,
+          "width_mm": 16.204710646035174,
+          "frontmost_Y_mm": -25.455989405268724
+        },
+        "v13": {
+          "x_min_mm": -7.992037751763346,
+          "x_max_mm": 7.991551575840515,
+          "width_mm": 15.98358932760386,
+          "frontmost_Y_mm": -25.45504803207287
+        },
+        "width_change_mm": -0.22112131843131344,
+        "left_boundary_X_change_mm": 0.11031757125424146,
+        "right_boundary_X_change_mm": -0.11080374717707198
+      },
+      {
+        "height_Z_mm": 8.0,
+        "original": {
+          "x_min_mm": -13.59166680942534,
+          "x_max_mm": 13.59166680942534,
+          "width_mm": 27.18333361885068,
+          "frontmost_Y_mm": -27.355544442383135
+        },
+        "v13": {
+          "x_min_mm": -13.508419827583133,
+          "x_max_mm": 13.508781224801,
+          "width_mm": 27.01720105238413,
+          "frontmost_Y_mm": -27.323338469390734
+        },
+        "width_change_mm": -0.16613256646654762,
+        "left_boundary_X_change_mm": 0.08324698184220658,
+        "right_boundary_X_change_mm": -0.08288558462433926
+      },
+      {
+        "height_Z_mm": 12.0,
+        "original": {
+          "x_min_mm": -17.036501463538258,
+          "x_max_mm": 17.036501463538258,
+          "width_mm": 34.073002927076516,
+          "frontmost_Y_mm": -29.270095121964996
+        },
+        "v13": {
+          "x_min_mm": -16.980742911502926,
+          "x_max_mm": 16.980738852427134,
+          "width_mm": 33.96148176393006,
+          "frontmost_Y_mm": -29.224673268208825
+        },
+        "width_change_mm": -0.1115211631464561,
+        "left_boundary_X_change_mm": 0.05575855203533209,
+        "right_boundary_X_change_mm": -0.055762611111124016
+      },
+      {
+        "height_Z_mm": 16.0,
+        "original": {
+          "x_min_mm": -18.888218487631264,
+          "x_max_mm": 18.888218487631264,
+          "width_mm": 37.77643697526253,
+          "frontmost_Y_mm": -31.45068810296224
+        },
+        "v13": {
+          "x_min_mm": -18.896387037401425,
+          "x_max_mm": 18.896559408083714,
+          "width_mm": 37.79294644548514,
+          "frontmost_Y_mm": -31.3759532221132
+        },
+        "width_change_mm": 0.01650947022261562,
+        "left_boundary_X_change_mm": -0.008168549770161349,
+        "right_boundary_X_change_mm": 0.008340920452450717
+      },
+      {
+        "height_Z_mm": 20.0,
+        "original": {
+          "x_min_mm": -20.48631336293305,
+          "x_max_mm": 20.48631336293305,
+          "width_mm": 40.9726267258661,
+          "frontmost_Y_mm": -32.88446539851527
+        },
+        "v13": {
+          "x_min_mm": -20.425322117951275,
+          "x_max_mm": 20.425508261964765,
+          "width_mm": 40.85083037991604,
+          "frontmost_Y_mm": -32.55893218677389
+        },
+        "width_change_mm": -0.1217963459500595,
+        "left_boundary_X_change_mm": 0.060991244981774884,
+        "right_boundary_X_change_mm": -0.06080510096828462
+      },
+      {
+        "height_Z_mm": 24.0,
+        "original": {
+          "x_min_mm": -22.083047848696626,
+          "x_max_mm": 22.083047848696626,
+          "width_mm": 44.16609569739325,
+          "frontmost_Y_mm": -29.31942980187749
+        },
+        "v13": {
+          "x_min_mm": -21.9577498214441,
+          "x_max_mm": 21.957588276690696,
+          "width_mm": 43.9153380981348,
+          "frontmost_Y_mm": -29.214791981490343
+        },
+        "width_change_mm": -0.2507575992584563,
+        "left_boundary_X_change_mm": 0.12529802725252637,
+        "right_boundary_X_change_mm": -0.12545957200592994
+      },
+      {
+        "height_Z_mm": 28.0,
+        "original": {
+          "x_min_mm": -23.438560373261573,
+          "x_max_mm": 23.438560373261573,
+          "width_mm": 46.87712074652315,
+          "frontmost_Y_mm": -28.16019550507278
+        },
+        "v13": {
+          "x_min_mm": -23.72065044685701,
+          "x_max_mm": 23.72152267424157,
+          "width_mm": 47.44217312109858,
+          "frontmost_Y_mm": -28.073107544432748
+        },
+        "width_change_mm": 0.5650523745754299,
+        "left_boundary_X_change_mm": -0.2820900735954375,
+        "right_boundary_X_change_mm": 0.282962300979996
+      }
+    ],
+    "definition": "Intersection with Z=constant, only points Y<=-8mm retained to exclude posterior cranium/ear bulk; reported X extrema describe this explicitly clipped anterior-face section, not a whole-head or full cheek silhouette."
+  },
+  "conclusion": {
+    "exact_original_geometry_match": false,
+    "summary_zh": "鼻口、下巴和主脸颊的表面大部分与原模型接近，但不是逐点原样。原始眼洞与当前有效通孔的轮廓和间距有可测差别；原鼻尖被圆顺。额头和太阳穴经过明确重塑，不能归入原始面雕完全一致。",
+    "major_skin_area_weighted_distance_median_range_mm": [
+      0.018704909372518248,
+      0.031576178760052316
+    ],
+    "no_model_changes_made": true
+  }
+}

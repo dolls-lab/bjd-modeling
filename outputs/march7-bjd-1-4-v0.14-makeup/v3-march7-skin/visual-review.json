@@ -1,0 +1,17 @@
+{
+  "model_sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+  "reviewed_images": [
+    "skin-front.png",
+    "skin-quarter-left.png",
+    "skin-quarter-right.png",
+    "skin-side.png"
+  ],
+  "boards_reviewed": [
+    "skin-before-after.png",
+    "skin-multiview.png"
+  ],
+  "skin_lighter_than_v2": true,
+  "source_skin_color_sample_confirmed_independently": true,
+  "paint_and_eye_colors_preserved": true,
+  "only_uniform_skin_color_changed": true
+}

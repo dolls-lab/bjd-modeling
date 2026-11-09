@@ -1,0 +1,35 @@
+{
+  "preview_blend_sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+  "head_and_cap_geometry_unchanged": true,
+  "only_four_meshes": [
+    "PRINT_01_Head_Shell",
+    "PRINT_02_Removable_Cap",
+    "PREVIEW_EYE_HEMISPHERE_NEGATIVE",
+    "PREVIEW_EYE_HEMISPHERE_POSITIVE"
+  ],
+  "local_paint_only_in_brows_eye_lines_mouth": true,
+  "painted_atlas_fraction": 0.030183156331380207,
+  "fully_packed_images": [
+    "local-paint.png",
+    "march7-hemisphere-eye-negative.png",
+    "march7-hemisphere-eye-positive.png"
+  ],
+  "current_eyes_sha256": "e4f9c4f6d07d078dbe21501327b0ee76a4c82b7bdf3583d7377f85a546c19297",
+  "eye_geometry_checks": [
+    {
+      "eye": "negative",
+      "reversed_faces_vs_base_sphere": 0,
+      "degenerate_faces": 0,
+      "paired_inner_outer_offsets_equal": true,
+      "XZ_and_iris_position_unchanged": true
+    },
+    {
+      "eye": "positive",
+      "reversed_faces_vs_base_sphere": 0,
+      "degenerate_faces": 0,
+      "paired_inner_outer_offsets_equal": true,
+      "XZ_and_iris_position_unchanged": true
+    }
+  ],
+  "eyes_for_appearance_only": true
+}

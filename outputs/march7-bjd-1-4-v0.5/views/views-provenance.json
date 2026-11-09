@@ -1,0 +1,158 @@
+{
+  "input_blend": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/march7-bjd-head-v0.5-draft.blend",
+  "input_blend_sha256": "b38e0f939fe84f066358d557b069c1f2b8675b3a1511a9535b83083dd5b32f6f",
+  "source_pmx": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+  "source_pmx_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "source_material": "脸",
+  "source_faces": 2176,
+  "source_geometry_modified": false,
+  "input_model_files_modified": false,
+  "transform": {
+    "axes": "(X,Z,Y-chin)*scale",
+    "chin": 18.16621208190918,
+    "scale": 27.47544416498121
+  },
+  "render": {
+    "engine": "Blender Cycles",
+    "resolution": [
+      1200,
+      1200
+    ],
+    "samples": 48,
+    "camera": "orthographic",
+    "face_comparison_same_camera_scale_lights_material": true
+  },
+  "views": [
+    {
+      "name": "front",
+      "camera": [
+        0,
+        -180,
+        37
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "left-quarter",
+      "camera": [
+        115,
+        -180,
+        100
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "right-quarter",
+      "camera": [
+        -115,
+        -180,
+        100
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "left-side",
+      "camera": [
+        180,
+        0,
+        40
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "right-side",
+      "camera": [
+        -180,
+        0,
+        40
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "back",
+      "camera": [
+        0,
+        180,
+        40
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "top",
+      "camera": [
+        0,
+        -0.001,
+        220
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "rear-quarter",
+      "camera": [
+        115,
+        180,
+        100
+      ],
+      "target": [
+        0,
+        0,
+        37
+      ],
+      "ortho_mm": 105
+    },
+    {
+      "name": "low-front",
+      "camera": [
+        0,
+        -180,
+        -40
+      ],
+      "target": [
+        0,
+        0,
+        31
+      ],
+      "ortho_mm": 105
+    }
+  ],
+  "limitations": [
+    "Raw original face is an open animation mesh with eye and mouth gaps and no skin rear skull.",
+    "Texture-free views remove hair, eyes and makeup, showing the raw face geometry only.",
+    "These are renders of actual model geometry, not in-game screenshots."
+  ]
+}

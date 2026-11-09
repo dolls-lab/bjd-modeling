@@ -1,0 +1,91 @@
+{
+  "method": "High crown X scales only: C2 48..67mm, max8%. Outer scalp uses one continuous Z field. Hardware protection limited to actual interior via nearest-outer distance and compact3D neighborhoods; Y/Z exactly fixed.",
+  "parts": {
+    "head": {
+      "vertices": 252695,
+      "changed": 54806,
+      "max_x_displacement_mm": 1.153252182170256,
+      "min_map_dXdx": 0.9196330574638978,
+      "normal_rotation_over90": 0,
+      "low_z48_exact": true,
+      "all_yz_exact": true,
+      "mechanical_pillars_exact": true,
+      "maximum_z_before_after": [
+        69.78440856933594,
+        69.78440856933594
+      ],
+      "mechanical_exact": "Actual bore/pin cylinder regions fixed; no external projected pillar."
+    },
+    "cap": {
+      "vertices": 48537,
+      "changed": 18773,
+      "max_x_displacement_mm": 0.9195551608376871,
+      "min_map_dXdx": 0.8944840463085413,
+      "normal_rotation_over90": 0,
+      "low_z48_exact": true,
+      "all_yz_exact": true,
+      "mechanical_pillars_exact": true,
+      "maximum_z_before_after": [
+        67.8028793334961,
+        67.8028793334961
+      ],
+      "opening_translation_commutation": [
+        {
+          "travel_mm": 0.25,
+          "max_x_map_translation_residual_mm": 0.1370975985141918
+        },
+        {
+          "travel_mm": 1,
+          "max_x_map_translation_residual_mm": 0.15383329248266975
+        },
+        {
+          "travel_mm": 4,
+          "max_x_map_translation_residual_mm": 0.41498844642364574
+        },
+        {
+          "travel_mm": 8,
+          "max_x_map_translation_residual_mm": 0.5999420091080037
+        }
+      ],
+      "mechanical_exact": "Actual bore/pin cylinder regions fixed; no external projected pillar."
+    }
+  },
+  "solution_sha256": "416271160c308727016059e5519a0a8774e4a7b5b40ab0d5769cf3f39dae3f12",
+  "internal_only_final_correction": {
+    "head": {
+      "vertices": 0,
+      "external_points_with_distance_under0p2mm_changed": 0
+    },
+    "cap": {
+      "vertices": 134,
+      "external_points_with_distance_under0p2mm_changed": 0
+    }
+  },
+  "local_self_intersections": {
+    "head": {
+      "solution_sha256": "d3e6f9def11a725db5f2a55bd74cc348c99ef4f06c1b5f6307767499d065f263",
+      "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps the changed-region bounds; unchanged-only pairs are excluded.",
+      "changed_triangles": 110832,
+      "candidate_region_triangles": 129993,
+      "nonadjacent_aabb_pairs": 57612,
+      "hits": [],
+      "new_strict_intersections": 0,
+      "new_ambiguous_contacts": 0,
+      "elapsed_seconds": 11.299957990646362,
+      "unchanged_input": true
+    },
+    "cap": {
+      "solution_sha256": "47e7d70105c7138c83113ba855a37d91ee0b48f28ea85eb8e1c22e418230caa1",
+      "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps the changed-region bounds; unchanged-only pairs are excluded.",
+      "changed_triangles": 38143,
+      "candidate_region_triangles": 42569,
+      "nonadjacent_aabb_pairs": 37108,
+      "hits": [],
+      "new_strict_intersections": 0,
+      "new_ambiguous_contacts": 0,
+      "elapsed_seconds": 2.9637372493743896,
+      "unchanged_input": true
+    }
+  },
+  "cap_motion_note": "Mapping does not globally commute with opening translation in final candidate. Opening geometry is tested separately; X-only displacement preserves cut-normal coordinate, and the actual locating pin/bore are exactly fixed."
+}

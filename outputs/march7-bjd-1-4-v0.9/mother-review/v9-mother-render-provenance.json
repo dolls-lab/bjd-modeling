@@ -1,0 +1,71 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.9/baseline-v0.8.blend",
+  "model_sha256": "4ea04ae429876fe0a2ed0a750b74453d054c089777ecf9ad1c22d89585bf6034",
+  "input_model_modified": false,
+  "resolution": [
+    1200,
+    1200
+  ],
+  "source": "Actual v8 Blender mesh renders; no image shape edits.",
+  "camera": "orthographic",
+  "lighting": "same fixed studio lights for every view",
+  "views": [
+    {
+      "file": "v9-mother-back.png",
+      "camera_position_mm": [
+        0,
+        200,
+        37
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v9-mother-top.png",
+      "camera_position_mm": [
+        0,
+        0,
+        240
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v9-mother-quarter.png",
+      "camera_position_mm": [
+        -160,
+        -110,
+        60
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v9-mother-side.png",
+      "camera_position_mm": [
+        -200,
+        0,
+        37
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    }
+  ],
+  "mother_surface_sha256": "0e79b62246b101bc31c4cadcce931f7de2e83dfb9f4c8a8831b470018d084330"
+}

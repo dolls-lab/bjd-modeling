@@ -1,0 +1,26 @@
+{
+  "preview_blend_sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+  "reviewed_views": [
+    "makeup-front.png",
+    "makeup-quarter-left.png",
+    "makeup-quarter-right.png",
+    "makeup-side.png",
+    "makeup-closeup.png",
+    "bare-front.png",
+    "bare-quarter-left.png",
+    "inside-back-open.png",
+    "hemisphere-cups.png"
+  ],
+  "boards_reviewed": [
+    "local-makeup-multiview.png",
+    "surface-and-interior.png"
+  ],
+  "local_paint_follows_actual_head_surface": true,
+  "no_visible_original_face_eyebrow_or_eye_card_objects": true,
+  "near_quarter_large_eye_void_removed": true,
+  "outer_lower_eyelash_marks_visible": true,
+  "eye_edge_shading_smoothed": true,
+  "original_v14_shape_preserved": true,
+  "eye_cups_are_appearance_proxies_not_physical_fit_certified": true,
+  "image_edits": "None; boards only resize and arrange Blender renders."
+}

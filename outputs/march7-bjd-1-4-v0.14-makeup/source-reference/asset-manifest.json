@@ -1,0 +1,537 @@
+{
+  "source_pmx": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+  "source_pmx_sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "source_blend": "source-reference.blend",
+  "source_blend_sha256": "446cc1013de352866632d84f9614d6dcd938a368e360fdbcbd6c197fe57cf844",
+  "append_collection": "PMX_SOURCE_HEAD",
+  "units": "mm",
+  "transform": {
+    "scale": 27.47544416498121,
+    "chin_source_y": 18.16621208190918,
+    "formula": "world=(srcX,srcZ,srcY-chin)*scale",
+    "winding_reversed_after_axis_reflection": true,
+    "blender_uv": "(u,1-v)"
+  },
+  "textures": [
+    {
+      "original_path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "copy": "textures/脸.png",
+      "sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "packed_in_blend": true
+    },
+    {
+      "original_path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "copy": "textures/衣服1.png",
+      "sha256": "2162ac99267929757b2300474e667352e3fd396daccb818708bdad3db4133d67",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "packed_in_blend": true
+    },
+    {
+      "original_path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/头发.png",
+      "copy": "textures/头发.png",
+      "sha256": "7c77b3d60b90884f45b2da826ac09739cf27a63f6af5e3d367e640ef680f2f5c",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "packed_in_blend": true
+    },
+    {
+      "original_path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/表情.png",
+      "copy": "textures/表情.png",
+      "sha256": "fbd77c78e95fbb9e149e969705548017fabc3a169647385acedfdecc38605136",
+      "size_px": [
+        1181,
+        1181
+      ],
+      "packed_in_blend": true
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "original_material": "口腔",
+      "object": "SOURCE_00_MOUTH_INTERIOR",
+      "collection": "PMX_SOURCE_FACE",
+      "material": "SOURCE_MAT_00_口腔",
+      "vertices": 481,
+      "triangles": 684,
+      "original_face_range": [
+        0,
+        684
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.4637390077114105,
+          0.011363983154296875
+        ],
+        [
+          0.7134109735488892,
+          0.7856309413909912
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -10.342958242611772,
+          -27.756251151079557,
+          5.843028255582637
+        ],
+        [
+          10.342958242611772,
+          -7.95921287904199,
+          14.946868435675517
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 9.454727596391876e-07
+    },
+    {
+      "index": 1,
+      "original_material": "牙",
+      "object": "SOURCE_01_TEETH",
+      "collection": "PMX_SOURCE_FACE",
+      "material": "SOURCE_MAT_01_牙",
+      "vertices": 142,
+      "triangles": 224,
+      "original_face_range": [
+        684,
+        908
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.4271419942378998,
+          0.01237797737121582
+        ],
+        [
+          0.4892579913139343,
+          0.09323298931121826
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -4.3374073839551315,
+          -26.25603948393967,
+          8.313621402314727
+        ],
+        [
+          4.3374073839551315,
+          -22.37100896441933,
+          11.848670004596245
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 9.415017032665673e-07
+    },
+    {
+      "index": 2,
+      "original_material": "眉毛",
+      "object": "SOURCE_02_BROWS_LASHES",
+      "collection": "PMX_SOURCE_FACE",
+      "material": "SOURCE_MAT_02_眉毛",
+      "vertices": 592,
+      "triangles": 608,
+      "original_face_range": [
+        908,
+        1516
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.3366389870643616,
+          0.7681549787521362
+        ],
+        [
+          0.9903410077095032,
+          0.9930930137634277
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -21.73218568105908,
+          -29.335041216561823,
+          23.029906734188675
+        ],
+        [
+          21.73218568105908,
+          -19.683368007585386,
+          39.77207425396287
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 1.8943389719083825e-06
+    },
+    {
+      "index": 3,
+      "original_material": "眼白",
+      "object": "SOURCE_03_SCLERA",
+      "collection": "PMX_SOURCE_EYES",
+      "material": "SOURCE_MAT_03_眼白",
+      "vertices": 304,
+      "triangles": 474,
+      "original_face_range": [
+        1516,
+        1990
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.023677000775933266,
+          0.5681389570236206
+        ],
+        [
+          0.1426900029182434,
+          0.7024070024490356
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -19.898827283520426,
+          -25.294286856435043,
+          22.17716849212978
+        ],
+        [
+          19.898827283520426,
+          -16.596895251386936,
+          32.88623391143763
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 1.8107304171621763e-06
+    },
+    {
+      "index": 4,
+      "original_material": "眼睛",
+      "object": "SOURCE_04_IRIS_AND_HIGHLIGHT",
+      "collection": "PMX_SOURCE_EYES",
+      "material": "SOURCE_MAT_04_眼睛",
+      "vertices": 202,
+      "triangles": 234,
+      "original_face_range": [
+        1990,
+        2224
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.031275998800992966,
+          0.5091099739074707
+        ],
+        [
+          0.32959699630737305,
+          0.9879869222640991
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -17.180675007035013,
+          -24.354572274582814,
+          22.91419594028098
+        ],
+        [
+          17.180675007035013,
+          -20.97439428991711,
+          33.53191900733289
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 1.658714033681008e-06
+    },
+    {
+      "index": 5,
+      "original_material": "眼睛1",
+      "object": "SOURCE_05_EYE_SHADOW",
+      "collection": "PMX_SOURCE_EYES",
+      "material": "SOURCE_MAT_05_眼睛1",
+      "vertices": 54,
+      "triangles": 50,
+      "original_face_range": [
+        2224,
+        2274
+      ],
+      "diffuse_rgba": [
+        0.0,
+        0.0,
+        0.0,
+        0.30000001192092896
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.38749000430107117,
+          0.9612529277801514
+        ],
+        [
+          0.4710550010204315,
+          0.9825769662857056
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -19.427492819585584,
+          -25.294286856435043,
+          27.89568187165957
+        ],
+        [
+          19.427492819585584,
+          -20.807488478907562,
+          31.747520215413925
+        ]
+      ],
+      "default_visible": false,
+      "float32_roundoff_max_mm": 9.236765450282292e-07
+    },
+    {
+      "index": 6,
+      "original_material": "脸",
+      "object": "SOURCE_06_FACE",
+      "collection": "PMX_SOURCE_FACE",
+      "material": "SOURCE_MAT_06_脸",
+      "vertices": 1230,
+      "triangles": 2176,
+      "original_face_range": [
+        2274,
+        4450
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+      "uv_original_minmax": [
+        [
+          0.07058501243591309,
+          0.023239970207214355
+        ],
+        [
+          0.9294149279594421,
+          0.8096979856491089
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -28.064377649518942,
+          -33.79090575710274,
+          0.0
+        ],
+        [
+          28.064377649518942,
+          1.9604173847545356,
+          60.44977130312121
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 1.8913668569098263e-06
+    },
+    {
+      "index": 26,
+      "original_material": "头饰",
+      "object": "SOURCE_26_HEAD_ACCESSORY",
+      "collection": "PMX_SOURCE_ACCESSORY",
+      "material": "SOURCE_MAT_26_头饰",
+      "vertices": 112,
+      "triangles": 82,
+      "original_face_range": [
+        22373,
+        22455
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/衣服1.png",
+      "uv_original_minmax": [
+        [
+          1.3613649606704712,
+          0.5123245716094971
+        ],
+        [
+          1.5945006608963013,
+          0.5906749963760376
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -26.797500361850982,
+          -7.570460902148352,
+          -2.8769958671823566
+        ],
+        [
+          -17.31448035146759,
+          -2.5991751615512104,
+          16.995756528705055
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 9.234267679403274e-07
+    },
+    {
+      "index": 28,
+      "original_material": "头发",
+      "object": "SOURCE_28_HAIR",
+      "collection": "PMX_SOURCE_HAIR",
+      "material": "SOURCE_MAT_28_头发",
+      "vertices": 4029,
+      "triangles": 4568,
+      "original_face_range": [
+        23029,
+        27597
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/头发.png",
+      "uv_original_minmax": [
+        [
+          0.003968569450080395,
+          0.002937018871307373
+        ],
+        [
+          0.994469940662384,
+          0.9983561038970947
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -51.41415620899689,
+          -38.994832326429915,
+          -27.933570868034238
+        ],
+        [
+          51.245087043725114,
+          56.8883170050606,
+          82.15723153175702
+        ]
+      ],
+      "default_visible": true,
+      "float32_roundoff_max_mm": 3.812533336144952e-06
+    },
+    {
+      "index": 29,
+      "original_material": "表情",
+      "object": "SOURCE_29_EXPRESSION_OPTIONAL",
+      "collection": "PMX_OPTIONAL_EXPRESSION",
+      "material": "SOURCE_MAT_29_表情",
+      "vertices": 306,
+      "triangles": 442,
+      "original_face_range": [
+        27597,
+        28039
+      ],
+      "diffuse_rgba": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/表情.png",
+      "uv_original_minmax": [
+        [
+          -0.006174370646476746,
+          0.019656136631965637
+        ],
+        [
+          0.8670778274536133,
+          0.858069121837616
+        ]
+      ],
+      "bounds_mm": [
+        [
+          -15.576114659440377,
+          -15.429519158468803,
+          18.221096104406943
+        ],
+        [
+          15.576114659440377,
+          -8.540205330409739,
+          32.68143419106114
+        ]
+      ],
+      "default_visible": false,
+      "float32_roundoff_max_mm": 1.800015908770547e-06
+    }
+  ],
+  "max_geometry_float32_roundoff_mm": 3.812533336144952e-06,
+  "unmodified_geometry": true,
+  "modifiers": [],
+  "excluded_material_indices": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27
+  ],
+  "warnings": [
+    "Original eyes are eye patches/surfaces, not closed16mm physical eyeballs; use BJD seat centers from v14 build-report for spheres.",
+    "SOURCE_02 contains both brows and eyelashes. SOURCE_04 contains iris plus white highlight pieces. SOURCE_05 black diffuse/alpha0.3 is an upper-eye shadow.",
+    "Original head accessory UV exceeds1 and wraps with REPEAT; do not clamp.",
+    "Original alpha0.3 eye shadow and expression overlay are optional and hidden by default per preview design; raw material remains intact.",
+    "Shader preserves original texture×diffuse and alpha, but does not reproduce original toon/sphere shader or game lighting.",
+    "Source face does not contain complete rear scalp; reference hair is separate from the accepted v14 cranial volume."
+  ],
+  "previews": [
+    "original-texture-front.png",
+    "original-texture-quarter.png",
+    "original-texture-side.png"
+  ]
+}

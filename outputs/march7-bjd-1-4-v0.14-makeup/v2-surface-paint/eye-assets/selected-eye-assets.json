@@ -1,0 +1,23 @@
+{
+  "selected_geometry_sha256": "e4f9c4f6d07d078dbe21501327b0ee76a4c82b7bdf3583d7377f85a546c19297",
+  "source_selected_directory": "candidate-fit-smooth",
+  "default_files": {
+    "build_hemisphere_eyes.py": "28f41bd70ed48eb29ca84145dbad74d9feff99de973d7df25b2cb0764fa69fe0",
+    "hemisphere-eye-geometry.npz": "e4f9c4f6d07d078dbe21501327b0ee76a4c82b7bdf3583d7377f85a546c19297",
+    "march7-hemisphere-eye-negative.png": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+    "march7-hemisphere-eye-positive.png": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e",
+    "eye-assets-report.json": "e116016c066c0cc55a943a18368198ec9675c2d50d17f0eac0b92c96443bcb50"
+  },
+  "geometry_copied_without_recompute": true,
+  "old_r8_reports_moved_to": "baseline-r8",
+  "old_r8_no_collision_does_not_apply_to_final": true,
+  "final_fit_claim": "Visual adaptation only. Nominal R9 main sphere, shifted nasal1.5mm/forward2mm, with hidden edge retracted behind actual head skin. Does not claim physical zero intersection.",
+  "construction_chain": [
+    "baseline-r8/prepare_eye_assets.py",
+    "candidate-fit/make_candidate.py",
+    "candidate-fit-protected/protect_face_skin.py",
+    "candidate-fit-smooth/smooth_eye_edge.py"
+  ],
+  "geometry_inputs_unchanged": true,
+  "final_eye_edge_smoothed": true
+}

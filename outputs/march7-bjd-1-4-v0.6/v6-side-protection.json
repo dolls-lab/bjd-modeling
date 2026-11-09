@@ -1,0 +1,182 @@
+{
+  "baseline_blend": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/march7-bjd-head-v0.5-draft.blend",
+  "baseline_blend_sha256": "b38e0f939fe84f066358d557b069c1f2b8675b3a1511a9535b83083dd5b32f6f",
+  "units": "mm",
+  "source_provenance_npz": "/private/tmp/march7-source-clay/v5-master-source-provenance.npz",
+  "source_provenance_sha256": "f8017677f509db0e7ab6325b6ee75a89114cd4e835df890336948e18bfb3ca8c",
+  "source_class_labels": {
+    "0": "original PMX main face",
+    "1": "original PMX ear front/back UV islands",
+    "2": "mouth and eyelid overlay closure",
+    "3": "added cranium"
+  },
+  "master_lock_method": "All vertices incident to original face/ear/closure polygons, including 224 vertices shared with the added cranium. Exact indexed v5 topology verified against reconstructed source-origin subdivision. Additionally lock the established feature ROI union; only near-chin added shell needs this conservative addition.",
+  "head_lock_method": "Closest actual v5 master triangle has class 0/1/2, OR its closest point barycentric support is entirely on master source-locked vertices (weight >=1-1e-6). Same rule for inner and outer walls. Additionally retain the established feature ROI union; no broad ear distance box or Z lock.",
+  "feather_method": "Independent master/head mesh-edge shortest paths from locked vertices, Euclidean edge weights, capped at 5 mm. smootherstep(distance/5), exact zero on locked vertices.",
+  "objects": {
+    "master": {
+      "vertices": 45548,
+      "edges": 90972,
+      "triangles": 90848,
+      "locked": 27396,
+      "free": 18152,
+      "feather_band_free": 2461,
+      "full_weight_free": 15691,
+      "array_sha256": {
+        "vertices": "01525aaf044bf676df455bfab654b768157ccbf605a4bd7e2ab7baa6b0f36715",
+        "edges": "162e3c4bd7b363516c71fea923cafb72bcad3f913debf95c1fcaa2a37b4290c3",
+        "loops": "241f238003bb1bda43cb90b444a5ca507d1cdc39178bf3d4740410bd297b83d0",
+        "polygon_sizes": "6adea23989da99b29c6c1caa475a41dc751ef2afa20defad8bdf3e25ec5fd2da",
+        "triangles": "e7fd1359af952c85ff98d51da6e674155eb7509f23c4aa2b499c3ec73ca44836",
+        "triangle_polygon_index": "ecd5f93fee171d67c3052dec6ae14fdf71cf9c4b0f2ccee7e3812c73a8e9771b"
+      },
+      "topology_sha256": "eba773a4eb392919e65fa2c4f2b04b6801877508186f9db91a1d1fa01c8af35f"
+    },
+    "head": {
+      "vertices": 273666,
+      "edges": 820952,
+      "triangles": 547340,
+      "locked": 148026,
+      "free": 125640,
+      "feather_band_free": 38189,
+      "full_weight_free": 87451,
+      "array_sha256": {
+        "vertices": "e5ea20a5e4886b4752823b54002257a9f743eb98aed8e3e8801420f98def6f52",
+        "edges": "67fdac499ba791bd8ce9aad6655e3e820a987a15c95eec9dd54b22c76ac62498",
+        "loops": "1168e6f0337ddff91cd010bda184495dd27548d66e58e52a7e36a6e4ea08d642",
+        "polygon_sizes": "45fda3a4fd64ab2b38e51a649eae14b2c18935641781b7fa1ae92b42564fba77",
+        "triangles": "1dd1ffe6a2239d46802a072bf3bc00511b226099d099844aa77dddf3e7600164",
+        "triangle_polygon_index": "538b191e03064e5dbed19c0c62216fa52190151a8b3574019f990f47724f9049"
+      },
+      "topology_sha256": "54a9a697c0973e628c3ed6eae9a70075f82799f5e1fd7700af073392c0122349"
+    }
+  },
+  "raw_feature_roi_checks": {
+    "master": {
+      "eye_geodesic_2mm_band": {
+        "vertices": 3423,
+        "unlocked_vertices": 0
+      },
+      "mouth_geodesic_2mm_band": {
+        "vertices": 3261,
+        "unlocked_vertices": 0
+      },
+      "nose_roi": {
+        "vertices": 2159,
+        "unlocked_vertices": 0
+      },
+      "cheek_roi": {
+        "vertices": 4906,
+        "unlocked_vertices": 0
+      },
+      "chin_roi": {
+        "vertices": 4474,
+        "unlocked_vertices": 0
+      }
+    },
+    "head": {
+      "eye_geodesic_2mm_band": {
+        "vertices": 13269,
+        "unlocked_vertices": 0
+      },
+      "mouth_geodesic_2mm_band": {
+        "vertices": 3544,
+        "unlocked_vertices": 0
+      },
+      "nose_roi": {
+        "vertices": 8781,
+        "unlocked_vertices": 0
+      },
+      "cheek_roi": {
+        "vertices": 26331,
+        "unlocked_vertices": 0
+      },
+      "chin_roi": {
+        "vertices": 18650,
+        "unlocked_vertices": 0
+      }
+    }
+  },
+  "raw_feature_roi_checks_before_conservative_addition": {
+    "master": {
+      "eye_geodesic_2mm_band": {
+        "vertices": 3423,
+        "unlocked_vertices": 0
+      },
+      "mouth_geodesic_2mm_band": {
+        "vertices": 3261,
+        "unlocked_vertices": 0
+      },
+      "nose_roi": {
+        "vertices": 2159,
+        "unlocked_vertices": 0
+      },
+      "cheek_roi": {
+        "vertices": 4906,
+        "unlocked_vertices": 0
+      },
+      "chin_roi": {
+        "vertices": 4474,
+        "unlocked_vertices": 329
+      }
+    },
+    "head": {
+      "eye_geodesic_2mm_band": {
+        "vertices": 13269,
+        "unlocked_vertices": 0
+      },
+      "mouth_geodesic_2mm_band": {
+        "vertices": 3544,
+        "unlocked_vertices": 0
+      },
+      "nose_roi": {
+        "vertices": 8781,
+        "unlocked_vertices": 0
+      },
+      "cheek_roi": {
+        "vertices": 26331,
+        "unlocked_vertices": 0
+      },
+      "chin_roi": {
+        "vertices": 18650,
+        "unlocked_vertices": 1728
+      }
+    }
+  },
+  "conservative_feature_addition": {
+    "master": {
+      "vertices": 329,
+      "bounds_mm": [
+        [
+          -10.900336265563965,
+          -9.211421966552734,
+          2.826641082763672
+        ],
+        [
+          10.900334358215332,
+          -3.393939971923828,
+          8.943424224853516
+        ]
+      ]
+    },
+    "head": {
+      "vertices": 1728,
+      "bounds_mm": [
+        [
+          -11.346442222595215,
+          -10.862987518310547,
+          2.515228271484375
+        ],
+        [
+          11.320155143737793,
+          -3.0747451782226562,
+          11.093711853027344
+        ]
+      ]
+    }
+  },
+  "all_raw_feature_rois_locked": true,
+  "mechanical_constraints": "Not included. Root must separately exclude cap, magnets, neck socket and other hardware from displacement.",
+  "nearest_surface_limit": "Head provenance is a nearest-master-surface mapping, not a historical construction label for voxelized print vertices. Ear cavity and nearby skull may be spatially close; diagnostic nearest triangles/distances/barycentrics are retained.",
+  "baseline_unchanged": true
+}

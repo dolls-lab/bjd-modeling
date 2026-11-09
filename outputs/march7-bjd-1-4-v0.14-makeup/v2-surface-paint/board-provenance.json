@@ -1,0 +1,24 @@
+[
+  {
+    "file": "local-makeup-multiview.png",
+    "sha256": "cb8e43eb86dab8791619ed56f258ac8b10e565d5b2e3d06eb9a077baf457ebe3",
+    "inputs": [
+      "makeup-front.png",
+      "makeup-quarter-left.png",
+      "makeup-quarter-right.png",
+      "makeup-side.png"
+    ],
+    "operations": "Resize and arrange only; no retouching."
+  },
+  {
+    "file": "surface-and-interior.png",
+    "sha256": "adb4278153f6fdd5124aca9c6c0576e9d941931477daa67d5585e486623b1d8c",
+    "inputs": [
+      "bare-quarter-left.png",
+      "makeup-quarter-left.png",
+      "inside-back-open.png",
+      "hemisphere-cups.png"
+    ],
+    "operations": "Resize and arrange only; no retouching."
+  }
+]

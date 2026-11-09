@@ -1,0 +1,142 @@
+{
+  "method": "Wide full-XYZ cotangent bi-Laplacian fairing of v10 low-frequency reference, evaluated as delta from v11. This removes the v11 localized Y bulge, frees the actual outer-brow horn region, and allows the entire front crown to adjust instead of stopping at a Z64 plane.",
+  "reference_v10_sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52",
+  "baseline_v11_sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033",
+  "prior_base_alpha": 0.01,
+  "eye_protection": "Actual 248-vertex opening boundary and its .8mm surface-geodesic eyelid ring fixed. Upper non-feature skin beyond this is released; nose/mouth/cheek/chin masks remain fixed.",
+  "protected_core_count": 18846,
+  "released_old_core_upper_eye_skin_count": 951,
+  "apex_anchor_count": 3,
+  "apex_anchor_radius_mm": 0.8,
+  "near_apex_soft_prior_radius_mm": 7.0,
+  "free_vertices": 9261,
+  "maximum_move_from_v11_mm": 1.7311205992656198,
+  "maximum_fairing_move_from_v10_mm": 0.8163082902681438,
+  "released_upper_eye_skin_maximum_move_mm": 0.20852548408469368,
+  "eye_boundary_maximum_move_mm": 0.0,
+  "eye_guard_maximum_move_mm": 0.0,
+  "ear_maximum_move_mm": 0.0,
+  "core_maximum_move_mm": 0.0,
+  "crown_before_after_z_mm": [
+    69.79233785101658,
+    69.79233785101658
+  ],
+  "before_bounds_mm": [
+    [
+      -27.835521697998047,
+      -33.61177444458008,
+      0.05165863037109375
+    ],
+    [
+      27.835521697998047,
+      30.524676653682935,
+      69.79233785101658
+    ]
+  ],
+  "after_bounds_mm": [
+    [
+      -27.835521697998047,
+      -33.61177444458008,
+      0.05165863037109375
+    ],
+    [
+      27.835521697998047,
+      30.524676653682935,
+      69.79233785101658
+    ]
+  ],
+  "changed_support_bounds_mm": [
+    [
+      -27.019625019833352,
+      -29.944328749038558,
+      30.0343060819916
+    ],
+    [
+      27.01144632443002,
+      13.870291104329006,
+      69.77144988793042
+    ]
+  ],
+  "ear_support_overlap_vertices": 0,
+  "normal_rotations_over90": 0,
+  "minimum_normal_dot": 0.9429471290113827,
+  "degenerate_triangles": 0,
+  "horn_vertex_changes": {
+    "113": {
+      "before": [
+        -20.388621514555485,
+        -22.544027534529214,
+        34.73382478975567
+      ],
+      "after": [
+        -20.208221996556002,
+        -22.407425239879064,
+        34.693547643854
+      ],
+      "delta": [
+        0.18039951799948284,
+        0.1366022946501495,
+        -0.04027714590167619
+      ],
+      "weight": 1.0
+    },
+    "17599": {
+      "before": [
+        -20.516364726903497,
+        -22.464906706664074,
+        35.29503818269353
+      ],
+      "after": [
+        -20.3035330202872,
+        -22.33328728608634,
+        35.22868116375095
+      ],
+      "delta": [
+        0.2128317066162957,
+        0.131619420577735,
+        -0.06635701894258261
+      ],
+      "weight": 1.0
+    },
+    "80": {
+      "before": [
+        -21.812401851342518,
+        -20.828858934134725,
+        33.19518003467814
+      ],
+      "after": [
+        -21.63200569720259,
+        -20.748915685022848,
+        33.18098719535465
+      ],
+      "delta": [
+        0.1803961541399275,
+        0.07994324911187789,
+        -0.014192839323484918
+      ],
+      "weight": 1.0
+    },
+    "9049": {
+      "before": [
+        -22.032865026021785,
+        -20.60732860070321,
+        33.619889617303095
+      ],
+      "after": [
+        -21.81677479651886,
+        -20.53218271105333,
+        33.584226370818946
+      ],
+      "delta": [
+        0.21609022950292456,
+        0.07514588964987823,
+        -0.0356632464841482
+      ],
+      "weight": 1.0
+    }
+  },
+  "front_solution_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+  "status": "One render candidate; independent intersections and close visual review required before combining with separate ear solution.",
+  "mother_surface_sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c",
+  "ear_surface_policy": "Mother ear unchanged; ear-back roughness will be refined on the final reconstructed print mesh and separately reported."
+}

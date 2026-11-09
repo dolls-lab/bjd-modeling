@@ -1,0 +1,138 @@
+{
+  "version": "v0.10-draft",
+  "independent_reviews_complete": true,
+  "inputs": {
+    "head": {
+      "file": "march7-head-shell-v0.10-draft.stl",
+      "sha256": "eedb04e989373f506c7c73c20ccbe0f4051572833fea95198acd407c638371bc"
+    },
+    "cap": {
+      "file": "march7-head-cap-v0.10-draft.stl",
+      "sha256": "edd7adc8523c5b0514dde481ce3ef5c9b0482f52d41de080d3078bd4e0b08d13"
+    },
+    "blend": {
+      "file": "march7-bjd-head-v0.10-draft.blend",
+      "sha256": "bbc2e3b1af4b143eeab8d6e49b8db49e7354b3594cd70525e7a2ae2a7a89cebb"
+    },
+    "mother": {
+      "file": "mother-surface.npz",
+      "sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52"
+    }
+  },
+  "crown_lowering": {
+    "report": "mother-surface-report.json",
+    "baseline": "final v0.9",
+    "method": "C2 quintic-smoothstep vertical lowering of the entire continuous v9 upper forehead and crown; then regenerate shell and cap.",
+    "crown_before_z_mm": 72.79233785101658,
+    "crown_after_z_mm": 69.79233785101658,
+    "maximum_lowering_mm": 3.0,
+    "minimum_vertical_map_derivative": 0.8284660268640889,
+    "mother_core_ear_and_z_le_40_unchanged": true,
+    "central_core_highest_original_z_mm": 38.962059020996094,
+    "ear_body_highest_original_z_mm": 31.56521224975586
+  },
+  "actual_print_self_intersection": {
+    "report": "print-intersection-check.json",
+    "pass": true,
+    "head_triangles": 509266,
+    "cap_triangles": 94984,
+    "head_nonadjacent_AABB_candidate_pairs": 164528,
+    "cap_nonadjacent_AABB_candidate_pairs": 104057,
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "full_mesh_covered": true,
+    "geometry_modified": false,
+    "limitations": "Any pair sharing a vertex is excluded. This does not prove adjacent triangles cannot overlap elsewhere away from the shared vertex."
+  },
+  "wall_samples": {
+    "report": "side-shell-review.json",
+    "figure": "side-shell-review.png",
+    "ordinary_head_minimum_mm": 2.597348840342525,
+    "cap_minimum_mm": 2.597785552427886,
+    "ear_neighborhood_cranium_excluding_original_pinna_minimum_mm": 2.441579881183584,
+    "original_ear_skin_minimum_sample_mm": 1.7778650375648348,
+    "cranium_samples_below_2mm": 0,
+    "original_ear_skin_samples_below_2mm": 17,
+    "limit": "Discrete actual STL normal-ray wall samples; original pinna skin is separately classified. Not a certified continuous minimum-wall proof."
+  },
+  "eye_insertion": {
+    "report": "eye-insertion-check.json",
+    "pass": true,
+    "nominal_diameter_mm": 16.0,
+    "enclosing_polyhedron_diameter_mm": 16.01297088981719,
+    "minimum_selected_segment_clearance_mm": 0.1870023452097953,
+    "opening_segment_minimum_clearance_mm": 0.726735179905696,
+    "note": "Tested against actual rebuilt head including new locating pin and bosses."
+  },
+  "eye_apertures": {
+    "report": "face-opening-comparison.json",
+    "figure": "eye-aperture-comparison.png",
+    "baseline": "v0.9",
+    "sample_pitch_mm": 0.05,
+    "all_projections_valid": true,
+    "identical_at_sampled_pitch": true,
+    "width_height_mm": [
+      [
+        11.0,
+        9.55
+      ],
+      [
+        11.0,
+        9.55
+      ]
+    ],
+    "area_and_centroid_changes_zero": true
+  },
+  "assembly_and_topology": {
+    "report": "validation.json",
+    "pass": true,
+    "fully_seated_cap_intersection_pass": true,
+    "cap_removal_path_pass": true,
+    "actual_horizontal_girth_mm": 180.86252230545233,
+    "girth_measure_z_mm": 40.49297765452825,
+    "historical_190mm_target_not_enforced": true
+  },
+  "source_and_export_identity": {
+    "report": "source-surface-review.json",
+    "all_integrity_checks_pass": true,
+    "input_files_unchanged_during_audit": true,
+    "stl_correspondence": {
+      "head": {
+        "v9": {
+          "stl_triangles": 521956,
+          "blend_triangles": 521956,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        },
+        "v10": {
+          "stl_triangles": 509266,
+          "blend_triangles": 509266,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        }
+      },
+      "cap": {
+        "v9": {
+          "stl_triangles": 102684,
+          "blend_triangles": 102684,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        },
+        "v10": {
+          "stl_triangles": 94984,
+          "blend_triangles": 94984,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        }
+      }
+    },
+    "note": "Remeshed face/ear comparison uses actual nearest-surface samples, not matching PRINT vertex indices or a claim of pointwise exact identity."
+  },
+  "physical_fit": "No physical print, eye installation or cap-fit test has been performed."
+}

@@ -1,0 +1,84 @@
+{
+  "inputs": {
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/source-reference/source-head-geometry.npz": "38e6e207492af7fd67df2d9e35601cf9bb054c3e48549810ca5d57b2da131651",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/source-reference/textures/脸.png": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+  },
+  "inputs_unchanged": true,
+  "eye_centers_mm": {
+    "negative": [
+      -13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ],
+    "positive": [
+      13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ]
+  },
+  "outer_radius_mm": 8.0,
+  "inner_radius_mm": 7.4,
+  "nominal_cup_wall_mm": 0.5999999999999996,
+  "orientation": "front hemisphere toward -Y, open rear at center Y, annular rim only; no closing disk",
+  "meshing": {
+    "theta_segments": 64,
+    "phi_segments": 192,
+    "outer_vertices_on_analytic_sphere": true,
+    "note": "Triangles inscribe the analytic spherical surfaces. Closed cup solid encloses the shell material, not a closed eyeball globe."
+  },
+  "texture_bake": {
+    "method": "Orthographic -Y view of original iris/highlight material only, depth-tested original triangles, barycentric original PMX UV lookup, over pure white sclera. Result attached to actual spherical exterior by planar XZ UV coordinates. No original eye triangle is a visible output object.",
+    "png_resolution": [
+      1024,
+      1024
+    ],
+    "supersampling": 2,
+    "includes": "Original iris, pupil and white highlight pieces in one surface texture; no separate highlight card/mesh.",
+    "not_included": "Original sclera/upper-shadow geometry; physical/scene lighting supplies shading.",
+    "frontal_source_scale_preserved": true,
+    "textures": [
+      {
+        "side": "negative",
+        "file": "march7-hemisphere-eye-negative.png",
+        "sha256": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+        "source_iris_triangles": 117,
+        "baked_iris_projected_area_mm2": 66.24786376953125,
+        "source_projected_bbox_xz_mm": [
+          [
+            -17.180675007035013,
+            22.91419594028098
+          ],
+          [
+            -9.1049054805831,
+            33.53191900733289
+          ]
+        ]
+      },
+      {
+        "side": "positive",
+        "file": "march7-hemisphere-eye-positive.png",
+        "sha256": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e",
+        "source_iris_triangles": 117,
+        "baked_iris_projected_area_mm2": 66.24786376953125,
+        "source_projected_bbox_xz_mm": [
+          [
+            9.1049054805831,
+            22.91419594028098
+          ],
+          [
+            17.180675007035013,
+            33.53191900733289
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry_npz_sha256": "32ba6b9bf68c55bcd209e2a5c1c7e3e02789909c312a5222accfa5afe17d355a",
+  "preview_only": true,
+  "limitations": [
+    "Not a manufactured eyeball specification.",
+    "Original stylized iris/highlights are projected into spherical surface coordinates; oblique views correctly foreshorten with the sphere.",
+    "Texture is an offline bake of source colors, not the official game shader."
+  ]
+}

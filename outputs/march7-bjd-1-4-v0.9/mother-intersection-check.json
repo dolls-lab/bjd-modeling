@@ -1,0 +1,54 @@
+{
+  "solution": "/private/tmp/march7-bjd-work/v9-analysis/candidate5/mother-surface.npz",
+  "solution_sha256": "db379e1fccc1ad524768b4c0b31a9241dbbf6f398fbe23747ff9ed2e5c21d0e2",
+  "unchanged_during_analysis": true,
+  "units": "mm",
+  "baseline_array": "baseline",
+  "normal_over_90_count": 0,
+  "normal_anomaly_triangle_ids": [],
+  "degenerate_triangles_count": 0,
+  "min_double_area_mm2": 0.0016195129774366596,
+  "min_area_ratio": 0.5808548483881376,
+  "locked_max_displacement_vs_baseline_mm": 0.0,
+  "core_locked_max_displacement_mm": 0.0,
+  "ear_body_locked_max_displacement_mm": 0.0,
+  "scope": "Entire mother mesh, all nonadjacent triangle pairs whose AABBs overlap. Unchanged pairs included, with priority scan of the previous candidate normal-anomaly boxes expanded by 2 mm. Does not certify hollow-wall or mechanical assembly geometry.",
+  "region_boxes_mm": [
+    [
+      [
+        -26.41849016213885,
+        -4.502972013340296,
+        20.02102339834549
+      ],
+      [
+        -19.33992255985598,
+        2.341145209908885,
+        33.36442355705071
+      ]
+    ],
+    [
+      [
+        19.3400141871919,
+        -4.566724280498843,
+        20.02079950998233
+      ],
+      [
+        26.45303664539376,
+        2.4304814907928773,
+        33.352838612207165
+      ]
+    ]
+  ],
+  "priority_region_triangle_count": 3742,
+  "priority_nonadjacent_aabb_pairs": 4838,
+  "priority_hits": 0,
+  "total_triangle_count": 90848,
+  "nonadjacent_aabb_pairs_tested": 73416,
+  "shared_vertex_pairs_excluded": true,
+  "tolerance_mm": 1e-06,
+  "projected_polygon_rejection": true,
+  "pairs": [],
+  "new_strict_intersections": 0,
+  "new_ambiguous_contacts": 0,
+  "duration_seconds": 6.251981258392334
+}

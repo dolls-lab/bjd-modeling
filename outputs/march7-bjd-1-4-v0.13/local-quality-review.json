@@ -1,0 +1,213 @@
+{
+  "version": "v0.13-draft",
+  "independent_reviews_complete": true,
+  "inputs": {
+    "head": {
+      "file": "march7-head-shell-v0.13-draft.stl",
+      "sha256": "a382b257380f066a1e616298d869e88a5f6c39ffa208c962383c3db8949b6c9d"
+    },
+    "cap": {
+      "file": "march7-head-cap-v0.13-draft.stl",
+      "sha256": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591"
+    },
+    "blend": {
+      "file": "march7-bjd-head-v0.13-draft.blend",
+      "sha256": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56"
+    }
+  },
+  "surface_only_preservation": {
+    "report": "surface-only-review.json",
+    "all_integrity_checks_pass": true,
+    "actual_changed_vertices": 17623,
+    "actual_maximum_displacement_mm": 0.3201647212848991,
+    "protected_regions": {
+      "locked": {
+        "vertices": 235072,
+        "changed_vertices": 0,
+        "maximum_displacement_mm": 0.0
+      },
+      "inner_wall_locked": {
+        "vertices": 225320,
+        "changed_vertices": 0,
+        "maximum_displacement_mm": 0.0
+      },
+      "major_features_locked": {
+        "vertices": 173514,
+        "changed_vertices": 0,
+        "maximum_displacement_mm": 0.0
+      },
+      "eye_guard": {
+        "vertices": 1915,
+        "changed_vertices": 0,
+        "maximum_displacement_mm": 0.0
+      },
+      "ear_locked": {
+        "vertices": 11341,
+        "changed_vertices": 0,
+        "maximum_displacement_mm": 0.0
+      }
+    },
+    "all_other_meshes": {
+      "EDITABLE_Outer_Surface_Before_Hollowing": {
+        "topology_exact": true,
+        "world_coordinates_exact": true
+      },
+      "PRINT_02_Removable_Cap": {
+        "topology_exact": true,
+        "world_coordinates_exact": true
+      },
+      "SOURCE_Original_March7_Face_DoNotPrint": {
+        "topology_exact": true,
+        "world_coordinates_exact": true
+      }
+    },
+    "global_xyz_bounds_unchanged": true,
+    "note": "Only local actual PRINT temple skin edited. Mother and original face reference remain exactly unchanged. No re-hollowing/remeshing/cap recut."
+  },
+  "outer_silhouettes": {
+    "report": "silhouette-review.json",
+    "figure": "silhouette-review.png",
+    "sample_pitch_mm": 0.05,
+    "maximum_sampled_view_boundary_distance_mm": 0.1,
+    "view_deltas_mm": {
+      "front": 0.05,
+      "left": 0.0,
+      "right": 0.0,
+      "front_left": 0.1,
+      "front_right": 0.1,
+      "rear": 0.05,
+      "rear_left": 0.1,
+      "rear_right": 0.1,
+      "top": 0.1
+    },
+    "all_direction_displacement_is_not_zero": true,
+    "independent_1368_direction_support_function_max_change_mm": 0.24276723171149328,
+    "note": "Nine exterior projection views show only local submillimeter skin changes; side outlines are identical at0.05mm sampling. The full envelope is not falsely described as exact0 in every direction.",
+    "limits": "Raster comparison has approximately one-pixel uncertainty per edge (up to2*pitch in a difference). Interior facial detail and eye holes are not certified by exterior silhouettes; independent eye projection and protected-coordinate tests cover them. This is nine sampled views, not every possible viewpoint."
+  },
+  "actual_print_self_intersection": {
+    "report": "print-intersection-check.json",
+    "full_mesh_covered": true,
+    "head_triangles": 505398,
+    "cap_triangles": 97070,
+    "nonadjacent_AABB_candidates": {
+      "head": 179104,
+      "cap": 96865
+    },
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "pass": true,
+    "limits": "Any pair sharing any exactly identical vertex coordinate is excluded; therefore adjacent-facet overlap away from shared vertices is not certified by this test. Duplicate facets and degenerate facets are counted separately."
+  },
+  "local_wall_regression": {
+    "report": "side-shell-review.json",
+    "figure": "side-shell-review.png",
+    "method": "Deterministic up to3000 samples among changed outer-skin vertices. At corresponding before/after positions cast inward along the same baseline area-weighted vertex normal, independently against each actual STL solid. Accept first entry within0.10mm of the exterior point and opposing exit dot<-0.25 within8mm.",
+    "paired_samples": 3000,
+    "summary": {
+      "baseline": {
+        "valid_samples": 3000,
+        "min_p01_p05_median_mm": [
+          0.706103210711064,
+          0.8055499778057104,
+          1.0694787546162323,
+          2.600671178884405
+        ],
+        "below_1mm_count": 112,
+        "below_2mm_count": 444
+      },
+      "current": {
+        "valid_samples": 3000,
+        "min_p01_p05_median_mm": [
+          0.7304113543686424,
+          0.8082101673404887,
+          1.0316363454303044,
+          2.5794583514246705
+        ],
+        "below_1mm_count": 121,
+        "below_2mm_count": 450
+      }
+    },
+    "new_paired_below_1mm_count": 19,
+    "maximum_paired_reduction_mm": 0.31286608790222115,
+    "complete_solver_point_sampling_report": "surface-postprocess/surface-finish-provenance.json",
+    "complete_solver_point_sample_count": 17623,
+    "complete_solver_point_minimum_before_after_mm": [
+      0.7061971068382263,
+      0.7251340985298157
+    ],
+    "interpretation": "Wall thickness intentionally changes with exterior-only smoothing. The existing thin eye-adjacent rim remains separate from ordinary2.6mm shell. Independent3000-point sampling improved minimum0.70610→0.73041mm;19 paired samples cross below1mm (mostly small changes near the already thin outer-eye region). No claim of wall-thickness invariance or a certified global minimum.",
+    "limits": "Discrete ray crossings do not certify global minimum thickness. Complex thin rims may yield ambiguous or changing exit branches; missing samples and paired reductions retained for interpretation."
+  },
+  "eye_apertures": {
+    "report": "face-opening-comparison.json",
+    "figure": "eye-aperture-comparison.png",
+    "baseline": "v0.12",
+    "sample_pitch_mm": 0.05,
+    "all_projections_valid": true,
+    "identical_at_sampled_pitch": true,
+    "width_height_mm": [
+      [
+        11.0,
+        9.55
+      ],
+      [
+        11.0,
+        9.55
+      ]
+    ]
+  },
+  "functional_inheritance": {
+    "report": "inherited-functional-checks.json",
+    "new_sweep_or_assembly_test_run": false,
+    "baseline": "v0.12",
+    "results": {
+      "cap_assembly_clearance": true,
+      "fully_seated_cap": true,
+      "rear_cap_removal_path": true,
+      "nominal_16mm_eye_sweep_path": true,
+      "minimum_selected_eye_path_clearance_mm": 0.1870023452097953
+    },
+    "basis": "Actual inner wall, cap bytes, head interface/neck vertices outside skin support and all other mesh objects exact0; head topology unchanged. No inherited result is labeled as a fresh test."
+  },
+  "blend_STL_correspondence": {
+    "report": "surface-only-review.json",
+    "parts": {
+      "head": {
+        "baseline": {
+          "stl_triangles": 505398,
+          "blend_triangles": 505398,
+          "unique_float32_positions_equal": true,
+          "oriented_triangles_equal": true,
+          "pass": true
+        },
+        "current": {
+          "stl_triangles": 505398,
+          "blend_triangles": 505398,
+          "unique_float32_positions_equal": true,
+          "oriented_triangles_equal": true,
+          "pass": true
+        }
+      },
+      "cap": {
+        "baseline": {
+          "stl_triangles": 97070,
+          "blend_triangles": 97070,
+          "unique_float32_positions_equal": true,
+          "oriented_triangles_equal": true,
+          "pass": true
+        },
+        "current": {
+          "stl_triangles": 97070,
+          "blend_triangles": 97070,
+          "unique_float32_positions_equal": true,
+          "oriented_triangles_equal": true,
+          "pass": true
+        }
+      }
+    }
+  },
+  "physical_fit": "No physical print, material-strength, eye-installation or cap-fit test was performed."
+}

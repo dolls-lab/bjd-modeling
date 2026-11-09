@@ -1,0 +1,220 @@
+{
+  "units": "mm",
+  "sources": {
+    "head_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+    },
+    "hemisphere_eye_geometry": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v2-surface-paint/eye-assets/hemisphere-eye-geometry.npz",
+      "sha256": "32ba6b9bf68c55bcd209e2a5c1c7e3e02789909c312a5222accfa5afe17d355a"
+    },
+    "build_report": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/build-report.json",
+      "sha256": "038c4e5583ad075fcc636125a38db4d0271c540e5ef7bf1b61c72a4ca42a7907"
+    }
+  },
+  "all_inputs_unchanged": true,
+  "parts": [
+    {
+      "eye": "negative",
+      "topology": {
+        "vertices": 24578,
+        "triangles": 49152,
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "volume_mm3": 223.5575476448536,
+        "analytic_hemisphere_wall_volume_mm3": 223.6311314531357,
+        "face_components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "euler_number": 2,
+        "manifold_status": "Error.NoError"
+      },
+      "domain": {
+        "center_mm": [
+          -13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "front_direction": [
+          0,
+          -1,
+          0
+        ],
+        "outer_design_radius_mm": 8.0,
+        "inner_design_radius_mm": 7.4,
+        "nominal_radial_wall_mm": 0.6,
+        "vertex_radius_tolerance_mm": 0.0001,
+        "outer_radius_vertex_count": 12289,
+        "inner_radius_vertex_count": 12289,
+        "vertices_on_neither_design_radius": 0,
+        "maximum_outer_radius_error_mm": 4.440892098500626e-15,
+        "maximum_inner_radius_error_mm": 4.440892098500626e-15,
+        "relative_y_min_max_mm": [
+          -8.0,
+          0.0
+        ],
+        "back_plane_domain_excess_mm": 0.0,
+        "rim_vertex_count": 384
+      },
+      "head_fit": {
+        "head_intersection_volume_mm3": 0.0,
+        "head_intersection_empty": true,
+        "head_intersection_status": "Error.NoError",
+        "minimum_head_clearance_mm_search_limit1": 0.18278727341544235,
+        "pass": true
+      },
+      "back_cavity_tests": [
+        {
+          "offset_radius_mm": 0.0,
+          "hit_count": 0,
+          "clear": true
+        },
+        {
+          "offset_radius_mm": 3.7,
+          "hit_count": 0,
+          "clear": true
+        },
+        {
+          "offset_radius_mm": 7.0,
+          "hit_count": 0,
+          "clear": true
+        }
+      ],
+      "back_open": true,
+      "frontal_aperture_coverage": {
+        "sample_pitch_mm": 0.05,
+        "head_aperture": {
+          "sample_count": 32591,
+          "area_mm2": 81.47750000000002,
+          "width_mm": 11.450000000000001,
+          "height_mm": 9.3,
+          "clear_components": 2
+        },
+        "analytic_front_hemisphere_missed_rays": 0,
+        "analytic_maximum_radial_deficit_mm": 0.0,
+        "analytic_minimum_radial_margin_mm": 2.0623026348591997,
+        "actual_cup_missing_rays": 0,
+        "actual_cup_missing_area_mm2": 0.0,
+        "actual_cup_missing_xz_mm": [],
+        "actual_first_hit_front_facing_count": 32591,
+        "actual_first_hit_count": 32591,
+        "actual_vs_analytic_front_y_error_mm": {
+          "min": 4.686694826006033e-06,
+          "mean": 0.000633054818209564,
+          "max": 0.0017085234673714922
+        },
+        "actual_outer_surface_radial_error_max_mm": 0.001164250168960379,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "eye": "positive",
+      "topology": {
+        "vertices": 24578,
+        "triangles": 49152,
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "volume_mm3": 223.5575476448536,
+        "analytic_hemisphere_wall_volume_mm3": 223.6311314531357,
+        "face_components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "euler_number": 2,
+        "manifold_status": "Error.NoError"
+      },
+      "domain": {
+        "center_mm": [
+          13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "front_direction": [
+          0,
+          -1,
+          0
+        ],
+        "outer_design_radius_mm": 8.0,
+        "inner_design_radius_mm": 7.4,
+        "nominal_radial_wall_mm": 0.6,
+        "vertex_radius_tolerance_mm": 0.0001,
+        "outer_radius_vertex_count": 12289,
+        "inner_radius_vertex_count": 12289,
+        "vertices_on_neither_design_radius": 0,
+        "maximum_outer_radius_error_mm": 4.440892098500626e-15,
+        "maximum_inner_radius_error_mm": 4.440892098500626e-15,
+        "relative_y_min_max_mm": [
+          -8.0,
+          0.0
+        ],
+        "back_plane_domain_excess_mm": 0.0,
+        "rim_vertex_count": 384
+      },
+      "head_fit": {
+        "head_intersection_volume_mm3": 0.0,
+        "head_intersection_empty": true,
+        "head_intersection_status": "Error.NoError",
+        "minimum_head_clearance_mm_search_limit1": 0.1847163099045403,
+        "pass": true
+      },
+      "back_cavity_tests": [
+        {
+          "offset_radius_mm": 0.0,
+          "hit_count": 0,
+          "clear": true
+        },
+        {
+          "offset_radius_mm": 3.7,
+          "hit_count": 0,
+          "clear": true
+        },
+        {
+          "offset_radius_mm": 7.0,
+          "hit_count": 0,
+          "clear": true
+        }
+      ],
+      "back_open": true,
+      "frontal_aperture_coverage": {
+        "sample_pitch_mm": 0.05,
+        "head_aperture": {
+          "sample_count": 32588,
+          "area_mm2": 81.47000000000001,
+          "width_mm": 11.450000000000001,
+          "height_mm": 9.3,
+          "clear_components": 2
+        },
+        "analytic_front_hemisphere_missed_rays": 0,
+        "analytic_maximum_radial_deficit_mm": 0.0,
+        "analytic_minimum_radial_margin_mm": 2.0488446499860213,
+        "actual_cup_missing_rays": 0,
+        "actual_cup_missing_area_mm2": 0.0,
+        "actual_cup_missing_xz_mm": [],
+        "actual_first_hit_front_facing_count": 32588,
+        "actual_first_hit_count": 32588,
+        "actual_vs_analytic_front_y_error_mm": {
+          "min": 4.686694826006033e-06,
+          "mean": 0.0006330773339809272,
+          "max": 0.0017085234673714922
+        },
+        "actual_outer_surface_radial_error_max_mm": 0.001164250168960379,
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "left_right_cup_intersection_volume_mm3": 0.0,
+  "pass": true,
+  "method": "Actual independent solid hemisphere-cup meshes versus the actual unchanged v14 head. Original flat eye meshes are not used. Head-clear frontal +Y rays on0.05mm XZ grid are tested against both the analytic R8 front hemisphere and the actual cup mesh.",
+  "limitations": [
+    "Coverage applies to the sampled frontal orthographic view, not every viewing angle or subpixel location.",
+    "Analytic R8 comparison describes nominal spherical geometry; triangulated surfaces have small faceting deviations.",
+    "Closed positive wall volume describes the cup material. The rear cavity is intentionally open and tested independently.",
+    "No insertion path, full-head structural test, physical print tolerance or strength certification was performed."
+  ],
+  "duration_seconds": 1.8068032264709473
+}

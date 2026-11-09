@@ -1,0 +1,672 @@
+{
+  "version": "v0.8 final draft",
+  "units": "mm",
+  "final_stl": {
+    "file": "march7-head-shell-v0.8-draft.stl",
+    "sha256": "0ea36a9f547666948328f47f21a14cf2815be2f16b9a3796a44d4ee22f927d51"
+  },
+  "chosen_geometry": {
+    "baseline": "v0.7 delivered print head",
+    "position_prior": "A partial 62.5% restoration toward the v5 curved cranium, with source/ear and interface locks inside a cotangent bi-Laplacian solve. No constant-X ceiling or ellipsoid projection.",
+    "alpha": 0.03,
+    "maximum_print_displacement_mm": 2.4317106797731802,
+    "source_locked_max_displacement_mm": 0.0,
+    "all_locked_max_displacement_mm": 0.0,
+    "yz_max_displacement_mm": 0.0,
+    "preservation_note": "Complete v7 source sculpt, including the preceding rear-ear microfinish, is fixed in this revision."
+  },
+  "horizontal_roundness": {
+    "report": "horizontal-roundness-review.json",
+    "curves_image": "horizontal-roundness-review.png",
+    "metrics_definition": "Signed midpoint sagitta on Y4..12; positive tangent reverse-turn on Y5..11 after a cubic Savitzky-Golay derivative on a 2 mm window.",
+    "final_sections": [
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 24,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.3518783448285667,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3518783448285667,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -14.750489324273852,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.045311570107190696,
+            -0.0421675901229672,
+            -0.03897451945597135
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 24,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.350972766701215,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.350972766701215,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -14.727111971233942,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.04494301030406233,
+            -0.04232056738643854,
+            -0.039150538224696045
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 26,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.27935671665524,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.27935671665524,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -11.577943256121609,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.03841044263232795,
+            -0.03572588310452871,
+            -0.019656249987120445
+          ]
+        },
+        "broad_cranium_peak_count": 0
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 26,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.2799532185904994,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.2797190336844686,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -11.589373707451509,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.03853863956385102,
+            -0.036062289848776435,
+            -0.018181275558583763
+          ]
+        },
+        "broad_cranium_peak_count": 0
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 30,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5072404420491665,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.506168800176475,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -21.40513974719291,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07351457848968027,
+            -0.06223282816614252,
+            -0.04642023999928973
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 30,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5101625581109381,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5093655549723763,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -21.56055153974216,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07300839161832336,
+            -0.06304395972882734,
+            -0.04763052557084077
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 32,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5580688568859031,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5558485276233434,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -23.44199286878795,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07969770233004633,
+            -0.07008031331859169,
+            -0.050643317045073015
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 32,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5586968424561292,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5563699936813471,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -23.383593063170228,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07827528057804634,
+            -0.06995785470355134,
+            -0.0508196836801558
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 36,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5310492142851224,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5298571594894419,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -22.09083420485251,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07250580521826988,
+            -0.068522593373404,
+            -0.04574661381462429
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 36,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5313696563103463,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5302239124712891,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -22.159370461023805,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.07246694934258306,
+            -0.06829079786336284,
+            -0.045903048571233104
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 38,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.49909158334946824,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.49909158334946824,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -20.791382853488233,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.0671115960151498,
+            -0.0641506965853904,
+            -0.04165080199573199
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 38,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.5011539045884419,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.5011539045884419,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -20.8107964608321,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.0667633687453889,
+            -0.06573086032123578,
+            -0.04193561451576625
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 42,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.3972507726096133,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3972507726096133,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -16.491133362014956,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.053848252081012606,
+            -0.04959911707038659,
+            -0.033165642300761224
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 42,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.3969539746532291,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3969539746532291,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -16.552808660952746,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.053097128508380935,
+            -0.05007106527565126,
+            -0.03418134176378199
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 44,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.32503371764862266,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3249035307961101,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -13.341144421075644,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.04499802302532392,
+            -0.04046856596404367,
+            -0.026534475332887077
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 44,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.32491356477128264,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3245550943594786,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -13.320002787478076,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.04494203315512739,
+            -0.04149225801825921,
+            -0.026838191715779655
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "negative_x_user_right",
+        "z_mm": 48,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.4036000367343391,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.3998678147774797,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -17.153789814094033,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.0681770811625771,
+            -0.04579011785867282,
+            -0.036218121143832535
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      },
+      {
+        "side": "positive_x",
+        "z_mm": 48,
+        "metrics": {
+          "chord_y_interval_mm": [
+            4,
+            12
+          ],
+          "outward_sagitta_max_mm": 0.405467737707351,
+          "inward_sagitta_min_mm": 0.0,
+          "midpoint_sagitta_mm": 0.40188904206146603,
+          "positive_reverse_turn_deg_y5to11": 0.0,
+          "signed_tangent_turn_deg_y5to11": -17.272847926863598,
+          "macro_signed_curvature_p10_p50_p90_per_mm": [
+            -0.06782454846019784,
+            -0.04569401082805515,
+            -0.03620789564074973
+          ]
+        },
+        "broad_cranium_peak_count": 1
+      }
+    ],
+    "all_core_midpoint_sagittas_positive": true,
+    "maximum_core_reverse_turn_degrees": 0.0,
+    "limitation": "The measured core is outwardly bowed. A wider source-face-to-cranium profile can retain an S-shaped transition; this is not a claim of universal convexity or exact circle/ellipse fitting."
+  },
+  "top_silhouette": {
+    "report": "top-silhouette-review.json",
+    "image": "top-silhouette-review.png",
+    "records": [
+      {
+        "side": "negative_x_user_right",
+        "full_ear_to_posterior_waist": {
+          "anterior_peak_y_x_z_mm": [
+            0.8,
+            27.781450621808645,
+            27.449273146127393
+          ],
+          "anterior_peak_on_source_ear": true,
+          "posterior_peak_y_x_z_mm": [
+            6.0,
+            27.47508694358264,
+            39.28429307614937
+          ],
+          "valley_y_x_z_mm": [
+            1.7,
+            27.098633741657142,
+            26.370078622886425
+          ],
+          "depth_below_lower_peak_mm": 0.3764532019254965,
+          "definition": "Largest anterior width in Y−1..1.5 and posterior width in Y3..10; minimum width between them. Includes the conserved ear silhouette."
+        },
+        "ear_excluded_chord": {
+          "y_interval_mm": [
+            -6,
+            6
+          ],
+          "midpoint_residual_mm": 0.05368345454570189,
+          "minimum_residual_mm": -0.03728860281702495,
+          "minimum_residual_y_mm": -4.2,
+          "definition": "Signed |X|max(Y) minus endpoint chord; negative denotes an inward S-shaped connector relative to that chord, even if the width is monotonically increasing."
+        }
+      },
+      {
+        "side": "positive_x",
+        "full_ear_to_posterior_waist": {
+          "anterior_peak_y_x_z_mm": [
+            0.8,
+            27.786297741087235,
+            27.449263830958913
+          ],
+          "anterior_peak_on_source_ear": true,
+          "posterior_peak_y_x_z_mm": [
+            6.0,
+            27.469132213173374,
+            39.2852587883612
+          ],
+          "valley_y_x_z_mm": [
+            1.7,
+            27.09111168914601,
+            26.370061202299382
+          ],
+          "depth_below_lower_peak_mm": 0.3780205240273631,
+          "definition": "Largest anterior width in Y−1..1.5 and posterior width in Y3..10; minimum width between them. Includes the conserved ear silhouette."
+        },
+        "ear_excluded_chord": {
+          "y_interval_mm": [
+            -6,
+            6
+          ],
+          "midpoint_residual_mm": 0.056009249158460506,
+          "minimum_residual_mm": -0.03587031101461591,
+          "minimum_residual_y_mm": -4.3,
+          "definition": "Signed |X|max(Y) minus endpoint chord; negative denotes an inward S-shaped connector relative to that chord, even if the width is monotonically increasing."
+        }
+      }
+    ],
+    "interpretation": "The full outline includes the preserved projecting ear. The ear-to-skull valley and the much smaller ear-excluded connector residual are reported separately, without using a convex hull to hide them."
+  },
+  "wall_sampling": {
+    "report": "side-shell-review.json",
+    "core_side_and_ear_root": {
+      "y_mm": [
+        -1,
+        15,
+        0.5
+      ],
+      "z_mm": [
+        16,
+        43,
+        0.5
+      ],
+      "valid_samples": 3550,
+      "minimum_directional_wall_chord_mm": 2.483193239980107,
+      "below_2mm_count": 0
+    },
+    "expanded_grid": {
+      "y_mm": [
+        -1,
+        18,
+        0.5
+      ],
+      "z_mm": [
+        16,
+        52,
+        0.5
+      ]
+    },
+    "near_orthogonal_wall_samples": {
+      "-1:narrow_ear_root": {
+        "criterion": "abs(innermost material interval entry normal X)>=.9",
+        "count": 468,
+        "minimum_mm": 2.48934734096936
+      },
+      "-1:side_skull": {
+        "criterion": "abs(innermost material interval entry normal X)>=.9",
+        "count": 1404,
+        "minimum_mm": 2.3754149877775355
+      },
+      "1:narrow_ear_root": {
+        "criterion": "abs(innermost material interval entry normal X)>=.9",
+        "count": 470,
+        "minimum_mm": 2.483193239980107
+      },
+      "1:side_skull": {
+        "criterion": "abs(innermost material interval entry normal X)>=.9",
+        "count": 1407,
+        "minimum_mm": 2.375
+      }
+    },
+    "expanded_grazing_and_coplanar_short_intervals": [
+      {
+        "side": -1,
+        "y_mm": 11.5,
+        "z_mm": 44.5,
+        "chord_mm": 1.8204003775328879,
+        "entry_normal_x_abs": 0.22706866071535067,
+        "cap_plane_residual_mm": -4.649999999999999,
+        "v7_chord_mm": 1.8204258629075802,
+        "unchanged_chord_within_1e_5mm": false,
+        "classification": "Grazing material edge/hardware interval; inspect alongside entry-normal alignment and unchanged baseline."
+      },
+      {
+        "side": -1,
+        "y_mm": 16.0,
+        "z_mm": 45.0,
+        "chord_mm": 0.04979835232260044,
+        "entry_normal_x_abs": 1.5220604096371258e-07,
+        "cap_plane_residual_mm": 0.0,
+        "v7_chord_mm": 0.04979835232260044,
+        "unchanged_chord_within_1e_5mm": true,
+        "classification": "Ray lies in cap parting plane; do not interpret coplanar intersections as normal wall thickness."
+      },
+      {
+        "side": -1,
+        "y_mm": 15.0,
+        "z_mm": 45.5,
+        "chord_mm": 1.2669401481547062,
+        "entry_normal_x_abs": 0.1629044883120775,
+        "cap_plane_residual_mm": -0.8500000000000014,
+        "v7_chord_mm": 1.2669424774615834,
+        "unchanged_chord_within_1e_5mm": true,
+        "classification": "Grazing material edge/hardware interval; inspect alongside entry-normal alignment and unchanged baseline."
+      },
+      {
+        "side": 1,
+        "y_mm": 17.5,
+        "z_mm": 40.0,
+        "chord_mm": 1.5286946264547687,
+        "entry_normal_x_abs": 1.019070543269661e-06,
+        "cap_plane_residual_mm": 0.0,
+        "v7_chord_mm": 1.5286946264547687,
+        "unchanged_chord_within_1e_5mm": true,
+        "classification": "Ray lies in cap parting plane; do not interpret coplanar intersections as normal wall thickness."
+      },
+      {
+        "side": 1,
+        "y_mm": 11.5,
+        "z_mm": 44.5,
+        "chord_mm": 1.8200751506368071,
+        "entry_normal_x_abs": 0.22673309129979666,
+        "cap_plane_residual_mm": -4.649999999999999,
+        "v7_chord_mm": 1.8201514870676085,
+        "unchanged_chord_within_1e_5mm": false,
+        "classification": "Grazing material edge/hardware interval; inspect alongside entry-normal alignment and unchanged baseline."
+      },
+      {
+        "side": 1,
+        "y_mm": 16.0,
+        "z_mm": 45.0,
+        "chord_mm": 0.692777240760055,
+        "entry_normal_x_abs": 0.0001116857982085147,
+        "cap_plane_residual_mm": 0.0,
+        "v7_chord_mm": 0.692777240760055,
+        "unchanged_chord_within_1e_5mm": true,
+        "classification": "Ray lies in cap parting plane; do not interpret coplanar intersections as normal wall thickness."
+      },
+      {
+        "side": 1,
+        "y_mm": 15.0,
+        "z_mm": 45.5,
+        "chord_mm": 1.2669181494882231,
+        "entry_normal_x_abs": 0.1629044883626351,
+        "cap_plane_residual_mm": -0.8500000000000014,
+        "v7_chord_mm": 1.2669326429611623,
+        "unchanged_chord_within_1e_5mm": false,
+        "classification": "Grazing material edge/hardware interval; inspect alongside entry-normal alignment and unchanged baseline."
+      }
+    ],
+    "limitation": "Directional chords are not a global minimum-normal-thickness proof. Expanded-grid rays can graze fixed hardware/edges or lie in the cap plane; these raw short intervals remain explicitly documented."
+  },
+  "local_intersections": {
+    "report": "local-junction-intersection-check.json",
+    "scope": "Both sides |X|>=17, Y -7..12, Z16..53; includes ear-root and temple source junctions. Pairs sharing any vertex are excluded; at least one triangle must change. This is a local intersection check, not a universal full-model proof.",
+    "region_triangles": 124945,
+    "changed_region_triangles": 93435,
+    "nonadjacent_pairs_tested": 35429,
+    "new_strict_intersections": 0,
+    "new_ambiguous_contacts": 0,
+    "normal_rotation_over_90_count": 0,
+    "degenerate_triangles": 0,
+    "actual_stl_facets_match_solution_float32": true
+  },
+  "eyes": {
+    "insertion_report": "eye-insertion-check.json",
+    "continuous_16mm_eye_insertion_pass": true,
+    "aperture_report": "face-opening-comparison.json",
+    "baseline_version": "v0.7",
+    "projection_pitch_mm": 0.05,
+    "aperture_changes": [
+      {
+        "eye_id": "x_negative",
+        "changes": {
+          "width_mm": 0.0,
+          "height_mm": 0.0,
+          "area_mm2": 0.0,
+          "area_percent": 0.0,
+          "centroid_shift_xz_mm": [
+            0.0,
+            0.0
+          ],
+          "centroid_shift_distance_mm": 0.0,
+          "intersection_over_union": 1.0,
+          "symmetric_difference_area_mm2": 0.0
+        }
+      },
+      {
+        "eye_id": "x_positive",
+        "changes": {
+          "width_mm": 0.0,
+          "height_mm": 0.0,
+          "area_mm2": 0.0,
+          "area_percent": 0.0,
+          "centroid_shift_xz_mm": [
+            0.0,
+            0.0
+          ],
+          "centroid_shift_distance_mm": 0.0,
+          "intersection_over_union": 1.0,
+          "symmetric_difference_area_mm2": 0.0
+        }
+      }
+    ]
+  },
+  "other_reports": {
+    "whole_mesh_and_cap_assembly": "validation.json",
+    "source_preservation": "source-preservation-review.json"
+  },
+  "limits": [
+    "Selected profiles and local intersection checks support this revision, but do not certify every possible curvature or self-contact across the entire mesh.",
+    "Digital eye clearance excludes eye stems, putty, tools, manufacturing tolerance and physical print verification."
+  ]
+}

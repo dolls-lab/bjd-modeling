@@ -1,0 +1,182 @@
+{
+  "version": "v0.7 final draft",
+  "units": "mm",
+  "final_stl": {
+    "file": "march7-head-shell-v0.7-draft.stl",
+    "sha256": "c292157ccc1cacd22713c175f4c5d356b656298005510435ee06c9c13b34cb9f"
+  },
+  "geometry_changes": {
+    "broad_junction_repair": "Local scalar-X constrained bi-Laplacian on the actual print topology, using the undistorted v5 metric and v6 position prior. Original protected face/ear and mechanical boundaries held inside the solve.",
+    "earback_microfinish": "Additional small 3D fairing limited to 442 source-classified rear-ear interior vertices, inset at least 0.5 mm from declared original ear front/back boundary and outline.",
+    "earback_released_vertex_count": 442,
+    "earback_maximum_incremental_move_mm": 0.12359659284041988,
+    "nonreleased_incremental_max_mm": 0.0,
+    "remaining_source_locked_incremental_max_mm": 0.0
+  },
+  "staged_local_intersection_checks": {
+    "broad_repair_candidate2": {
+      "report": "local-junction-intersection-check.json",
+      "solution_sha256": "c9ebf7d6caa1843950967b63c42db935c71776cbd47142d8a4816fc7e2b3d4bf",
+      "check": {
+        "scope": "Both sides absX>=17, Y -2..5, Z20..34; bounding boxes intersect region. Includes normal-anomalous triangles and ear-source lock junction strips. At least one triangle moved relative to v6. This is not a full global self-intersection or wall-thickness certification.",
+        "region_triangles": 39603,
+        "changed_region_triangles": 28326,
+        "nonadjacent_aabb_pairs_checked": 5657,
+        "excluded_pairs": "Any shared vertex index",
+        "tolerance_mm": 1e-06,
+        "projected_polygon_rejection": true,
+        "pairs": [],
+        "new_strict_intersections_vs_v6": 0,
+        "new_ambiguous_contacts_vs_v6": 0
+      },
+      "normal_over_90_degrees_vs_v6_count": 17,
+      "all_normal_changes_are_restoration_toward_v5": true,
+      "degenerate_triangles": 0
+    },
+    "earback_increment_candidate3": {
+      "report": "local-earback-intersection-check.json",
+      "solution_sha256": "239a82f6f22c3b6c5c29773c116e6360b0319aa73a01064f917f879af73b6a40",
+      "final_stl_exact_float32_facet_match": true,
+      "check": {
+        "affected_bbox_mm": [
+          [
+            -27.44133095605469,
+            -1.0249348150024413,
+            27.98125548498535
+          ],
+          [
+            27.441163109375,
+            1.5337744222412109,
+            31.23489670617676
+          ]
+        ],
+        "candidate_triangles_in_bbox": 4519,
+        "nonadjacent_pairs_checked": 140,
+        "exclusions": "Any shared vertex; pairs where neither triangle changed; duplicate pairs. All other model triangles intersecting each changed triangle AABB remain eligible.",
+        "tolerance_mm": 1e-06,
+        "projected_polygon_rejection": true,
+        "pairs": [],
+        "new_strict_intersections": 0,
+        "new_ambiguous_contacts": 0
+      },
+      "normal_rotation_over_90_count": 0,
+      "degenerate_changed_triangles": 0
+    }
+  },
+  "wall_review": {
+    "report": "side-shell-review.json",
+    "grid": {
+      "y_mm": [
+        -1,
+        15,
+        0.5
+      ],
+      "z_mm": [
+        16,
+        43,
+        0.5
+      ]
+    },
+    "samples": {
+      "-1:narrow_ear_root": {
+        "valid_samples": 479,
+        "total_rays": 495,
+        "unpaired_or_missing_count": 16,
+        "minimum_directional_wall_chord_mm": 2.6224846864589573,
+        "below_2mm_count": 0,
+        "near_orthogonal_wall_chords": {
+          "criterion": "abs(innermost material interval entry normal X)>=.9",
+          "count": 302,
+          "minimum_mm": 2.6224846864589573
+        }
+      },
+      "-1:side_skull": {
+        "valid_samples": 1296,
+        "total_rays": 1320,
+        "unpaired_or_missing_count": 24,
+        "minimum_directional_wall_chord_mm": 2.3705573228971275,
+        "below_2mm_count": 0,
+        "near_orthogonal_wall_chords": {
+          "criterion": "abs(innermost material interval entry normal X)>=.9",
+          "count": 1168,
+          "minimum_mm": 2.3705573228971275
+        }
+      },
+      "1:narrow_ear_root": {
+        "valid_samples": 479,
+        "total_rays": 495,
+        "unpaired_or_missing_count": 16,
+        "minimum_directional_wall_chord_mm": 2.6180443133846545,
+        "below_2mm_count": 0,
+        "near_orthogonal_wall_chords": {
+          "criterion": "abs(innermost material interval entry normal X)>=.9",
+          "count": 302,
+          "minimum_mm": 2.6180443133846545
+        }
+      },
+      "1:side_skull": {
+        "valid_samples": 1296,
+        "total_rays": 1320,
+        "unpaired_or_missing_count": 24,
+        "minimum_directional_wall_chord_mm": 2.377624450387369,
+        "below_2mm_count": 0,
+        "near_orthogonal_wall_chords": {
+          "criterion": "abs(innermost material interval entry normal X)>=.9",
+          "count": 1172,
+          "minimum_mm": 2.377624450387369
+        }
+      }
+    },
+    "minimum_valid_wall_chord_mm": 2.3705573228971275,
+    "total_valid_wall_samples": 3550,
+    "total_below_2mm_count": 0,
+    "definition": "Ray from +/-X60 toward X0; all material intervals retained. Use innermost pair for shell when an outer detached ear segment produces four hits. Values are X-direction chords, not a full normal minimum-thickness proof."
+  },
+  "eyes": {
+    "insertion_report": "eye-insertion-check.json",
+    "continuous_16mm_eye_insertion_pass": true,
+    "aperture_report": "face-opening-comparison.json",
+    "aperture_baseline_version": "v0.6",
+    "aperture_grid_pitch_mm": 0.05,
+    "changes": [
+      {
+        "eye_id": "x_negative",
+        "changes": {
+          "width_mm": 0.0,
+          "height_mm": 0.0,
+          "area_mm2": 0.0,
+          "area_percent": 0.0,
+          "centroid_shift_xz_mm": [
+            0.0,
+            0.0
+          ],
+          "centroid_shift_distance_mm": 0.0,
+          "intersection_over_union": 1.0,
+          "symmetric_difference_area_mm2": 0.0
+        }
+      },
+      {
+        "eye_id": "x_positive",
+        "changes": {
+          "width_mm": 0.0,
+          "height_mm": 0.0,
+          "area_mm2": 0.0,
+          "area_percent": 0.0,
+          "centroid_shift_xz_mm": [
+            0.0,
+            0.0
+          ],
+          "centroid_shift_distance_mm": 0.0,
+          "intersection_over_union": 1.0,
+          "symmetric_difference_area_mm2": 0.0
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Local intersection tests cover the repaired ear-root region and the subsequent changed ear-back neighborhood; they are not represented as a universal self-intersection proof.",
+    "Wall values are directional ray chords in the declared grid. For rays crossing a detached pinna and then the shell, the innermost material interval is used. Unpaired/missing cavity intervals are recorded and excluded, not assigned a fabricated thickness.",
+    "Whole-mesh topology, cap closure and hardware checks are in validation.json; semantic face/ear preservation is separately audited in source-preservation-review.json.",
+    "Digital eye passage does not certify physical eye stems, putty, tools, material tolerance or print quality."
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "units": "mm",
+  "method": "Independent STL reload with trimesh and manifold3d",
+  "trimesh_version": "5.2.0",
+  "parts": {
+    "head_shell": {
+      "file": "march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+      "vertices": 252695,
+      "triangles": 505398,
+      "finite_coordinates": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_signed_volume": true,
+      "volume_mm3": 25175.691774615723,
+      "surface_area_mm2": 18796.341418031105,
+      "euler_number": -4,
+      "connected_components": 1,
+      "component_triangles": [
+        505398
+      ],
+      "component_volume_mm3": [
+        25175.69177461587
+      ],
+      "bounds_mm": [
+        [
+          -27.776866912841797,
+          -33.49270248413086,
+          0.06929779052734375
+        ],
+        [
+          27.779043197631836,
+          24.055156707763672,
+          69.78440856933594
+        ]
+      ],
+      "dimensions_mm": [
+        55.55591011047363,
+        57.54785919189453,
+        69.7151107788086
+      ],
+      "boundary_edges": 0,
+      "overused_nonmanifold_edges": 0,
+      "boundary_edge_locations": null,
+      "nonmanifold_edge_locations": null,
+      "degenerate_triangles_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangle_count": 0,
+      "bad_triangle_locations": null,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 25175.691774615727,
+      "manifold_volume_agreement_mm3": 3.637978807091713e-12,
+      "pass": true,
+      "expected_euler_number": -4,
+      "expected_openings_topology": "Thick shell with two eye openings, one neck opening and one removable-cap opening; genus 3.",
+      "expected_euler_pass": true,
+      "thickness_sampling": {
+        "method": "deterministic area-weighted inward face-normal chords, maximum 20 mm",
+        "sampled_faces": 1200,
+        "valid_chords": 1199,
+        "min_chord_mm": 0.4361590875198715,
+        "percentiles_1_5_50_95_mm": [
+          0.8914711674248508,
+          2.310745340242345,
+          2.6015894194472398,
+          7.694230855747398
+        ],
+        "ten_shortest_chords": [
+          {
+            "length_mm": 0.4361590875198715,
+            "at_mm": [
+              4.141895453135173,
+              22.79267692565918,
+              21.447813034057617
+            ]
+          },
+          {
+            "length_mm": 0.5726124375672578,
+            "at_mm": [
+              19.018510182698567,
+              15.625147501627604,
+              45.12379455566406
+            ]
+          },
+          {
+            "length_mm": 0.5906342524397333,
+            "at_mm": [
+              -18.60369809468587,
+              -20.43425750732422,
+              25.696685155232746
+            ]
+          },
+          {
+            "length_mm": 0.6601778169154049,
+            "at_mm": [
+              6.670591831207275,
+              22.446065266927082,
+              22.152395884195965
+            ]
+          },
+          {
+            "length_mm": 0.6939415776395347,
+            "at_mm": [
+              19.608314514160156,
+              -19.11233901977539,
+              26.10403569539388
+            ]
+          },
+          {
+            "length_mm": 0.7307396808519985,
+            "at_mm": [
+              19.641582489013672,
+              -19.84410858154297,
+              25.455806096394856
+            ]
+          },
+          {
+            "length_mm": 0.7323242541229081,
+            "at_mm": [
+              19.447079340616863,
+              -19.97957992553711,
+              25.423681894938152
+            ]
+          },
+          {
+            "length_mm": 0.7685210669382342,
+            "at_mm": [
+              7.400353113810222,
+              22.30286153157552,
+              22.406720479329426
+            ]
+          },
+          {
+            "length_mm": 0.7766253320158476,
+            "at_mm": [
+              -21.083017985026043,
+              -14.103068669637045,
+              24.28981653849284
+            ]
+          },
+          {
+            "length_mm": 0.7832038690364292,
+            "at_mm": [
+              -18.87264569600423,
+              -20.187310536702473,
+              26.915212631225586
+            ]
+          }
+        ],
+        "limitation": "Edge/rim and boolean seam chords can be short; this is not a minimum wall-thickness guarantee."
+      }
+    },
+    "head_cap": {
+      "file": "march7-head-cap-v0.14-draft.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+      "vertices": 48537,
+      "triangles": 97070,
+      "finite_coordinates": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_signed_volume": true,
+      "volume_mm3": 5299.616236814798,
+      "surface_area_mm2": 4595.018747676556,
+      "euler_number": 2,
+      "connected_components": 1,
+      "component_triangles": [
+        97070
+      ],
+      "component_volume_mm3": [
+        5299.6162368148225
+      ],
+      "bounds_mm": [
+        [
+          -21.90531349182129,
+          9.420143127441406,
+          18.3775634765625
+        ],
+        [
+          21.90537452697754,
+          30.50926971435547,
+          67.8028793334961
+        ]
+      ],
+      "dimensions_mm": [
+        43.81068801879883,
+        21.089126586914062,
+        49.425315856933594
+      ],
+      "boundary_edges": 0,
+      "overused_nonmanifold_edges": 0,
+      "boundary_edge_locations": null,
+      "nonmanifold_edge_locations": null,
+      "degenerate_triangles_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangle_count": 0,
+      "bad_triangle_locations": null,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 5299.616236814799,
+      "manifold_volume_agreement_mm3": 9.094947017729282e-13,
+      "pass": true,
+      "expected_euler_number": 2,
+      "expected_openings_topology": "Cup-like cap with blind magnet and locator holes; genus 0, no through-wall openings.",
+      "expected_euler_pass": true,
+      "thickness_sampling": {
+        "method": "deterministic area-weighted inward face-normal chords, maximum 20 mm",
+        "sampled_faces": 1200,
+        "valid_chords": 1200,
+        "min_chord_mm": 0.043788168968518865,
+        "percentiles_1_5_50_95_mm": [
+          0.45127717569759623,
+          1.349677122368295,
+          2.600684630224544,
+          3.8071655445577735
+        ],
+        "ten_shortest_chords": [
+          {
+            "length_mm": 0.043788168968518865,
+            "at_mm": [
+              -13.027183532714844,
+              10.963136355082193,
+              62.749743143717446
+            ]
+          },
+          {
+            "length_mm": 0.07193700966536325,
+            "at_mm": [
+              -10.851798375447592,
+              10.50182056427002,
+              64.34898376464844
+            ]
+          },
+          {
+            "length_mm": 0.072574767296698,
+            "at_mm": [
+              5.441869894663493,
+              24.051206588745117,
+              19.17232831319173
+            ]
+          },
+          {
+            "length_mm": 0.12837042274005658,
+            "at_mm": [
+              -16.741400400797527,
+              21.73985481262207,
+              26.98455556233724
+            ]
+          },
+          {
+            "length_mm": 0.19010442044519443,
+            "at_mm": [
+              3.2847837607065835,
+              9.657816569010416,
+              67.4324951171875
+            ]
+          },
+          {
+            "length_mm": 0.19258086945731515,
+            "at_mm": [
+              -18.429725646972656,
+              21.009442647298176,
+              29.542232513427734
+            ]
+          },
+          {
+            "length_mm": 0.2504631414983665,
+            "at_mm": [
+              -0.01414932186404864,
+              13.805283228556315,
+              58.8995246887207
+            ]
+          },
+          {
+            "length_mm": 0.2564892165715535,
+            "at_mm": [
+              12.998256047566732,
+              11.115469296773275,
+              62.68928146362305
+            ]
+          },
+          {
+            "length_mm": 0.2657175303465991,
+            "at_mm": [
+              0.24484164516131082,
+              14.519336382548014,
+              59.38982137044271
+            ]
+          },
+          {
+            "length_mm": 0.3740385215834595,
+            "at_mm": [
+              -20.399728139241535,
+              19.75979169209798,
+              34.05451965332031
+            ]
+          }
+        ],
+        "limitation": "Edge/rim and boolean seam chords can be short; this is not a minimum wall-thickness guarantee."
+      }
+    }
+  },
+  "physical_fit": "NOT TESTED",
+  "limitations": [
+    "Digital checks do not verify actual resin shrinkage, strength, magnet fit, eye fit or neck fit.",
+    "Manifold conversion and boolean acceptance are recorded; this is not an exhaustive independent triangle-pair self-intersection proof.",
+    "STL stores no unit metadata; millimeters are the documented convention."
+  ],
+  "protected_regions": {
+    "plane_origin_mm": [
+      0.0,
+      14.5,
+      50.0
+    ],
+    "plane_outward_unit_normal": [
+      0.0,
+      0.9578262835806566,
+      0.28734789103466163
+    ],
+    "face_and_ears": {
+      "source_points_checked": 1230,
+      "minimum_plane_margin_mm": 16.71818313875246,
+      "closest_source_point_mm": [
+        25.570058025458177,
+        -1.692185407075422,
+        45.7929659309779
+      ],
+      "points_on_cap_side": 0,
+      "pass": true
+    },
+    "neck_platform_envelope": {
+      "radius_mm": 14.0,
+      "center_y_mm": 6.59410659959549,
+      "top_z_mm": 19.78231979878647,
+      "minimum_plane_margin_mm": 2.845891201743658,
+      "pass": true
+    },
+    "cap_mesh_stays_behind_plane": {
+      "minimum_signed_distance_mm": 0.24999785505797867,
+      "nominal_gap_mm": 0.25,
+      "tolerance_mm": 0.0001,
+      "pass": true
+    },
+    "highest_crown_stays_on_head": {
+      "head_max_z_mm": 69.78440856933594,
+      "cap_max_z_mm": 67.8028793334961,
+      "pass": true
+    },
+    "pass": true,
+    "limitation": "Plane-side geometric protection, not an anatomical or physical fit assertion."
+  },
+  "assembly_intersection": {
+    "volume_mm3": 0.0,
+    "empty": true,
+    "triangles": 0,
+    "status": "Error.NoError",
+    "locations": null,
+    "tolerance_mm3": 1e-05,
+    "strict_volume_pass": true,
+    "pass": true,
+    "includes": "All exported geometry including the rear locating pin, its support and blind socket, and both pairs of magnet bosses."
+  },
+  "minimum_assembly_gap_mm_up_to_1mm": 0.2498633016678981,
+  "fully_seated_cap_intersection": {
+    "volume_mm3": 0.00013336033765039512,
+    "empty": false,
+    "triangles": 28506,
+    "status": "Error.NoError",
+    "locations": {
+      "count": 14841,
+      "bounds_mm": [
+        [
+          -21.89306232145356,
+          9.180686556546242,
+          18.305726503803836
+        ],
+        [
+          21.90537452697754,
+          24.008282048508544,
+          67.73104236073743
+        ]
+      ],
+      "first_locations_mm": [
+        [
+          -16.96040920521023,
+          11.95948262790156,
+          58.468394833356044
+        ],
+        [
+          -16.956702416432236,
+          11.957943441754747,
+          58.4735254207922
+        ],
+        [
+          -16.839753333706945,
+          11.90938186319729,
+          58.635395516628776
+        ],
+        [
+          -16.665462493896484,
+          11.837432467190773,
+          58.87522265858899
+        ],
+        [
+          -16.66546234384439,
+          11.837432953441422,
+          58.87522249472243
+        ],
+        [
+          -16.660210259666385,
+          11.835330472257118,
+          58.88223068491986
+        ],
+        [
+          -16.50440309699033,
+          11.773662591365875,
+          59.08779371121241
+        ],
+        [
+          -16.52673286692729,
+          11.782333024716003,
+          59.058891879813686
+        ],
+        [
+          -16.50231919109819,
+          11.772853017919479,
+          59.09049122084619
+        ],
+        [
+          -16.492157575592714,
+          11.7900328241144,
+          59.03322587935491
+        ],
+        [
+          -16.434719704957363,
+          11.804334336882889,
+          58.9855541230275
+        ],
+        [
+          -16.745207875123967,
+          11.870246808175533,
+          58.76584422140887
+        ]
+      ]
+    },
+    "tolerance_mm3": 1e-05,
+    "strict_volume_pass": false,
+    "pass": true,
+    "stl_coplanar_contact": {
+      "all_intersection_vertices_checked": 14841,
+      "signed_plane_distance_range_mm": [
+        -2.144942022219709e-06,
+        1.8244871355932446e-06
+      ],
+      "max_absolute_plane_distance_mm": 2.144942022219709e-06,
+      "plane_tolerance_mm": 1e-05,
+      "classified_as_precision_contact_sheet": true,
+      "note": "Raw intersection volume is retained. Only overlap entirely within the seam-plane tolerance is treated as STL float32 contact; no STL geometry is repaired."
+    },
+    "pass_reason": "stl_coplanar_contact_sheet",
+    "cap_translation_mm": [
+      -0.0,
+      -0.23945657089516414,
+      -0.07183697275866541
+    ],
+    "includes": "Complete rear cap moved inward along its opening axis by the seam gap.",
+    "note": "Coincident contact triangles may exist while intersection volume remains zero."
+  },
+  "rear_cap_removal_path": {
+    "outward_unit_axis": [
+      0.0,
+      0.9578262835806566,
+      0.28734789103466163
+    ],
+    "samples": [
+      {
+        "volume_mm3": 0.00013336033765039512,
+        "empty": false,
+        "triangles": 28506,
+        "status": "Error.NoError",
+        "locations": {
+          "count": 14841,
+          "bounds_mm": [
+            [
+              -21.89306232145356,
+              9.180686556546242,
+              18.305726503803836
+            ],
+            [
+              21.90537452697754,
+              24.008282048508544,
+              67.73104236073743
+            ]
+          ],
+          "first_locations_mm": [
+            [
+              -16.96040920521023,
+              11.95948262790156,
+              58.468394833356044
+            ],
+            [
+              -16.956702416432236,
+              11.957943441754747,
+              58.4735254207922
+            ],
+            [
+              -16.839753333706945,
+              11.90938186319729,
+              58.635395516628776
+            ],
+            [
+              -16.665462493896484,
+              11.837432467190773,
+              58.87522265858899
+            ],
+            [
+              -16.66546234384439,
+              11.837432953441422,
+              58.87522249472243
+            ],
+            [
+              -16.660210259666385,
+              11.835330472257118,
+              58.88223068491986
+            ],
+            [
+              -16.50440309699033,
+              11.773662591365875,
+              59.08779371121241
+            ],
+            [
+              -16.52673286692729,
+              11.782333024716003,
+              59.058891879813686
+            ],
+            [
+              -16.50231919109819,
+              11.772853017919479,
+              59.09049122084619
+            ],
+            [
+              -16.492157575592714,
+              11.7900328241144,
+              59.03322587935491
+            ],
+            [
+              -16.434719704957363,
+              11.804334336882889,
+              58.9855541230275
+            ],
+            [
+              -16.745207875123967,
+              11.870246808175533,
+              58.76584422140887
+            ]
+          ]
+        },
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": false,
+        "pass": true,
+        "stl_coplanar_contact": {
+          "all_intersection_vertices_checked": 14841,
+          "signed_plane_distance_range_mm": [
+            -2.144942022219709e-06,
+            1.8244871355932446e-06
+          ],
+          "max_absolute_plane_distance_mm": 2.144942022219709e-06,
+          "plane_tolerance_mm": 1e-05,
+          "classified_as_precision_contact_sheet": true,
+          "note": "Raw intersection volume is retained. Only overlap entirely within the seam-plane tolerance is treated as STL float32 contact; no STL geometry is repaired."
+        },
+        "pass_reason": "stl_coplanar_contact_sheet",
+        "distance_from_seated_mm": 0.0,
+        "cap_translation_mm": [
+          0.0,
+          -0.23945657089516414,
+          -0.07183697275866541
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 0.25,
+        "cap_translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 0.5,
+        "cap_translation_mm": [
+          0.0,
+          0.23945657089516414,
+          0.07183697275866541
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 1.0,
+        "cap_translation_mm": [
+          0.0,
+          0.7183697126854924,
+          0.21551091827599622
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 2.0,
+        "cap_translation_mm": [
+          0.0,
+          1.676195996266149,
+          0.5028588093106579
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 3.0,
+        "cap_translation_mm": [
+          0.0,
+          2.6340222798468056,
+          0.7902067003453195
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 5.0,
+        "cap_translation_mm": [
+          0.0,
+          4.549674847008118,
+          1.3649024824146427
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 10.0,
+        "cap_translation_mm": [
+          0.0,
+          9.338806264911401,
+          2.801641937587951
+        ]
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "distance_from_seated_mm": 20.0,
+        "cap_translation_mm": [
+          0.0,
+          18.917069100717967,
+          5.675120847934567
+        ]
+      }
+    ],
+    "pass": true,
+    "limitation": "Discrete straight-line collision samples, not a continuous swept-volume proof."
+  },
+  "nominal_eye_sphere_clearance": {
+    "eyes": [
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "nominal_diameter_mm": 16.0,
+        "center_mm": [
+          13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "sphere_segments": 128
+      },
+      {
+        "volume_mm3": 0.0,
+        "empty": true,
+        "triangles": 0,
+        "status": "Error.NoError",
+        "locations": null,
+        "tolerance_mm3": 1e-05,
+        "strict_volume_pass": true,
+        "pass": true,
+        "nominal_diameter_mm": 16.0,
+        "center_mm": [
+          -13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "sphere_segments": 128
+      }
+    ],
+    "pass": true,
+    "limitation": "Tessellated geometric sphere clearance only; does not verify actual eye profiles, optical fit, insertion path or physical assembly."
+  },
+  "girth_check": {
+    "height_z_mm": 40.49297765452825,
+    "contours": [
+      {
+        "signed_area_mm2": 2554.9475045359018,
+        "perimeter_mm": 179.983503149331,
+        "vertex_count": 1528,
+        "bounds_xy_mm": [
+          [
+            -26.84930769,
+            -29.65603695
+          ],
+          [
+            26.84923701,
+            30.05662175
+          ]
+        ]
+      },
+      {
+        "signed_area_mm2": -2105.305155522371,
+        "perimeter_mm": 163.5076877473605,
+        "vertex_count": 2297,
+        "bounds_xy_mm": [
+          [
+            -24.23038065,
+            -27.05092986
+          ],
+          [
+            24.22940402,
+            27.44004563
+          ]
+        ]
+      }
+    ],
+    "outer_contour": {
+      "signed_area_mm2": 2554.9475045359018,
+      "perimeter_mm": 179.983503149331,
+      "vertex_count": 1528,
+      "bounds_xy_mm": [
+        [
+          -26.84930769,
+          -29.65603695
+        ],
+        [
+          26.84923701,
+          30.05662175
+        ]
+      ]
+    },
+    "measurement_method": "Largest exterior contour of the horizontal material section; measurement-only +epsilon/-epsilon 2D closing of floating-point seam gaps.",
+    "measurement_closing_epsilon_mm": 1e-05,
+    "raw_section_contour_count": 13,
+    "raw_all_material_boundary_length_mm": 354.76492338819315,
+    "taut_tape_convex_hull_perimeter_mm": 179.85221698094256,
+    "taut_tape_note": "Convex hull bridges concavities and is a different measurement from the pre-split 190 mm surface-contour target; it is informational, not the pass metric.",
+    "geometry_modified": false,
+    "target_mm": 190.0,
+    "measured_mm": 179.983503149331,
+    "assembly_pose": "fully seated rear cap",
+    "error_mm": -10.016496850669,
+    "tolerance_mm": 2.0,
+    "pass_within_2mm": false,
+    "historical_target_only": true,
+    "revision_reason": "Head circumference is measured after unified cranial rebuilding; face scale remains fixed.",
+    "measurement_valid": true
+  },
+  "assembly_bounds_mm": [
+    [
+      -27.776866912841797,
+      -33.49270248413086,
+      0.06929779052734375
+    ],
+    [
+      27.779043197631836,
+      30.50926971435547,
+      69.78440856933594
+    ]
+  ],
+  "fully_seated_assembly_bounds_mm": [
+    [
+      -27.776866912841797,
+      -33.49270248413086,
+      0.06929779052734375
+    ],
+    [
+      27.779043197631836,
+      30.269813143460304,
+      69.78440856933594
+    ]
+  ],
+  "opening_smoke_checks": {
+    "eyes": [
+      {
+        "start_mm": [
+          13.663962920147602,
+          -35.49270248413086,
+          27.67311677124019
+        ],
+        "end_mm": [
+          13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      },
+      {
+        "start_mm": [
+          -13.663962920147602,
+          -35.49270248413086,
+          27.67311677124019
+        ],
+        "end_mm": [
+          -13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "hit_count": 0,
+        "hit_positions_mm": [],
+        "clear": true
+      }
+    ],
+    "neck_slot": {
+      "start_mm": [
+        0,
+        6.59410659959549,
+        -1.9307022094726562
+      ],
+      "end_mm": [
+        0,
+        6.59410659959549,
+        25.78231979878647
+      ],
+      "hit_count": 0,
+      "hit_positions_mm": [],
+      "clear": true
+    },
+    "pass": true,
+    "limitation": "Central ray clearance only; does not establish full eye or neck articulation."
+  },
+  "pass": true,
+  "duration_seconds": 2.8707531662657857
+}

@@ -1,0 +1,122 @@
+{
+  "README.md": {
+    "bytes": 1182,
+    "sha256": "f6ede20828f98589642f3d390d2c67ebda1caac3b1a3cefa6344a63f688b8ee9"
+  },
+  "apply_march7_skin.py": {
+    "bytes": 5589,
+    "sha256": "4bce172feae9ab83ce5280cbc0bb0b297b1727a3678bb5e49b8c8a7371b688a3"
+  },
+  "assemble_skin_comparison.py": {
+    "bytes": 2533,
+    "sha256": "6b19f63c98af734f0fee88e8a0704d722bccd8d1e6cd106c52a4145385e7f1ad"
+  },
+  "board-provenance.json": {
+    "bytes": 2380,
+    "sha256": "358202677b22ade3d82e33fd124d3842c4e3ee0cbb8234556e8ed4a5a22246d8"
+  },
+  "march7-v14-local-makeup-v3-skin.blend": {
+    "bytes": 25837718,
+    "sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d"
+  },
+  "more-views/assemble_gallery.py": {
+    "bytes": 7111,
+    "sha256": "76002d6d1514b1c887f5e64d529510c84d7c03a58c75d5a9fd5c1bd124f52265"
+  },
+  "more-views/face-angles.png": {
+    "bytes": 666746,
+    "sha256": "9153a4e703134af1fd4ac17f8dd9fedd34e82a44c5157d45fc3db4807bd14d4a"
+  },
+  "more-views/face-front-close.png": {
+    "bytes": 1564587,
+    "sha256": "c9b910d50810157cb4423534c4fc5a4759061ac4845147b3d21f9a222c17f062"
+  },
+  "more-views/face-quarter-close.png": {
+    "bytes": 1544055,
+    "sha256": "499688a5a259bf71f6e2f459a66bc518a09008effdbf9ebdd8357e3257f889f1"
+  },
+  "more-views/front-high.png": {
+    "bytes": 1280707,
+    "sha256": "ea66d3fee73762aee7cfd76754fecea6109ae340a4b9e002036c17a751a55885"
+  },
+  "more-views/front-low.png": {
+    "bytes": 1286681,
+    "sha256": "b52f32ba48f489845259e358cd9608eb6db0eac1ecb96ffc88e46149a71307a3"
+  },
+  "more-views/gallery-provenance.json": {
+    "bytes": 7263,
+    "sha256": "ec45cbd58e0760b1f85281eb8167ea5c6e2d4ce732f06feeae9ccaa8f8e431cc"
+  },
+  "more-views/head-angles.png": {
+    "bytes": 548898,
+    "sha256": "d4a98754f405c065184a4f874da3ed5af4e2d6dcf733c0ed487e3d7bd9cc4ffe"
+  },
+  "more-views/rear-quarter.png": {
+    "bytes": 1233884,
+    "sha256": "58e1c12073c43d3a3d59493f317e72ee1d6ff4a2afa9fbade875d7998b761a30"
+  },
+  "more-views/rear.png": {
+    "bytes": 1224797,
+    "sha256": "e7a90db019254c9b962b3ba3bfefc7516e2e4d69414d3ac8963dbaa588cbb3c1"
+  },
+  "more-views/render-provenance.json": {
+    "bytes": 3518,
+    "sha256": "26dc181867f06d3641983a2e31a0b3f4fb5229cc6d74cd01a33b50274279dfa1"
+  },
+  "more-views/render_more_views.py": {
+    "bytes": 2160,
+    "sha256": "dde9af8a21b7d68d52acb80d3ebde0fa13f99d1427e9beefdef3ee3f85e71e50"
+  },
+  "more-views/right-profile.png": {
+    "bytes": 1249696,
+    "sha256": "276738da9a0208cbe54287aa2a5d9e161bdea838e68035e7b6d017fae9529b9f"
+  },
+  "more-views/top.png": {
+    "bytes": 1207419,
+    "sha256": "173a3f2c7c67b03a008f4ec0cc04489e695c753230a0f6beaaf719f319a11e5f"
+  },
+  "more-views/visual-review.json": {
+    "bytes": 306,
+    "sha256": "9d456cb71ef5072a670619c197cbd8da2c2c88eb33a5050eeaf03d3f3565f4ab"
+  },
+  "previews/skin-front.png": {
+    "bytes": 1282772,
+    "sha256": "3da600ffec2b1346bc5d44bb876c7e9f8ff6bb6537ca9eafae586eb315611634"
+  },
+  "previews/skin-quarter-left.png": {
+    "bytes": 1286671,
+    "sha256": "a68f6224f5ef5397135d800fcc38a8e68b2c43cea07270ccba3d15d0c9318492"
+  },
+  "previews/skin-quarter-right.png": {
+    "bytes": 1276092,
+    "sha256": "c96bb2f8044e5c254a90d15f5f8330d3b4a7c8ce65f24ef9626d38e3e1aa3800"
+  },
+  "previews/skin-side.png": {
+    "bytes": 1255353,
+    "sha256": "821bfa11ce480a34b1d0cb8f757939adcaecbe9523f44c0092df5c5a7c5c6667"
+  },
+  "render-provenance.json": {
+    "bytes": 1068,
+    "sha256": "b47054600578241c10ade27747ceb7ccb175f97f8b3e9ef3c05fa80ca290e7b9"
+  },
+  "skin-before-after.png": {
+    "bytes": 837564,
+    "sha256": "ef25f03926c2573923c4032e039869b0078813618d044bab371aaabb293c3600"
+  },
+  "skin-change-report.json": {
+    "bytes": 3348,
+    "sha256": "f38e4c2e18671864310aef7dedb60f4b7d5528d323b61f15a08f59e210c30ca4"
+  },
+  "skin-color-reference.json": {
+    "bytes": 774,
+    "sha256": "2a1d059cdfeb8658a5eb296a5b0953c6379f46e7f995f4f29348f579a87820e8"
+  },
+  "skin-multiview.png": {
+    "bytes": 870974,
+    "sha256": "4275486bf3379029ab3a8520d1dccab972efd018d775a00d5bddcc0baad85146"
+  },
+  "visual-review.json": {
+    "bytes": 477,
+    "sha256": "3e6207fa1847ff669d886d32cc90c88b7be5d1bd918fef0ae914b4a0a2ac21e2"
+  }
+}

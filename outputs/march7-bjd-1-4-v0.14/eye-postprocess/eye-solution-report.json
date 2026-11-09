@@ -1,0 +1,76 @@
+{
+  "method": "Local depth-aware radial XZ warp. Original PMX31-point aperture polygon gives target. Rounded rim/throat enlargement is measured cumulatively by actual solid ray tests versus raw rim depth; the already adequate front skin is not blindly widened. Upper/lower oversized aperture receives small inward shaping. Continuous compact C2 radial/depth support, Y fixed during aperture warp; one pre-existing sliver receives a final0.000663mm Y micro-correction for shading continuity. No remeshing.",
+  "baseline": "v13 actual saved Blend head",
+  "rows": [
+    {
+      "eye": 0,
+      "original_polygon_center_xz_mm": [
+        -13.55721649446402,
+        27.771475252861816
+      ],
+      "target_minus_v13_effective_radius_range_mm": [
+        -0.25728768217530895,
+        0.6887810841868776
+      ],
+      "maximum_local_radial_shift_mm": 0.6572437026161466
+    },
+    {
+      "eye": 1,
+      "original_polygon_center_xz_mm": [
+        13.557216494464022,
+        27.77147525286182
+      ],
+      "target_minus_v13_effective_radius_range_mm": [
+        -0.2622925649878125,
+        0.6893670216868744
+      ],
+      "maximum_local_radial_shift_mm": 0.6564920135317144
+    }
+  ],
+  "changed_vertices": 14467,
+  "maximum_displacement_mm": 0.6572437026161478,
+  "changed_bounds_mm": [
+    [
+      -21.2056941986084,
+      -26.419479370117188,
+      20.425395965576172
+    ],
+    [
+      21.20953369140625,
+      -15.580583572387695,
+      34.963218688964844
+    ]
+  ],
+  "Y_exact": false,
+  "Z50_and_above_exact": true,
+  "normal_over90": 0,
+  "minimum_normal_dot": 0.11093324780256412,
+  "degenerate_triangles": 0,
+  "minimum_triangle_area_ratio": 0.35617510832911375,
+  "solution_sha256": "83948585ee2ed7e622ddb6e65697361d4af750cdee07e21c34ebdbe31a305348",
+  "candidate_stl_sha256": "8456d9d743d315faa6511c21b62e565d276ea1bf0ecf6e7a5a75f23fd9884c17",
+  "postprocess": {
+    "method": "Local positive projected-area constraint for one pre-existing extremely slender inner-upper triangle. Three vertex XZ positions corrected by minimum-norm gradient steps; Y remains exact. No hole curve retargeting or remeshing.",
+    "triangle_id": 9861,
+    "repaired_vertices": [
+      18069,
+      18073,
+      18079
+    ],
+    "maximum_extra_vertex_move_mm": 0.004445936384217752,
+    "iterations": 4,
+    "projected_area_ratio_final": 0.30649772758690813,
+    "tangent_finish": {
+      "method": "Single middle vertex of sliver9861 aligned with the smooth adjacent-face area-weighted normal, constrained to the plane containing the untouched two end vertices. Original triangle area retained.",
+      "vertex": 18073,
+      "extra_delta_xyz_mm": [
+        -0.002117064944551217,
+        -0.0006629678974263697,
+        -0.0025724037861465376
+      ],
+      "extra_length_mm": 0.0033968738056405086,
+      "normal_dot_neighbor_tangent": 0.9999999999999999
+    }
+  },
+  "maximum_Y_change_mm": 0.0006629678974263697
+}

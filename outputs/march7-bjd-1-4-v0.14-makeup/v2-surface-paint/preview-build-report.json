@@ -1,0 +1,131 @@
+{
+  "base_blend_sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+  "preview_blend_sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+  "print_geometry_before": {
+    "PRINT_01_Head_Shell": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+    "PRINT_02_Removable_Cap": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8"
+  },
+  "print_geometry_after_saved_reload": {
+    "PRINT_01_Head_Shell": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+    "PRINT_02_Removable_Cap": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8"
+  },
+  "print_geometry_exactly_unchanged": true,
+  "original_blend_unchanged": true,
+  "material_base_linear_rgba": [
+    0.6700000166893005,
+    0.49000000953674316,
+    0.4099999964237213,
+    1.0
+  ],
+  "base_principled_settings_unchanged": true,
+  "only_base_color_mixed_with_local_pigment": true,
+  "paint_uv_map": "Local_Eye_Lip_Paint",
+  "visible_mesh_objects": [
+    "PRINT_01_Head_Shell",
+    "PRINT_02_Removable_Cap",
+    "PREVIEW_EYE_HEMISPHERE_NEGATIVE",
+    "PREVIEW_EYE_HEMISPHERE_POSITIVE"
+  ],
+  "no_face_or_makeup_overlay_meshes": true,
+  "paint_mapping": {
+    "world_x_range_mm": [
+      -32.0,
+      32.0
+    ],
+    "world_z_range_mm": [
+      0.0,
+      48.0
+    ],
+    "resolution": [
+      2048,
+      1536
+    ],
+    "uv_formula": "u=(worldX-xmin)/(xmax-xmin); v=(worldZ-zmin)/(zmax-zmin)",
+    "png_row_zero": "highest Z",
+    "color_space": "sRGB",
+    "alpha": "straight; zero everywhere except local eyebrow/eyeliner/mouth",
+    "source_reference_geometry_sha256": "38e6e207492af7fd67df2d9e35601cf9bb054c3e48549810ca5d57b2da131651",
+    "source_face_texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+    "paint_sha256": "3b64525fa479eb432f59f0bd2d2a7d4477480453fca86433bd64b45fd9ec83b5",
+    "regions": {
+      "brows_eyeliner": {
+        "painted_pixels": 92906,
+        "world_bbox_mm": [
+          -21.703125,
+          21.703125,
+          23.046875,
+          39.765625
+        ]
+      },
+      "mouth": {
+        "painted_pixels": 2042,
+        "world_bbox_mm": [
+          -4.765625,
+          4.765625,
+          9.453125,
+          10.453125
+        ]
+      }
+    },
+    "mouth_extraction": "Original mouth interior visible in front orthographic depth relative to original face skin; face color not copied.",
+    "material_integration": "Mix paint RGB into existing Principled Base Color by paint alpha times true exterior/front-skin weight; keep roughness, normals and all geometry unchanged.",
+    "no_full_face_atlas": true,
+    "no_visible_source_overlay_geometry": true
+  },
+  "eyes": {
+    "objects": [
+      {
+        "object": "PREVIEW_EYE_HEMISPHERE_NEGATIVE",
+        "vertices": 24578,
+        "triangles": 49152,
+        "center_mm": [
+          -12.163962920147602,
+          -15.289332231246028,
+          27.67311677124019
+        ],
+        "outer_radius_mm": 9.0,
+        "inner_radius_mm": 8.4,
+        "cup_wall_mm": 0.6,
+        "shape": "Spherical main cup with hidden-edge skin retraction",
+        "exact_sphere": false,
+        "outer_material": "March7_Hemisphere_Iris_negative",
+        "inner_material": "March7_Hemisphere_White_Inside",
+        "packed_image": "march7-hemisphere-eye-negative.png",
+        "image_sha256": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+        "emission_strength": 0.0
+      },
+      {
+        "object": "PREVIEW_EYE_HEMISPHERE_POSITIVE",
+        "vertices": 24578,
+        "triangles": 49152,
+        "center_mm": [
+          12.163962920147602,
+          -15.289332231246028,
+          27.67311677124019
+        ],
+        "outer_radius_mm": 9.0,
+        "inner_radius_mm": 8.4,
+        "cup_wall_mm": 0.6,
+        "shape": "Spherical main cup with hidden-edge skin retraction",
+        "exact_sphere": false,
+        "outer_material": "March7_Hemisphere_Iris_positive",
+        "inner_material": "March7_Hemisphere_White_Inside",
+        "packed_image": "march7-hemisphere-eye-positive.png",
+        "image_sha256": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e",
+        "emission_strength": 0.0
+      }
+    ],
+    "original_game_eye_meshes_created": false,
+    "geometry_source_npz_sha256": "e4f9c4f6d07d078dbe21501327b0ee76a4c82b7bdf3583d7377f85a546c19297",
+    "source_bake_report": "eye-assets-report.json",
+    "fit_report": "eye-assets-report.json",
+    "fit_note": "Spherical main cup with local hidden-edge retraction to protect actual head skin; appearance-only, not a physical eye clearance pass.",
+    "existing_head_or_cap_modified": false,
+    "preview_only": true
+  },
+  "packed_images": [
+    "local-paint.png",
+    "march7-hemisphere-eye-negative.png",
+    "march7-hemisphere-eye-positive.png"
+  ]
+}

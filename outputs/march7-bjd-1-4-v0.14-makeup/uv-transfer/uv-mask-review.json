@@ -1,0 +1,634 @@
+{
+  "uv_npz_sha256": "bdeb5b17f846945917660562ced8edf81c90b5fb90388a846e0989513694cb0b",
+  "uv_npz_unchanged_during_review": true,
+  "transfer_report_sha256": "753de77ac9260369bc46016ec6c216bf4dfdfbb77ed204dff3df501eec044ea6",
+  "color_sampling": {
+    "texture_file": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/脸.png",
+    "texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+    "image_dimensions_px": [
+      1024,
+      1024
+    ],
+    "sample_count": 187,
+    "PIL_top_origin_pixel_bbox": [
+      [
+        439,
+        185
+      ],
+      [
+        583,
+        236
+      ]
+    ],
+    "original_forehead_srgb_8bit_median": [
+      242.0,
+      213.0,
+      202.0
+    ],
+    "PIL_encoded_srgb_median": [
+      0.9490196078431372,
+      0.8352941176470589,
+      0.792156862745098
+    ],
+    "PIL_explicit_srgb_decode_linear": [
+      0.8879231178819663,
+      0.665387298282272,
+      0.5906188409193369
+    ],
+    "final_npz_srgb": [
+      0.9490196704864502,
+      0.8352941870689392,
+      0.7921569347381592
+    ],
+    "final_npz_linear": [
+      0.8879232508413973,
+      0.6653874228050042,
+      0.5906189613800338
+    ],
+    "max_srgb_error": 7.199306117922077e-08,
+    "max_linear_error": 1.3295943102065166e-07,
+    "sample_region_review": "The sample rectangle lies on the large face atlas forehead skin, away from separate ear/eye/mouth texture islands.",
+    "buffer_interpretation": "For this loaded 8-bit PNG, observed Blender Image.pixels values matched the encoded PIL sRGB samples, not linear values. The final NPZ explicitly decodes them before supplying a linear shader socket."
+  },
+  "previous_exact_vertex_ray_misses": {
+    "baseline_issue": "40 central face points had weight0 despite distance<0.7mm and normal agreement>=0.4, with NaN first_hit_error: exact-vertex ray misses rather than rejection at the0.12mm error threshold.",
+    "previous_ids": [
+      3504,
+      48076,
+      58806,
+      67521,
+      72735,
+      73752,
+      75481,
+      75593,
+      75751,
+      77124,
+      78413,
+      79282,
+      79284,
+      79396,
+      81983,
+      82005,
+      83776,
+      86151,
+      137444,
+      138022,
+      174795,
+      176255,
+      176812,
+      179677,
+      185966,
+      186188,
+      186192,
+      186966,
+      187199,
+      190327,
+      192253,
+      192438,
+      192630,
+      194753,
+      204663,
+      205298,
+      205429,
+      205609,
+      212380,
+      212500
+    ],
+    "count": 40,
+    "now_visible_count": 40,
+    "now_weight_exactly1_count": 40,
+    "largest_retried_hit_error_mm": 0.0010967254638671875,
+    "all_are_in_reported_recovered_ids": true,
+    "total_reported_recovered": 145,
+    "samples": [
+      {
+        "vertex_id": 3504,
+        "position_mm": [
+          -21.517488479614258,
+          -20.644214630126953,
+          32.6161003112793
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9701467156410217,
+        "source_distance_mm": 0.3073260486125946,
+        "first_hit_error_mm": 0.0001773834228515625
+      },
+      {
+        "vertex_id": 48076,
+        "position_mm": [
+          -17.76032829284668,
+          -20.562946319580078,
+          25.08673858642578
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.5825346112251282,
+        "source_distance_mm": 0.17679882049560547,
+        "first_hit_error_mm": 0.0007104873657226562
+      },
+      {
+        "vertex_id": 58806,
+        "position_mm": [
+          -16.975482940673828,
+          -21.837047576904297,
+          15.029861450195312
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999774694442749,
+        "source_distance_mm": 0.0568486824631691,
+        "first_hit_error_mm": 4.76837158203125e-06
+      },
+      {
+        "vertex_id": 67521,
+        "position_mm": [
+          -12.553783416748047,
+          -24.50408172607422,
+          14.490039825439453
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999505877494812,
+        "source_distance_mm": 0.04755125194787979,
+        "first_hit_error_mm": 9.5367431640625e-07
+      },
+      {
+        "vertex_id": 72735,
+        "position_mm": [
+          -1.7059557437896729,
+          -31.411609649658203,
+          17.01279067993164
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9944872260093689,
+        "source_distance_mm": 0.08470504730939865,
+        "first_hit_error_mm": 0.0001125335693359375
+      },
+      {
+        "vertex_id": 73752,
+        "position_mm": [
+          -0.8187510371208191,
+          -30.47027587890625,
+          15.236831665039062
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.997607409954071,
+        "source_distance_mm": 0.013465149328112602,
+        "first_hit_error_mm": 6.103515625e-05
+      },
+      {
+        "vertex_id": 75481,
+        "position_mm": [
+          -8.74100399017334,
+          -24.673572540283203,
+          10.435455322265625
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999836087226868,
+        "source_distance_mm": 0.004122911021113396,
+        "first_hit_error_mm": 9.5367431640625e-07
+      },
+      {
+        "vertex_id": 75593,
+        "position_mm": [
+          -7.119205951690674,
+          -24.878520965576172,
+          10.175067901611328
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9994047284126282,
+        "source_distance_mm": 0.010286853648722172,
+        "first_hit_error_mm": 2.765655517578125e-05
+      },
+      {
+        "vertex_id": 75751,
+        "position_mm": [
+          -9.384831428527832,
+          -23.144744873046875,
+          6.876567840576172
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9997934103012085,
+        "source_distance_mm": 0.004938278812915087,
+        "first_hit_error_mm": 9.5367431640625e-06
+      },
+      {
+        "vertex_id": 77124,
+        "position_mm": [
+          -10.606407165527344,
+          -22.485382080078125,
+          7.214591979980469
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999265670776367,
+        "source_distance_mm": 0.05447226017713547,
+        "first_hit_error_mm": 9.5367431640625e-07
+      },
+      {
+        "vertex_id": 78413,
+        "position_mm": [
+          -10.754758834838867,
+          -21.483566284179688,
+          6.609828948974609
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999109506607056,
+        "source_distance_mm": 0.12906238436698914,
+        "first_hit_error_mm": 2.765655517578125e-05
+      },
+      {
+        "vertex_id": 79282,
+        "position_mm": [
+          -7.007565975189209,
+          -17.315628051757812,
+          3.433197021484375
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999167323112488,
+        "source_distance_mm": 0.029657110571861267,
+        "first_hit_error_mm": 1.71661376953125e-05
+      },
+      {
+        "vertex_id": 79284,
+        "position_mm": [
+          -7.169292449951172,
+          -16.978397369384766,
+          3.5455169677734375
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999324679374695,
+        "source_distance_mm": 0.02536829374730587,
+        "first_hit_error_mm": 1.621246337890625e-05
+      },
+      {
+        "vertex_id": 79396,
+        "position_mm": [
+          -5.484132766723633,
+          -26.036327362060547,
+          12.154125213623047
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9995790123939514,
+        "source_distance_mm": 0.0018242403166368604,
+        "first_hit_error_mm": 4.1961669921875e-05
+      },
+      {
+        "vertex_id": 81983,
+        "position_mm": [
+          -2.657743453979492,
+          -25.528705596923828,
+          6.560722351074219
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9998348951339722,
+        "source_distance_mm": 0.017174527049064636,
+        "first_hit_error_mm": 1.1444091796875e-05
+      },
+      {
+        "vertex_id": 82005,
+        "position_mm": [
+          -2.4485836029052734,
+          -25.741432189941406,
+          6.817653656005859
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999018311500549,
+        "source_distance_mm": 0.011217220686376095,
+        "first_hit_error_mm": 4.76837158203125e-06
+      },
+      {
+        "vertex_id": 83776,
+        "position_mm": [
+          -4.179386615753174,
+          -23.802703857421875,
+          2.661365509033203
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9988942742347717,
+        "source_distance_mm": 0.07944201678037643,
+        "first_hit_error_mm": 3.24249267578125e-05
+      },
+      {
+        "vertex_id": 86151,
+        "position_mm": [
+          -5.047054767608643,
+          -17.189655303955078,
+          2.5338973999023438
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9997828006744385,
+        "source_distance_mm": 0.028196057304739952,
+        "first_hit_error_mm": 9.5367431640625e-07
+      },
+      {
+        "vertex_id": 137444,
+        "position_mm": [
+          9.107584953308105,
+          -25.212177276611328,
+          30.555713653564453
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9257107973098755,
+        "source_distance_mm": 0.03684946149587631,
+        "first_hit_error_mm": 0.0001850128173828125
+      },
+      {
+        "vertex_id": 138022,
+        "position_mm": [
+          10.838581085205078,
+          -25.07038116455078,
+          31.64859390258789
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.7690060138702393,
+        "source_distance_mm": 0.07689759135246277,
+        "first_hit_error_mm": 0.0001220703125
+      },
+      {
+        "vertex_id": 174795,
+        "position_mm": [
+          2.796329975128174,
+          -27.963760375976562,
+          24.396800994873047
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9986432194709778,
+        "source_distance_mm": 0.029674597084522247,
+        "first_hit_error_mm": 3.147125244140625e-05
+      },
+      {
+        "vertex_id": 176255,
+        "position_mm": [
+          5.308963298797607,
+          -26.46017837524414,
+          29.807817459106445
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9994608759880066,
+        "source_distance_mm": 0.003807846223935485,
+        "first_hit_error_mm": 1.9073486328125e-05
+      },
+      {
+        "vertex_id": 176812,
+        "position_mm": [
+          4.512195110321045,
+          -27.16031265258789,
+          23.535057067871094
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999810457229614,
+        "source_distance_mm": 0.04031795263290405,
+        "first_hit_error_mm": 5.7220458984375e-06
+      },
+      {
+        "vertex_id": 179677,
+        "position_mm": [
+          5.419100761413574,
+          -27.199562072753906,
+          20.683767318725586
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9998490214347839,
+        "source_distance_mm": 0.019236210733652115,
+        "first_hit_error_mm": 1.1444091796875e-05
+      },
+      {
+        "vertex_id": 185966,
+        "position_mm": [
+          0.9897662401199341,
+          -27.446243286132812,
+          8.382698059082031
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9983049035072327,
+        "source_distance_mm": 0.07883883267641068,
+        "first_hit_error_mm": 1.52587890625e-05
+      },
+      {
+        "vertex_id": 186188,
+        "position_mm": [
+          2.05680513381958,
+          -26.686355590820312,
+          8.025588989257812
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9854498505592346,
+        "source_distance_mm": 0.011353325098752975,
+        "first_hit_error_mm": 6.961822509765625e-05
+      },
+      {
+        "vertex_id": 186192,
+        "position_mm": [
+          2.223533868789673,
+          -26.82553482055664,
+          8.44845199584961
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9896396398544312,
+        "source_distance_mm": 0.05181773379445076,
+        "first_hit_error_mm": 5.53131103515625e-05
+      },
+      {
+        "vertex_id": 186966,
+        "position_mm": [
+          4.3182172775268555,
+          -27.148292541503906,
+          13.343620300292969
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9992528557777405,
+        "source_distance_mm": 0.03585220128297806,
+        "first_hit_error_mm": 2.002716064453125e-05
+      },
+      {
+        "vertex_id": 187199,
+        "position_mm": [
+          4.359860420227051,
+          -25.960128784179688,
+          10.57958984375
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9882774353027344,
+        "source_distance_mm": 0.036066845059394836,
+        "first_hit_error_mm": 3.814697265625e-06
+      },
+      {
+        "vertex_id": 190327,
+        "position_mm": [
+          6.864809989929199,
+          -22.70209503173828,
+          4.125579833984375
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9981371760368347,
+        "source_distance_mm": 0.14628340303897858,
+        "first_hit_error_mm": 6.008148193359375e-05
+      },
+      {
+        "vertex_id": 192253,
+        "position_mm": [
+          9.98936939239502,
+          -24.65540313720703,
+          11.48770523071289
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999618530273438,
+        "source_distance_mm": 0.01745324768126011,
+        "first_hit_error_mm": 1.1444091796875e-05
+      },
+      {
+        "vertex_id": 192438,
+        "position_mm": [
+          9.497702598571777,
+          -23.953144073486328,
+          8.593917846679688
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999797344207764,
+        "source_distance_mm": 0.040124595165252686,
+        "first_hit_error_mm": 1.049041748046875e-05
+      },
+      {
+        "vertex_id": 192630,
+        "position_mm": [
+          11.791412353515625,
+          -24.219436645507812,
+          11.895111083984375
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999237060546875,
+        "source_distance_mm": 0.0036160845775157213,
+        "first_hit_error_mm": 3.814697265625e-06
+      },
+      {
+        "vertex_id": 194753,
+        "position_mm": [
+          13.35693645477295,
+          -19.88748550415039,
+          8.28200912475586
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9997762441635132,
+        "source_distance_mm": 0.020366808399558067,
+        "first_hit_error_mm": 1.1444091796875e-05
+      },
+      {
+        "vertex_id": 204663,
+        "position_mm": [
+          19.50928497314453,
+          -21.74394989013672,
+          30.829025268554688
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999627470970154,
+        "source_distance_mm": 0.022042065858840942,
+        "first_hit_error_mm": 2.86102294921875e-06
+      },
+      {
+        "vertex_id": 205298,
+        "position_mm": [
+          18.687349319458008,
+          -20.38349151611328,
+          26.5345516204834
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.4421168565750122,
+        "source_distance_mm": 0.18956026434898376,
+        "first_hit_error_mm": 0.0010967254638671875
+      },
+      {
+        "vertex_id": 205429,
+        "position_mm": [
+          19.255464553833008,
+          -20.527912139892578,
+          27.62972640991211
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.4876577854156494,
+        "source_distance_mm": 0.14387254416942596,
+        "first_hit_error_mm": 0.0010242462158203125
+      },
+      {
+        "vertex_id": 205609,
+        "position_mm": [
+          19.974769592285156,
+          -19.56386375427246,
+          25.591814041137695
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9774570465087891,
+        "source_distance_mm": 0.05377824604511261,
+        "first_hit_error_mm": 0.00018405914306640625
+      },
+      {
+        "vertex_id": 212380,
+        "position_mm": [
+          16.3448543548584,
+          -22.277652740478516,
+          14.29739761352539
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999949336051941,
+        "source_distance_mm": 0.05546390637755394,
+        "first_hit_error_mm": 2.002716064453125e-05
+      },
+      {
+        "vertex_id": 212500,
+        "position_mm": [
+          15.791153907775879,
+          -22.100807189941406,
+          12.726764678955078
+        ],
+        "weight": 1.0,
+        "normal_dot": 0.9999468922615051,
+        "source_distance_mm": 0.07101353257894516,
+        "first_hit_error_mm": 2.574920654296875e-05
+      }
+    ]
+  },
+  "remaining_central_low_mask": {
+    "definition": "source distance<0.7mm, worldY<-15mm, |X|<22mm, vertex mask<0.9; this includes sloping eye rims and some cavity-facing points, not only exterior cheeks.",
+    "count": 1660,
+    "normal_dot_le0p05": 1040,
+    "normal_dot_0p05_to_0p4": 620,
+    "normal_dot_ge0p4": 0,
+    "normal_ge0p4_but_invisible": 0
+  },
+  "mask_exclusion_review": {
+    "positive_vertices": 89276,
+    "weight_above0p99": 69491,
+    "positive_backfacing_by_source_smooth_normal_dot_le0p05": 0,
+    "positive_stored_occluded_vertices": 0,
+    "positive_source_distance_ge4mm": 0,
+    "positive_source_geometric_normal_dot_below_minus0p2": 0,
+    "positive_source_geometric_normal_dot_below0": 5,
+    "corner_weight_exceeds_original_vertex_weight": 0,
+    "corner_weights_finite_and_in_0_1": true,
+    "corner_uvs_finite": true,
+    "rear_y_above4_positive_count": 274,
+    "rear_y_above4_maximum_weight": 0.15292203426361084,
+    "rear_positive_bounds_mm": [
+      [
+        -23.221555709838867,
+        4.020814895629883,
+        17.350322723388672
+      ],
+      [
+        23.29928970336914,
+        5.196195602416992,
+        29.609159469604492
+      ]
+    ],
+    "interpretation": "No violation of the existing distance, normal and directional-visibility exclusion rules. Independent source-triangle geometric normals also reveal no strongly backfacing positive samples. The small rear-positive region is a weak ear-side fade, not central occipital projection. This is not an exhaustive global anatomical inner-wall classification."
+  },
+  "geometry_integrity": {
+    "head_vertices_exactly_equal_final_unpainted_solution": true,
+    "head_triangles_exactly_equal_final_unpainted_solution": true,
+    "maximum_coordinate_difference_mm": 0.0,
+    "unpainted_solution_sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92",
+    "all_input_hashes_match_transfer_report": true
+  },
+  "assessment": "Corrected linear skin base agrees with the same PIL samples; all40 diagnosed central exact-vertex ray misses recovered to weight1; no high-normal unexplained holes remain in the tested central ROI. Normal/distance/visibility exclusions remain in force. Preview geometry is exactly unchanged.",
+  "limitations": [
+    "No structure, print-fit or wall-thickness QA was repeated for this material-only preview.",
+    "Eyebrow/eyelash source geometry is separate from face skin UV; remaining eye-rim normal fades were deliberately not widened or filled.",
+    "This numeric mask review does not certify reproduction of game lighting/shading or physical makeup/printing colors."
+  ]
+}

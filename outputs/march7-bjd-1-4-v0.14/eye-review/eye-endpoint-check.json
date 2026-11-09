@@ -1,0 +1,41 @@
+{
+  "head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "sha256_after": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "input_unchanged": true,
+  "ball_enclosure": {
+    "nominal_analytic_diameter_mm": 16.0,
+    "sphere_segments": 128,
+    "unit_polyhedron_minimum_face_support_distance": 0.9991899760571326,
+    "polyhedron_circumradius_mm": 8.006485444908595,
+    "polyhedron_maximum_diameter_mm": 16.01297088981719,
+    "method": "Scale a convex tessellated unit sphere until every face plane is at least the nominal radius from its center. The resulting polyhedron encloses the analytic ball."
+  },
+  "eyes": [
+    {
+      "center_mm": [
+        13.663962920147602,
+        -13.289332231246028,
+        27.67311677124019
+      ],
+      "overlap_volume_mm3": 0.0,
+      "overlap_empty": true,
+      "overlap_status": "Error.NoError",
+      "minimum_gap_mm_search_limit1": 0.1814376687203776,
+      "pass": true
+    },
+    {
+      "center_mm": [
+        -13.663962920147602,
+        -13.289332231246028,
+        27.67311677124019
+      ],
+      "overlap_volume_mm3": 0.0,
+      "overlap_empty": true,
+      "overlap_status": "Error.NoError",
+      "minimum_gap_mm_search_limit1": 0.18044875128323734,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "scope": "Stationary conservative16mm eye-sphere enclosure at each existing seat center. This is not an insertion-path sweep or physical eye fitting."
+}

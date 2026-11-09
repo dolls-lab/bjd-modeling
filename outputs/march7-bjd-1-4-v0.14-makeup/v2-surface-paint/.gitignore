@@ -1,0 +1,6 @@
+/previews/quick-*.png
+/quick-render-provenance.json
+/base-material-inspection.json
+/inspect_base.py
+/eye-assets/baseline-r8/
+/eye-assets/candidate-*/

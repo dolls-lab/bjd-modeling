@@ -1,0 +1,83 @@
+{
+  "baseline_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.9/mother-surface.npz",
+  "baseline_sha256": "db379e1fccc1ad524768b4c0b31a9241dbbf6f398fbe23747ff9ed2e5c21d0e2",
+  "proposed_map": {
+    "x_y": "unchanged",
+    "formula": "z_new=z-3*(6*t^5-15*t^4+10*t^3), t=clip((z-40)/(zmax-40),0,1)",
+    "transition_start_z_mm": 40.0,
+    "transition_end_original_z_mm": 72.79233785101658,
+    "crown_lowering_mm": 3.0,
+    "new_crown_z_mm": 69.79233785101658,
+    "regularity": "C2 at transition start/end because first and second derivatives of quintic smootherstep vanish there",
+    "minimum_vertical_derivative": 0.8284660268640889,
+    "maximum_vertical_compression_fraction": 0.17153397313591112,
+    "maximum_second_derivative_magnitude_per_mm": 0.01610704484527246,
+    "monotone_invertible_continuous_mapping": true
+  },
+  "affected_vertex_count": 8775,
+  "protected_regions": {
+    "core_locked": {
+      "vertex_count": 20448,
+      "highest_original_z_mm": 38.962059020996094,
+      "maximum_proposed_displacement_mm": 0.0,
+      "unchanged": true
+    },
+    "ear_body_locked": {
+      "vertex_count": 1392,
+      "highest_original_z_mm": 31.56521224975586,
+      "maximum_proposed_displacement_mm": 0.0,
+      "unchanged": true
+    },
+    "ear_root_transition": {
+      "vertex_count": 442,
+      "highest_original_z_mm": 31.55852904344015,
+      "maximum_proposed_displacement_mm": 0.0,
+      "unchanged": true
+    }
+  },
+  "assessment": "Reasonable small height correction: crown -3mm (~4.1% of overall height), broad 32.79mm C2 transition, maximum local vertical compression ~17.15%. Core and entire ear region remain exactly unchanged. A single globally monotone Z map cannot invert vertical ordering; rebuild hollow shell from this lowered mother to retain nominal normal wall thickness rather than compressing an existing hollow print. Discrete rebuilt output still requires actual STL/assembly checks.",
+  "model_files_modified": false,
+  "height_samples": [
+    {
+      "original_z_mm": 40.0,
+      "lowering_mm": 0.0,
+      "new_z_mm": 40.0
+    },
+    {
+      "original_z_mm": 45.0,
+      "lowering_mm": 0.08350547760260321,
+      "new_z_mm": 44.9164945223974
+    },
+    {
+      "original_z_mm": 50.0,
+      "lowering_mm": 0.5090679435014438,
+      "new_z_mm": 49.49093205649856
+    },
+    {
+      "original_z_mm": 55.0,
+      "lowering_mm": 1.261664757426206,
+      "new_z_mm": 53.7383352425738
+    },
+    {
+      "original_z_mm": 60.0,
+      "lowering_mm": 2.09855819756275,
+      "new_z_mm": 57.90144180243725
+    },
+    {
+      "original_z_mm": 65.0,
+      "lowering_mm": 2.7273044251347756,
+      "new_z_mm": 62.272695574865224
+    },
+    {
+      "original_z_mm": 70.0,
+      "lowering_mm": 2.9837624489854724,
+      "new_z_mm": 67.01623755101453
+    },
+    {
+      "original_z_mm": 72.79233785101658,
+      "lowering_mm": 3.0,
+      "new_z_mm": 69.79233785101658
+    }
+  ],
+  "old_girth_slice_pointwise_lowering_mm": 9.964158424886513e-05
+}

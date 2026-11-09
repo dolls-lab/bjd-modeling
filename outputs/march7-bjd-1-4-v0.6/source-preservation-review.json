@@ -1,0 +1,1161 @@
+{
+  "baseline_version": "v0.5",
+  "current_version": "v0.6",
+  "units": "mm",
+  "numeric_zero_tolerance_mm": 1e-06,
+  "strict_zero_requirement": "Protected vertex coordinate differences must be exactly zero, not merely below tolerance.",
+  "files": {
+    "baseline_blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/baseline-v0.5.blend",
+      "sha256": "b38e0f939fe84f066358d557b069c1f2b8675b3a1511a9535b83083dd5b32f6f"
+    },
+    "current_blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/march7-bjd-head-v0.6-draft.blend",
+      "sha256": "294ca014f8cb70d5fb3858fd67efedd8e3727c25b01293dc4d66fb8f17a6412e"
+    },
+    "baseline_head_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/baseline-head.stl",
+      "sha256": "473905cad78eb186a496833c82429a1029846bc6ee7a41bbe0f85ad70c7773c8"
+    },
+    "current_head_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/march7-head-shell-v0.6-draft.stl",
+      "sha256": "c6da660f02c600357b1aa981d7f624bf2ab038273d76edee95d6eb05e9a4297e"
+    },
+    "baseline_cap_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/baseline-cap.stl",
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495"
+    },
+    "current_cap_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/march7-head-cap-v0.6-draft.stl",
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495"
+    },
+    "protection": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/v6-side-protection.npz",
+      "sha256": "f2363c58eed8ead024c26247bba62c6290c3d6232b1b019c14f12ce563f8970f"
+    },
+    "visible_head_protection": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/head-visible-source-protection.npz",
+      "sha256": "bf670a81ed857df69f82eb689b1845f06a0b352fa4af5c51eae528cbd82d5b4e"
+    },
+    "visible_head_protection_report": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/head-visible-source-protection.json",
+      "sha256": "5c1d9a14fd3ea46c00c4743c2f824bd5de0fce53297be7c2dd3c3b7e3a7806e6"
+    },
+    "source_provenance": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/v5-master-source-provenance.npz",
+      "sha256": "f8017677f509db0e7ab6325b6ee75a89114cd4e835df890336948e18bfb3ca8c"
+    },
+    "source_masks": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/source-protection-masks.npz",
+      "sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff"
+    },
+    "build_report": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/build-report.json",
+      "sha256": "87c1f557d8eef6bfc0b2e0104bb471dddb6eda201d57b845a0a60139b7c80078"
+    },
+    "baseline_report": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/baseline-build-report.json",
+      "sha256": "cf9fd5616aabf60ca302d29782d329f2d0bf429f1209ae0f7a8b131e41990a3e"
+    },
+    "parameters": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.6/parameters.json",
+      "sha256": "230fd9c84e9461bbb3d13c97a668ad7c567a14f2f0a0e661e6ee91f156c76fc9"
+    }
+  },
+  "build_method": "Retract only added side skull toward the raw source anterior-side-face envelope; original face, ears and closure retained by verified topology provenance.",
+  "methods": {
+    "index_correspondence": "Vertex count, polygon loop-index array and polygon sizes must match. Edge and triangulation index equality are reported separately. Geometry-dependent quad tessellation is not itself a change to polygon topology.",
+    "source_provenance": "Master retains every original PMX face/ear/closure incident vertex. Print-head strict sculpt protection is source/shared-boundary mapping within 0.65 mm of the actual v5 master, plus the independent raw feature ROI union. The previous full head source-class regions include inner cavity and are informational only.",
+    "mechanics": "On baseline coordinates: neck cylinder radius <=15 mm around (0, neck_center_y), z <= neck_platform_top; each magnet center sphere radius <=7 mm.",
+    "stl": "Verify each baseline/current STL independently against its Blender mesh, including exact float32 vertex positions and the oriented triangle multiset. Then attribute exported corner samples to the verified same vertex indices; no nearest-point displacement approximation.",
+    "raw_pmx_error": "Nearest target-surface distance from original source vertices is separate from corresponding-vertex displacement, and is not used as an exact-zero proof."
+  },
+  "same_index_displacement": {
+    "master": {
+      "polygon_topology_and_vertex_order_identical": true,
+      "edge_index_order_identical": true,
+      "triangle_index_order_identical": false,
+      "baseline_vertices": 45548,
+      "current_vertices": 45548,
+      "regions": {
+        "all_vertices": {
+          "count": 45548,
+          "max_mm": 4.012147903442383,
+          "mean_mm": 0.14859370300890618,
+          "median_mm": 0.0,
+          "p95_mm": 1.2498283386230469,
+          "moved_exactly_nonzero": 4644,
+          "moved_over_1e_6mm": 4644
+        },
+        "all_protected_source_and_feature_vertices": {
+          "count": 27396,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_eye_geodesic_2mm_band": {
+          "count": 3423,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_mouth_geodesic_2mm_band": {
+          "count": 3261,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_nose_roi": {
+          "count": 2159,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_cheek_roi": {
+          "count": 4906,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_chin_roi": {
+          "count": 4474,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "source_any_incident": {
+          "count": 27067,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "source_face_incident": {
+          "count": 24712,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "source_ear_incident": {
+          "count": 1834,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "source_closure_incident": {
+          "count": 843,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "shared_original_source_added_shell_boundary": {
+          "count": 224,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "neck_mechanical_cylinder": {
+          "count": 2174,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_1_within_7mm": {
+          "count": 245,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_2_within_7mm": {
+          "count": 245,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    },
+    "head": {
+      "polygon_topology_and_vertex_order_identical": true,
+      "edge_index_order_identical": true,
+      "triangle_index_order_identical": true,
+      "baseline_vertices": 273666,
+      "current_vertices": 273666,
+      "regions": {
+        "all_vertices": {
+          "count": 273666,
+          "max_mm": 4.00982666015625,
+          "mean_mm": 0.2823698466489012,
+          "median_mm": 0.0,
+          "p95_mm": 2.5083322525024414,
+          "moved_exactly_nonzero": 55119,
+          "moved_over_1e_6mm": 55079
+        },
+        "all_protected_source_and_feature_vertices": {
+          "count": 112427,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_eye_geodesic_2mm_band": {
+          "count": 13269,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_mouth_geodesic_2mm_band": {
+          "count": 3544,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_nose_roi": {
+          "count": 8781,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_cheek_roi": {
+          "count": 26331,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_chin_roi": {
+          "count": 18650,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_sculpt": {
+          "count": 82350,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_face": {
+          "count": 72189,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_face": {
+          "count": 132929,
+          "max_mm": 1.6489315032958984,
+          "mean_mm": 0.000581727371793783,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 620,
+          "moved_over_1e_6mm": 619
+        },
+        "visible_source_ear": {
+          "count": 9764,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_ear": {
+          "count": 10866,
+          "max_mm": 1.2404899597167969,
+          "mean_mm": 0.0037241243600801455,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 185,
+          "moved_over_1e_6mm": 185
+        },
+        "visible_source_closure": {
+          "count": 396,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_closure": {
+          "count": 1996,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_shared_boundary": {
+          "count": 82350,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_full_source_lock": {
+          "count": 148026,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.0015723009135138672,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 1194,
+          "moved_over_1e_6mm": 1193
+        },
+        "informational_released_from_old_source_lock": {
+          "count": 35599,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.006537863845158676,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 1194,
+          "moved_over_1e_6mm": 1193
+        },
+        "informational_old_mapped_shared_boundary": {
+          "count": 146298,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.0015908721583603584,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 1194,
+          "moved_over_1e_6mm": 1193
+        },
+        "neck_mechanical_cylinder": {
+          "count": 9797,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_1_within_7mm": {
+          "count": 1087,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_2_within_7mm": {
+          "count": 1080,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    },
+    "cap": {
+      "polygon_topology_and_vertex_order_identical": true,
+      "edge_index_order_identical": true,
+      "triangle_index_order_identical": true,
+      "baseline_vertices": 55093,
+      "current_vertices": 55093,
+      "regions": {
+        "all_vertices": {
+          "count": 55093,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    },
+    "source_reference": {
+      "polygon_topology_and_vertex_order_identical": true,
+      "edge_index_order_identical": true,
+      "triangle_index_order_identical": true,
+      "baseline_vertices": 1173,
+      "current_vertices": 1173,
+      "regions": {
+        "all_vertices": {
+          "count": 1173,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    }
+  },
+  "exported_stl_correspondence": {
+    "head": {
+      "v05": {
+        "facets": 547340,
+        "unique_stl_positions": 273666,
+        "blend_positions_unique": true,
+        "all_stl_positions_match_blend_float32_exactly": true,
+        "oriented_triangle_multiset_matches": true,
+        "verified": true
+      },
+      "v06": {
+        "facets": 547340,
+        "unique_stl_positions": 273666,
+        "blend_positions_unique": true,
+        "all_stl_positions_match_blend_float32_exactly": true,
+        "oriented_triangle_multiset_matches": true,
+        "verified": true
+      },
+      "v5_to_v6_exported_corner_displacements": {
+        "all_vertices": {
+          "count": 1642020,
+          "max_mm": 4.00982666015625,
+          "mean_mm": 0.28235690676511577,
+          "median_mm": 0.0,
+          "p95_mm": 2.50811767578125,
+          "moved_exactly_nonzero": 330929,
+          "moved_over_1e_6mm": 330685
+        },
+        "all_protected_source_and_feature_vertices": {
+          "count": 674606,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_eye_geodesic_2mm_band": {
+          "count": 79641,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_mouth_geodesic_2mm_band": {
+          "count": 21265,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_nose_roi": {
+          "count": 52690,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_cheek_roi": {
+          "count": 157988,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "raw_pmx_roi_chin_roi": {
+          "count": 111921,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_sculpt": {
+          "count": 494159,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_face": {
+          "count": 433179,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_face": {
+          "count": 797696,
+          "max_mm": 1.6489315032958984,
+          "mean_mm": 0.0005786146344533322,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 3720,
+          "moved_over_1e_6mm": 3712
+        },
+        "visible_source_ear": {
+          "count": 58587,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_ear": {
+          "count": 65193,
+          "max_mm": 1.2404899597167969,
+          "mean_mm": 0.003720174306718219,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 1108,
+          "moved_over_1e_6mm": 1108
+        },
+        "visible_source_closure": {
+          "count": 2387,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_mapped_source_closure": {
+          "count": 11995,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "visible_source_shared_boundary": {
+          "count": 494159,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "informational_old_full_source_lock": {
+          "count": 888348,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.001567088351045959,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 7160,
+          "moved_over_1e_6mm": 7152
+        },
+        "informational_released_from_old_source_lock": {
+          "count": 213742,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.006513084945752241,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 7160,
+          "moved_over_1e_6mm": 7152
+        },
+        "informational_old_mapped_shared_boundary": {
+          "count": 877969,
+          "max_mm": 1.7191104888916016,
+          "mean_mm": 0.0015856138456767559,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 7160,
+          "moved_over_1e_6mm": 7152
+        },
+        "neck_mechanical_cylinder": {
+          "count": 58091,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_1_within_7mm": {
+          "count": 6428,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        },
+        "magnet_2_within_7mm": {
+          "count": 6397,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    },
+    "cap": {
+      "v05": {
+        "facets": 110182,
+        "unique_stl_positions": 55093,
+        "blend_positions_unique": true,
+        "all_stl_positions_match_blend_float32_exactly": true,
+        "oriented_triangle_multiset_matches": true,
+        "verified": true
+      },
+      "v06": {
+        "facets": 110182,
+        "unique_stl_positions": 55093,
+        "blend_positions_unique": true,
+        "all_stl_positions_match_blend_float32_exactly": true,
+        "oriented_triangle_multiset_matches": true,
+        "verified": true
+      },
+      "v5_to_v6_exported_corner_displacements": {
+        "all_vertices": {
+          "count": 330546,
+          "max_mm": 0.0,
+          "mean_mm": 0.0,
+          "median_mm": 0.0,
+          "p95_mm": 0.0,
+          "moved_exactly_nonzero": 0,
+          "moved_over_1e_6mm": 0
+        }
+      }
+    }
+  },
+  "raw_pmx_nearest_surface_error": {
+    "master": {
+      "all_source_face": {
+        "v05": {
+          "count": 1173,
+          "max_mm": 1.641359567642212,
+          "mean_mm": 0.11249639153036306,
+          "median_mm": 0.0613347552716732,
+          "p95_mm": 0.34250956177711406,
+          "moved_exactly_nonzero": 1173,
+          "moved_over_1e_6mm": 1173
+        },
+        "v06": {
+          "count": 1173,
+          "max_mm": 1.641359567642212,
+          "mean_mm": 0.11257241395906921,
+          "median_mm": 0.06136772036552429,
+          "p95_mm": 0.34668934941291585,
+          "moved_exactly_nonzero": 1173,
+          "moved_over_1e_6mm": 1173
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.2712756544351578
+      },
+      "source_face_excluding_4mm_outer_seam_band": {
+        "v05": {
+          "count": 1068,
+          "max_mm": 0.5933297276496887,
+          "mean_mm": 0.08132550360700107,
+          "median_mm": 0.05644969642162323,
+          "p95_mm": 0.24233560189604753,
+          "moved_exactly_nonzero": 1068,
+          "moved_over_1e_6mm": 1068
+        },
+        "v06": {
+          "count": 1068,
+          "max_mm": 0.5933297276496887,
+          "mean_mm": 0.08132550360700107,
+          "median_mm": 0.05644969642162323,
+          "p95_mm": 0.24233560189604753,
+          "moved_exactly_nonzero": 1068,
+          "moved_over_1e_6mm": 1068
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "eye_boundary_exact": {
+        "v05": {
+          "count": 62,
+          "max_mm": 0.14512424170970917,
+          "mean_mm": 0.0715618547232401,
+          "median_mm": 0.07103409618139267,
+          "p95_mm": 0.14474496021866798,
+          "moved_exactly_nonzero": 62,
+          "moved_over_1e_6mm": 62
+        },
+        "v06": {
+          "count": 62,
+          "max_mm": 0.14512424170970917,
+          "mean_mm": 0.0715618547232401,
+          "median_mm": 0.07103409618139267,
+          "p95_mm": 0.14474496021866798,
+          "moved_exactly_nonzero": 62,
+          "moved_over_1e_6mm": 62
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "eye_geodesic_2mm_band": {
+        "v05": {
+          "count": 160,
+          "max_mm": 0.18142077326774597,
+          "mean_mm": 0.0536132743483904,
+          "median_mm": 0.04254934936761856,
+          "p95_mm": 0.13337884098291383,
+          "moved_exactly_nonzero": 160,
+          "moved_over_1e_6mm": 160
+        },
+        "v06": {
+          "count": 160,
+          "max_mm": 0.18142077326774597,
+          "mean_mm": 0.0536132743483904,
+          "median_mm": 0.04254934936761856,
+          "p95_mm": 0.13337884098291383,
+          "moved_exactly_nonzero": 160,
+          "moved_over_1e_6mm": 160
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "mouth_boundary_exact": {
+        "v05": {
+          "count": 44,
+          "max_mm": 0.2206123322248459,
+          "mean_mm": 0.14255652466619556,
+          "median_mm": 0.15647736936807632,
+          "p95_mm": 0.21836964786052704,
+          "moved_exactly_nonzero": 44,
+          "moved_over_1e_6mm": 44
+        },
+        "v06": {
+          "count": 44,
+          "max_mm": 0.2206123322248459,
+          "mean_mm": 0.14255652466619556,
+          "median_mm": 0.15647736936807632,
+          "p95_mm": 0.21836964786052704,
+          "moved_exactly_nonzero": 44,
+          "moved_over_1e_6mm": 44
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "mouth_geodesic_2mm_band": {
+        "v05": {
+          "count": 136,
+          "max_mm": 0.2206123322248459,
+          "mean_mm": 0.07191593872181222,
+          "median_mm": 0.05217173136770725,
+          "p95_mm": 0.20011430978775024,
+          "moved_exactly_nonzero": 136,
+          "moved_over_1e_6mm": 136
+        },
+        "v06": {
+          "count": 136,
+          "max_mm": 0.2206123322248459,
+          "mean_mm": 0.07191593872181222,
+          "median_mm": 0.05217173136770725,
+          "p95_mm": 0.20011430978775024,
+          "moved_exactly_nonzero": 136,
+          "moved_over_1e_6mm": 136
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "nose_roi": {
+        "v05": {
+          "count": 90,
+          "max_mm": 0.3746725022792816,
+          "mean_mm": 0.04717502415749348,
+          "median_mm": 0.03322975151240826,
+          "p95_mm": 0.11313428655266757,
+          "moved_exactly_nonzero": 90,
+          "moved_over_1e_6mm": 90
+        },
+        "v06": {
+          "count": 90,
+          "max_mm": 0.3746725022792816,
+          "mean_mm": 0.04717502415749348,
+          "median_mm": 0.03322975151240826,
+          "p95_mm": 0.11313428655266757,
+          "moved_exactly_nonzero": 90,
+          "moved_over_1e_6mm": 90
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "chin_roi": {
+        "v05": {
+          "count": 176,
+          "max_mm": 0.36191174387931824,
+          "mean_mm": 0.062355445998532974,
+          "median_mm": 0.049863746389746666,
+          "p95_mm": 0.1875332109630108,
+          "moved_exactly_nonzero": 176,
+          "moved_over_1e_6mm": 176
+        },
+        "v06": {
+          "count": 176,
+          "max_mm": 0.36191174387931824,
+          "mean_mm": 0.062355445998532974,
+          "median_mm": 0.049863746389746666,
+          "p95_mm": 0.1875332109630108,
+          "moved_exactly_nonzero": 176,
+          "moved_over_1e_6mm": 176
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "cheek_roi": {
+        "v05": {
+          "count": 210,
+          "max_mm": 0.26061052083969116,
+          "mean_mm": 0.06923860506836459,
+          "median_mm": 0.0564323328435421,
+          "p95_mm": 0.21415295377373694,
+          "moved_exactly_nonzero": 210,
+          "moved_over_1e_6mm": 210
+        },
+        "v06": {
+          "count": 210,
+          "max_mm": 0.26061052083969116,
+          "mean_mm": 0.06923860506836459,
+          "median_mm": 0.0564323328435421,
+          "p95_mm": 0.21415295377373694,
+          "moved_exactly_nonzero": 210,
+          "moved_over_1e_6mm": 210
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      }
+    },
+    "head": {
+      "all_source_face": {
+        "v05": {
+          "count": 1173,
+          "max_mm": 1.7041172981262207,
+          "mean_mm": 0.1276609615815935,
+          "median_mm": 0.0720345750451088,
+          "p95_mm": 0.35643067359924174,
+          "moved_exactly_nonzero": 1173,
+          "moved_over_1e_6mm": 1173
+        },
+        "v06": {
+          "count": 1173,
+          "max_mm": 1.6425336599349976,
+          "mean_mm": 0.12605658570831482,
+          "median_mm": 0.07189881801605225,
+          "p95_mm": 0.36339520215988147,
+          "moved_exactly_nonzero": 1173,
+          "moved_over_1e_6mm": 1173
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.5925467014312744
+      },
+      "source_face_excluding_4mm_outer_seam_band": {
+        "v05": {
+          "count": 1068,
+          "max_mm": 0.6208664774894714,
+          "mean_mm": 0.09190008722644835,
+          "median_mm": 0.0654238872230053,
+          "p95_mm": 0.25539295077323904,
+          "moved_exactly_nonzero": 1068,
+          "moved_over_1e_6mm": 1068
+        },
+        "v06": {
+          "count": 1068,
+          "max_mm": 0.6208664774894714,
+          "mean_mm": 0.09190008722644835,
+          "median_mm": 0.0654238872230053,
+          "p95_mm": 0.25539295077323904,
+          "moved_exactly_nonzero": 1068,
+          "moved_over_1e_6mm": 1068
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "eye_boundary_exact": {
+        "v05": {
+          "count": 62,
+          "max_mm": 0.2739214599132538,
+          "mean_mm": 0.17043752643850543,
+          "median_mm": 0.17296651005744934,
+          "p95_mm": 0.23290652632713316,
+          "moved_exactly_nonzero": 62,
+          "moved_over_1e_6mm": 62
+        },
+        "v06": {
+          "count": 62,
+          "max_mm": 0.2739214599132538,
+          "mean_mm": 0.17043752643850543,
+          "median_mm": 0.17296651005744934,
+          "p95_mm": 0.23290652632713316,
+          "moved_exactly_nonzero": 62,
+          "moved_over_1e_6mm": 62
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "eye_geodesic_2mm_band": {
+        "v05": {
+          "count": 160,
+          "max_mm": 0.2739214599132538,
+          "mean_mm": 0.09308796724967579,
+          "median_mm": 0.06780082732439041,
+          "p95_mm": 0.21907511651515954,
+          "moved_exactly_nonzero": 160,
+          "moved_over_1e_6mm": 160
+        },
+        "v06": {
+          "count": 160,
+          "max_mm": 0.2739214599132538,
+          "mean_mm": 0.09308796724967579,
+          "median_mm": 0.06780082732439041,
+          "p95_mm": 0.21907511651515954,
+          "moved_exactly_nonzero": 160,
+          "moved_over_1e_6mm": 160
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "mouth_boundary_exact": {
+        "v05": {
+          "count": 44,
+          "max_mm": 0.249173104763031,
+          "mean_mm": 0.1546941415025768,
+          "median_mm": 0.17711559683084488,
+          "p95_mm": 0.24793966636061668,
+          "moved_exactly_nonzero": 44,
+          "moved_over_1e_6mm": 44
+        },
+        "v06": {
+          "count": 44,
+          "max_mm": 0.249173104763031,
+          "mean_mm": 0.1546941415025768,
+          "median_mm": 0.17711559683084488,
+          "p95_mm": 0.24793966636061668,
+          "moved_exactly_nonzero": 44,
+          "moved_over_1e_6mm": 44
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "mouth_geodesic_2mm_band": {
+        "v05": {
+          "count": 136,
+          "max_mm": 0.249173104763031,
+          "mean_mm": 0.08655378950157576,
+          "median_mm": 0.07053535431623459,
+          "p95_mm": 0.2220396287739277,
+          "moved_exactly_nonzero": 136,
+          "moved_over_1e_6mm": 136
+        },
+        "v06": {
+          "count": 136,
+          "max_mm": 0.249173104763031,
+          "mean_mm": 0.08655378950157576,
+          "median_mm": 0.07053535431623459,
+          "p95_mm": 0.2220396287739277,
+          "moved_exactly_nonzero": 136,
+          "moved_over_1e_6mm": 136
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "nose_roi": {
+        "v05": {
+          "count": 90,
+          "max_mm": 0.4766156077384949,
+          "mean_mm": 0.05451585271447483,
+          "median_mm": 0.035215409472584724,
+          "p95_mm": 0.1375885553658008,
+          "moved_exactly_nonzero": 90,
+          "moved_over_1e_6mm": 90
+        },
+        "v06": {
+          "count": 90,
+          "max_mm": 0.4766156077384949,
+          "mean_mm": 0.05451585271447483,
+          "median_mm": 0.035215409472584724,
+          "p95_mm": 0.1375885553658008,
+          "moved_exactly_nonzero": 90,
+          "moved_over_1e_6mm": 90
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "chin_roi": {
+        "v05": {
+          "count": 176,
+          "max_mm": 0.3836658000946045,
+          "mean_mm": 0.06573800333353574,
+          "median_mm": 0.05160463973879814,
+          "p95_mm": 0.19079743698239326,
+          "moved_exactly_nonzero": 176,
+          "moved_over_1e_6mm": 176
+        },
+        "v06": {
+          "count": 176,
+          "max_mm": 0.3836658000946045,
+          "mean_mm": 0.06573800333353574,
+          "median_mm": 0.05160463973879814,
+          "p95_mm": 0.19079743698239326,
+          "moved_exactly_nonzero": 176,
+          "moved_over_1e_6mm": 176
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      },
+      "cheek_roi": {
+        "v05": {
+          "count": 210,
+          "max_mm": 0.2673962414264679,
+          "mean_mm": 0.07895952476011146,
+          "median_mm": 0.06205345131456852,
+          "p95_mm": 0.2259183146059513,
+          "moved_exactly_nonzero": 210,
+          "moved_over_1e_6mm": 210
+        },
+        "v06": {
+          "count": 210,
+          "max_mm": 0.2673962414264679,
+          "mean_mm": 0.07895952476011146,
+          "median_mm": 0.06205345131456852,
+          "p95_mm": 0.2259183146059513,
+          "moved_exactly_nonzero": 210,
+          "moved_over_1e_6mm": 210
+        },
+        "max_absolute_change_in_nearest_distance_mm": 0.0
+      }
+    }
+  },
+  "limits": [
+    "No z<30 blanket protection is asserted for v6; the added side cranium is intentionally changed.",
+    "Source preservation means no further v5-to-v6 change, not pointwise equality of the final print mesh to raw PMX.",
+    "Head source labels are nearest-v5-master mappings after voxelization, not original print-vertex construction history.",
+    "Old source-mapped inner cavity walls may move with the new exterior field to preserve thickness. Their motion is reported, not claimed to be zero.",
+    "This audit does not certify visual appearance, shell thickness, physical body fit or hardware assembly."
+  ],
+  "checks": {
+    "baseline_blend_matches_protection_sha256": true,
+    "baseline_blend_matches_visible_head_protection_sha256": true,
+    "master_index_correspondence": true,
+    "master_mask_baseline_vertices_matches": true,
+    "master_mask_baseline_edges_matches": true,
+    "master_mask_baseline_loops_matches": true,
+    "master_mask_baseline_polygon_sizes_matches": true,
+    "master_mask_baseline_triangles_matches": true,
+    "master_mask_baseline_triangle_polygon_index_matches": true,
+    "master_mask_topology_hash_matches": true,
+    "master_all_protected_source_and_feature_vertices_exactly_unchanged": true,
+    "master_raw_pmx_roi_eye_geodesic_2mm_band_exactly_unchanged": true,
+    "master_raw_pmx_roi_mouth_geodesic_2mm_band_exactly_unchanged": true,
+    "master_raw_pmx_roi_nose_roi_exactly_unchanged": true,
+    "master_raw_pmx_roi_cheek_roi_exactly_unchanged": true,
+    "master_raw_pmx_roi_chin_roi_exactly_unchanged": true,
+    "master_source_any_incident_exactly_unchanged": true,
+    "master_source_face_incident_exactly_unchanged": true,
+    "master_source_ear_incident_exactly_unchanged": true,
+    "master_source_closure_incident_exactly_unchanged": true,
+    "master_shared_original_source_added_shell_boundary_exactly_unchanged": true,
+    "master_neck_mechanical_cylinder_exactly_unchanged": true,
+    "master_magnet_1_within_7mm_exactly_unchanged": true,
+    "master_magnet_2_within_7mm_exactly_unchanged": true,
+    "head_index_correspondence": true,
+    "head_mask_baseline_vertices_matches": true,
+    "head_mask_baseline_edges_matches": true,
+    "head_mask_baseline_loops_matches": true,
+    "head_mask_baseline_polygon_sizes_matches": true,
+    "head_mask_baseline_triangles_matches": true,
+    "head_mask_baseline_triangle_polygon_index_matches": true,
+    "head_mask_topology_hash_matches": true,
+    "head_visible_mask_baseline_vertices_match": true,
+    "head_visible_mask_topology_hash_matches": true,
+    "head_visible_mask_contains_all_raw_feature_rois": true,
+    "head_all_protected_source_and_feature_vertices_exactly_unchanged": true,
+    "head_raw_pmx_roi_eye_geodesic_2mm_band_exactly_unchanged": true,
+    "head_raw_pmx_roi_mouth_geodesic_2mm_band_exactly_unchanged": true,
+    "head_raw_pmx_roi_nose_roi_exactly_unchanged": true,
+    "head_raw_pmx_roi_cheek_roi_exactly_unchanged": true,
+    "head_raw_pmx_roi_chin_roi_exactly_unchanged": true,
+    "head_visible_source_sculpt_exactly_unchanged": true,
+    "head_visible_source_face_exactly_unchanged": true,
+    "head_visible_source_ear_exactly_unchanged": true,
+    "head_visible_source_closure_exactly_unchanged": true,
+    "head_visible_source_shared_boundary_exactly_unchanged": true,
+    "head_neck_mechanical_cylinder_exactly_unchanged": true,
+    "head_magnet_1_within_7mm_exactly_unchanged": true,
+    "head_magnet_2_within_7mm_exactly_unchanged": true,
+    "cap_index_correspondence": true,
+    "cap_all_vertices_exactly_unchanged": true,
+    "source_reference_index_correspondence": true,
+    "source_reference_all_vertices_exactly_unchanged": true,
+    "head_v05_stl_correspondence_verified": true,
+    "head_v06_stl_correspondence_verified": true,
+    "head_stl_all_protected_source_and_feature_vertices_exactly_unchanged": true,
+    "head_stl_raw_pmx_roi_eye_geodesic_2mm_band_exactly_unchanged": true,
+    "head_stl_raw_pmx_roi_mouth_geodesic_2mm_band_exactly_unchanged": true,
+    "head_stl_raw_pmx_roi_nose_roi_exactly_unchanged": true,
+    "head_stl_raw_pmx_roi_cheek_roi_exactly_unchanged": true,
+    "head_stl_raw_pmx_roi_chin_roi_exactly_unchanged": true,
+    "head_stl_visible_source_sculpt_exactly_unchanged": true,
+    "head_stl_visible_source_face_exactly_unchanged": true,
+    "head_stl_visible_source_ear_exactly_unchanged": true,
+    "head_stl_visible_source_closure_exactly_unchanged": true,
+    "head_stl_visible_source_shared_boundary_exactly_unchanged": true,
+    "head_stl_neck_mechanical_cylinder_exactly_unchanged": true,
+    "head_stl_magnet_1_within_7mm_exactly_unchanged": true,
+    "head_stl_magnet_2_within_7mm_exactly_unchanged": true,
+    "cap_v05_stl_correspondence_verified": true,
+    "cap_v06_stl_correspondence_verified": true,
+    "cap_stl_all_vertices_exactly_unchanged": true,
+    "cap_stl_bytes_unchanged": true
+  },
+  "all_checks_pass": true,
+  "input_files_unchanged_during_audit": true
+}

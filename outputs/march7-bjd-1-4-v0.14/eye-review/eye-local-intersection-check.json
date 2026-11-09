@@ -1,0 +1,29 @@
+{
+  "solution_sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92",
+  "actual_stl_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "input_integrity": {
+    "actual_head_stl": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+    "head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "final_solution": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz",
+    "solution_sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92",
+    "actual_float32_triangle_multiset_exact": true,
+    "actual_triangle_order_matches_solution": true,
+    "triangle_ids_in_local_reports": "final-change-solution head_triangles indices; actual geometry is verified exact float32"
+  },
+  "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps changed-region bounds. Unchanged-only pairs excluded. Normal-rotation faces also checked for shared-one-vertex intersections and coplanar shared-edge overlaps.",
+  "distance_tolerance_mm": 1e-06,
+  "changed_vertices": 14275,
+  "changed_triangles": 29625,
+  "candidate_region_triangles": 48329,
+  "nonadjacent_aabb_pairs": 6792,
+  "shared_vertex_aabb_pairs_excluded": 190012,
+  "normal_over90": [],
+  "degenerate_triangles": 0,
+  "hits": [],
+  "new_strict_intersections": 0,
+  "new_ambiguous_contacts": 0,
+  "abnormal_shared_one_vertex_positive_overlap": [],
+  "abnormal_shared_edge_coplanar_overlap": [],
+  "input_unchanged": true,
+  "duration_seconds": 3.87014102935791
+}

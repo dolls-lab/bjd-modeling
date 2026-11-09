@@ -1,0 +1,63 @@
+[
+  {
+    "file": "overall-comparison.png",
+    "sha256": "618358740886f13e6d7da2c66e0da40083a93f8bc6664af51732b4741a1cea17",
+    "inputs": [
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/front.png",
+        "sha256": "2a87f3374bb7a5aeb06425a99df497a0d8f23710b4908a89e137b78005b5e659"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-front.png",
+        "sha256": "b22e725f6d060b37ab5e34bffac9ef135d5a8bba823cbad24e3fbeadf6ee33cc"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/quarter-left.png",
+        "sha256": "03a854f7a6634bf144c8eba0e049e358e002b6aef85f0c809dad35efa462c393"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-quarter-left.png",
+        "sha256": "aa752cd5aebad7a0ffefdcd383b5e67155329d72ee0836b8da54fa6a60b9c11e"
+      }
+    ],
+    "operations": "Resize and arrange only; no geometry, proportion or color retouching."
+  },
+  {
+    "file": "face-comparison.png",
+    "sha256": "2a26a1b9ae1dd668849b37ecaf2087fdbbff2bf616afa29879f0322d126ee2f9",
+    "inputs": [
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-front.png",
+        "sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-face-front.png",
+        "sha256": "b6f74c81f00327850664eb92c167902198cfab8ebed92fc8df4cecd945b38364"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-quarter.png",
+        "sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-face-quarter.png",
+        "sha256": "32aa006375e448267e4f6e9a097d4d71d8b25efdd178bc4b707eb0720726484a"
+      }
+    ],
+    "operations": "Resize and arrange only; no geometry, proportion or color retouching."
+  },
+  {
+    "file": "profile-comparison.png",
+    "sha256": "ed2b7dec267bb9a74e7ff62972c653121ae088ecb295bce836f3b52c37b026d8",
+    "inputs": [
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/side.png",
+        "sha256": "18409a92bd928a490226916e52daec1ceb5c1f3532c5d47452d020bbd3d87739"
+      },
+      {
+        "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/original-comparison/original-side.png",
+        "sha256": "07385d387363ffe59ae3a63993fd2ee3d4f63582ba3db163e9818a7e613c56fc"
+      }
+    ],
+    "operations": "Resize and arrange only; no geometry, proportion or color retouching."
+  }
+]

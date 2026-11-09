@@ -1,0 +1,786 @@
+{
+  "version": "v0.14-draft",
+  "scope": "Final combined actual head eye-region review. Cap/Blend hashes identify the matching artifact set; cap assembly and Blend/STL equivalence are checked separately by other reviewers.",
+  "files": {
+    "head": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+    },
+    "cap": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+    },
+    "blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend",
+      "sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a"
+    },
+    "solution": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz",
+      "sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92"
+    }
+  },
+  "all_eye_reports_bind_final_combined_head": true,
+  "raw_pmx_source": {
+    "file": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+    "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+    "sha256_after": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+    "unchanged_during_check": true
+  },
+  "eye_projection": {
+    "pitch_mm": 0.05,
+    "fixed_transform": {
+      "formula": "world = [PMX.X, PMX.Z, PMX.Y - 18.16621208190918] * 27.47544416498121",
+      "scale_mm_per_pmx_unit": 27.47544416498121,
+      "pmx_y_origin": 18.16621208190918,
+      "fitted_alignment": false
+    },
+    "eyes": [
+      {
+        "eye_id": "x_negative",
+        "metrics": {
+          "raw_pmx": {
+            "pixel_count": 32663,
+            "width_mm": 11.5,
+            "height_mm": 9.3,
+            "area_mm2": 81.65750000000001,
+            "centroid_xz_mm": [
+              -13.5576155240113,
+              27.771850047424252
+            ],
+            "bbox_xz_mm": [
+              [
+                -19.4139629201476,
+                23.02311677124019
+              ],
+              [
+                -7.913962920147601,
+                32.32311677124019
+              ]
+            ]
+          },
+          "print_v14": {
+            "pixel_count": 32591,
+            "width_mm": 11.450000000000001,
+            "height_mm": 9.3,
+            "area_mm2": 81.47750000000002,
+            "centroid_xz_mm": [
+              -13.54618884141421,
+              27.773645291383787
+            ],
+            "bbox_xz_mm": [
+              [
+                -19.3639629201476,
+                23.02311677124019
+              ],
+              [
+                -7.913962920147601,
+                32.32311677124019
+              ]
+            ]
+          }
+        },
+        "changes": {
+          "width_mm": -0.049999999999998934,
+          "height_mm": 0.0,
+          "area_mm2": -0.1799999999999926,
+          "pixel_count": -72,
+          "area_percent": -0.2204329057343135,
+          "centroid_shift_xz_mm": [
+            0.011426682597090121,
+            0.0017952439595347869
+          ],
+          "centroid_shift_distance_mm": 0.011566848146703076,
+          "intersection_over_union": 0.9968175280761346,
+          "raw_only_area_mm2": 0.22000000000000003,
+          "print_only_area_mm2": 0.04000000000000001,
+          "symmetric_difference_area_mm2": 0.26000000000000006
+        },
+        "boundary_nearest_distances": {
+          "raw_to_print": {
+            "sample_count": 828,
+            "mean_mm": 0.0062801932367148984,
+            "p95_mm": 0.05000000000000071,
+            "max_mm": 0.05000000000000071
+          },
+          "print_to_raw": {
+            "sample_count": 826,
+            "mean_mm": 0.006174334140435737,
+            "p95_mm": 0.05000000000000071,
+            "max_mm": 0.05000000000000071
+          },
+          "symmetric_hausdorff_mm": 0.05000000000000071,
+          "method": "Nearest distance between boundary-pixel centers on the shared XZ grid; not indexed point displacement or a 3D surface distance."
+        }
+      },
+      {
+        "eye_id": "x_positive",
+        "metrics": {
+          "raw_pmx": {
+            "pixel_count": 32663,
+            "width_mm": 11.5,
+            "height_mm": 9.3,
+            "area_mm2": 81.65750000000001,
+            "centroid_xz_mm": [
+              13.557615524011302,
+              27.771850047424252
+            ],
+            "bbox_xz_mm": [
+              [
+                7.913962920147601,
+                23.02311677124019
+              ],
+              [
+                19.4139629201476,
+                32.32311677124019
+              ]
+            ]
+          },
+          "print_v14": {
+            "pixel_count": 32588,
+            "width_mm": 11.450000000000001,
+            "height_mm": 9.3,
+            "area_mm2": 81.47000000000001,
+            "centroid_xz_mm": [
+              13.545689322504296,
+              27.77341135820472
+            ],
+            "bbox_xz_mm": [
+              [
+                7.913962920147601,
+                23.02311677124019
+              ],
+              [
+                19.3639629201476,
+                32.32311677124019
+              ]
+            ]
+          }
+        },
+        "changes": {
+          "width_mm": -0.049999999999998934,
+          "height_mm": 0.0,
+          "area_mm2": -0.1875,
+          "pixel_count": -75,
+          "area_percent": -0.22961761013990944,
+          "centroid_shift_xz_mm": [
+            -0.01192620150700563,
+            0.0015613107804668402
+          ],
+          "centroid_shift_distance_mm": 0.012027966317665896,
+          "intersection_over_union": 0.9969090463949076,
+          "raw_only_area_mm2": 0.22000000000000003,
+          "print_only_area_mm2": 0.03250000000000001,
+          "symmetric_difference_area_mm2": 0.25250000000000006
+        },
+        "boundary_nearest_distances": {
+          "raw_to_print": {
+            "sample_count": 828,
+            "mean_mm": 0.00609903381642506,
+            "p95_mm": 0.05000000000000071,
+            "max_mm": 0.05000000000000071
+          },
+          "print_to_raw": {
+            "sample_count": 826,
+            "mean_mm": 0.005992736077481757,
+            "p95_mm": 0.05000000000000071,
+            "max_mm": 0.05000000000000071
+          },
+          "symmetric_hausdorff_mm": 0.05000000000000071,
+          "method": "Nearest distance between boundary-pixel centers on the shared XZ grid; not indexed point displacement or a 3D surface distance."
+        }
+      }
+    ],
+    "pair_spacing": {
+      "raw_pmx": {
+        "area_centroid_horizontal_separation_mm": 27.1152310480226,
+        "area_centroid_xz_distance_mm": 27.1152310480226,
+        "inner_bbox_gap_mm": 15.827925840295203,
+        "outer_bbox_span_mm": 38.8279258402952,
+        "bbox_center_horizontal_separation_mm": 27.327925840295205
+      },
+      "print_v14": {
+        "area_centroid_horizontal_separation_mm": 27.09187816391851,
+        "area_centroid_xz_distance_mm": 27.091878164928495,
+        "inner_bbox_gap_mm": 15.827925840295203,
+        "outer_bbox_span_mm": 38.7279258402952,
+        "bbox_center_horizontal_separation_mm": 27.2779258402952
+      },
+      "changes_print_minus_raw": {
+        "area_centroid_horizontal_separation_mm": -0.023352884104092198,
+        "area_centroid_xz_distance_mm": -0.023352883094105437,
+        "inner_bbox_gap_mm": 0.0,
+        "outer_bbox_span_mm": -0.10000000000000142,
+        "bbox_center_horizontal_separation_mm": -0.05000000000000426
+      }
+    },
+    "distance_definition": "Primary eye distance is horizontal separation of the two area centroids of the projected main apertures. Also report XZ centroid distance, inner bbox gap, outer bbox span and bbox-center separation. These are not anatomical pupil distance: eyeballs/irises are excluded."
+  },
+  "rim_sections": [
+    {
+      "name": "outer_corner_horizontal",
+      "raw_rim_to_v14_nearest": [
+        {
+          "raw_rim_point": [
+            19.41987238121161,
+            -20.83555083387249,
+            28.3
+          ],
+          "nearest_v14_section_point": [
+            19.55345265383447,
+            -20.643182771565616,
+            28.3
+          ],
+          "distance_mm": 0.23419897657696515,
+          "v14_minus_raw": [
+            0.13358027262285788,
+            0.19236806230687264,
+            0.0
+          ]
+        }
+      ],
+      "baseline_raw_rim_nearest": [
+        {
+          "raw_rim_point": [
+            19.41987238121161,
+            -20.83555083387249,
+            28.3
+          ],
+          "nearest_v13_section_point": [
+            19.518058061393504,
+            -20.634332779266053,
+            28.3
+          ],
+          "distance_mm": 0.22389536237354124,
+          "v13_minus_raw": [
+            0.09818568018189211,
+            0.20121805460643571,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "upper_rim_vertical",
+      "raw_rim_to_v14_nearest": [
+        {
+          "raw_rim_point": [
+            13.663962920147602,
+            -24.472655382029494,
+            32.30783918833433
+          ],
+          "nearest_v14_section_point": [
+            13.663962920147602,
+            -24.470415625293324,
+            32.31309664960229
+          ],
+          "distance_mm": 0.005714666151343453,
+          "v14_minus_raw": [
+            0.0,
+            0.002239756736170051,
+            0.005257461267959229
+          ]
+        }
+      ],
+      "baseline_raw_rim_nearest": [
+        {
+          "raw_rim_point": [
+            13.663962920147602,
+            -24.472655382029494,
+            32.30783918833433
+          ],
+          "nearest_v13_section_point": [
+            13.663962920147602,
+            -24.453047013042408,
+            32.4188911049559
+          ],
+          "distance_mm": 0.11276974913361186,
+          "v13_minus_raw": [
+            0.0,
+            0.019608368987086067,
+            0.11105191662156955
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lower_rim_vertical",
+      "raw_rim_to_v14_nearest": [
+        {
+          "raw_rim_point": [
+            13.663962920147602,
+            -23.244601171031345,
+            23.044879403709984
+          ],
+          "nearest_v14_section_point": [
+            13.663962920147602,
+            -23.222973630689463,
+            22.986822765456534
+          ],
+          "distance_mm": 0.061954206850961785,
+          "v14_minus_raw": [
+            0.0,
+            0.021627540341881968,
+            -0.05805663825345064
+          ]
+        }
+      ],
+      "baseline_raw_rim_nearest": [
+        {
+          "raw_rim_point": [
+            13.663962920147602,
+            -23.244601171031345,
+            23.044879403709984
+          ],
+          "nearest_v13_section_point": [
+            13.663962920147602,
+            -23.19445813708479,
+            22.909793812949207
+          ],
+          "distance_mm": 0.14409177868481426,
+          "v13_minus_raw": [
+            0.0,
+            0.05014303394655428,
+            -0.1350855907607773
+          ]
+        }
+      ]
+    }
+  ],
+  "largest_remaining_radial_deficits": [
+    {
+      "theta_global_deg": 174.0,
+      "raw_target_radius_mm": 5.892929932897363,
+      "v14_effective_radius_mm": 5.830685830116272,
+      "residual_radial_deficit_mm": 0.062244102781091826,
+      "v14_limit_position_mm": [
+        -19.356955739423558,
+        -19.690613578496933,
+        28.38105241094362
+      ],
+      "v14_limit_normal": [
+        0.9751614595177751,
+        -0.21821819086741576,
+        0.03795983463761248
+      ],
+      "raw_rim_y_mm": -20.85909842020741,
+      "v14_limit_dy_mm": 1.1684848417104767
+    },
+    {
+      "theta_global_deg": 5.0,
+      "raw_target_radius_mm": 5.880194556053115,
+      "v14_effective_radius_mm": 5.833395266532898,
+      "residual_radial_deficit_mm": 0.046799289520216725,
+      "v14_limit_position_mm": [
+        19.369410125555675,
+        -19.708719662361062,
+        28.279976305799917
+      ],
+      "v14_limit_normal": [
+        -0.9792182845077126,
+        -0.11963221470258048,
+        0.16376716548541806
+      ],
+      "raw_rim_y_mm": -20.834438105326242,
+      "v14_limit_dy_mm": 1.12571844296518
+    }
+  ],
+  "intersection": {
+    "changed_vertices": 14275,
+    "changed_triangles": 29625,
+    "candidate_region_triangles": 48329,
+    "nonadjacent_aabb_pairs": 6792,
+    "new_strict_intersections": 0,
+    "new_ambiguous_contacts": 0,
+    "degenerate_triangles": 0,
+    "normal_over90_count": 0,
+    "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps changed-region bounds. Unchanged-only pairs excluded. Normal-rotation faces also checked for shared-one-vertex intersections and coplanar shared-edge overlaps.",
+    "shared_vertex_limitation": "General scan excludes pairs sharing any exact vertex. Normal-rotation faces receive supplemental shared-one-vertex/shared-edge checks; final normal-rotation count is0."
+  },
+  "stationary_eye_spheres": {
+    "pass": true,
+    "eyes": [
+      {
+        "center_mm": [
+          13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "overlap_volume_mm3": 0.0,
+        "overlap_empty": true,
+        "overlap_status": "Error.NoError",
+        "minimum_gap_mm_search_limit1": 0.1814376687203776,
+        "pass": true
+      },
+      {
+        "center_mm": [
+          -13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "overlap_volume_mm3": 0.0,
+        "overlap_empty": true,
+        "overlap_status": "Error.NoError",
+        "minimum_gap_mm_search_limit1": 0.18044875128323734,
+        "pass": true
+      }
+    ],
+    "enclosure": {
+      "nominal_analytic_diameter_mm": 16.0,
+      "sphere_segments": 128,
+      "unit_polyhedron_minimum_face_support_distance": 0.9991899760571326,
+      "polyhedron_circumradius_mm": 8.006485444908595,
+      "polyhedron_maximum_diameter_mm": 16.01297088981719,
+      "method": "Scale a convex tessellated unit sphere until every face plane is at least the nominal radius from its center. The resulting polyhedron encloses the analytic ball."
+    }
+  },
+  "continuous_insertion": {
+    "pass": true,
+    "selected_paths": [
+      {
+        "waypoints_mm": [
+          [
+            0.0,
+            43.234788507419694,
+            58.620436731039845
+          ],
+          [
+            0.0,
+            4.921737164193434,
+            47.12652108965338
+          ],
+          [
+            13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ]
+        ],
+        "segments": [
+          {
+            "start_mm": [
+              0.0,
+              43.234788507419694,
+              58.620436731039845
+            ],
+            "end_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "length_mm": 40.0,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.7173756528268115,
+            "minimum_center_distance_to_other_installed_eye_mm": 29.946316481068877,
+            "other_eye_collision_free": true,
+            "pass": true
+          },
+          {
+            "start_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "end_mm": [
+              13.663962920147602,
+              -13.289332231246028,
+              27.67311677124019
+            ],
+            "length_mm": 29.946316481068877,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.1814376687203776,
+            "minimum_center_distance_to_other_installed_eye_mm": 24.31735223028229,
+            "other_eye_collision_free": true,
+            "pass": true
+          }
+        ],
+        "pass": true,
+        "route_name": "central_entry_waypoint"
+      },
+      {
+        "waypoints_mm": [
+          [
+            0.0,
+            43.234788507419694,
+            58.620436731039845
+          ],
+          [
+            0.0,
+            4.921737164193434,
+            47.12652108965338
+          ],
+          [
+            -13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ]
+        ],
+        "segments": [
+          {
+            "start_mm": [
+              0.0,
+              43.234788507419694,
+              58.620436731039845
+            ],
+            "end_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "length_mm": 40.0,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.7173756528268115,
+            "minimum_center_distance_to_other_installed_eye_mm": 29.946316481068877,
+            "other_eye_collision_free": true,
+            "pass": true
+          },
+          {
+            "start_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "end_mm": [
+              -13.663962920147602,
+              -13.289332231246028,
+              27.67311677124019
+            ],
+            "length_mm": 29.946316481068877,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.18044875128323734,
+            "minimum_center_distance_to_other_installed_eye_mm": 24.31735223028229,
+            "other_eye_collision_free": true,
+            "pass": true
+          }
+        ],
+        "pass": true,
+        "route_name": "central_entry_waypoint"
+      }
+    ],
+    "limitations": [
+      "Only nominal spherical eyes are checked; stems, protruding irises, tools, fingers and eye-fixing putty are not modeled.",
+      "Reported clearance applies to the conservative digital polyhedron and the current STL, not to measured printed parts.",
+      "Printer tolerances, resin shrinkage, strength and the actual eye shape have not been physically verified.",
+      "Failure of a tested simple path would not prove that no curved or other piecewise path exists.",
+      "Other-eye avoidance uses analytic centerline distance against a stationary nominal sphere at the other seat."
+    ]
+  },
+  "paired_local_wall_chords": {
+    "all_changed_eye_vertices": {
+      "sampled_vertices": 14275,
+      "before": {
+        "count": 12381,
+        "minimum_mm": 0.5371612572455173,
+        "p01_mm": 0.7803726722431185,
+        "p05_mm": 1.076668516481671,
+        "median_mm": 2.604913516782156,
+        "below_0p4": 0,
+        "below_0p6": 8
+      },
+      "after": {
+        "count": 12408,
+        "minimum_mm": 0.5142082562845828,
+        "p01_mm": 0.6564696310868382,
+        "p05_mm": 0.9001532949981877,
+        "median_mm": 2.6454633629852022,
+        "below_0p4": 0,
+        "below_0p6": 54
+      },
+      "paired_valid": 12323,
+      "missing_before": 1894,
+      "missing_after": 1867,
+      "new_below_0p4": 0,
+      "new_below_0p6": 45
+    },
+    "outer_corner": {
+      "sampled_vertices": 1854,
+      "before": {
+        "count": 1819,
+        "minimum_mm": 0.5371612572455173,
+        "p01_mm": 0.7253983907747978,
+        "p05_mm": 0.8570913663894091,
+        "median_mm": 2.6015126071824692,
+        "below_0p4": 0,
+        "below_0p6": 8
+      },
+      "after": {
+        "count": 1824,
+        "minimum_mm": 0.5142082562845828,
+        "p01_mm": 0.5695874532228996,
+        "p05_mm": 0.6838614661547022,
+        "median_mm": 2.5827225389598363,
+        "below_0p4": 0,
+        "below_0p6": 42
+      },
+      "paired_valid": 1818,
+      "missing_before": 35,
+      "missing_after": 30,
+      "new_below_0p4": 0,
+      "new_below_0p6": 33
+    },
+    "upper_eye": {
+      "sampled_vertices": 5243,
+      "before": {
+        "count": 4634,
+        "minimum_mm": 2.275262213206495,
+        "p01_mm": 2.5464845715365763,
+        "p05_mm": 2.579818824627483,
+        "median_mm": 2.6154832960691756,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "after": {
+        "count": 4641,
+        "minimum_mm": 2.097379138415791,
+        "p01_mm": 2.5284312476525477,
+        "p05_mm": 2.5756208356079995,
+        "median_mm": 2.6732312750869642,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "paired_valid": 4602,
+      "missing_before": 609,
+      "missing_after": 602,
+      "new_below_0p4": 0,
+      "new_below_0p6": 0
+    },
+    "lower_eye": {
+      "sampled_vertices": 4158,
+      "before": {
+        "count": 3825,
+        "minimum_mm": 0.9886749524667441,
+        "p01_mm": 1.1531546220665234,
+        "p05_mm": 1.6041885413207972,
+        "median_mm": 2.615293568466819,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "after": {
+        "count": 3828,
+        "minimum_mm": 0.8709683854811197,
+        "p01_mm": 1.04745943353074,
+        "p05_mm": 1.5081762997968005,
+        "median_mm": 2.6521565763991837,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "paired_valid": 3820,
+      "missing_before": 333,
+      "missing_after": 330,
+      "new_below_0p4": 0,
+      "new_below_0p6": 0
+    },
+    "inner_eye": {
+      "sampled_vertices": 4810,
+      "before": {
+        "count": 3419,
+        "minimum_mm": 2.275262213206495,
+        "p01_mm": 2.516198875142646,
+        "p05_mm": 2.5938353154517557,
+        "median_mm": 2.6044941164712636,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "after": {
+        "count": 3448,
+        "minimum_mm": 2.045457162614964,
+        "p01_mm": 2.354160335449079,
+        "p05_mm": 2.598821357834699,
+        "median_mm": 2.6478682431595257,
+        "below_0p4": 0,
+        "below_0p6": 0
+      },
+      "paired_valid": 3386,
+      "missing_before": 1391,
+      "missing_after": 1362,
+      "new_below_0p4": 0,
+      "new_below_0p6": 0
+    }
+  },
+  "thin_edge_witness": {
+    "vertex_id": 205441,
+    "baseline_point_mm": [
+      19.213912963867188,
+      -20.474956512451172,
+      27.081323623657227
+    ],
+    "candidate_point_mm": [
+      19.231494903564453,
+      -20.474956512451172,
+      27.079177856445312
+    ],
+    "baseline_direction": [
+      -0.41361236946752256,
+      0.8632902780125289,
+      0.28923122879888363
+    ],
+    "baseline_chord_mm": 0.9546308887642256,
+    "candidate_chord_mm": 0.5196803574058455,
+    "reduction_mm": 0.43495053135838013,
+    "baseline_opposing_hit_mm": [
+      18.819065819998528,
+      -19.650832947090557,
+      27.357432688663874
+    ],
+    "candidate_opposing_hit_mm": [
+      19.01654867957209,
+      -20.02632151222863,
+      27.229485644800448
+    ]
+  },
+  "wall_measurement_limitations": [
+    "Large chord reductions can change the opposing target from a distant surface across a concavity to a nearer rim; inspect hit coordinates rather than interpreting such values as physical material losses.",
+    "Normals are held to the baseline for paired comparison; curved rims and very oblique directions can give tangential chords rather than manufacturing wall thickness.",
+    "No physical printing or resin strength criterion is established. Threshold counts are descriptive regression flags, not acceptance certification.",
+    "A missing opposing hit is reported, never replaced by a fabricated thickness."
+  ],
+  "assessment": "Final projected main apertures closely follow raw PMX, with 0.05mm raster boundary discrepancy and maximum sampled continuous radial deficit0.0623mm; this is not exact identity. Eye-sphere seat and tested continuous paths pass; no new local nonadjacent intersections or normal rotations beyond90 degrees. Outer corner normal-ray chords include values around0.5mm and reductions versus v13; those observations are retained without claiming physical print strength or global wall-thickness certification.",
+  "artifacts": {
+    "eye-original-comparison.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-original-comparison.json",
+      "sha256": "d959d93b60d215af8dd82f01083ae04d04f17fa9723ec5f6b1a366209bd287e9"
+    },
+    "eye-section-and-residual-review.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-section-and-residual-review.json",
+      "sha256": "4fff9b52835f5f084ba1da23c072dffbc463bc559e4b140c31e21e750f8e7a28"
+    },
+    "eye-endpoint-check.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-endpoint-check.json",
+      "sha256": "b02676e01b9ca93f3d325172815eb968dd43b2caa28aca10aa659af56019ffd0"
+    },
+    "eye-insertion-check.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-insertion-check.json",
+      "sha256": "8e1e0b2c52694a92ec0090302151f04382d8a79618f38c8f921a49f62057a69a"
+    },
+    "eye-local-intersection-check.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-local-intersection-check.json",
+      "sha256": "746c33cd6aebf8b075d32a9b237a0d5a66f4d67f6325a7ae058d615867ca355d"
+    },
+    "eye-wall-chord-review.json": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-wall-chord-review.json",
+      "sha256": "ffe078598d317c2f7258940639355b90addc2861abd92e978e7bc44b1269ed02"
+    },
+    "eye-original-comparison.png": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-original-comparison.png",
+      "sha256": "368d0ab2de4b4e511b82e066fc59010ec0b63cbd98d2400b980ddc1a6d76f2a5"
+    },
+    "eye-section-comparison.png": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-review/eye-section-comparison.png",
+      "sha256": "48b33f859fa7ab8edfed766868e29ae4528d423fcb3a0a670f738c25279767bd"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "version": "v0.14-draft",
+  "files": {
+    "baseline_blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-bjd-head-v0.13-draft.blend",
+      "sha256": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56"
+    },
+    "final_blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend",
+      "sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a"
+    },
+    "head_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+    },
+    "cap_stl": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+    },
+    "solution": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz",
+      "sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92"
+    },
+    "parameters": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/parameters.json",
+      "sha256": "8d67a0d9f76d3ef1c1e187900d5a507207769d0cd539bc3f9cc580f55a6aa48d"
+    },
+    "build_report": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/build-report.json",
+      "sha256": "038c4e5583ad075fcc636125a38db4d0271c540e5ef7bf1b61c72a4ca42a7907"
+    },
+    "eye_solution": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/eye-postprocess/eye-solution.npz",
+      "sha256": "83948585ee2ed7e622ddb6e65697361d4af750cdee07e21c34ebdbe31a305348"
+    },
+    "crown_solution": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/crown-postprocess/crown-solution.npz",
+      "sha256": "416271160c308727016059e5519a0a8774e4a7b5b40ab0d5769cf3f39dae3f12"
+    }
+  },
+  "checks": {
+    "same_mesh_names": true,
+    "head_same_topology": true,
+    "head_solution_before_exact": true,
+    "head_solution_saved_after_exact": true,
+    "head_outside_union_support_exact": true,
+    "head_crown_YZ_exact": true,
+    "head_maximum_Z_exact": true,
+    "eye_and_crown_disjoint": true,
+    "crown_stage_below_z48_exact": true,
+    "head_actual_magnet_recess_cylinders_r2p30_depth2p65_exact": true,
+    "head_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20_exact": true,
+    "head_neck_seat_platform_and_lower_mechanics_exact": true,
+    "head_non_eye_low_face_and_ears_exact": true,
+    "cap_same_topology": true,
+    "cap_solution_before_exact": true,
+    "cap_solution_saved_after_exact": true,
+    "cap_outside_union_support_exact": true,
+    "cap_crown_YZ_exact": true,
+    "cap_maximum_Z_exact": true,
+    "cap_actual_magnet_recess_cylinders_r2p30_depth2p65_exact": true,
+    "cap_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20_exact": true,
+    "cap_neck_seat_platform_and_lower_mechanics_exact": true,
+    "cap_non_eye_low_face_and_ears_exact": true,
+    "EDITABLE_Outer_Surface_Before_Hollowing_historical_or_reference_geometry_unchanged": true,
+    "SOURCE_Original_March7_Face_DoNotPrint_historical_or_reference_geometry_unchanged": true,
+    "head_STL_exactly_matches_saved_Blend": true,
+    "cap_STL_exactly_matches_saved_Blend": true,
+    "frontal_face_width_sections_unchanged": true,
+    "all_input_hashes_unchanged": true
+  },
+  "all_integrity_checks_pass": true,
+  "parts": {
+    "head": {
+      "changed_vertices": 68863,
+      "max_displacement_mm": 1.1532516479492188,
+      "crown_max_abs_X_mm": 1.1532516479492188,
+      "bounds_before_mm": [
+        55.55591011047363,
+        57.54785919189453,
+        69.7151107788086
+      ],
+      "bounds_after_mm": [
+        55.55591011047363,
+        57.54785919189453,
+        69.7151107788086
+      ],
+      "minmax_Z_before_after": [
+        0.06929779052734375,
+        69.78440856933594,
+        0.06929779052734375,
+        69.78440856933594
+      ]
+    },
+    "cap": {
+      "changed_vertices": 18642,
+      "max_displacement_mm": 0.9195547103881836,
+      "crown_max_abs_X_mm": 0.9195547103881836,
+      "bounds_before_mm": [
+        43.81068801879883,
+        21.089126586914062,
+        49.425315856933594
+      ],
+      "bounds_after_mm": [
+        43.81068801879883,
+        21.089126586914062,
+        49.425315856933594
+      ],
+      "minmax_Z_before_after": [
+        18.3775634765625,
+        67.8028793334961,
+        18.3775634765625,
+        67.8028793334961
+      ]
+    }
+  },
+  "protected_actual_regions": {
+    "head_actual_magnet_recess_cylinders_r2p30_depth2p65": {
+      "vertices": 388,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "head_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20": {
+      "vertices": 192,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "head_neck_seat_platform_and_lower_mechanics": {
+      "vertices": 27802,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "head_non_eye_low_face_and_ears": {
+      "vertices": 161331,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "cap_actual_magnet_recess_cylinders_r2p30_depth2p65": {
+      "vertices": 388,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "cap_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20": {
+      "vertices": 192,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "cap_neck_seat_platform_and_lower_mechanics": {
+      "vertices": 763,
+      "moved": 0,
+      "max_mm": 0.0
+    },
+    "cap_non_eye_low_face_and_ears": {
+      "vertices": 19122,
+      "moved": 0,
+      "max_mm": 0.0
+    }
+  },
+  "other_mesh_geometry": {
+    "EDITABLE_Outer_Surface_Before_Hollowing": true,
+    "SOURCE_Original_March7_Face_DoNotPrint": true
+  },
+  "stl_correspondence": {
+    "head": {
+      "triangles": 505398,
+      "unique_float32_vertices_exact": true,
+      "oriented_triangle_multiset_exact": true,
+      "pass": true
+    },
+    "cap": {
+      "triangles": 97070,
+      "unique_float32_vertices_exact": true,
+      "oriented_triangle_multiset_exact": true,
+      "pass": true
+    }
+  },
+  "face_width_sections": {
+    "definition": "Horizontal sections of actual head surface; extrema restricted to Y<=-6 mm to exclude ear and rear skull. Eye apertures may change but external facial widths stay fixed.",
+    "measurements": [
+      {
+        "z_mm": 5,
+        "before_mm": 19.06675292076178,
+        "after_mm": 19.06675292076178,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 10,
+        "before_mm": 30.997179151723323,
+        "after_mm": 30.997179151723323,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 15,
+        "before_mm": 36.96140635996682,
+        "after_mm": 36.96140635996682,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 20,
+        "before_mm": 41.19264389324097,
+        "after_mm": 41.19264389324097,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 25,
+        "before_mm": 44.974232320904875,
+        "after_mm": 44.974232320904875,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 30,
+        "before_mm": 49.16826161195559,
+        "after_mm": 49.16826161195559,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 35,
+        "before_mm": 52.31318229464164,
+        "after_mm": 52.31318229464164,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 40,
+        "before_mm": 52.6554431151202,
+        "after_mm": 52.6554431151202,
+        "difference_mm": 0.0
+      },
+      {
+        "z_mm": 45,
+        "before_mm": 51.10136752885992,
+        "after_mm": 51.10136752885992,
+        "difference_mm": 0.0
+      }
+    ]
+  },
+  "crown_width_sections": [
+    {
+      "z_mm": 48,
+      "before_mm": 50.574514986902834,
+      "after_mm": 50.57453498925316,
+      "per_side_gain_mm": 1.0001175162699383e-05
+    },
+    {
+      "z_mm": 50,
+      "before_mm": 49.11164906200949,
+      "after_mm": 49.15091325100198,
+      "per_side_gain_mm": 0.019632094496245145
+    },
+    {
+      "z_mm": 55,
+      "before_mm": 43.99223384150129,
+      "after_mm": 44.92320491183857,
+      "per_side_gain_mm": 0.46548553516863933
+    },
+    {
+      "z_mm": 60,
+      "before_mm": 36.48301856591479,
+      "after_mm": 38.62882608762497,
+      "per_side_gain_mm": 1.072903760855091
+    },
+    {
+      "z_mm": 65,
+      "before_mm": 25.73018554389777,
+      "after_mm": 27.768146609659247,
+      "per_side_gain_mm": 1.0189805328807395
+    },
+    {
+      "z_mm": 67,
+      "before_mm": 19.65006141244298,
+      "after_mm": 21.222066240204416,
+      "per_side_gain_mm": 0.786002413880718
+    },
+    {
+      "z_mm": 69,
+      "before_mm": 10.46985117604354,
+      "after_mm": 11.307439576347928,
+      "per_side_gain_mm": 0.4187942001521936
+    }
+  ],
+  "scope": "Actual saved v13/v14 world-coordinate comparison, same topology, independent oriented STL verification. Crown-only Y/Z and low-Z preservation are separate from authorized eye changes. Cap is changed by crown mapping and is NOT claimed unchanged.",
+  "limitations": "Mechanical ROIs use the actual original pin/recess center, radius and depth; this coordinate check supplements final assembly/eye-volume/mesh validation and is not a physical fit test. Former pre-hollow mother is historical reference only.",
+  "crown_wall_sampling": {
+    "report": "crown-wall-review.json",
+    "sha256": "1fe75685edcad5c867545a05b3c296ddffed247728d8ff79696f2d015434312d",
+    "new_paired_below0p6mm_count": 0,
+    "not_a_global_minimum_certificate": true
+  }
+}

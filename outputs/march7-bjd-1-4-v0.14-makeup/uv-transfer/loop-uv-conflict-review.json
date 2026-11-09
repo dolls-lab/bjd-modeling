@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/uv-transfer/face-uv-transfer.npz": "bdeb5b17f846945917660562ced8edf81c90b5fb90388a846e0989513694cb0b"
+  },
+  "input_hashes_unchanged": true,
+  "polygons": 505342,
+  "loop_triangles": 505398,
+  "corners": 1516082,
+  "duplicate_loop_indices_count": 112,
+  "triangle_order_matches_transfer": true,
+  "uv_conflicts_gt1e_6": 0,
+  "positive_weight_uv_conflicts_gt1e_6": 0,
+  "weight_conflicts_gt1e_6": 0,
+  "maximum_uv_difference": 0.0,
+  "maximum_weight_difference": 0.0,
+  "positive_conflicts": [],
+  "pass_no_positive_uv_conflict": true,
+  "note": "Read-only actual v14 mesh loop-triangle audit. Repeat loop values on non-triangular polygons are compared before assigning each polygon loop. No UV data or models are changed."
+}

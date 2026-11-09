@@ -1,0 +1,81 @@
+{
+  "source_blend_sha256": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+  "preview_blend_sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+  "source_blend_unchanged": true,
+  "all_meshes_and_uv_unchanged": true,
+  "geometry_and_uv_before": {
+    "PRINT_01_Head_Shell": {
+      "geometry": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+      "uv_layers": {
+        "UVMap": "10b11728dc4f87d1e853b5dc0499d4c8f17a6366d5abc7b270783758d8d42757",
+        "Local_Eye_Lip_Paint": "4d858df4eaf03b19bac5b7ff7fcc2047f58a83f163bb19fd610d2311bcfb4692"
+      }
+    },
+    "PRINT_02_Removable_Cap": {
+      "geometry": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8",
+      "uv_layers": {
+        "UVMap": "5d809aae1438d72268f41afce3435e77b5ace689b6a70ae40db87887e4c3ce8a"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_NEGATIVE": {
+      "geometry": "6ca10dc3d438b90eccb61505bee08424806f88a0e6dba9a9a2810b1cc580e38c",
+      "uv_layers": {
+        "Iris_On_Spherical_Surface": "09bb987f0fb6e4c381658990de78a0bbc8976d59813919397478efe8d938670b"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_POSITIVE": {
+      "geometry": "9d3d09dbeaf03de4bd2d766bceace0473750f6c201a0cdd707d7743ddea9d46a",
+      "uv_layers": {
+        "Iris_On_Spherical_Surface": "19a3355ec29089e76a8cd367de629e72b01611283febb9da3f224c9b7413d7c6"
+      }
+    }
+  },
+  "geometry_and_uv_after_reload": {
+    "PRINT_01_Head_Shell": {
+      "geometry": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+      "uv_layers": {
+        "UVMap": "10b11728dc4f87d1e853b5dc0499d4c8f17a6366d5abc7b270783758d8d42757",
+        "Local_Eye_Lip_Paint": "4d858df4eaf03b19bac5b7ff7fcc2047f58a83f163bb19fd610d2311bcfb4692"
+      }
+    },
+    "PRINT_02_Removable_Cap": {
+      "geometry": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8",
+      "uv_layers": {
+        "UVMap": "5d809aae1438d72268f41afce3435e77b5ace689b6a70ae40db87887e4c3ce8a"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_NEGATIVE": {
+      "geometry": "6ca10dc3d438b90eccb61505bee08424806f88a0e6dba9a9a2810b1cc580e38c",
+      "uv_layers": {
+        "Iris_On_Spherical_Surface": "09bb987f0fb6e4c381658990de78a0bbc8976d59813919397478efe8d938670b"
+      }
+    },
+    "PREVIEW_EYE_HEMISPHERE_POSITIVE": {
+      "geometry": "9d3d09dbeaf03de4bd2d766bceace0473750f6c201a0cdd707d7743ddea9d46a",
+      "uv_layers": {
+        "Iris_On_Spherical_Surface": "19a3355ec29089e76a8cd367de629e72b01611283febb9da3f224c9b7413d7c6"
+      }
+    }
+  },
+  "all_packed_textures_unchanged": true,
+  "packed_texture_hashes": {
+    "local-paint.png": "3b64525fa479eb432f59f0bd2d2a7d4477480453fca86433bd64b45fd9ec83b5",
+    "march7-hemisphere-eye-negative.png": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+    "march7-hemisphere-eye-positive.png": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e"
+  },
+  "lighting_and_color_management_unchanged": true,
+  "previous_skin_linear_rgba": [
+    0.6700000166893005,
+    0.49000000953674316,
+    0.4099999964237213,
+    1.0
+  ],
+  "new_skin_linear_rgba": [
+    0.8879231178819663,
+    0.665387298282272,
+    0.5906188409193369,
+    1.0
+  ],
+  "reference_skin_srgb": "#F2D5CA",
+  "changed": "Uniform head/cap base color only; local painted marks and eye colors preserved."
+}

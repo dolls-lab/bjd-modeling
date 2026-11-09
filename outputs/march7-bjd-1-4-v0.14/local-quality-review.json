@@ -1,0 +1,972 @@
+{
+  "version": "v0.14-draft",
+  "reviewed_at_utc": "2026-11-08T15:57:48.134998+00:00",
+  "scope": "Final saved v14 PRINT head and cap after the selected original-PMX-eye restoration and high-crown widening. Read-only review; no geometry changed by this summary. All current tests use final combined files, not interim candidate files.",
+  "files": {
+    "head": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+      "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+    },
+    "cap": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+    },
+    "blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend",
+      "sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a"
+    },
+    "solution": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz",
+      "sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92"
+    }
+  },
+  "accepted_eye_solution": {
+    "path": "eye-postprocess/eye-solution.npz",
+    "sha256": "83948585ee2ed7e622ddb6e65697361d4af750cdee07e21c34ebdbe31a305348",
+    "note": "Final tangent-smoothed local solution accepted after the inner-upper eye sliver was visually corrected. Main radial warp preserves Y; the finishing middle vertex has an additional Y correction of -0.0006629679 mm. Same topology; no whole-head remesh."
+  },
+  "digital_geometry_assessment": {
+    "structural_validation_pass": true,
+    "preservation_audit_pass": true,
+    "both_parts_no_detected_strict_nonadjacent_self_intersections": true,
+    "eye_endpoints_pass": true,
+    "continuous_eye_insertion_pass": true,
+    "inputs_unchanged_and_final_hashes_rechecked": true,
+    "manufacturing_strength_or_minimum_wall_certified": false
+  },
+  "original_eye_target": {
+    "source": {
+      "file": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+      "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+      "sha256_after": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+      "unchanged_during_check": true
+    },
+    "fixed_transform": {
+      "formula": "world = [PMX.X, PMX.Z, PMX.Y - 18.16621208190918] * 27.47544416498121",
+      "scale_mm_per_pmx_unit": 27.47544416498121,
+      "pmx_y_origin": 18.16621208190918,
+      "fitted_alignment": false
+    },
+    "sampling_pitch_mm": 0.05,
+    "note": "Original PMX face-material eye boundary is compared without fitted alignment or rescaling. Effective frontal aperture includes obstruction by the thick inner rim; projected aperture similarity is not a claim that the entire 3D face is identical to the PMX."
+  },
+  "effective_eye_apertures": [
+    {
+      "eye_id": "x_negative",
+      "raw_width_height_mm": [
+        11.5,
+        9.3
+      ],
+      "final_width_height_mm": [
+        11.450000000000001,
+        9.3
+      ],
+      "raw_area_mm2": 81.65750000000001,
+      "final_area_mm2": 81.47750000000002,
+      "area_change_percent": -0.2204329057343135,
+      "intersection_over_union": 0.9968175280761346,
+      "raster_boundary_hausdorff_mm": 0.05000000000000071
+    },
+    {
+      "eye_id": "x_positive",
+      "raw_width_height_mm": [
+        11.5,
+        9.3
+      ],
+      "final_width_height_mm": [
+        11.450000000000001,
+        9.3
+      ],
+      "raw_area_mm2": 81.65750000000001,
+      "final_area_mm2": 81.47000000000001,
+      "area_change_percent": -0.22961761013990944,
+      "intersection_over_union": 0.9969090463949076,
+      "raster_boundary_hausdorff_mm": 0.05000000000000071
+    }
+  ],
+  "eye_spacing": {
+    "raw_pmx": {
+      "area_centroid_horizontal_separation_mm": 27.1152310480226,
+      "area_centroid_xz_distance_mm": 27.1152310480226,
+      "inner_bbox_gap_mm": 15.827925840295203,
+      "outer_bbox_span_mm": 38.8279258402952,
+      "bbox_center_horizontal_separation_mm": 27.327925840295205
+    },
+    "print_v14": {
+      "area_centroid_horizontal_separation_mm": 27.09187816391851,
+      "area_centroid_xz_distance_mm": 27.091878164928495,
+      "inner_bbox_gap_mm": 15.827925840295203,
+      "outer_bbox_span_mm": 38.7279258402952,
+      "bbox_center_horizontal_separation_mm": 27.2779258402952
+    },
+    "changes_print_minus_raw": {
+      "area_centroid_horizontal_separation_mm": -0.023352884104092198,
+      "area_centroid_xz_distance_mm": -0.023352883094105437,
+      "inner_bbox_gap_mm": 0.0,
+      "outer_bbox_span_mm": -0.10000000000000142,
+      "bbox_center_horizontal_separation_mm": -0.05000000000000426
+    }
+  },
+  "remaining_sampled_continuous_radial_deficits": [
+    {
+      "theta_global_deg": 174.0,
+      "raw_target_radius_mm": 5.892929932897363,
+      "v14_effective_radius_mm": 5.830685830116272,
+      "residual_radial_deficit_mm": 0.062244102781091826,
+      "v14_limit_position_mm": [
+        -19.356955739423558,
+        -19.690613578496933,
+        28.38105241094362
+      ],
+      "v14_limit_normal": [
+        0.9751614595177751,
+        -0.21821819086741576,
+        0.03795983463761248
+      ],
+      "raw_rim_y_mm": -20.85909842020741,
+      "v14_limit_dy_mm": 1.1684848417104767
+    },
+    {
+      "theta_global_deg": 5.0,
+      "raw_target_radius_mm": 5.880194556053115,
+      "v14_effective_radius_mm": 5.833395266532898,
+      "residual_radial_deficit_mm": 0.046799289520216725,
+      "v14_limit_position_mm": [
+        19.369410125555675,
+        -19.708719662361062,
+        28.279976305799917
+      ],
+      "v14_limit_normal": [
+        -0.9792182845077126,
+        -0.11963221470258048,
+        0.16376716548541806
+      ],
+      "raw_rim_y_mm": -20.834438105326242,
+      "v14_limit_dy_mm": 1.12571844296518
+    }
+  ],
+  "external_rim_3d_cross_sections": {
+    "sections": [
+      {
+        "name": "outer_corner_horizontal",
+        "raw_rim_to_v14_nearest": [
+          {
+            "raw_rim_point": [
+              19.41987238121161,
+              -20.83555083387249,
+              28.3
+            ],
+            "nearest_v14_section_point": [
+              19.55345265383447,
+              -20.643182771565616,
+              28.3
+            ],
+            "distance_mm": 0.23419897657696515,
+            "v14_minus_raw": [
+              0.13358027262285788,
+              0.19236806230687264,
+              0.0
+            ]
+          }
+        ],
+        "baseline_raw_rim_nearest": [
+          {
+            "raw_rim_point": [
+              19.41987238121161,
+              -20.83555083387249,
+              28.3
+            ],
+            "nearest_v13_section_point": [
+              19.518058061393504,
+              -20.634332779266053,
+              28.3
+            ],
+            "distance_mm": 0.22389536237354124,
+            "v13_minus_raw": [
+              0.09818568018189211,
+              0.20121805460643571,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "upper_rim_vertical",
+        "raw_rim_to_v14_nearest": [
+          {
+            "raw_rim_point": [
+              13.663962920147602,
+              -24.472655382029494,
+              32.30783918833433
+            ],
+            "nearest_v14_section_point": [
+              13.663962920147602,
+              -24.470415625293324,
+              32.31309664960229
+            ],
+            "distance_mm": 0.005714666151343453,
+            "v14_minus_raw": [
+              0.0,
+              0.002239756736170051,
+              0.005257461267959229
+            ]
+          }
+        ],
+        "baseline_raw_rim_nearest": [
+          {
+            "raw_rim_point": [
+              13.663962920147602,
+              -24.472655382029494,
+              32.30783918833433
+            ],
+            "nearest_v13_section_point": [
+              13.663962920147602,
+              -24.453047013042408,
+              32.4188911049559
+            ],
+            "distance_mm": 0.11276974913361186,
+            "v13_minus_raw": [
+              0.0,
+              0.019608368987086067,
+              0.11105191662156955
+            ]
+          }
+        ]
+      },
+      {
+        "name": "lower_rim_vertical",
+        "raw_rim_to_v14_nearest": [
+          {
+            "raw_rim_point": [
+              13.663962920147602,
+              -23.244601171031345,
+              23.044879403709984
+            ],
+            "nearest_v14_section_point": [
+              13.663962920147602,
+              -23.222973630689463,
+              22.986822765456534
+            ],
+            "distance_mm": 0.061954206850961785,
+            "v14_minus_raw": [
+              0.0,
+              0.021627540341881968,
+              -0.05805663825345064
+            ]
+          }
+        ],
+        "baseline_raw_rim_nearest": [
+          {
+            "raw_rim_point": [
+              13.663962920147602,
+              -23.244601171031345,
+              23.044879403709984
+            ],
+            "nearest_v13_section_point": [
+              13.663962920147602,
+              -23.19445813708479,
+              22.909793812949207
+            ],
+            "distance_mm": 0.14409177868481426,
+            "v13_minus_raw": [
+              0.0,
+              0.05014303394655428,
+              -0.1350855907607773
+            ]
+          }
+        ]
+      }
+    ],
+    "interpretation": "Upper and lower selected rim sections approach the raw source; the outer-corner section retains inherited 3D surface offset (~0.234 mm nearest section distance versus ~0.224 mm in v13). Widening mainly clears the inner throat, not wholesale outward displacement of the already-wide external rim. These selected sections are not a complete 3D rim Hausdorff audit."
+  },
+  "stationary_16mm_eye_spheres": {
+    "pass": true,
+    "eyes": [
+      {
+        "center_mm": [
+          13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "overlap_volume_mm3": 0.0,
+        "overlap_empty": true,
+        "overlap_status": "Error.NoError",
+        "minimum_gap_mm_search_limit1": 0.1814376687203776,
+        "pass": true
+      },
+      {
+        "center_mm": [
+          -13.663962920147602,
+          -13.289332231246028,
+          27.67311677124019
+        ],
+        "overlap_volume_mm3": 0.0,
+        "overlap_empty": true,
+        "overlap_status": "Error.NoError",
+        "minimum_gap_mm_search_limit1": 0.18044875128323734,
+        "pass": true
+      }
+    ],
+    "enclosure": {
+      "nominal_analytic_diameter_mm": 16.0,
+      "sphere_segments": 128,
+      "unit_polyhedron_minimum_face_support_distance": 0.9991899760571326,
+      "polyhedron_circumradius_mm": 8.006485444908595,
+      "polyhedron_maximum_diameter_mm": 16.01297088981719,
+      "method": "Scale a convex tessellated unit sphere until every face plane is at least the nominal radius from its center. The resulting polyhedron encloses the analytic ball."
+    }
+  },
+  "continuous_eye_insertion": {
+    "pass": true,
+    "method": "Continuous swept enclosing convex polyhedron along each of two segments, through a central rear-entry waypoint to each actual seat. Not merely discrete center samples. Tested against final head and with the other nominal eye installed.",
+    "paths": [
+      {
+        "waypoints_mm": [
+          [
+            0.0,
+            43.234788507419694,
+            58.620436731039845
+          ],
+          [
+            0.0,
+            4.921737164193434,
+            47.12652108965338
+          ],
+          [
+            13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ]
+        ],
+        "segments": [
+          {
+            "start_mm": [
+              0.0,
+              43.234788507419694,
+              58.620436731039845
+            ],
+            "end_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "length_mm": 40.0,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.7173756528268115,
+            "minimum_center_distance_to_other_installed_eye_mm": 29.946316481068877,
+            "other_eye_collision_free": true,
+            "pass": true
+          },
+          {
+            "start_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "end_mm": [
+              13.663962920147602,
+              -13.289332231246028,
+              27.67311677124019
+            ],
+            "length_mm": 29.946316481068877,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.1814376687203776,
+            "minimum_center_distance_to_other_installed_eye_mm": 24.31735223028229,
+            "other_eye_collision_free": true,
+            "pass": true
+          }
+        ],
+        "pass": true,
+        "route_name": "central_entry_waypoint"
+      },
+      {
+        "waypoints_mm": [
+          [
+            0.0,
+            43.234788507419694,
+            58.620436731039845
+          ],
+          [
+            0.0,
+            4.921737164193434,
+            47.12652108965338
+          ],
+          [
+            -13.663962920147602,
+            -13.289332231246028,
+            27.67311677124019
+          ]
+        ],
+        "segments": [
+          {
+            "start_mm": [
+              0.0,
+              43.234788507419694,
+              58.620436731039845
+            ],
+            "end_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "length_mm": 40.0,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.7173756528268115,
+            "minimum_center_distance_to_other_installed_eye_mm": 29.946316481068877,
+            "other_eye_collision_free": true,
+            "pass": true
+          },
+          {
+            "start_mm": [
+              0.0,
+              4.921737164193434,
+              47.12652108965338
+            ],
+            "end_mm": [
+              -13.663962920147602,
+              -13.289332231246028,
+              27.67311677124019
+            ],
+            "length_mm": 29.946316481068877,
+            "swept_polyhedron_status": "Error.NoError",
+            "intersection_status": "Error.NoError",
+            "intersection_volume_mm3": 0.0,
+            "intersection_triangles": 0,
+            "intersection_empty": true,
+            "minimum_head_clearance_mm_search_limited_to_1mm": 0.18044875128323734,
+            "minimum_center_distance_to_other_installed_eye_mm": 24.31735223028229,
+            "other_eye_collision_free": true,
+            "pass": true
+          }
+        ],
+        "pass": true,
+        "route_name": "central_entry_waypoint"
+      }
+    ],
+    "limitations": [
+      "Only nominal spherical eyes are checked; stems, protruding irises, tools, fingers and eye-fixing putty are not modeled.",
+      "Reported clearance applies to the conservative digital polyhedron and the current STL, not to measured printed parts.",
+      "Printer tolerances, resin shrinkage, strength and the actual eye shape have not been physically verified.",
+      "Failure of a tested simple path would not prove that no curved or other piecewise path exists.",
+      "Other-eye avoidance uses analytic centerline distance against a stationary nominal sphere at the other seat."
+    ]
+  },
+  "self_intersections": {
+    "full_actual_stls": {
+      "head": {
+        "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+        "triangles": 505398,
+        "exact_unique_vertices": 252695,
+        "degenerate_triangles_double_area_lt_1e_12": 0,
+        "duplicate_facet_copies": 0,
+        "nonadjacent_aabb_pairs_tested": 178701,
+        "strict_intersection_count": 0,
+        "ambiguous_contact_count": 0
+      },
+      "cap": {
+        "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+        "triangles": 97070,
+        "exact_unique_vertices": 48537,
+        "degenerate_triangles_double_area_lt_1e_12": 0,
+        "duplicate_facet_copies": 0,
+        "nonadjacent_aabb_pairs_tested": 97809,
+        "strict_intersection_count": 0,
+        "ambiguous_contact_count": 0
+      }
+    },
+    "method": "Axis sweep of all triangle AABBs, full 3-axis AABB overlap, exact shared-vertex exclusion, triangle-plane separation, then triangle-plane interval intersection with projected polygon rejection. Strict transverse crossing and coplanar area overlap are reported separately from near-plane/coplanar numerical contacts.",
+    "tolerance_mm": 1e-06,
+    "adjacency_limitation": "Any pair sharing any exactly identical vertex coordinate is excluded; therefore adjacent-facet overlap away from shared vertices is not certified by this test. Duplicate facets and degenerate facets are counted separately.",
+    "changed_eye_region": {
+      "changed_vertices": 14275,
+      "changed_triangles": 29625,
+      "candidate_region_triangles": 48329,
+      "nonadjacent_aabb_pairs": 6792,
+      "new_strict_intersections": 0,
+      "new_ambiguous_contacts": 0,
+      "degenerate_triangles": 0,
+      "normal_over90_count": 0,
+      "scope": "Every changed triangle against every nonadjacent head triangle whose AABB overlaps changed-region bounds. Unchanged-only pairs excluded. Normal-rotation faces also checked for shared-one-vertex intersections and coplanar shared-edge overlaps.",
+      "shared_vertex_limitation": "General scan excludes pairs sharing any exact vertex. Normal-rotation faces receive supplemental shared-one-vertex/shared-edge checks; final normal-rotation count is0."
+    }
+  },
+  "paired_eye_wall_chords": {
+    "groups": {
+      "all_changed_eye_vertices": {
+        "sampled_vertices": 14275,
+        "before": {
+          "count": 12381,
+          "minimum_mm": 0.5371612572455173,
+          "p01_mm": 0.7803726722431185,
+          "p05_mm": 1.076668516481671,
+          "median_mm": 2.604913516782156,
+          "below_0p4": 0,
+          "below_0p6": 8
+        },
+        "after": {
+          "count": 12408,
+          "minimum_mm": 0.5142082562845828,
+          "p01_mm": 0.6564696310868382,
+          "p05_mm": 0.9001532949981877,
+          "median_mm": 2.6454633629852022,
+          "below_0p4": 0,
+          "below_0p6": 54
+        },
+        "paired_valid": 12323,
+        "missing_before": 1894,
+        "missing_after": 1867,
+        "new_below_0p4": 0,
+        "new_below_0p6": 45
+      },
+      "outer_corner": {
+        "sampled_vertices": 1854,
+        "before": {
+          "count": 1819,
+          "minimum_mm": 0.5371612572455173,
+          "p01_mm": 0.7253983907747978,
+          "p05_mm": 0.8570913663894091,
+          "median_mm": 2.6015126071824692,
+          "below_0p4": 0,
+          "below_0p6": 8
+        },
+        "after": {
+          "count": 1824,
+          "minimum_mm": 0.5142082562845828,
+          "p01_mm": 0.5695874532228996,
+          "p05_mm": 0.6838614661547022,
+          "median_mm": 2.5827225389598363,
+          "below_0p4": 0,
+          "below_0p6": 42
+        },
+        "paired_valid": 1818,
+        "missing_before": 35,
+        "missing_after": 30,
+        "new_below_0p4": 0,
+        "new_below_0p6": 33
+      },
+      "upper_eye": {
+        "sampled_vertices": 5243,
+        "before": {
+          "count": 4634,
+          "minimum_mm": 2.275262213206495,
+          "p01_mm": 2.5464845715365763,
+          "p05_mm": 2.579818824627483,
+          "median_mm": 2.6154832960691756,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "after": {
+          "count": 4641,
+          "minimum_mm": 2.097379138415791,
+          "p01_mm": 2.5284312476525477,
+          "p05_mm": 2.5756208356079995,
+          "median_mm": 2.6732312750869642,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "paired_valid": 4602,
+        "missing_before": 609,
+        "missing_after": 602,
+        "new_below_0p4": 0,
+        "new_below_0p6": 0
+      },
+      "lower_eye": {
+        "sampled_vertices": 4158,
+        "before": {
+          "count": 3825,
+          "minimum_mm": 0.9886749524667441,
+          "p01_mm": 1.1531546220665234,
+          "p05_mm": 1.6041885413207972,
+          "median_mm": 2.615293568466819,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "after": {
+          "count": 3828,
+          "minimum_mm": 0.8709683854811197,
+          "p01_mm": 1.04745943353074,
+          "p05_mm": 1.5081762997968005,
+          "median_mm": 2.6521565763991837,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "paired_valid": 3820,
+        "missing_before": 333,
+        "missing_after": 330,
+        "new_below_0p4": 0,
+        "new_below_0p6": 0
+      },
+      "inner_eye": {
+        "sampled_vertices": 4810,
+        "before": {
+          "count": 3419,
+          "minimum_mm": 2.275262213206495,
+          "p01_mm": 2.516198875142646,
+          "p05_mm": 2.5938353154517557,
+          "median_mm": 2.6044941164712636,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "after": {
+          "count": 3448,
+          "minimum_mm": 2.045457162614964,
+          "p01_mm": 2.354160335449079,
+          "p05_mm": 2.598821357834699,
+          "median_mm": 2.6478682431595257,
+          "below_0p4": 0,
+          "below_0p6": 0
+        },
+        "paired_valid": 3386,
+        "missing_before": 1391,
+        "missing_after": 1362,
+        "new_below_0p4": 0,
+        "new_below_0p6": 0
+      }
+    },
+    "thin_edge_witness": {
+      "vertex_id": 205441,
+      "baseline_point_mm": [
+        19.213912963867188,
+        -20.474956512451172,
+        27.081323623657227
+      ],
+      "candidate_point_mm": [
+        19.231494903564453,
+        -20.474956512451172,
+        27.079177856445312
+      ],
+      "baseline_direction": [
+        -0.41361236946752256,
+        0.8632902780125289,
+        0.28923122879888363
+      ],
+      "baseline_chord_mm": 0.9546308887642256,
+      "candidate_chord_mm": 0.5196803574058455,
+      "reduction_mm": 0.43495053135838013,
+      "baseline_opposing_hit_mm": [
+        18.819065819998528,
+        -19.650832947090557,
+        27.357432688663874
+      ],
+      "candidate_opposing_hit_mm": [
+        19.01654867957209,
+        -20.02632151222863,
+        27.229485644800448
+      ]
+    },
+    "interpretation": "The shortest valid sampled eye-region chord is 0.514208 mm versus 0.537161 mm before. Among paired valid samples, 45 across the changed eye region newly fall below 0.6 mm; 33 of those belong to the outer-corner subgroup. No sampled eye chord is below 0.4 mm. This is a measured local thinning observation, not a manufacturing pass threshold.",
+    "limitations": [
+      "Large chord reductions can change the opposing target from a distant surface across a concavity to a nearer rim; inspect hit coordinates rather than interpreting such values as physical material losses.",
+      "Normals are held to the baseline for paired comparison; curved rims and very oblique directions can give tangential chords rather than manufacturing wall thickness.",
+      "No physical printing or resin strength criterion is established. Threshold counts are descriptive regression flags, not acceptance certification.",
+      "A missing opposing hit is reported, never replaced by a fabricated thickness."
+    ]
+  },
+  "paired_crown_wall_sampling": {
+    "method": "Deterministic original vertex-normal inward rays from corresponding v13/v14 exterior points. Original external-distance<0.2mm; z>50; start farther than1.25mm from cut plane. Accept opposing wall within8mm, exclude exits within0.6mm of seam as seam chords. Ordinary and within9mm of actual internal hardware reported separately.",
+    "parts": {
+      "head": {
+        "ordinary_shell": {
+          "sampled": 900,
+          "paired_valid": 900,
+          "before": {
+            "count": 900,
+            "min_mm": 2.5960957050323485,
+            "p01_mm": 2.5990134286880493,
+            "p05_mm": 2.599688911437988,
+            "median_mm": 2.60103919506073
+          },
+          "after": {
+            "count": 900,
+            "min_mm": 2.5968400478363036,
+            "p01_mm": 2.600160844326019,
+            "p05_mm": 2.6015270590782165,
+            "median_mm": 2.658854866027832
+          },
+          "new_paired_below0p6mm_count": 0,
+          "excluded_status_counts": {
+            "before": {
+              "seam_exit_short_chord": 0,
+              "missing_opposing_exit": 0,
+              "no_unambiguous_opposing_exit": 0
+            },
+            "after": {
+              "seam_exit_short_chord": 0,
+              "missing_opposing_exit": 0,
+              "no_unambiguous_opposing_exit": 0
+            }
+          }
+        },
+        "near_internal_hardware": {
+          "sampled": 450,
+          "paired_valid": 365,
+          "before": {
+            "count": 365,
+            "min_mm": 2.600577974319458,
+            "p01_mm": 2.6006113719940185,
+            "p05_mm": 2.6007903575897218,
+            "median_mm": 2.601493978500366
+          },
+          "after": {
+            "count": 365,
+            "min_mm": 2.6203617095947265,
+            "p01_mm": 2.6299931240081786,
+            "p05_mm": 2.678153371810913,
+            "median_mm": 2.9530316829681396
+          },
+          "new_paired_below0p6mm_count": 0,
+          "excluded_status_counts": {
+            "before": {
+              "seam_exit_short_chord": 0,
+              "missing_opposing_exit": 84,
+              "no_unambiguous_opposing_exit": 0
+            },
+            "after": {
+              "seam_exit_short_chord": 0,
+              "missing_opposing_exit": 85,
+              "no_unambiguous_opposing_exit": 0
+            }
+          }
+        }
+      },
+      "cap": {
+        "ordinary_shell": {
+          "sampled": 900,
+          "paired_valid": 853,
+          "before": {
+            "count": 853,
+            "min_mm": 2.60003080368042,
+            "p01_mm": 2.6002827167510985,
+            "p05_mm": 2.6005236625671384,
+            "median_mm": 2.6011919021606444
+          },
+          "after": {
+            "count": 853,
+            "min_mm": 2.600298547744751,
+            "p01_mm": 2.6008032512664796,
+            "p05_mm": 2.6012015342712402,
+            "median_mm": 2.62036075592041
+          },
+          "new_paired_below0p6mm_count": 0,
+          "excluded_status_counts": {
+            "before": {
+              "seam_exit_short_chord": 46,
+              "missing_opposing_exit": 0,
+              "no_unambiguous_opposing_exit": 0
+            },
+            "after": {
+              "seam_exit_short_chord": 47,
+              "missing_opposing_exit": 0,
+              "no_unambiguous_opposing_exit": 0
+            }
+          }
+        },
+        "near_internal_hardware": {
+          "sampled": 450,
+          "paired_valid": 307,
+          "before": {
+            "count": 307,
+            "min_mm": 0.3374233186244965,
+            "p01_mm": 0.4580046463012696,
+            "p05_mm": 1.0922327995300292,
+            "median_mm": 2.6014343738555907
+          },
+          "after": {
+            "count": 307,
+            "min_mm": 0.33742311000823977,
+            "p01_mm": 0.5537952196598053,
+            "p05_mm": 1.1250284433364868,
+            "median_mm": 2.7128516674041747
+          },
+          "new_paired_below0p6mm_count": 0,
+          "excluded_status_counts": {
+            "before": {
+              "seam_exit_short_chord": 125,
+              "missing_opposing_exit": 3,
+              "no_unambiguous_opposing_exit": 0
+            },
+            "after": {
+              "seam_exit_short_chord": 134,
+              "missing_opposing_exit": 3,
+              "no_unambiguous_opposing_exit": 0
+            }
+          }
+        }
+      }
+    },
+    "new_paired_below0p6mm_count": 0,
+    "limitations": "Finite directional samples, not a continuous minimum-wall certificate; missing/seam-exit rays are retained as counts and never treated as wall thickness. Independent complete assembly and intersection checks are separate.",
+    "note": "Cap near-hardware minimum chord ~0.3374 mm already exists in baseline and remains essentially unchanged; ordinary high-crown shell samples are about 2.6 mm. These are finite directional samples."
+  },
+  "topology": {
+    "head_shell": {
+      "triangles": 505398,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_signed_volume": true,
+      "euler_number": -4,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "overused_nonmanifold_edges": 0,
+      "degenerate_triangles_area_below_1e_10_mm2": 0,
+      "duplicate_triangle_count": 0,
+      "pass": true
+    },
+    "head_cap": {
+      "triangles": 97070,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_signed_volume": true,
+      "euler_number": 2,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "overused_nonmanifold_edges": 0,
+      "degenerate_triangles_area_below_1e_10_mm2": 0,
+      "duplicate_triangle_count": 0,
+      "pass": true
+    }
+  },
+  "assembly": {
+    "current_pose_intersection": {
+      "volume_mm3": 0.0,
+      "empty": true,
+      "triangles": 0,
+      "status": "Error.NoError",
+      "locations": null,
+      "tolerance_mm3": 1e-05,
+      "strict_volume_pass": true,
+      "pass": true,
+      "includes": "All exported geometry including the rear locating pin, its support and blind socket, and both pairs of magnet bosses."
+    },
+    "minimum_gap_mm_up_to_1mm": 0.2498633016678981,
+    "fully_seated": {
+      "volume_mm3": 0.00013336033765039512,
+      "pass": true,
+      "pass_reason": "stl_coplanar_contact_sheet",
+      "stl_coplanar_contact": {
+        "all_intersection_vertices_checked": 14841,
+        "signed_plane_distance_range_mm": [
+          -2.144942022219709e-06,
+          1.8244871355932446e-06
+        ],
+        "max_absolute_plane_distance_mm": 2.144942022219709e-06,
+        "plane_tolerance_mm": 1e-05,
+        "classified_as_precision_contact_sheet": true,
+        "note": "Raw intersection volume is retained. Only overlap entirely within the seam-plane tolerance is treated as STL float32 contact; no STL geometry is repaired."
+      },
+      "cap_translation_mm": [
+        -0.0,
+        -0.23945657089516414,
+        -0.07183697275866541
+      ]
+    },
+    "rear_cap_removal": {
+      "pass": true,
+      "sample_count": 9,
+      "limitation": "Discrete straight-line collision samples, not a continuous swept-volume proof."
+    },
+    "opening_smoke_checks_pass": true
+  },
+  "girth": {
+    "measured_mm": 179.983503149331,
+    "height_z_mm": 40.49297765452825,
+    "measurement_method": "Largest exterior contour of the horizontal material section; measurement-only +epsilon/-epsilon 2D closing of floating-point seam gaps.",
+    "measurement_closing_epsilon_mm": 1e-05,
+    "assembly_pose": "fully seated rear cap",
+    "measurement_valid": true,
+    "target_mm": 190.0,
+    "historical_target_only": true,
+    "revision_reason": "Head circumference is measured after unified cranial rebuilding; face scale remains fixed."
+  },
+  "preservation": {
+    "checks": {
+      "same_mesh_names": true,
+      "head_same_topology": true,
+      "head_solution_before_exact": true,
+      "head_solution_saved_after_exact": true,
+      "head_outside_union_support_exact": true,
+      "head_crown_YZ_exact": true,
+      "head_maximum_Z_exact": true,
+      "eye_and_crown_disjoint": true,
+      "crown_stage_below_z48_exact": true,
+      "head_actual_magnet_recess_cylinders_r2p30_depth2p65_exact": true,
+      "head_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20_exact": true,
+      "head_neck_seat_platform_and_lower_mechanics_exact": true,
+      "head_non_eye_low_face_and_ears_exact": true,
+      "cap_same_topology": true,
+      "cap_solution_before_exact": true,
+      "cap_solution_saved_after_exact": true,
+      "cap_outside_union_support_exact": true,
+      "cap_crown_YZ_exact": true,
+      "cap_maximum_Z_exact": true,
+      "cap_actual_magnet_recess_cylinders_r2p30_depth2p65_exact": true,
+      "cap_actual_rear_pin_or_bore_r2p40_depth_minus1p10_to4p20_exact": true,
+      "cap_neck_seat_platform_and_lower_mechanics_exact": true,
+      "cap_non_eye_low_face_and_ears_exact": true,
+      "EDITABLE_Outer_Surface_Before_Hollowing_historical_or_reference_geometry_unchanged": true,
+      "SOURCE_Original_March7_Face_DoNotPrint_historical_or_reference_geometry_unchanged": true,
+      "head_STL_exactly_matches_saved_Blend": true,
+      "cap_STL_exactly_matches_saved_Blend": true,
+      "frontal_face_width_sections_unchanged": true,
+      "all_input_hashes_unchanged": true
+    },
+    "all_integrity_checks_pass": true,
+    "note": "Outside the disjoint eye/crown support is exact v13 geometry; the actual recesses, locator and neck mechanics are preserved. Final head and cap STL triangles match saved Blend world float32 geometry. Historical pre-hollow mother/reference objects remain historical references and were not represented as updated final-print surfaces."
+  },
+  "limitations": [
+    "No physical print, resin shrinkage, brittle-edge strength, magnet fit, neck fit, or real eye/tool access test was performed.",
+    "The ~0.5 mm local eye-corner chords and pre-existing shorter seam/hardware chords are retained explicitly. A clean manifold and zero detected crossings do not establish minimum printable wall thickness.",
+    "Eye matching is close at the stated sampling resolution, not exact identity to the original zero-thickness PMX skin.",
+    "The full triangle scan excludes exact shared-vertex pairs; details of the supplementary local scan are retained in its report."
+  ],
+  "evidence": {
+    "validation.json": {
+      "sha256": "4c9174533abe93ccece0b690618c4b31f745b2f3b5d975447b25051bd2d21c51"
+    },
+    "preservation-report.json": {
+      "sha256": "54e6997391b9dee65caef1aef4aebce7d127f6d8306f95b8604538c47fdaa6fb"
+    },
+    "print-intersection-check.json": {
+      "sha256": "b7670dbce63884ed8697c38abb287f1117e4dc9a5420e0815821e8c694843fe4"
+    },
+    "crown-wall-review.json": {
+      "sha256": "1fe75685edcad5c867545a05b3c296ddffed247728d8ff79696f2d015434312d"
+    },
+    "final-files-provenance.json": {
+      "sha256": "5ca86bd5aae497bfd77df023faf562c0afa02d062795f25d4bd383a428ca16eb"
+    },
+    "eye-review/eye-review-summary.json": {
+      "sha256": "63f998ede2cccf4efbec48475cea32bafbb1adbe0890a6a7258e3c6ce76ac4a9"
+    },
+    "eye-review/eye-original-comparison.json": {
+      "sha256": "d959d93b60d215af8dd82f01083ae04d04f17fa9723ec5f6b1a366209bd287e9"
+    },
+    "eye-review/eye-section-and-residual-review.json": {
+      "sha256": "4fff9b52835f5f084ba1da23c072dffbc463bc559e4b140c31e21e750f8e7a28"
+    },
+    "eye-review/eye-endpoint-check.json": {
+      "sha256": "b02676e01b9ca93f3d325172815eb968dd43b2caa28aca10aa659af56019ffd0"
+    },
+    "eye-review/eye-insertion-check.json": {
+      "sha256": "8e1e0b2c52694a92ec0090302151f04382d8a79618f38c8f921a49f62057a69a"
+    },
+    "eye-review/eye-local-intersection-check.json": {
+      "sha256": "746c33cd6aebf8b075d32a9b237a0d5a66f4d67f6325a7ae058d615867ca355d"
+    },
+    "eye-review/eye-wall-chord-review.json": {
+      "sha256": "ffe078598d317c2f7258940639355b90addc2861abd92e978e7bc44b1269ed02"
+    }
+  }
+}

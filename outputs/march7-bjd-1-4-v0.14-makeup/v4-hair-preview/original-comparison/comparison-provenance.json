@@ -1,0 +1,228 @@
+{
+  "bjd_model_sha256": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8",
+  "original_helper_sha256": "446cc1013de352866632d84f9614d6dcd938a368e360fdbcbd6c197fe57cf844",
+  "model_files_unchanged": true,
+  "original_pmx_mesh_geometry_unchanged": true,
+  "original_geometry_fingerprints": {
+    "SOURCE_00_MOUTH_INTERIOR": "3b5b8d7b7d7498caafe4c82c3c6fa872a398bc78cf4f6b886d3d01285ff8c75c",
+    "SOURCE_01_TEETH": "964ca9d3d24865e7e9e75f086b92e2568679d44b62452af1104f01b1a2aa1e94",
+    "SOURCE_02_BROWS_LASHES": "3777bcda4c86806f65c14f08c215a2d7119c3044cd4d35637d16fc14ee313f06",
+    "SOURCE_03_SCLERA": "1c1a25d0feb91df1784146a90233aa7726e968d01efe9c0d294cd47c0d1bb416",
+    "SOURCE_04_IRIS_AND_HIGHLIGHT": "2f9ebb7b5d26603e864691b22c7983754da7a9ece0cf990e03652992ccc1d427",
+    "SOURCE_05_EYE_SHADOW": "1451a73e21552266dab13de5e3f13ac8d6992658bc88355bfb0b963aca702911",
+    "SOURCE_06_FACE": "9a936108102873492e0e955016569953aa08408f869552a8e6f401509b8c25aa"
+  },
+  "same_camera_lights_background_color_management_and_original_hair": true,
+  "original_uv_textures_diffuse_and_alpha_preserved": true,
+  "original_upper_eye_shadow_included": true,
+  "original_expression_overlay_excluded": true,
+  "temporary_visible_objects": [
+    "LOOK_Original_March7_Hair_Accessory",
+    "LOOK_Original_March7_Hair",
+    "SOURCE_00_MOUTH_INTERIOR",
+    "SOURCE_01_TEETH",
+    "SOURCE_02_BROWS_LASHES",
+    "SOURCE_03_SCLERA",
+    "SOURCE_04_IRIS_AND_HIGHLIGHT",
+    "SOURCE_05_EYE_SHADOW",
+    "SOURCE_06_FACE"
+  ],
+  "original_surface_material_settings": [
+    {
+      "object": "SOURCE_00_MOUTH_INTERIOR",
+      "material": "SOURCE_MAT_00_口腔",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.3799999952316284,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_01_TEETH",
+      "material": "SOURCE_MAT_01_牙",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.3799999952316284,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_02_BROWS_LASHES",
+      "material": "SOURCE_MAT_02_眉毛",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.3799999952316284,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_03_SCLERA",
+      "material": "SOURCE_MAT_03_眼白",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.23999999463558197,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.44999998807907104,
+        "Coat Weight": 0.2199999988079071,
+        "Coat Roughness": 0.1599999964237213,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_04_IRIS_AND_HIGHLIGHT",
+      "material": "SOURCE_MAT_04_眼睛",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.23999999463558197,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.44999998807907104,
+        "Coat Weight": 0.2199999988079071,
+        "Coat Roughness": 0.1599999964237213,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_05_EYE_SHADOW",
+      "material": "SOURCE_MAT_05_眼睛1",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.3799999952316284,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    },
+    {
+      "object": "SOURCE_06_FACE",
+      "material": "SOURCE_MAT_06_脸",
+      "texture_emission_mix": 0,
+      "surface_response": {
+        "Roughness": 0.3799999952316284,
+        "IOR": 1.5,
+        "Specular IOR Level": 0.5,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746,
+        "Subsurface Weight": 0.0
+      },
+      "original_texture_diffuse_alpha_preserved": true
+    }
+  ],
+  "views": [
+    {
+      "view": "front",
+      "label": "正面",
+      "bjd_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/front.png",
+      "bjd_image_sha256": "2a87f3374bb7a5aeb06425a99df497a0d8f23710b4908a89e137b78005b5e659",
+      "original_file": "original-front.png",
+      "original_image_sha256": "b22e725f6d060b37ab5e34bffac9ef135d5a8bba823cbad24e3fbeadf6ee33cc",
+      "camera_mm": [
+        0,
+        -220,
+        27
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 133
+    },
+    {
+      "view": "quarter-left",
+      "label": "左前斜侧",
+      "bjd_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/quarter-left.png",
+      "bjd_image_sha256": "03a854f7a6634bf144c8eba0e049e358e002b6aef85f0c809dad35efa462c393",
+      "original_file": "original-quarter-left.png",
+      "original_image_sha256": "aa752cd5aebad7a0ffefdcd383b5e67155329d72ee0836b8da54fa6a60b9c11e",
+      "camera_mm": [
+        -140,
+        -210,
+        58
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135
+    },
+    {
+      "view": "side",
+      "label": "侧面",
+      "bjd_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/side.png",
+      "bjd_image_sha256": "18409a92bd928a490226916e52daec1ceb5c1f3532c5d47452d020bbd3d87739",
+      "original_file": "original-side.png",
+      "original_image_sha256": "07385d387363ffe59ae3a63993fd2ee3d4f63582ba3db163e9818a7e613c56fc",
+      "camera_mm": [
+        -240,
+        0,
+        30
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135
+    },
+    {
+      "view": "face-front",
+      "label": "面部正面近景",
+      "bjd_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-front.png",
+      "bjd_image_sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff",
+      "original_file": "original-face-front.png",
+      "original_image_sha256": "b6f74c81f00327850664eb92c167902198cfab8ebed92fc8df4cecd945b38364",
+      "camera_mm": [
+        0,
+        -220,
+        28
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 61
+    },
+    {
+      "view": "face-quarter",
+      "label": "面部斜侧近景",
+      "bjd_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/previews/face-quarter.png",
+      "bjd_image_sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08",
+      "original_file": "original-face-quarter.png",
+      "original_image_sha256": "32aa006375e448267e4f6e9a097d4d71d8b25efdd178bc4b707eb0720726484a",
+      "camera_mm": [
+        -125,
+        -200,
+        60
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 65
+    }
+  ],
+  "comparison_note": "Original local PMX geometry/UV/textures re-rendered in Blender with matched studio surface response. Not an in-game screenshot or recreation of the game toon shader. Existing BJD renders reused only after model/image hash and camera verification. No retouching."
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "makeup-multiview.png",
+    "inputs": [
+      "makeup-front.png",
+      "makeup-quarter-left.png",
+      "makeup-quarter-right.png",
+      "makeup-side.png"
+    ],
+    "sha256": "5d2e1f73eff7a8a10df1950456e0ce67349a43da810565d63f67f0a3ec7bf394",
+    "operations": "Resize and arrange only; no reshaping, retouching or recoloring."
+  },
+  {
+    "file": "hair-multiview.png",
+    "inputs": [
+      "hair-quarter-left.png",
+      "hair-front.png",
+      "hair-quarter-right.png"
+    ],
+    "sha256": "354cb81b39d15d2a577a05fe2f608068fb2030183ed4672cfd095d940acde221",
+    "operations": "Resize and arrange only; no reshaping, retouching or recoloring."
+  },
+  {
+    "file": "character-comparison.png",
+    "inputs": [
+      "hair-front.png",
+      "original-front.png",
+      "hair-quarter-left.png",
+      "original-quarter-left.png"
+    ],
+    "sha256": "b8d88f9fcd10c847dadc8eda03aece3745e8edb87e2e004739137dabe010e250",
+    "operations": "Resize and arrange only; no reshaping, retouching or recoloring."
+  }
+]

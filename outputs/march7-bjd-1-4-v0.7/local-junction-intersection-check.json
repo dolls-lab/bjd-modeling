@@ -1,0 +1,676 @@
+{
+  "solution": "/private/tmp/march7-bjd-work/v7-analysis/candidate2/head-solution.npz",
+  "solution_sha256": "c9ebf7d6caa1843950967b63c42db935c71776cbd47142d8a4816fc7e2b3d4bf",
+  "solution_unchanged_during_check": true,
+  "v6_stl_sha256": "c6da660f02c600357b1aa981d7f624bf2ab038273d76edee95d6eb05e9a4297e",
+  "before_matches_current_v6": true,
+  "topology_matches_v5_v6": true,
+  "normal_over_90_degrees_vs_v6_count": 17,
+  "all_are_restoration_toward_v5": true,
+  "normal_rows": [
+    {
+      "triangle_id": 229086,
+      "vertex_ids": [
+        103916,
+        103915,
+        103917
+      ],
+      "candidate_centroid_mm": [
+        -26.32885511859006,
+        1.7915468215942383,
+        26.60987917582194
+      ],
+      "candidate_vs_v6_normal_dot": -0.13539420186090673,
+      "candidate_vs_v5_normal_dot": 0.9988840813494999,
+      "v6_vs_v5_normal_dot": -0.18203736182654898,
+      "double_area_v5_v6_candidate_mm2": [
+        0.010531435785709517,
+        0.28749890745275214,
+        0.010433495522583597
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 231667,
+      "vertex_ids": [
+        104044,
+        105802,
+        105800
+      ],
+      "candidate_centroid_mm": [
+        -25.351959719564004,
+        1.5316454569498699,
+        25.500171661376953
+      ],
+      "candidate_vs_v6_normal_dot": -0.6755782314727116,
+      "candidate_vs_v5_normal_dot": 0.9999980981783261,
+      "v6_vs_v5_normal_dot": -0.6770148742973658,
+      "double_area_v5_v6_candidate_mm2": [
+        0.01837843348640666,
+        0.04007396753889921,
+        0.018323326621511368
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 231717,
+      "vertex_ids": [
+        104001,
+        104003,
+        104002
+      ],
+      "candidate_centroid_mm": [
+        -25.906327833386573,
+        1.7048730850219727,
+        26.026265462239582
+      ],
+      "candidate_vs_v6_normal_dot": -0.3449528920960035,
+      "candidate_vs_v5_normal_dot": 0.9999978812839938,
+      "v6_vs_v5_normal_dot": -0.34302001076885225,
+      "double_area_v5_v6_candidate_mm2": [
+        0.02022607448305669,
+        0.059369707600205074,
+        0.0202564677126562
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 234820,
+      "vertex_ids": [
+        105840,
+        105843,
+        105851
+      ],
+      "candidate_centroid_mm": [
+        -24.305415950679844,
+        1.182547887166341,
+        24.939185460408527
+      ],
+      "candidate_vs_v6_normal_dot": -0.38628930483861573,
+      "candidate_vs_v5_normal_dot": 0.9995850982201246,
+      "v6_vs_v5_normal_dot": -0.35956149064774845,
+      "double_area_v5_v6_candidate_mm2": [
+        0.018834162506943638,
+        0.05474752301863927,
+        0.019260450351368114
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 234821,
+      "vertex_ids": [
+        105843,
+        105856,
+        105851
+      ],
+      "candidate_centroid_mm": [
+        -24.23833334335642,
+        1.2484134038289387,
+        24.94314702351888
+      ],
+      "candidate_vs_v6_normal_dot": -0.23599554193016092,
+      "candidate_vs_v5_normal_dot": 0.9661112211538387,
+      "v6_vs_v5_normal_dot": -0.2696753885327754,
+      "double_area_v5_v6_candidate_mm2": [
+        0.017401248311442363,
+        0.21157262515586936,
+        0.020375125589665182
+      ],
+      "source_locked_vertices": [
+        false,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 388269,
+      "vertex_ids": [
+        250940,
+        250769,
+        250942
+      ],
+      "candidate_centroid_mm": [
+        23.62629579535761,
+        0.9977709452311198,
+        24.64637502034505
+      ],
+      "candidate_vs_v6_normal_dot": -0.3475945082411904,
+      "candidate_vs_v5_normal_dot": 0.9997745155634384,
+      "v6_vs_v5_normal_dot": -0.36657528210898827,
+      "double_area_v5_v6_candidate_mm2": [
+        0.008997130430579748,
+        0.02727019908305459,
+        0.009105549583591274
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 390785,
+      "vertex_ids": [
+        251337,
+        251339,
+        251338
+      ],
+      "candidate_centroid_mm": [
+        25.56246216420894,
+        0.5545997619628906,
+        29.431482315063477
+      ],
+      "candidate_vs_v6_normal_dot": -0.04031747948562264,
+      "candidate_vs_v5_normal_dot": 0.9952116784232754,
+      "v6_vs_v5_normal_dot": -0.09072663483751855,
+      "double_area_v5_v6_candidate_mm2": [
+        0.016997704840769956,
+        0.11167627703189496,
+        0.018213451302940165
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 394918,
+      "vertex_ids": [
+        252089,
+        252092,
+        252088
+      ],
+      "candidate_centroid_mm": [
+        25.90601473839335,
+        1.7052911122639973,
+        26.02589480082194
+      ],
+      "candidate_vs_v6_normal_dot": -0.33675702276846714,
+      "candidate_vs_v5_normal_dot": 0.9999977720224393,
+      "v6_vs_v5_normal_dot": -0.334768655358597,
+      "double_area_v5_v6_candidate_mm2": [
+        0.020113479571101663,
+        0.059006647253074605,
+        0.020144013230386677
+      ],
+      "source_locked_vertices": [
+        false,
+        true,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 394955,
+      "vertex_ids": [
+        252177,
+        252179,
+        252178
+      ],
+      "candidate_centroid_mm": [
+        26.329028557015917,
+        1.7917137145996094,
+        26.610175450642902
+      ],
+      "candidate_vs_v6_normal_dot": -0.13906426951135398,
+      "candidate_vs_v5_normal_dot": 0.9988645421092256,
+      "v6_vs_v5_normal_dot": -0.18608405861665162,
+      "double_area_v5_v6_candidate_mm2": [
+        0.010558001775735135,
+        0.2866854112724548,
+        0.0104568528503566
+      ],
+      "source_locked_vertices": [
+        false,
+        true,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 457712,
+      "vertex_ids": [
+        103917,
+        103915,
+        103990
+      ],
+      "candidate_centroid_mm": [
+        -26.28397363197466,
+        1.8406165440877278,
+        26.670067469278973
+      ],
+      "candidate_vs_v6_normal_dot": -0.2632276139881381,
+      "candidate_vs_v5_normal_dot": 0.9876368913536008,
+      "v6_vs_v5_normal_dot": -0.2441506730464548,
+      "double_area_v5_v6_candidate_mm2": [
+        0.007404007965284451,
+        0.20781193475506396,
+        0.008412857760218235
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 460332,
+      "vertex_ids": [
+        106037,
+        106039,
+        106038
+      ],
+      "candidate_centroid_mm": [
+        -23.675603775814583,
+        0.9610112508138021,
+        24.641746520996094
+      ],
+      "candidate_vs_v6_normal_dot": -0.4435695060214286,
+      "candidate_vs_v5_normal_dot": 0.9998221862971693,
+      "v6_vs_v5_normal_dot": -0.46039125242977863,
+      "double_area_v5_v6_candidate_mm2": [
+        0.008236883162077343,
+        0.027631907763387406,
+        0.008107693240934112
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 460343,
+      "vertex_ids": [
+        106038,
+        106039,
+        106265
+      ],
+      "candidate_centroid_mm": [
+        -23.62061085055923,
+        0.9990692138671875,
+        24.647984822591145
+      ],
+      "candidate_vs_v6_normal_dot": -0.38832499422445943,
+      "candidate_vs_v5_normal_dot": 0.9996771573814269,
+      "v6_vs_v5_normal_dot": -0.4100154346978395,
+      "double_area_v5_v6_candidate_mm2": [
+        0.009335706739769304,
+        0.02763819444728698,
+        0.009564942783636673
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 531736,
+      "vertex_ids": [
+        250940,
+        250942,
+        250943
+      ],
+      "candidate_centroid_mm": [
+        23.67742759982519,
+        0.9604066212972006,
+        24.640750885009766
+      ],
+      "candidate_vs_v6_normal_dot": -0.3853072683244179,
+      "candidate_vs_v5_normal_dot": 0.9998512994913789,
+      "v6_vs_v5_normal_dot": -0.40116316024346726,
+      "double_area_v5_v6_candidate_mm2": [
+        0.008144435084914374,
+        0.02708302023600141,
+        0.008039400923133698
+      ],
+      "source_locked_vertices": [
+        true,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 531765,
+      "vertex_ids": [
+        250816,
+        250812,
+        250815
+      ],
+      "candidate_centroid_mm": [
+        24.23960637224712,
+        1.2485119501749675,
+        24.941593805948894
+      ],
+      "candidate_vs_v6_normal_dot": -0.23080620060726145,
+      "candidate_vs_v5_normal_dot": 0.9656279070090645,
+      "v6_vs_v5_normal_dot": -0.26752018340636396,
+      "double_area_v5_v6_candidate_mm2": [
+        0.01725121528412506,
+        0.21063577459396302,
+        0.020208011560429968
+      ],
+      "source_locked_vertices": [
+        false,
+        true,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 531773,
+      "vertex_ids": [
+        250819,
+        250812,
+        250816
+      ],
+      "candidate_centroid_mm": [
+        24.30612141642905,
+        1.1832361221313477,
+        24.937843322753906
+      ],
+      "candidate_vs_v6_normal_dot": -0.37430331781653636,
+      "candidate_vs_v5_normal_dot": 0.9995714922080107,
+      "v6_vs_v5_normal_dot": -0.34699910050220395,
+      "double_area_v5_v6_candidate_mm2": [
+        0.018717739367873333,
+        0.054845346556342434,
+        0.01913704024807511
+      ],
+      "source_locked_vertices": [
+        true,
+        true,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 532997,
+      "vertex_ids": [
+        252108,
+        250864,
+        250868
+      ],
+      "candidate_centroid_mm": [
+        25.35205184317608,
+        1.5321400960286458,
+        25.497251510620117
+      ],
+      "candidate_vs_v6_normal_dot": -0.689332940154455,
+      "candidate_vs_v5_normal_dot": 0.9999986986025166,
+      "v6_vs_v5_normal_dot": -0.6905008023234728,
+      "double_area_v5_v6_candidate_mm2": [
+        0.018648523097508484,
+        0.038391076540536584,
+        0.01859975065483894
+      ],
+      "source_locked_vertices": [
+        true,
+        true,
+        false
+      ],
+      "restores_v5_normal_hemisphere": true
+    },
+    {
+      "triangle_id": 534815,
+      "vertex_ids": [
+        252087,
+        252177,
+        252178
+      ],
+      "candidate_centroid_mm": [
+        26.28394942251846,
+        1.8407093683878581,
+        26.670304616292317
+      ],
+      "candidate_vs_v6_normal_dot": -0.2655711388232944,
+      "candidate_vs_v5_normal_dot": 0.9876559582195508,
+      "v6_vs_v5_normal_dot": -0.24770461425080226,
+      "double_area_v5_v6_candidate_mm2": [
+        0.007458018665754205,
+        0.20732377884695105,
+        0.008486698669339657
+      ],
+      "source_locked_vertices": [
+        false,
+        false,
+        true
+      ],
+      "restores_v5_normal_hemisphere": true
+    }
+  ],
+  "source_locked_max_displacement_mm": 0.0,
+  "yz_max_displacement_mm": 0.0,
+  "candidate_degenerate_triangles_count": 0,
+  "intersection_check": {
+    "scope": "Both sides absX>=17, Y -2..5, Z20..34; bounding boxes intersect region. Includes normal-anomalous triangles and ear-source lock junction strips. At least one triangle moved relative to v6. This is not a full global self-intersection or wall-thickness certification.",
+    "region_triangles": 39603,
+    "changed_region_triangles": 28326,
+    "nonadjacent_aabb_pairs_checked": 5657,
+    "excluded_pairs": "Any shared vertex index",
+    "tolerance_mm": 1e-06,
+    "projected_polygon_rejection": true,
+    "pairs": [],
+    "new_strict_intersections_vs_v6": 0,
+    "new_ambiguous_contacts_vs_v6": 0
+  },
+  "source_boundary_edges": {
+    "count": 581,
+    "max_displacement_jump_v6_mm": 2.884124755859375,
+    "max_displacement_jump_candidate_mm": 0.17702805165016855,
+    "max_length_ratio_v6_over_v5": 33.993116689722285,
+    "max_length_ratio_candidate_over_v5": 1.5863679840908513,
+    "largest_candidate_jumps": [
+      {
+        "vertex_ids": [
+          251661,
+          254146
+        ],
+        "candidate_midpoint_mm": [
+          26.266886059624134,
+          1.4390974044799805,
+          28.171817779541016
+        ],
+        "displacement_jump_v6_mm": 2.544830322265625,
+        "displacement_jump_candidate_mm": 0.17702805165016855,
+        "length_v5_v6_candidate_mm": [
+          0.17522787072506793,
+          2.593406386736669,
+          0.2779758840386583
+        ]
+      },
+      {
+        "vertex_ids": [
+          103575,
+          106783
+        ],
+        "candidate_midpoint_mm": [
+          -26.279822621610755,
+          1.4392743110656738,
+          28.171812057495117
+        ],
+        "displacement_jump_v6_mm": 2.5423965454101562,
+        "displacement_jump_candidate_mm": 0.15064757294059916,
+        "length_v5_v6_candidate_mm": [
+          0.1754308865067103,
+          2.5911375578197124,
+          0.2578241282574111
+        ]
+      },
+      {
+        "vertex_ids": [
+          103639,
+          106833
+        ],
+        "candidate_midpoint_mm": [
+          -26.177577635401363,
+          1.4135942459106445,
+          28.31125259399414
+        ],
+        "displacement_jump_v6_mm": 2.4903316497802734,
+        "displacement_jump_candidate_mm": 0.14545126606250847,
+        "length_v5_v6_candidate_mm": [
+          0.1686858863972885,
+          2.517582188836141,
+          0.23647340765384925
+        ]
+      },
+      {
+        "vertex_ids": [
+          103434,
+          103446
+        ],
+        "candidate_midpoint_mm": [
+          -25.45990094305975,
+          0.5375442504882812,
+          29.537278175354004
+        ],
+        "displacement_jump_v6_mm": 1.5110340118408203,
+        "displacement_jump_candidate_mm": 0.13757688280139746,
+        "length_v5_v6_candidate_mm": [
+          0.19961409125620938,
+          1.5319270621300471,
+          0.24684781546632112
+        ]
+      },
+      {
+        "vertex_ids": [
+          251661,
+          254162
+        ],
+        "candidate_midpoint_mm": [
+          26.29244340499392,
+          1.4444770812988281,
+          28.088677406311035
+        ],
+        "displacement_jump_v6_mm": 2.5434226989746094,
+        "displacement_jump_candidate_mm": 0.12395642121332884,
+        "length_v5_v6_candidate_mm": [
+          0.22946353284682314,
+          2.5981486917042225,
+          0.28136421204874223
+        ]
+      },
+      {
+        "vertex_ids": [
+          254162,
+          251638
+        ],
+        "candidate_midpoint_mm": [
+          26.24843991836062,
+          1.4821162223815918,
+          27.96610927581787
+        ],
+        "displacement_jump_v6_mm": 2.5434226989746094,
+        "displacement_jump_candidate_mm": 0.12395642121332884,
+        "length_v5_v6_candidate_mm": [
+          0.15503491695433974,
+          2.5048115836973057,
+          0.1694994793337533
+        ]
+      },
+      {
+        "vertex_ids": [
+          251687,
+          254162
+        ],
+        "candidate_midpoint_mm": [
+          26.29357732375613,
+          1.4656620025634766,
+          28.000606536865234
+        ],
+        "displacement_jump_v6_mm": 2.5434226989746094,
+        "displacement_jump_candidate_mm": 0.12395642121332884,
+        "length_v5_v6_candidate_mm": [
+          0.14888900632321378,
+          2.594499409592551,
+          0.2219064423715946
+        ]
+      },
+      {
+        "vertex_ids": [
+          106807,
+          103655
+        ],
+        "candidate_midpoint_mm": [
+          -26.25403004186613,
+          1.482283115386963,
+          27.96629047393799
+        ],
+        "displacement_jump_v6_mm": 2.539976119995117,
+        "displacement_jump_candidate_mm": 0.11261404956852061,
+        "length_v5_v6_candidate_mm": [
+          0.1551269998383979,
+          2.5017041151197303,
+          0.16469482948834058
+        ]
+      },
+      {
+        "vertex_ids": [
+          103575,
+          106807
+        ],
+        "candidate_midpoint_mm": [
+          -26.2979038287924,
+          1.4446325302124023,
+          28.088790893554688
+        ],
+        "displacement_jump_v6_mm": 2.539976119995117,
+        "displacement_jump_candidate_mm": 0.11261404956852061,
+        "length_v5_v6_candidate_mm": [
+          0.22938774376708285,
+          2.5947699926707566,
+          0.2746669929834647
+        ]
+      },
+      {
+        "vertex_ids": [
+          103601,
+          106807
+        ],
+        "candidate_midpoint_mm": [
+          -26.299078755550212,
+          1.4658994674682617,
+          28.000795364379883
+        ],
+        "displacement_jump_v6_mm": 2.539976119995117,
+        "displacement_jump_candidate_mm": 0.11261404956852061,
+        "length_v5_v6_candidate_mm": [
+          0.1489347908302343,
+          2.591202673166273,
+          0.2133870778755034
+        ]
+      }
+    ]
+  },
+  "duration_seconds": 2.067380905151367
+}

@@ -1,0 +1,41 @@
+{
+  "unpainted_blend_sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+  "preview_blend_sha256": "178c0119afa160f73df1b7dc40c1493aa14e3ff0ef1f6c5d95ccce93cac2d314",
+  "source_reference_sha256": "446cc1013de352866632d84f9614d6dcd938a368e360fdbcbd6c197fe57cf844",
+  "uv_transfer_sha256": "bdeb5b17f846945917660562ced8edf81c90b5fb90388a846e0989513694cb0b",
+  "print_geometry_before": {
+    "PRINT_01_Head_Shell": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+    "PRINT_02_Removable_Cap": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8"
+  },
+  "print_geometry_after_saved_reload": {
+    "PRINT_01_Head_Shell": "64154e27a4096f866aa8085f34b03ec54137a57e4369aea4259130a388288020",
+    "PRINT_02_Removable_Cap": "49e6ace8385fd32196df8b08c412c517b917bde362292b47f1d516f1c843b1d8"
+  },
+  "print_geometry_exactly_unchanged": true,
+  "original_file_unchanged": true,
+  "eye_brow_attachments_are_preview_only": true,
+  "overlay_offsets": [
+    {
+      "object": "LOOK_02_BROWS_LASHES",
+      "vertices_moved": 70,
+      "maximum_forward_offset_mm": 0.937258758544921,
+      "head_geometry_moved": false
+    },
+    {
+      "object": "LOOK_Original_Eyebrows_Conformed",
+      "source_eyebrow_vertices": 44,
+      "method": "Simple subdivision level3 then nearest-surface shrinkwrap of eyebrow overlay only",
+      "offset_mm": 0.025,
+      "head_geometry_moved": false
+    }
+  ],
+  "packed_images": [
+    "头发.png",
+    "脸.png",
+    "脸.png.001",
+    "衣服1.png",
+    "表情.png"
+  ],
+  "source_textures": "Original local PMX atlas; no generative image alteration.",
+  "head_material": "Exterior UV projection with faded matching skull skin; no transparency or displacement."
+}

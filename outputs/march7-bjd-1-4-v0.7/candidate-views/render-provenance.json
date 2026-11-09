@@ -1,0 +1,56 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.7/march7-bjd-head-v0.7-draft.blend",
+  "model_sha256": "07872ca22265cf1ef2dc52cb726a32f4a29b25171bde8fe372b06b7b9f0a2295",
+  "input_model_modified": false,
+  "resolution": [
+    1200,
+    1200
+  ],
+  "source": "Actual v7 Blender mesh renders; no image shape edits.",
+  "camera": "orthographic",
+  "lighting": "same fixed studio lights for every view",
+  "views": [
+    {
+      "file": "v7-left-ear-rear.png",
+      "camera_position_mm": [
+        160,
+        80,
+        65
+      ],
+      "target_mm": [
+        23,
+        3,
+        31
+      ],
+      "ortho_width_mm": 55
+    },
+    {
+      "file": "v7-right-ear-front.png",
+      "camera_position_mm": [
+        -160,
+        -80,
+        70
+      ],
+      "target_mm": [
+        -23,
+        0,
+        32
+      ],
+      "ortho_width_mm": 55
+    },
+    {
+      "file": "v7-right-ear-rear.png",
+      "camera_position_mm": [
+        -160,
+        80,
+        65
+      ],
+      "target_mm": [
+        -23,
+        3,
+        31
+      ],
+      "ortho_width_mm": 55
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "march7-bjd-head-v0.8-draft.blend": {
+    "sha256": "4ea04ae429876fe0a2ed0a750b74453d054c089777ecf9ad1c22d89585bf6034",
+    "bytes": 20115446
+  },
+  "march7-head-shell-v0.8-draft.stl": {
+    "sha256": "0ea36a9f547666948328f47f21a14cf2815be2f16b9a3796a44d4ee22f927d51",
+    "bytes": 27367084
+  },
+  "march7-head-cap-v0.8-draft.stl": {
+    "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+    "bytes": 5509184
+  },
+  "README.md": {
+    "sha256": "8d25123a069c7a034c7a43be686f2cc59121b5fb103a108d6734780f0c5dc2c3",
+    "bytes": 2270
+  },
+  "parameters.json": {
+    "sha256": "d9dd7d541cb0aa6fb6f55b4ca380fed42070513518a4474af35f1a4deef60571",
+    "bytes": 3008
+  },
+  "source-usage-rules.txt": {
+    "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+    "bytes": 399
+  },
+  "build-report.json": {
+    "sha256": "db5d576ca695d21b743770a600d2faa2b9864f2c195e478af05101b1e4b11d4d",
+    "bytes": 505511
+  },
+  "local-fairing-report.json": {
+    "sha256": "ae0ca560c4e6789aa4356afdc9d4b15f49f61f8253e8de4f474faaa0c377a959",
+    "bytes": 1142
+  },
+  "validation.json": {
+    "sha256": "1b48f0ddf90c45b02ba7f7d3e9ccec32ef980b1fb2f564176e5afdfb6a09f9ec",
+    "bytes": 23677
+  },
+  "source-preservation-review.json": {
+    "sha256": "1281d014c6c7ec493bdf34ac011b84bfbfca71ffb0d596e97bfefa2115ff4ef3",
+    "bytes": 43137
+  },
+  "local-quality-review.json": {
+    "sha256": "bd13c26aec3c78eb405916ff68ab27440b6990ffa1c4e725fbc9c9b8b04b6730",
+    "bytes": 22750
+  },
+  "roundness-comparison.png": {
+    "sha256": "340e7642bb1077831131b5e4f1a0294445fce962c8bd037b26092240fd02306a",
+    "bytes": 1245231
+  },
+  "surface-comparison.png": {
+    "sha256": "3e7949ad4f78c7a0ab1386d6660e83ac532559fa9d011a1195812f3a02262b80",
+    "bytes": 1341383
+  },
+  "side-views/v8-left-ear-front.png": {
+    "sha256": "ab58bfcca86c5a44981c3c606c6be0ac797823844c5d602c9d2620faff1bcbec",
+    "bytes": 1444854
+  },
+  "side-views/v8-left-ear-rear.png": {
+    "sha256": "6ec5560624034df8e01ee4aa0869c75f22657bec500bcb5aaab861705ad53f48",
+    "bytes": 1436960
+  },
+  "side-views/v8-left-front-side.png": {
+    "sha256": "f6d8c9b5b8119fa6625caf1b7871c9e26e74ccda056b4f22e25bca4619b4e38d",
+    "bytes": 1465283
+  },
+  "side-views/v8-left-rear-side.png": {
+    "sha256": "bd31853cc5bf631b9a478300e4da7d69381d412b2a5ba86f5262c71d92cbbb6d",
+    "bytes": 1452337
+  },
+  "side-views/v8-left-side.png": {
+    "sha256": "b7a9705ca917d492a5eea085f8ace5f9fc7c4ab4da8094c900475585048e71f6",
+    "bytes": 1474615
+  },
+  "side-views/v8-right-ear-front.png": {
+    "sha256": "8c41504ed70174df7383470e6d4ba99713cbfe42b73b502cb2db6cb6a8fa7175",
+    "bytes": 1438670
+  },
+  "side-views/v8-right-ear-rear.png": {
+    "sha256": "62d0b23738b3120de30a25deafea2c5cf769bd05e43659bfd76902c088423e8b",
+    "bytes": 1434113
+  },
+  "side-views/v8-right-front-side.png": {
+    "sha256": "850504e580728325261ea4345695da6dd7d1d568f8e49728f336b5aef749f3b9",
+    "bytes": 1467514
+  },
+  "side-views/v8-right-rear-side.png": {
+    "sha256": "d20a21997e38ded567c9905d397c53ff747e821a830752867e38e9bb90d30214",
+    "bytes": 1456722
+  },
+  "side-views/v8-right-side.png": {
+    "sha256": "a84e9f5e771a97a2fbad9fd24556c1fe412b1bcfcf695af8e18ea04a8ac9fbcc",
+    "bytes": 1472673
+  },
+  "comparison-renders/v7-front.png": {
+    "sha256": "523a611da4af0f793ca41af4082b6d690d2703b2a6c03832fe7da1b2e9613d2b",
+    "bytes": 1462604
+  },
+  "comparison-renders/v7-right-ear-rear.png": {
+    "sha256": "13fa772efbe154e495a864d45845637ed1c193d590a6dbc4a6f922c8656a29f3",
+    "bytes": 1437160
+  },
+  "comparison-renders/v7-right-quarter.png": {
+    "sha256": "31d87a7d0d7f9c41e1073e8db327426b2420cce09288736a95099acd969d267b",
+    "bytes": 1465562
+  },
+  "comparison-renders/v7-top.png": {
+    "sha256": "d42ede3ea21b477c0b7e6a2831a88a8960c77e04482ac2b392e42d38627d841d",
+    "bytes": 1432297
+  },
+  "comparison-renders/v8-front.png": {
+    "sha256": "b2b4f219391a1c91a02af18ebd052a1abfbf89baecb44d805b3a078a307749a9",
+    "bytes": 1464316
+  },
+  "comparison-renders/v8-right-ear-rear.png": {
+    "sha256": "a5ebe8a7ec212aebf1d7c261ca395a962cbb82164fe42165a5e9fc057540446c",
+    "bytes": 1434113
+  },
+  "comparison-renders/v8-right-quarter.png": {
+    "sha256": "01915e29fc404f3030b0b8973cb94241e7379bb849592716090ec06e47da63a0",
+    "bytes": 1466233
+  },
+  "comparison-renders/v8-top.png": {
+    "sha256": "08103cf691496c9e3576ad8a6b0d9cf3eff982ebf2490a20ddd0836f7a68f3f7",
+    "bytes": 1432151
+  },
+  "comparison-renders/v7-render-provenance.json": {
+    "sha256": "633069bbf0c9aa433ecf7b55e0b3ac7a9655e23b5f410a996bea62bcf0c78724",
+    "bytes": 1297
+  },
+  "comparison-renders/v8-render-provenance.json": {
+    "sha256": "371d7782f60daf615ab4b67ff3cb849278542a8fffadfe8b07cab9a00f542b67",
+    "bytes": 1310
+  },
+  "side-views/render-provenance.json": {
+    "sha256": "aeb789d634aca3ee13288ebb16930266c27f9685d5f2fe7ecdceb5bdb205ede6",
+    "bytes": 2812
+  },
+  "horizontal-roundness-review.json": {
+    "sha256": "04fccd661751ec8fb1b7834330ae1eb50039bbb93295213ade42f756d8385727",
+    "bytes": 506377
+  },
+  "horizontal-roundness-review.png": {
+    "sha256": "08c2530a3f5916b3585d9c7c48ac302a7119067085e376fd079283dfdff63981",
+    "bytes": 543822
+  },
+  "top-silhouette-review.json": {
+    "sha256": "00e870e03a833e6b0a777a05e09f4f55aed370959046fd19e3db06e8c2c2196e",
+    "bytes": 541441
+  },
+  "top-silhouette-review.png": {
+    "sha256": "6f00edf21964729133f7e3a93598e0c647369c16f95a67c343f7a90430d7de5b",
+    "bytes": 290374
+  },
+  "side-shell-review.json": {
+    "sha256": "7f8e25f635b7722d6ee8820b2ef304bf95f5093bb2f3619985c88f5aa70aad1d",
+    "bytes": 7384011
+  },
+  "local-junction-intersection-check.json": {
+    "sha256": "86b1313a423c3bbd9140c315e12be743839c4ab4959d526b551b14b811005704",
+    "bytes": 1221
+  },
+  "eye-insertion-check.json": {
+    "sha256": "517eae6d9df158835a13b8ac5437d7e3ccceedbb6f13354537350e6b543a8a25",
+    "bytes": 14458
+  },
+  "face-opening-comparison.json": {
+    "sha256": "72559fe33c0599097fc766c38b82d0ce6cbd3a23c3ee213a2e22a5f80a1a89ec",
+    "bytes": 6468
+  },
+  "eye-aperture-comparison.png": {
+    "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+    "bytes": 25880
+  }
+}

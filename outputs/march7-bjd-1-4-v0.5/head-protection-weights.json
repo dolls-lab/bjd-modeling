@@ -1,0 +1,30 @@
+{
+  "baseline_blend": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.5/baseline-v0.3.blend",
+  "baseline_blend_sha256": "6a180b073dc0da956e87830ceea90e5a880d9aa7741fd0e823398aa68de2f368",
+  "source_masks_sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff",
+  "object": "PRINT_01_Head_Shell",
+  "units": "mm",
+  "vertices": 273666,
+  "edges": 820952,
+  "baseline_world_vertices_f64_sha256": "377f9dd8232f277b014f89604773699f339cc88310911086503d10df79553cd7",
+  "source_deep_lock_geodesic_mm": 8.0,
+  "source_deep_lock_interpolation": "Barycentric interpolation of source-vertex geodesic distance at the closest source-surface point; continuous across shared source-triangle edges.",
+  "locked_count": 141469,
+  "free_count": 132197,
+  "feather_band_free_vertices_count": 10866,
+  "full_weight_vertices_count": 121331,
+  "region_counts": {
+    "eye_geodesic_2mm_band": 13269,
+    "mouth_geodesic_2mm_band": 3544,
+    "nose_roi": 8781,
+    "cheek_roi": 26331,
+    "chin_roi": 18650,
+    "source_deep_face": 59804,
+    "ear_surface": 22023,
+    "all_below_z21mm": 90818
+  },
+  "distance_method": "Multi-source Dijkstra on baseline head mesh edges weighted by world Euclidean edge length; only distances below 2 mm are traversed.",
+  "feather_method": "smootherstep(clamp(geodesic_distance_to_locked/2mm,0,1)); locked vertices have exactly zero.",
+  "mask_scope": "Union of continuous-geodesic original-face deep mask, ear surface, original eye/mouth/nose/cheek/chin masks, plus pre-existing z<21mm lower-face/neck lock.",
+  "usage": "Require unchanged baseline vertex count and order. Multiply the proposed displacement field by feather_weight; independently enforce displacement[locked]=0. Do not treat these masks as physical fit certification."
+}

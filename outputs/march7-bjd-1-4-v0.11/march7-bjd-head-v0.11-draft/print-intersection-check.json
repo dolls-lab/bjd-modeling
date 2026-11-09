@@ -1,0 +1,60 @@
+{
+  "scope": "Full actual head STL and full actual cap STL independently; no head-cap assembly intersection test is performed.",
+  "distance_tolerance_mm": 1e-06,
+  "shared_vertex_policy": "Any pair sharing any exactly identical vertex coordinate is excluded; therefore adjacent-facet overlap away from shared vertices is not certified by this test. Duplicate facets and degenerate facets are counted separately.",
+  "method": "Axis sweep of all triangle AABBs, full 3-axis AABB overlap, exact shared-vertex exclusion, triangle-plane separation, then triangle-plane interval intersection with projected polygon rejection. Strict transverse crossing and coplanar area overlap are reported separately from near-plane/coplanar numerical contacts.",
+  "parts": {
+    "head": {
+      "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.11/march7-head-shell-v0.11-draft.stl",
+      "sha256": "feb6e73787a5aedfc0c5dd8a45f2aa27ab623d8b7a09b65e6f8fe07a72b4cf8e",
+      "sha256_after": "feb6e73787a5aedfc0c5dd8a45f2aa27ab623d8b7a09b65e6f8fe07a72b4cf8e",
+      "unchanged": true,
+      "triangles": 510194,
+      "exact_unique_vertices": 255093,
+      "stl_vertex_indexing": "Exact float32 coordinate equality; no tolerance merging or geometry processing. Triangle indices remain actual binary STL facet order.",
+      "degenerate_triangles_double_area_lt_1e_12": 0,
+      "duplicate_facet_copies": 0,
+      "sweep_axis": 0,
+      "estimated_pair_counts_before_other_axes_culling": [
+        976986574,
+        1241493678,
+        1054053923
+      ],
+      "shared_vertex_candidate_pairs_excluded": 3186422,
+      "nonadjacent_aabb_pairs_tested": 161888,
+      "pairs_surviving_plane_separation": 17380,
+      "pairs": [],
+      "strict_intersection_count": 0,
+      "ambiguous_contact_count": 0,
+      "duration_seconds": 46.063952922821045
+    },
+    "cap": {
+      "file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.11/march7-head-cap-v0.11-draft.stl",
+      "sha256": "b1019fadc2f6acc87376367027c98c200844c9a92838cd18de3e48f18f2bbd04",
+      "sha256_after": "b1019fadc2f6acc87376367027c98c200844c9a92838cd18de3e48f18f2bbd04",
+      "unchanged": true,
+      "triangles": 95168,
+      "exact_unique_vertices": 47586,
+      "stl_vertex_indexing": "Exact float32 coordinate equality; no tolerance merging or geometry processing. Triangle indices remain actual binary STL facet order.",
+      "degenerate_triangles_double_area_lt_1e_12": 0,
+      "duplicate_facet_copies": 0,
+      "sweep_axis": 0,
+      "estimated_pair_counts_before_other_axes_culling": [
+        62729281,
+        111501703,
+        68914164
+      ],
+      "shared_vertex_candidate_pairs_excluded": 606130,
+      "nonadjacent_aabb_pairs_tested": 68775,
+      "pairs_surviving_plane_separation": 5428,
+      "pairs": [],
+      "strict_intersection_count": 0,
+      "ambiguous_contact_count": 0,
+      "duration_seconds": 4.860514163970947
+    }
+  },
+  "duration_seconds": 52.067302942276,
+  "completed_both_parts": true,
+  "no_strict_nonadjacent_self_intersections": true,
+  "all_inputs_unchanged": true
+}

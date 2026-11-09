@@ -1,0 +1,22 @@
+# Local machine caches and temporary files.
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.blend1
+*.blend2
+*.bak
+*.tmp
+*.log
+
+# Credentials are never project assets.
+.env
+.env.*
+*.pem
+*.key
+.private/
+
+# Duplicate delivery packages stay on disk; editable models are tracked.
+*.zip

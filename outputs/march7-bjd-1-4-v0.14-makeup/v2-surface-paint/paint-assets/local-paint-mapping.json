@@ -1,0 +1,45 @@
+{
+  "world_x_range_mm": [
+    -32.0,
+    32.0
+  ],
+  "world_z_range_mm": [
+    0.0,
+    48.0
+  ],
+  "resolution": [
+    2048,
+    1536
+  ],
+  "uv_formula": "u=(worldX-xmin)/(xmax-xmin); v=(worldZ-zmin)/(zmax-zmin)",
+  "png_row_zero": "highest Z",
+  "color_space": "sRGB",
+  "alpha": "straight; zero everywhere except local eyebrow/eyeliner/mouth",
+  "source_reference_geometry_sha256": "38e6e207492af7fd67df2d9e35601cf9bb054c3e48549810ca5d57b2da131651",
+  "source_face_texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+  "paint_sha256": "3b64525fa479eb432f59f0bd2d2a7d4477480453fca86433bd64b45fd9ec83b5",
+  "regions": {
+    "brows_eyeliner": {
+      "painted_pixels": 92906,
+      "world_bbox_mm": [
+        -21.703125,
+        21.703125,
+        23.046875,
+        39.765625
+      ]
+    },
+    "mouth": {
+      "painted_pixels": 2042,
+      "world_bbox_mm": [
+        -4.765625,
+        4.765625,
+        9.453125,
+        10.453125
+      ]
+    }
+  },
+  "mouth_extraction": "Original mouth interior visible in front orthographic depth relative to original face skin; face color not copied.",
+  "material_integration": "Mix paint RGB into existing Principled Base Color by paint alpha times true exterior/front-skin weight; keep roughness, normals and all geometry unchanged.",
+  "no_full_face_atlas": true,
+  "no_visible_source_overlay_geometry": true
+}

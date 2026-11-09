@@ -1,0 +1,127 @@
+{
+  "inputs": {
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/source-reference/source-head-geometry.npz": "38e6e207492af7fd67df2d9e35601cf9bb054c3e48549810ca5d57b2da131651",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/source-reference/textures/脸.png": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+    "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+  },
+  "inputs_unchanged": true,
+  "eye_centers_mm": {
+    "negative": [
+      -12.163962920147602,
+      -15.289332231246028,
+      27.67311677124019
+    ],
+    "positive": [
+      12.163962920147602,
+      -15.289332231246028,
+      27.67311677124019
+    ]
+  },
+  "outer_radius_mm": 9.0,
+  "inner_radius_mm": 8.4,
+  "nominal_cup_wall_mm": 0.5999999999999996,
+  "orientation": "front hemisphere toward -Y, open rear at center Y, annular rim only; no closing disk",
+  "meshing": {
+    "theta_segments": 64,
+    "phi_segments": 192,
+    "outer_vertices_on_analytic_sphere": false,
+    "note": "Base spherical cup is locally retracted at the hidden skin edge; nominal R9/8.4 does not assert every final point lies on those spheres."
+  },
+  "texture_bake": {
+    "method": "Orthographic -Y view of original iris/highlight material only, depth-tested original triangles, barycentric original PMX UV lookup, over pure white sclera. Result attached to actual spherical exterior by planar XZ UV coordinates. No original eye triangle is a visible output object.",
+    "png_resolution": [
+      1024,
+      1024
+    ],
+    "supersampling": 2,
+    "includes": "Original iris, pupil and white highlight pieces in one surface texture; no separate highlight card/mesh.",
+    "not_included": "Original sclera/upper-shadow geometry; physical/scene lighting supplies shading.",
+    "frontal_source_scale_preserved": true,
+    "textures": [
+      {
+        "side": "negative",
+        "file": "march7-hemisphere-eye-negative.png",
+        "sha256": "5085611091af1c623eba932250f9e84db53144a4a1305ef77dc48e1b38779d27",
+        "source_iris_triangles": 117,
+        "baked_iris_projected_area_mm2": 66.24786376953125,
+        "source_projected_bbox_xz_mm": [
+          [
+            -17.180675007035013,
+            22.91419594028098
+          ],
+          [
+            -9.1049054805831,
+            33.53191900733289
+          ]
+        ]
+      },
+      {
+        "side": "positive",
+        "file": "march7-hemisphere-eye-positive.png",
+        "sha256": "33a699b0713235688963065e331524a29f4709d7bd6899c47926065dcc2c3a9e",
+        "source_iris_triangles": 117,
+        "baked_iris_projected_area_mm2": 66.24786376953125,
+        "source_projected_bbox_xz_mm": [
+          [
+            9.1049054805831,
+            22.91419594028098
+          ],
+          [
+            17.180675007035013,
+            33.53191900733289
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry_npz_sha256": "0e156cd3fd975cd23a419976c55644c17aee6dc6fd72fd5d74464ffface98f54",
+  "preview_only": true,
+  "limitations": [
+    "Not a manufactured eyeball specification.",
+    "Original stylized iris/highlights are projected into spherical surface coordinates; oblique views correctly foreshorten with the sphere.",
+    "Texture is an offline bake of source colors, not the official game shader."
+  ],
+  "candidate_only": true,
+  "fit_adjustment": {
+    "nasal_shift_mm": 1.5,
+    "forward_shift_mm": 2.0,
+    "old_radius_mm": 8.0,
+    "new_radius_mm": 9.0,
+    "purpose": "Fill actual ±34.4-degree eye windows; head remains untouched. Potential hidden socket overlap requires final render review."
+  },
+  "skin_retraction": {
+    "method": "Actual head +Y ray first hit, corresponding to source-visible outer-front face only; eye vertices in front of that skin are retracted behind it by0.35mm, with one-facet expanded support and smooth positive feather. Matching inner cup point receives the same Y displacement.",
+    "head_uv_transfer_sha256": "bdeb5b17f846945917660562ced8edf81c90b5fb90388a846e0989513694cb0b",
+    "records": [
+      {
+        "eye": "negative",
+        "direct_front_skin_samples": 7703,
+        "direct_retraction_vertices": 319,
+        "expanded_outer_vertices": 1154,
+        "paired_inner_vertices_same_delta": true,
+        "maximum_retraction_mm": 1.5927061242936098,
+        "mean_nonzero_retraction_mm": 0.30874234972735143,
+        "margin_mm": 0.35,
+        "new_normal_over90_relative_to_initial_sphere": 0,
+        "zero_area_faces": 0,
+        "front_skin_sample_min_y_clearance_mm": 0.3500000000000014
+      },
+      {
+        "eye": "positive",
+        "direct_front_skin_samples": 7703,
+        "direct_retraction_vertices": 320,
+        "expanded_outer_vertices": 979,
+        "paired_inner_vertices_same_delta": true,
+        "maximum_retraction_mm": 1.5893758935807192,
+        "mean_nonzero_retraction_mm": 0.3191248149006114,
+        "margin_mm": 0.35,
+        "new_normal_over90_relative_to_initial_sphere": 0,
+        "zero_area_faces": 0,
+        "front_skin_sample_min_y_clearance_mm": 0.3500000000000014
+      }
+    ],
+    "head_geometry_modified": false,
+    "eye_XZ_coordinates_and_texture_unchanged": true,
+    "note": "Spherical main cup with a small locally adapted hidden edge; not a perfect mathematical hemisphere and not a printable eye fit certificate."
+  }
+}

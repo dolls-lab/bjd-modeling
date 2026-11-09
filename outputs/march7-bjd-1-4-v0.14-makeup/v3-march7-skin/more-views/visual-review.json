@@ -1,0 +1,11 @@
+{
+  "model_sha256": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+  "all_eight_views_reviewed": true,
+  "boards": [
+    "face-angles.png",
+    "head-angles.png"
+  ],
+  "model_and_skin_unchanged": true,
+  "only_camera_and_output_framing_changed": true,
+  "no_image_retouching": true
+}

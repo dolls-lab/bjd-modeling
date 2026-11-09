@@ -1,0 +1,110 @@
+{
+  "model_file": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-bjd-head-v0.13-draft.blend",
+  "model_sha256": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56",
+  "input_model_modified": false,
+  "source": "Actual PRINT objects. Camera and lighting changes in unsaved memory only. No raster retouching.",
+  "resolution": [
+    1100,
+    1100
+  ],
+  "views": [
+    {
+      "file": "v13-temple-left.png",
+      "camera_mm": [
+        -150,
+        -90,
+        55
+      ],
+      "target_mm": [
+        -24,
+        -13,
+        33
+      ],
+      "ortho_width_mm": 32
+    },
+    {
+      "file": "v13-temple-right.png",
+      "camera_mm": [
+        150,
+        -90,
+        55
+      ],
+      "target_mm": [
+        24,
+        -13,
+        33
+      ],
+      "ortho_width_mm": 32
+    },
+    {
+      "file": "v13-temple-side.png",
+      "camera_mm": [
+        -180,
+        -25,
+        42
+      ],
+      "target_mm": [
+        -25,
+        -10,
+        33
+      ],
+      "ortho_width_mm": 34
+    },
+    {
+      "file": "v13-quarter.png",
+      "camera_mm": [
+        -160,
+        -110,
+        60
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v13-side.png",
+      "camera_mm": [
+        -200,
+        0,
+        37
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v13-top.png",
+      "camera_mm": [
+        0,
+        0,
+        240
+      ],
+      "target_mm": [
+        0,
+        0,
+        35
+      ],
+      "ortho_width_mm": 101
+    },
+    {
+      "file": "v13-front.png",
+      "camera_mm": [
+        0,
+        -200,
+        37
+      ],
+      "target_mm": [
+        0,
+        0,
+        37
+      ],
+      "ortho_width_mm": 101
+    }
+  ]
+}

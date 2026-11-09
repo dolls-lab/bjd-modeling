@@ -1,0 +1,242 @@
+{
+  "version": "v0.12-draft",
+  "independent_reviews_complete": true,
+  "checks": {
+    "actual_STL_full_nonadjacent_intersection_scan_pass": true,
+    "source_and_Blend_STL_integrity_pass": true,
+    "digital_eye_insertion_path_pass": true,
+    "eye_projection_valid_and_identical": true,
+    "assembly_topology_pass": true,
+    "ordinary_cranial_wall_samples_no_below2mm": true,
+    "mother_full_intersection_scan_pass": true
+  },
+  "all_listed_checks_pass": true,
+  "inputs": {
+    "head": {
+      "file": "march7-head-shell-v0.12-draft.stl",
+      "sha256": "d2013af41c3585389af0108cd00afd863a6d7587f60a78666b63b702bed3257c"
+    },
+    "cap": {
+      "file": "march7-head-cap-v0.12-draft.stl",
+      "sha256": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591"
+    },
+    "blend": {
+      "file": "march7-bjd-head-v0.12-draft.blend",
+      "sha256": "d8aba34db9f1013902c94c1f532044e4d92c31af43fee0f041e8938f7c4b296f"
+    },
+    "mother": {
+      "file": "mother-surface.npz",
+      "sha256": "f328f330fb58d5c5f41097689e7da069a24d6f70b5a6ef1a6bf62a2940dba82c"
+    }
+  },
+  "front_refinement": {
+    "report": "front-solution-report.json",
+    "baseline": "final v0.11 mother; v0.10 used only as low-frequency positional reference",
+    "method": "Wide full-XYZ cotangent bi-Laplacian fairing of v10 low-frequency reference, evaluated as delta from v11. This removes the v11 localized Y bulge, frees the actual outer-brow horn region, and allows the entire front crown to adjust instead of stopping at a Z64 plane.",
+    "maximum_displacement_from_v11_mm": 1.7311205992656198,
+    "released_upper_eye_skin_vertices": 951,
+    "released_upper_eye_skin_mother_maximum_displacement_mm": 0.20852548408469368,
+    "protected_core_vertices": 18846,
+    "actual_eye_boundary_vertices": 248,
+    "eyelid_guard_vertices": 1368,
+    "eyelid_guard_geodesic_width_mm": 0.8,
+    "mother_core_eyelid_boundary_ear_displacement_mm": 0.0,
+    "mother_crown_z_mm": 69.79233785101658,
+    "note": "Obsolete whole-eye2mm and all-closure upper-skin locks were intentionally removed. Actual aperture plus .8mm eyelid ring and raw nose/mouth/cheek/chin remain exactly fixed in mother. Whole horizontal crown bands are not locked."
+  },
+  "upper_eye_horn_review": {
+    "report": "front-horn-review.json",
+    "adjacent_triangle_dihedrals_degrees": {
+      "upper_negative": {
+        "v11": 13.446947158230634,
+        "v12": 1.5876949202968245
+      },
+      "upper_positive": {
+        "v11": 13.444167644046034,
+        "v12": 1.5878635831235401
+      },
+      "outer_negative": {
+        "v11": 12.14595782384115,
+        "v12": 1.522279579614904
+      },
+      "outer_positive": {
+        "v11": 12.144409962947352,
+        "v12": 1.5221320175272328
+      }
+    },
+    "limitation": "acos(dot(normal of each adjacent triangle)); smaller angle means more nearly coplanar neighboring triangles. This diagnoses mesh creases and does not by itself certify aesthetic curvature or likeness."
+  },
+  "crown_profile_review": {
+    "report": "crown-profile-review.json",
+    "figure": "crown-profile-review.png",
+    "sampled_X_planes_mm": [
+      0,
+      8,
+      14,
+      20,
+      24
+    ],
+    "reverse_upper_arc_bend_detected": false,
+    "minimum_upper_arc_curvature_per_mm": {
+      "0.0": {
+        "v11": -0.011404675019681478,
+        "v12front": 0.018389971782776744
+      },
+      "8.0": {
+        "v11": -0.003932422320414462,
+        "v12front": 0.01597529974641297
+      },
+      "14.0": {
+        "v11": 0.023365943881807606,
+        "v12front": 0.024257866414794712
+      },
+      "20.0": {
+        "v11": 0.04777896152739651,
+        "v12front": 0.04115981654846366
+      },
+      "24.0": {
+        "v11": 0.05816181506728417,
+        "v12front": 0.052523218865620544
+      }
+    },
+    "visual_and_tradeoff_note": "Brow close and crown close inspected directly: prominent outer-eye horn and previous upper-forehead bump removed. Eye corner sculpted fold remains. Central forehead is slightly steeper than v11 in Z44-50; this is explicitly retained as a tradeoff for one uninterrupted crown arc, not claimed to replicate v8 slope.",
+    "limitations": "Diagnostic sampled sections, not a global all-directions convexity proof. Crown apex and full surface have also been directly visually reviewed. Raw mother shading differs from final voxelized printable surface."
+  },
+  "mother_surface_self_intersection": {
+    "report": "front-intersection-check.json",
+    "full_mesh_pass": true,
+    "triangles": 90848,
+    "nonadjacent_AABB_candidate_pairs": 73717,
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "normal_rotations_over90": 0,
+    "degenerate_triangles": 0
+  },
+  "actual_print_self_intersection": {
+    "report": "print-intersection-check.json",
+    "pass": true,
+    "head_triangles": 505398,
+    "cap_triangles": 97070,
+    "head_nonadjacent_AABB_candidate_pairs": 178662,
+    "cap_nonadjacent_AABB_candidate_pairs": 96865,
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "full_mesh_covered": true,
+    "geometry_modified": false,
+    "limitations": "Any pair sharing any exactly identical vertex coordinate is excluded; therefore adjacent-facet overlap away from shared vertices is not certified by this test. Duplicate facets and degenerate facets are counted separately."
+  },
+  "ear_print_finish": {
+    "report": "ear-postprocess/ear-finish-provenance.json",
+    "method": "Actual print outer rear-ear/root groove and narrow shared-rim strip constrained3D cotangent minimum-bending fairing, actual mesh-border0.25mm C2 feather. Rim receives8x position prior and<=0.17mm displacement; remaining support<=0.30mm. Small active-set constraints retain>=25% baseline projected triangle area at groove slivers. No topology change or displacement clipping.",
+    "mother_ear_unchanged": true,
+    "moved_print_vertices": 8858,
+    "maximum_print_displacement_mm": 0.22196894169612638,
+    "maximum_narrow_rim_displacement_mm": 0.15640461851166199,
+    "outside_support_exactly_unchanged": true,
+    "other_meshes_exactly_unchanged": true,
+    "local_intersection_count": 0,
+    "note": "Eye/nose/mouth/major face and ear concha/lobe beyond local support are unchanged by this step. Rear ear and narrow rim intentionally move; do not claim all original ear vertices remain fixed."
+  },
+  "wall_samples": {
+    "report": "side-shell-review.json",
+    "figure": "side-shell-review.png",
+    "ordinary_head_minimum_mm": 2.5968692943288962,
+    "cap_minimum_mm": 2.5977609364603476,
+    "ear_neighborhood_cranium_excluding_pinna_minimum_mm": 2.54396090786662,
+    "source_ear_skin_minimum_sample_mm": 1.7694764382116148,
+    "cranium_samples_below_2mm": 0,
+    "source_ear_skin_samples_below_2mm": 19,
+    "limit": "Discrete surface-normal crossing measurements; not a certified global minimum wall thickness or print/material strength guarantee. Grazing rays, intentional openings, seam faces and complex ear folds require separate interpretation."
+  },
+  "eye_insertion": {
+    "report": "eye-insertion-check.json",
+    "pass": true,
+    "nominal_diameter_mm": 16.0,
+    "enclosing_polyhedron_diameter_mm": 16.01297088981719,
+    "continuous_segments": 4,
+    "intersection_volume_all_selected_segments_mm3": 0.0,
+    "minimum_selected_segment_clearance_mm": 0.1870023452097953,
+    "opening_segment_minimum_clearance_mm": 0.7173756528268115
+  },
+  "eye_apertures": {
+    "report": "face-opening-comparison.json",
+    "figure": "eye-aperture-comparison.png",
+    "baseline": "v0.11",
+    "sample_pitch_mm": 0.05,
+    "all_projections_valid": true,
+    "identical_at_sampled_pitch": true,
+    "width_height_mm": [
+      [
+        11.0,
+        9.55
+      ],
+      [
+        11.0,
+        9.55
+      ]
+    ]
+  },
+  "assembly_and_topology": {
+    "report": "validation.json",
+    "pass": true,
+    "fully_seated_cap_intersection_pass": true,
+    "cap_removal_path_pass": true,
+    "actual_horizontal_girth_mm": 179.96805480338276,
+    "girth_measure_z_mm": 40.49297765452825,
+    "historical_190mm_target_not_enforced": true,
+    "current_assembly_intersection_mm3": 0.0
+  },
+  "source_and_export_identity": {
+    "report": "source-surface-review.json",
+    "all_integrity_checks_pass": true,
+    "input_files_unchanged_during_audit": true,
+    "stl_correspondence": {
+      "head": {
+        "v11": {
+          "stl_triangles": 510194,
+          "blend_triangles": 510194,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        },
+        "v12": {
+          "stl_triangles": 505398,
+          "blend_triangles": 505398,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        }
+      },
+      "cap": {
+        "v11": {
+          "stl_triangles": 95168,
+          "blend_triangles": 95168,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        },
+        "v12": {
+          "stl_triangles": 97070,
+          "blend_triangles": 97070,
+          "unique_float32_positions_equal": true,
+          "oriented_triangle_multisets_equal": true,
+          "verified": true
+        }
+      }
+    },
+    "protected_actual_print_region_sample_maximum_mm": {
+      "central_protected_core": 0.01807153783738613,
+      "actual_eye_guard_0p8mm": 0.0008007775759324431,
+      "mouth_geodesic_2mm_band": 0.0007850778638385236,
+      "nose_roi": 0.0011278922902420163,
+      "cheek_roi": 0.0010877674212679267,
+      "chin_roi": 0.0010699513368308544
+    },
+    "permitted_upper_eye_skin_actual_print_sample_maximum_mm": 0.2049170583486557,
+    "permitted_ear_actual_print_sample_maximum_mm": 0.20093770325183868,
+    "note": "Exact mother locks and sampled actual PRINT preservation are separate. Final ears intentionally include a print-stage microfinish; no whole-ear PRINT zero claim."
+  },
+  "physical_fit": "No physical print, eye installation, cap fit or resin shrinkage test has been performed."
+}

@@ -1,0 +1,14 @@
+{
+  "model_sha256": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8",
+  "six_views_reviewed": true,
+  "boards_reviewed": [
+    "original-hair-multiview.png",
+    "original-hair-face-closeups.png"
+  ],
+  "no_obvious_exposed_scalp_through_hair_in_reviewed_views": true,
+  "full_hair_views_not_clipped": true,
+  "face_closeups_intentionally_crop_outer_hair": true,
+  "current_pale_head_and_local_makeup_preserved": true,
+  "no_original_face_overlay_imported": true,
+  "visual_reference_only": true
+}

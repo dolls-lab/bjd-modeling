@@ -1,0 +1,1187 @@
+{
+  "head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+  "eye_npz_sha256": "32ba6b9bf68c55bcd209e2a5c1c7e3e02789909c312a5222accfa5afe17d355a",
+  "pitch_mm": 0.05,
+  "results": [
+    {
+      "view": "front",
+      "camera_toward_vector": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "eye": "negative",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 32664,
+              "area_mm2": 81.66000000000001,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 79,
+              "front_hemisphere_visible_rays": 32585,
+              "actual_cup_visible_rays_at_original_center": 32585,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 28865,
+              "area_mm2": 72.16250000000001,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 28865,
+              "actual_cup_visible_rays_at_original_center": 28865,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 32664,
+              "area_mm2": 81.66000000000001,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 79,
+              "front_hemisphere_visible_rays": 32585,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 28865,
+              "area_mm2": 72.16250000000001,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 28865,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "front",
+      "camera_toward_vector": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "eye": "positive",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 32666,
+              "area_mm2": 81.66500000000002,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 81,
+              "front_hemisphere_visible_rays": 32585,
+              "actual_cup_visible_rays_at_original_center": 32585,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 28874,
+              "area_mm2": 72.185,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 28874,
+              "actual_cup_visible_rays_at_original_center": 28874,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 32666,
+              "area_mm2": 81.66500000000002,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 81,
+              "front_hemisphere_visible_rays": 32585,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 28874,
+              "area_mm2": 72.185,
+              "full_sphere_geometric_miss": 0,
+              "front_hemisphere_geometric_miss": 0,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 0,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 28874,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.0,
+              "full_sphere_miss_examples": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_negative34",
+      "camera_toward_vector": [
+        -0.5625650191302901,
+        -0.8222104125750395,
+        0.0865484644815831
+      ],
+      "eye": "negative",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 33290,
+              "area_mm2": 83.22500000000001,
+              "full_sphere_geometric_miss": 9878,
+              "front_hemisphere_geometric_miss": 9878,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 9878,
+              "full_sphere_hidden_by_deeper_head": 6,
+              "front_hemisphere_visible_rays": 23406,
+              "actual_cup_visible_rays_at_original_center": 23401,
+              "full_sphere_max_radial_deficit_mm": 3.5181567082955443,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -13.281039842472254,
+                    -23.40790083892712,
+                    23.098943381487913
+                  ],
+                  "closest_radius_mm": 8.002340605550089,
+                  "first_head_distance_behind_membrane_mm": 38.32097393549982
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.427963850364442,
+                    -24.417365408089523,
+                    25.190587545879367
+                  ],
+                  "closest_radius_mm": 10.247681641226059,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -10.36123179135214,
+                    -24.187560400317828,
+                    26.87610862727735
+                  ],
+                  "closest_radius_mm": 8.991235595523818,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.517530959912058,
+                    -24.636816294606973,
+                    28.372580067367707
+                  ],
+                  "closest_radius_mm": 9.830224538221977,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -10.671639723505315,
+                    -24.55268842090154,
+                    29.87862632681214
+                  ],
+                  "closest_radius_mm": 8.962929798629776,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 29586,
+              "area_mm2": 73.96500000000002,
+              "full_sphere_geometric_miss": 8344,
+              "front_hemisphere_geometric_miss": 8344,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 8344,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 21242,
+              "actual_cup_visible_rays_at_original_center": 21237,
+              "full_sphere_max_radial_deficit_mm": 3.223476964374772,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -13.040579990095509,
+                    -23.499185071346545,
+                    23.394822092519256
+                  ],
+                  "closest_radius_mm": 8.003014007943149,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.477856215309735,
+                    -24.40173990736941,
+                    25.39266807527344
+                  ],
+                  "closest_radius_mm": 10.141749099119336,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.172282040707177,
+                    -24.574947275508357,
+                    26.895746023069584
+                  ],
+                  "closest_radius_mm": 10.171297122857172,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.909977040070366,
+                    -24.502030446640113,
+                    28.33197992365443
+                  ],
+                  "closest_radius_mm": 9.429902558645919,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.413090511622805,
+                    -24.838353006591035,
+                    29.636614490264236
+                  ],
+                  "closest_radius_mm": 10.118799618688838,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 33290,
+              "area_mm2": 83.22500000000001,
+              "full_sphere_geometric_miss": 9572,
+              "front_hemisphere_geometric_miss": 9572,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 9572,
+              "full_sphere_hidden_by_deeper_head": 6,
+              "front_hemisphere_visible_rays": 23712,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 3.4346229670863355,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -13.18538614205918,
+                    -23.445189498834495,
+                    23.09692446236667
+                  ],
+                  "closest_radius_mm": 8.006843800164683,
+                  "first_head_distance_behind_membrane_mm": 38.297646899794
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -11.201041339884746,
+                    -23.909707468444246,
+                    25.291358913899025
+                  ],
+                  "closest_radius_mm": 8.49275979128209,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.467959461877221,
+                    -24.475820532608203,
+                    26.852955428146572
+                  ],
+                  "closest_radius_mm": 9.795728514181995,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.17055216569825,
+                    -24.74950921869872,
+                    28.36363833617134
+                  ],
+                  "closest_radius_mm": 10.095611458635604,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -11.029393330369025,
+                    -24.455743299913507,
+                    29.889225721493105
+                  ],
+                  "closest_radius_mm": 8.536947714424807,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 29586,
+              "area_mm2": 73.96500000000002,
+              "full_sphere_geometric_miss": 8059,
+              "front_hemisphere_geometric_miss": 8059,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 8059,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 21527,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 3.14006268388834,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -12.944926289682435,
+                    -23.536473731253928,
+                    23.392803173398008
+                  ],
+                  "closest_radius_mm": 8.008395782397468,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -11.040486350510648,
+                    -23.940685509356435,
+                    25.486456996820877
+                  ],
+                  "closest_radius_mm": 8.56579642914679,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -11.20903792427719,
+                    -23.921394784094744,
+                    26.99899219350074
+                  ],
+                  "closest_radius_mm": 8.05082670040458,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.61256664502995,
+                    -24.59862438157589,
+                    28.324315582628977
+                  ],
+                  "closest_radius_mm": 9.645247389055571,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -9.924400414963124,
+                    -24.70020098584063,
+                    29.651792378374296
+                  ],
+                  "closest_radius_mm": 9.54106197482384,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_negative34",
+      "camera_toward_vector": [
+        -0.5625650191302901,
+        -0.8222104125750395,
+        0.0865484644815831
+      ],
+      "eye": "positive",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 19319,
+              "area_mm2": 48.29750000000001,
+              "full_sphere_geometric_miss": 2238,
+              "front_hemisphere_geometric_miss": 2238,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 2238,
+              "full_sphere_hidden_by_deeper_head": 992,
+              "front_hemisphere_visible_rays": 16089,
+              "actual_cup_visible_rays_at_original_center": 16088,
+              "full_sphere_max_radial_deficit_mm": 1.158493345737277,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    14.939939508078382,
+                    -22.537848760781003,
+                    23.276216541691536
+                  ],
+                  "closest_radius_mm": 8.010597210501185,
+                  "first_head_distance_behind_membrane_mm": 0.3943362041112124
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.48123300328793,
+                    -20.99246166595229,
+                    27.458452258934322
+                  ],
+                  "closest_radius_mm": 8.342328560638704,
+                  "first_head_distance_behind_membrane_mm": 1.0618895667842025
+                },
+                {
+                  "membrane_xyz_mm": [
+                    17.536375176690985,
+                    -21.842137054060686,
+                    28.8204320117172
+                  ],
+                  "closest_radius_mm": 8.057913710080163,
+                  "first_head_distance_behind_membrane_mm": 6.460603351153445
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.836387438857216,
+                    -21.53593113087917,
+                    29.688281605418325
+                  ],
+                  "closest_radius_mm": 9.0806960371951,
+                  "first_head_distance_behind_membrane_mm": 0.43879728040639066
+                },
+                {
+                  "membrane_xyz_mm": [
+                    17.697022065574355,
+                    -22.40425144645416,
+                    30.76001009646742
+                  ],
+                  "closest_radius_mm": 8.871673587906766,
+                  "first_head_distance_behind_membrane_mm": 1.0416026590287402
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 16398,
+              "area_mm2": 40.995000000000005,
+              "full_sphere_geometric_miss": 1256,
+              "front_hemisphere_geometric_miss": 1256,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1256,
+              "full_sphere_hidden_by_deeper_head": 549,
+              "front_hemisphere_visible_rays": 14593,
+              "actual_cup_visible_rays_at_original_center": 14592,
+              "full_sphere_max_radial_deficit_mm": 0.8545484938133701,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    17.93204029992299,
+                    -20.90967681446864,
+                    26.274938480114013
+                  ],
+                  "closest_radius_mm": 8.01421579492831,
+                  "first_head_distance_behind_membrane_mm": 1.057947389396908
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.48863835991182,
+                    -21.24727378549941,
+                    28.27937171882329
+                  ],
+                  "closest_radius_mm": 8.479903734817444,
+                  "first_head_distance_behind_membrane_mm": 1.5670466787015727
+                },
+                {
+                  "membrane_xyz_mm": [
+                    17.3910284370827,
+                    -22.054566904257406,
+                    29.244299645250372
+                  ],
+                  "closest_radius_mm": 8.10352083588246,
+                  "first_head_distance_behind_membrane_mm": 6.534657724730032
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.155279735357123,
+                    -21.91158045882122,
+                    29.899192757948583
+                  ],
+                  "closest_radius_mm": 8.766843864669807,
+                  "first_head_distance_behind_membrane_mm": 1.3803706112100258
+                },
+                {
+                  "membrane_xyz_mm": [
+                    16.52840902454199,
+                    -22.96113790925625,
+                    30.807077667455935
+                  ],
+                  "closest_radius_mm": 8.237185686044546,
+                  "first_head_distance_behind_membrane_mm": 3.4705415338806205
+                }
+              ]
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 19319,
+              "area_mm2": 48.29750000000001,
+              "full_sphere_geometric_miss": 1939,
+              "front_hemisphere_geometric_miss": 1939,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1939,
+              "full_sphere_hidden_by_deeper_head": 1180,
+              "front_hemisphere_visible_rays": 16200,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 1.0776545581786152,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    15.696703915312703,
+                    -22.051624250458154,
+                    23.555549142117044
+                  ],
+                  "closest_radius_mm": 8.00675973014074,
+                  "first_head_distance_behind_membrane_mm": 0.41384048855088196
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.872511136628397,
+                    -20.951864291064908,
+                    27.78766499948773
+                  ],
+                  "closest_radius_mm": 8.542509634835907,
+                  "first_head_distance_behind_membrane_mm": 0.6536790582376568
+                },
+                {
+                  "membrane_xyz_mm": [
+                    19.29825091607624,
+                    -21.037990116993235,
+                    28.826909527293907
+                  ],
+                  "closest_radius_mm": 8.984263129791255,
+                  "first_head_distance_behind_membrane_mm": 0.3175409798512945
+                },
+                {
+                  "membrane_xyz_mm": [
+                    17.43774360423524,
+                    -22.25192622380112,
+                    29.9587947928135
+                  ],
+                  "closest_radius_mm": 8.295687939196597,
+                  "first_head_distance_behind_membrane_mm": 2.686706135112786
+                },
+                {
+                  "membrane_xyz_mm": [
+                    17.676957211562577,
+                    -22.433577002317534,
+                    30.813285321668417
+                  ],
+                  "closest_radius_mm": 8.809083705933668,
+                  "first_head_distance_behind_membrane_mm": 0.9089570775717633
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 16398,
+              "area_mm2": 40.995000000000005,
+              "full_sphere_geometric_miss": 1083,
+              "front_hemisphere_geometric_miss": 1083,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1083,
+              "full_sphere_hidden_by_deeper_head": 614,
+              "front_hemisphere_visible_rays": 14701,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.7737444149723967,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    18.11932256464244,
+                    -20.901591914491462,
+                    26.616489648272584
+                  ],
+                  "closest_radius_mm": 8.008552326747397,
+                  "first_head_distance_behind_membrane_mm": 1.0090700333353695
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.354548646571168,
+                    -21.35470594781866,
+                    28.44421736184824
+                  ],
+                  "closest_radius_mm": 8.352041635997185,
+                  "first_head_distance_behind_membrane_mm": 1.8390808319765313
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.38003834726097,
+                    -21.583087102961755,
+                    29.212166290374036
+                  ],
+                  "closest_radius_mm": 8.572744439278672,
+                  "first_head_distance_behind_membrane_mm": 1.544325046610446
+                },
+                {
+                  "membrane_xyz_mm": [
+                    18.04970479882273,
+                    -21.97733717811594,
+                    29.95927486306651
+                  ],
+                  "closest_radius_mm": 8.648135375398063,
+                  "first_head_distance_behind_membrane_mm": 1.5139972275565157
+                },
+                {
+                  "membrane_xyz_mm": [
+                    16.864877042745732,
+                    -22.82355740367298,
+                    30.78070742653997
+                  ],
+                  "closest_radius_mm": 8.350106041624661,
+                  "first_head_distance_behind_membrane_mm": 2.9294175046657003
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_positive34",
+      "camera_toward_vector": [
+        0.5625650191302901,
+        -0.8222104125750395,
+        0.0865484644815831
+      ],
+      "eye": "negative",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 19320,
+              "area_mm2": 48.300000000000004,
+              "full_sphere_geometric_miss": 2238,
+              "front_hemisphere_geometric_miss": 2238,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 2238,
+              "full_sphere_hidden_by_deeper_head": 1004,
+              "front_hemisphere_visible_rays": 16078,
+              "actual_cup_visible_rays_at_original_center": 16076,
+              "full_sphere_max_radial_deficit_mm": 1.1556796484577667,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -14.934305733773336,
+                    -22.540998368940883,
+                    23.276718736487776
+                  ],
+                  "closest_radius_mm": 8.008348198207795,
+                  "first_head_distance_behind_membrane_mm": 0.4227599409310727
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -18.47604011375201,
+                    -20.99496690406498,
+                    27.458886625304544
+                  ],
+                  "closest_radius_mm": 8.339463271411642,
+                  "first_head_distance_behind_membrane_mm": 1.0669680808767765
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -19.337202859689462,
+                    -20.975975983580256,
+                    28.669987407120566
+                  ],
+                  "closest_radius_mm": 9.051479340706047,
+                  "first_head_distance_behind_membrane_mm": 0.2965831186717054
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.031227226324965,
+                    -22.398255620567802,
+                    29.838663673595697
+                  ],
+                  "closest_radius_mm": 8.097062224652019,
+                  "first_head_distance_behind_membrane_mm": 7.107943327072064
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -16.427673889297406,
+                    -23.014736703149133,
+                    30.866050648047818
+                  ],
+                  "closest_radius_mm": 8.202814546310467,
+                  "first_head_distance_behind_membrane_mm": 3.5551692089311544
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 16401,
+              "area_mm2": 41.002500000000005,
+              "full_sphere_geometric_miss": 1254,
+              "front_hemisphere_geometric_miss": 1254,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1254,
+              "full_sphere_hidden_by_deeper_head": 563,
+              "front_hemisphere_visible_rays": 14584,
+              "actual_cup_visible_rays_at_original_center": 14582,
+              "full_sphere_max_radial_deficit_mm": 0.8618765337786822,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -17.92677420775578,
+                    -20.912289041042442,
+                    26.27538410842751
+                  ],
+                  "closest_radius_mm": 8.011412341842565,
+                  "first_head_distance_behind_membrane_mm": 1.061260688846268
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -18.03492081462747,
+                    -21.462589503812836,
+                    28.317067291414425
+                  ],
+                  "closest_radius_mm": 8.22716614457503,
+                  "first_head_distance_behind_membrane_mm": 4.9422148920438715
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.312069114442984,
+                    -22.07633951049702,
+                    29.199545851658534
+                  ],
+                  "closest_radius_mm": 8.044350242439489,
+                  "first_head_distance_behind_membrane_mm": 6.884124325619197
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.25320934506114,
+                    -22.33945554933544,
+                    29.97412310433959
+                  ],
+                  "closest_radius_mm": 8.275604355540557,
+                  "first_head_distance_behind_membrane_mm": 3.0257553623563282
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.52226973095331,
+                    -22.47748411302633,
+                    30.723645171940028
+                  ],
+                  "closest_radius_mm": 8.758639172802235,
+                  "first_head_distance_behind_membrane_mm": 1.6485184679016953
+                }
+              ]
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 19320,
+              "area_mm2": 48.300000000000004,
+              "full_sphere_geometric_miss": 1942,
+              "front_hemisphere_geometric_miss": 1942,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1942,
+              "full_sphere_hidden_by_deeper_head": 1188,
+              "front_hemisphere_visible_rays": 16190,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 1.0748425943159532,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -15.690409876334297,
+                    -22.05573886083294,
+                    23.5561529160938
+                  ],
+                  "closest_radius_mm": 8.004414482055024,
+                  "first_head_distance_behind_membrane_mm": 0.42789791159928114
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -18.41367340175224,
+                    -21.174663363397116,
+                    27.82614829355453
+                  ],
+                  "closest_radius_mm": 8.289688934320376,
+                  "first_head_distance_behind_membrane_mm": 1.4268724060835183
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.566661956777473,
+                    -21.88133250144233,
+                    28.972321458521897
+                  ],
+                  "closest_radius_mm": 8.036540066002829,
+                  "first_head_distance_behind_membrane_mm": 6.179307934604289
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -18.150129508963488,
+                    -21.91402334311057,
+                    29.89962056075845
+                  ],
+                  "closest_radius_mm": 8.68345426742644,
+                  "first_head_distance_behind_membrane_mm": 1.3838462681180133
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -16.248583212186656,
+                    -23.099394393799898,
+                    30.93109434970635
+                  ],
+                  "closest_radius_mm": 8.048043392008998,
+                  "first_head_distance_behind_membrane_mm": 3.80020486670616
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 16401,
+              "area_mm2": 41.002500000000005,
+              "full_sphere_geometric_miss": 1081,
+              "front_hemisphere_geometric_miss": 1081,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 1081,
+              "full_sphere_hidden_by_deeper_head": 627,
+              "front_hemisphere_visible_rays": 14693,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 0.7812285893699364,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    -18.11406357320577,
+                    -20.90419376307449,
+                    26.616934184165995
+                  ],
+                  "closest_radius_mm": 8.005723473102869,
+                  "first_head_distance_behind_membrane_mm": 1.0270061506459172
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -18.08025754182197,
+                    -21.48487324432257,
+                    28.4670059014532
+                  ],
+                  "closest_radius_mm": 8.199379074353809,
+                  "first_head_distance_behind_membrane_mm": 4.804946170405103
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -17.45968730693515,
+                    -22.037680066596494,
+                    29.289909044461943
+                  ],
+                  "closest_radius_mm": 8.074974444738952,
+                  "first_head_distance_behind_membrane_mm": 6.22126482448266
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -16.95096781027784,
+                    -22.515557844021288,
+                    30.051764574399662
+                  ],
+                  "closest_radius_mm": 8.060781606960377,
+                  "first_head_distance_behind_membrane_mm": 3.515399270772619
+                },
+                {
+                  "membrane_xyz_mm": [
+                    -16.77302237915631,
+                    -22.864177046685235,
+                    30.788125856139573
+                  ],
+                  "closest_radius_mm": 8.299842347635126,
+                  "first_head_distance_behind_membrane_mm": 3.0440273641082243
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "view": "camera_positive34",
+      "camera_toward_vector": [
+        0.5625650191302901,
+        -0.8222104125750395,
+        0.0865484644815831
+      ],
+      "eye": "positive",
+      "tests": [
+        {
+          "center_y_shift_mm": 0.0,
+          "metrics": {
+            "skin_window": {
+              "rays": 33290,
+              "area_mm2": 83.22500000000001,
+              "full_sphere_geometric_miss": 9884,
+              "front_hemisphere_geometric_miss": 9884,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 9884,
+              "full_sphere_hidden_by_deeper_head": 6,
+              "front_hemisphere_visible_rays": 23400,
+              "actual_cup_visible_rays_at_original_center": 23397,
+              "full_sphere_max_radial_deficit_mm": 3.504119807970021,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    12.772437821408658,
+                    -23.606169047158915,
+                    23.088208550101413
+                  ],
+                  "closest_radius_mm": 8.410257302370669,
+                  "first_head_distance_behind_membrane_mm": 0.10079489244150608
+                },
+                {
+                  "membrane_xyz_mm": [
+                    11.429018284203416,
+                    -23.856337499170728,
+                    25.24852783784333
+                  ],
+                  "closest_radius_mm": 8.389882035968089,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.337232223375107,
+                    -24.518006381000852,
+                    26.84956703953877
+                  ],
+                  "closest_radius_mm": 10.011472495042286,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.783503282582146,
+                    -24.55043292112999,
+                    28.37943424132487
+                  ],
+                  "closest_radius_mm": 9.56194763796441,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.20754286992624,
+                    -24.948276180056737,
+                    29.835165603519386
+                  ],
+                  "closest_radius_mm": 10.376291752686162,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 29596,
+              "area_mm2": 73.99000000000001,
+              "full_sphere_geometric_miss": 8356,
+              "front_hemisphere_geometric_miss": 8356,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 8356,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 21240,
+              "actual_cup_visible_rays_at_original_center": 21237,
+              "full_sphere_max_radial_deficit_mm": 3.2507826877346435,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    12.771112220064616,
+                    -23.604231629809924,
+                    23.38913455893587
+                  ],
+                  "closest_radius_mm": 8.22592212868196,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    11.36888781646379,
+                    -23.856999618883755,
+                    25.446378812382026
+                  ],
+                  "closest_radius_mm": 8.365963898772424,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    10.927351942207672,
+                    -24.008583955732433,
+                    26.94123661040454
+                  ],
+                  "closest_radius_mm": 8.422236483467032,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.97767576604685,
+                    -24.480043029786984,
+                    28.33372453692796
+                  ],
+                  "closest_radius_mm": 9.361614954504685,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    10.914591097417585,
+                    -24.432659045393898,
+                    29.681185518009848
+                  ],
+                  "closest_radius_mm": 8.665600794673102,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "center_y_shift_mm": -0.15,
+          "metrics": {
+            "skin_window": {
+              "rays": 33290,
+              "area_mm2": 83.22500000000001,
+              "full_sphere_geometric_miss": 9568,
+              "front_hemisphere_geometric_miss": 9568,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 9568,
+              "full_sphere_hidden_by_deeper_head": 6,
+              "front_hemisphere_visible_rays": 23716,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 3.42066594157221,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    12.772437821408658,
+                    -23.606169047158915,
+                    23.088208550101413
+                  ],
+                  "closest_radius_mm": 8.3375908824437,
+                  "first_head_distance_behind_membrane_mm": 0.10079489244150608
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.446272782050222,
+                    -24.41173801829784,
+                    25.24127057124004
+                  ],
+                  "closest_radius_mm": 10.131293568256517,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.932747109691718,
+                    -24.325832959473935,
+                    26.86500250562596
+                  ],
+                  "closest_radius_mm": 9.332490073168072,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.932208480102346,
+                    -24.502135953662112,
+                    28.383266411837596
+                  ],
+                  "closest_radius_mm": 9.327363786052295,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    8.747363956919944,
+                    -25.072612998732083,
+                    29.821505504220333
+                  ],
+                  "closest_radius_mm": 10.73922663700135,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            },
+            "central_window_0.3mm_from_raw_rim": {
+              "rays": 29596,
+              "area_mm2": 73.99000000000001,
+              "full_sphere_geometric_miss": 8060,
+              "front_hemisphere_geometric_miss": 8060,
+              "hemisphere_orientation_only_miss": 0,
+              "outward20_hemisphere_geometric_miss": 8060,
+              "full_sphere_hidden_by_deeper_head": 0,
+              "front_hemisphere_visible_rays": 21536,
+              "actual_cup_visible_rays_at_original_center": null,
+              "full_sphere_max_radial_deficit_mm": 3.167283865695163,
+              "full_sphere_miss_examples": [
+                {
+                  "membrane_xyz_mm": [
+                    12.771112220064616,
+                    -23.604231629809924,
+                    23.38913455893587
+                  ],
+                  "closest_radius_mm": 8.152006950127456,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    9.596988369367196,
+                    -24.366379312840614,
+                    25.446165330825913
+                  ],
+                  "closest_radius_mm": 9.929875310705059,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    8.596998659455874,
+                    -24.76430322218289,
+                    26.931289362862998
+                  ],
+                  "closest_radius_mm": 10.656465056559387,
+                  "first_head_distance_behind_membrane_mm": 1.9056077906476503
+                },
+                {
+                  "membrane_xyz_mm": [
+                    10.076812564393649,
+                    -24.447845051475056,
+                    28.336279317269778
+                  ],
+                  "closest_radius_mm": 9.1769657217068,
+                  "first_head_distance_behind_membrane_mm": null
+                },
+                {
+                  "membrane_xyz_mm": [
+                    10.403281194077273,
+                    -24.5708110661443,
+                    29.66600762989978
+                  ],
+                  "closest_radius_mm": 9.0777244695482,
+                  "first_head_distance_behind_membrane_mm": null
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "method": "Orthographic camera rays through a triangulated virtual membrane bounded by the raw 31-point outer eye rim, after excluding actual head skin hits before membrane +0.1 mm. Central subset stays >=0.3 mm from projected raw rim to avoid raw/print boundary differences. Head hits behind membrane remain cavity/rim visibility and are not counted as face skin. First analytic R8 exterior intersection checked for original forward hemisphere and outward20 rotated hemisphere. Actual cup mesh rays additionally checked at original centers.",
+  "limitations": [
+    "Raw rim defines a diagnostic window and is not asserted to be identical to actual printed outside rim. Central window is used for principal conclusion.",
+    "No position/orientation changes were written to geometry; tested shifts and rotations are analytic diagnostics.",
+    "A geometrically hit sphere may still be hidden by deeper eyelid wall; this is reported separately."
+  ]
+}

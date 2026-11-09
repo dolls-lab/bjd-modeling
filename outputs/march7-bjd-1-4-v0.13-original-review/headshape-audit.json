@@ -1,0 +1,823 @@
+{
+  "purpose_zh": "只读核对已接受的 v13 头型与本地三月七原 PMX；不修改模型。",
+  "coordinates": {
+    "units": "mm",
+    "scale": 27.47544416498121,
+    "chin_source_y": 18.16621208190918,
+    "transform": "world=(srcX,srcZ,srcY-chin)*scale",
+    "front_direction": "negative world Y",
+    "common_origin": "original chin at z0; final remesh chin is z0.0693"
+  },
+  "files": {
+    "original_pmx": {
+      "path": "/Users/mmj/Projects/mihoyo/character-doll-workshop/projects/honkai-star-rail/march-7th-preservation-bjd-1-4/references/local/official-models/extracted/星穹铁道—三月七/三月七 1.0.pmx",
+      "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc"
+    },
+    "v13_head": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-head-shell-v0.13-draft.stl",
+      "sha256": "a382b257380f066a1e616298d869e88a5f6c39ffa208c962383c3db8949b6c9d"
+    },
+    "v13_cap": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-head-cap-v0.13-draft.stl",
+      "sha256": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591"
+    },
+    "v13_blend": {
+      "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.13/march7-bjd-head-v0.13-draft.blend",
+      "sha256": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56"
+    }
+  },
+  "source_coverage": {
+    "face_material": {
+      "index": 6,
+      "name": "脸",
+      "triangles": 2176,
+      "vertices": 1230,
+      "min_mm": [
+        -28.064377649518942,
+        -33.79090575710274,
+        0.0
+      ],
+      "max_mm": [
+        28.064377649518942,
+        1.9604173847545356,
+        60.44977130312121
+      ],
+      "texture_index": 0,
+      "texture": "脸.png"
+    },
+    "neck_material_max_z_mm": 21.80708261052826,
+    "hair_material": {
+      "index": 28,
+      "name": "头发",
+      "triangles": 4568,
+      "vertices": 4029,
+      "min_mm": [
+        -51.41415620899689,
+        -38.994832326429915,
+        -27.933570868034238
+      ],
+      "max_mm": [
+        51.245087043725114,
+        56.8883170050606,
+        82.15723153175702
+      ],
+      "texture_index": 7,
+      "texture": "头发.png"
+    },
+    "excluded_head_accessory_material": {
+      "index": 26,
+      "name": "头饰",
+      "triangles": 82,
+      "vertices": 112,
+      "min_mm": [
+        -26.797500361850982,
+        -7.570460902148352,
+        -2.8769958671823566
+      ],
+      "max_mm": [
+        -17.31448035146759,
+        -2.5991751615512104,
+        16.995756528705055
+      ],
+      "texture_index": 2,
+      "texture": "衣服1.png"
+    },
+    "findings_zh": [
+      "脸材质覆盖脸、耳与上额前片；最大Y仅1.9604mm。原文件没有覆盖后脑和完整颅顶的皮肤网格。",
+      "脖子材质最高到z21.8071mm，只提供低位颈/下颌连接，不能补足后脑。",
+      "脸片最高z60.4498mm是前额片的末端，不是原始头顶。",
+      "头发只有一个材质，包含主体、发尾和飞散发束；不能用整个头发包围盒作为头骨尺寸。"
+    ]
+  },
+  "hair_reference_filter": {
+    "weld_rounding_mm": 1e-06,
+    "connected_components": [
+      {
+        "id": 0,
+        "triangles": 3616,
+        "area_mm2": 37303.83219478634,
+        "min_mm": [
+          -51.414156,
+          -38.994832,
+          -18.602973
+        ],
+        "max_mm": [
+          51.245087,
+          56.888317,
+          82.157232
+        ]
+      },
+      {
+        "id": 9,
+        "triangles": 70,
+        "area_mm2": 1757.8273167777825,
+        "min_mm": [
+          13.191002,
+          5.704998,
+          -10.360728
+        ],
+        "max_mm": [
+          39.371482,
+          30.870856,
+          27.94358
+        ]
+      },
+      {
+        "id": 2,
+        "triangles": 55,
+        "area_mm2": 1394.1914369756562,
+        "min_mm": [
+          -36.367482,
+          5.875678,
+          -14.249617
+        ],
+        "max_mm": [
+          -16.186497,
+          27.879872,
+          27.943633
+        ]
+      },
+      {
+        "id": 7,
+        "triangles": 65,
+        "area_mm2": 1343.2654006242035,
+        "min_mm": [
+          -23.3197,
+          10.693799,
+          -8.76635
+        ],
+        "max_mm": [
+          -1.80835,
+          41.840064,
+          30.51694
+        ]
+      },
+      {
+        "id": 6,
+        "triangles": 141,
+        "area_mm2": 1253.2751663243962,
+        "min_mm": [
+          -24.834789,
+          -29.947377,
+          -27.933571
+        ],
+        "max_mm": [
+          -14.640473,
+          8.2954,
+          27.977486
+        ]
+      },
+      {
+        "id": 11,
+        "triangles": 141,
+        "area_mm2": 1252.6233507546335,
+        "min_mm": [
+          14.632144,
+          -29.947403,
+          -27.933571
+        ],
+        "max_mm": [
+          24.834673,
+          8.295409,
+          27.977382
+        ]
+      },
+      {
+        "id": 8,
+        "triangles": 52,
+        "area_mm2": 808.5838189387944,
+        "min_mm": [
+          8.993441,
+          25.834425,
+          -10.922722
+        ],
+        "max_mm": [
+          26.862231,
+          48.669569,
+          22.206777
+        ]
+      },
+      {
+        "id": 3,
+        "triangles": 96,
+        "area_mm2": 588.9112214006141,
+        "min_mm": [
+          -30.04223,
+          7.731656,
+          26.361204
+        ],
+        "max_mm": [
+          -6.538003,
+          44.979918,
+          80.340289
+        ]
+      },
+      {
+        "id": 12,
+        "triangles": 80,
+        "area_mm2": 413.9953544031585,
+        "min_mm": [
+          18.374976,
+          6.01874,
+          31.55535
+        ],
+        "max_mm": [
+          41.438827,
+          19.587475,
+          75.055534
+        ]
+      },
+      {
+        "id": 4,
+        "triangles": 26,
+        "area_mm2": 359.5510385981541,
+        "min_mm": [
+          -26.724939,
+          -25.304948,
+          30.994771
+        ],
+        "max_mm": [
+          -14.163528,
+          -8.054524,
+          61.579419
+        ]
+      },
+      {
+        "id": 10,
+        "triangles": 26,
+        "area_mm2": 346.7936839759007,
+        "min_mm": [
+          13.819898,
+          -24.852314,
+          30.994719
+        ],
+        "max_mm": [
+          26.469748,
+          -8.054514,
+          61.579419
+        ]
+      },
+      {
+        "id": 1,
+        "triangles": 80,
+        "area_mm2": 335.69005320773005,
+        "min_mm": [
+          -42.480404,
+          -16.540912,
+          37.231677
+        ],
+        "max_mm": [
+          -12.022307,
+          -7.200265,
+          73.282717
+        ]
+      },
+      {
+        "id": 13,
+        "triangles": 56,
+        "area_mm2": 27.061151467274165,
+        "min_mm": [
+          20.623366,
+          -22.336024,
+          16.626195
+        ],
+        "max_mm": [
+          25.910975,
+          -19.896094,
+          31.093503
+        ]
+      },
+      {
+        "id": 5,
+        "triangles": 64,
+        "area_mm2": 23.178612193674006,
+        "min_mm": [
+          -25.657172,
+          -22.828882,
+          18.364634
+        ],
+        "max_mm": [
+          -20.990569,
+          -20.025371,
+          31.09345
+        ]
+      }
+    ],
+    "used_component": 0,
+    "used_triangles": 3616,
+    "used_high_region": "z>=35 mm for envelope comparison/plot. All other components and head-accessory material excluded.",
+    "limitations_zh": [
+      "最大连通主体本身仍连着部分外层发束，因此属于发型外包络参照。",
+      "排除了独立飞散束和低位发尾，但无法从头发严格反推出头皮厚度或隐藏头骨。",
+      "发壳与娃头的间距包含发量、刘海和造型空隙，不是颅骨缩小量，也不是实际假发适配公差。"
+    ]
+  },
+  "assembled_v13_bounds": {
+    "min_mm": [
+      -27.776866912841797,
+      -33.49270248413086,
+      0.06929779052734375
+    ],
+    "max_mm": [
+      27.779043197631836,
+      30.50926971435547,
+      69.78440856933594
+    ],
+    "dimensions_mm": [
+      55.55591011047363,
+      64.00197219848633,
+      69.7151107788086
+    ]
+  },
+  "main_hair_bounds_including_attached_lower_tails": {
+    "min_mm": [
+      -51.414156,
+      -38.994832,
+      -18.602973
+    ],
+    "max_mm": [
+      51.245087,
+      56.888317,
+      82.157232
+    ],
+    "dimensions_mm": [
+      102.659243,
+      95.883149,
+      100.76020499999998
+    ]
+  },
+  "highest_z_comparison_mm": {
+    "v13_assembled": 69.78440856933594,
+    "original_main_hair": 82.157232,
+    "hair_minus_print": 12.372823430664056,
+    "meaning": "Hair-top versus doll-skull-top spacing only; original scalp apex is unavailable."
+  },
+  "horizontal_sections": [
+    {
+      "z": 20,
+      "core_hair": {
+        "point_count": 512,
+        "xmin": -46.56252148877212,
+        "xmax": 46.43401912497029,
+        "front_y": -24.715247794651095,
+        "rear_y": 47.20850230756906
+      },
+      "print": {
+        "point_count": 6558,
+        "xmin": -24.174355831301703,
+        "xmax": 24.17299146956886,
+        "front_y": -32.55893218677389,
+        "rear_y": 25.472893333926834
+      },
+      "source_face": {
+        "point_count": 208,
+        "xmin": -24.385259017994454,
+        "xmax": 24.385259017994454,
+        "front_y": -32.884465788643176,
+        "rear_y": 1.0088531284263484
+      }
+    },
+    {
+      "z": 25,
+      "core_hair": {
+        "point_count": 418,
+        "xmin": -42.371081101371324,
+        "xmax": 42.17659787966623,
+        "front_y": -33.09872133534151,
+        "rear_y": 45.329116108863936
+      },
+      "print": {
+        "point_count": 5926,
+        "xmin": -27.203858525235646,
+        "xmax": 27.203285212529124,
+        "front_y": -28.74121007434719,
+        "rear_y": 28.140504973315483
+      },
+      "source_face": {
+        "point_count": 184,
+        "xmin": -27.455167780603794,
+        "xmax": 27.455167780603794,
+        "front_y": -28.84456930282795,
+        "rear_y": 1.9596332022304386
+      }
+    },
+    {
+      "z": 30,
+      "core_hair": {
+        "point_count": 446,
+        "xmin": -40.50649838147199,
+        "xmax": 40.2690241198112,
+        "front_y": -36.362818457668624,
+        "rear_y": 44.73170111708405
+      },
+      "print": {
+        "point_count": 5884,
+        "xmin": -27.116836024342756,
+        "xmax": 27.120594036832422,
+        "front_y": -28.081109977210097,
+        "rear_y": 29.7112879538494
+      },
+      "source_face": {
+        "point_count": 212,
+        "xmin": -27.338000710424218,
+        "xmax": 27.338000710424218,
+        "front_y": -28.15299342374092,
+        "rear_y": 0.4175824940753382
+      }
+    },
+    {
+      "z": 35,
+      "core_hair": {
+        "point_count": 426,
+        "xmin": -39.12950106289069,
+        "xmax": 38.83908189296487,
+        "front_y": -38.123172914789976,
+        "rear_y": 44.490336748277684
+      },
+      "print": {
+        "point_count": 5846,
+        "xmin": -26.929210183736863,
+        "xmax": 26.929798222170042,
+        "front_y": -28.898582097677526,
+        "rear_y": 30.429416523535465
+      },
+      "source_face": {
+        "point_count": 182,
+        "xmin": -25.081457883210643,
+        "xmax": 25.081457883210643,
+        "front_y": -29.140067142603147,
+        "rear_y": -2.480426008638322
+      }
+    },
+    {
+      "z": 40,
+      "core_hair": {
+        "point_count": 428,
+        "xmin": -37.968049695533736,
+        "xmax": 37.94179336589608,
+        "front_y": -38.876859127831715,
+        "rear_y": 44.34576968456838
+      },
+      "print": {
+        "point_count": 5068,
+        "xmin": -26.89961326859054,
+        "xmax": 26.897201943001907,
+        "front_y": -29.62154061255144,
+        "rear_y": 30.353687041610726
+      },
+      "source_face": {
+        "point_count": 144,
+        "xmin": -25.784300496641116,
+        "xmax": 25.784300496641116,
+        "front_y": -29.9748026103569,
+        "rear_y": -2.089480106821453
+      }
+    },
+    {
+      "z": 45,
+      "core_hair": {
+        "point_count": 408,
+        "xmin": -36.79371457280773,
+        "xmax": 36.68540548420008,
+        "front_y": -38.76203087350884,
+        "rear_y": 43.972924602984044
+      },
+      "print": {
+        "point_count": 5298,
+        "xmin": -26.110453132941082,
+        "xmax": 26.112675944886764,
+        "front_y": -29.418309023928863,
+        "rear_y": 29.506520120121923
+      },
+      "source_face": {
+        "point_count": 120,
+        "xmin": -25.936023121616724,
+        "xmax": 25.936023121616724,
+        "front_y": -30.101249234628828,
+        "rear_y": -1.7465684560181745
+      }
+    },
+    {
+      "z": 50,
+      "core_hair": {
+        "point_count": 352,
+        "xmin": -35.550499213404834,
+        "xmax": 35.32249194231954,
+        "front_y": -38.00264117698736,
+        "rear_y": 43.5279242236011
+      },
+      "print": {
+        "point_count": 5038,
+        "xmin": -24.555265570023607,
+        "xmax": 24.556383491985887,
+        "front_y": -27.753648493333362,
+        "rear_y": 27.765547341242915
+      },
+      "source_face": {
+        "point_count": 88,
+        "xmin": -26.02712848383448,
+        "xmax": 26.02712848383448,
+        "front_y": -29.570219030000697,
+        "rear_y": -8.5028750357548
+      }
+    },
+    {
+      "z": 55,
+      "core_hair": {
+        "point_count": 230,
+        "xmin": -34.206787639361295,
+        "xmax": 33.71738951609963,
+        "front_y": -36.32054903795539,
+        "rear_y": 42.43869416525296
+      },
+      "print": {
+        "point_count": 4620,
+        "xmin": -21.996089506974467,
+        "xmax": 21.99614433452682,
+        "front_y": -24.8369066132504,
+        "rear_y": 24.852204484947997
+      },
+      "source_face": {
+        "point_count": 56,
+        "xmin": -23.883550116585866,
+        "xmax": 23.883550116585866,
+        "front_y": -28.549329664814074,
+        "rear_y": -16.407624336541947
+      }
+    },
+    {
+      "z": 60,
+      "core_hair": {
+        "point_count": 210,
+        "xmin": -32.35969279121255,
+        "xmax": 31.769166277337078,
+        "front_y": -33.98452421830164,
+        "rear_y": 40.8941127861126
+      },
+      "print": {
+        "point_count": 4498,
+        "xmin": -18.24164877409633,
+        "xmax": 18.241369791818464,
+        "front_y": -20.573796670121784,
+        "rear_y": 20.576855304584033
+      },
+      "source_face": {
+        "point_count": 20,
+        "xmin": -9.808501217052754,
+        "xmax": 9.808501217052754,
+        "front_y": -27.208571801030374,
+        "rear_y": -25.524678466975164
+      }
+    },
+    {
+      "z": 65,
+      "core_hair": {
+        "point_count": 194,
+        "xmin": -29.667652142539417,
+        "xmax": 28.911813737450906,
+        "front_y": -30.637369429452765,
+        "rear_y": 38.34722019260668
+      },
+      "print": {
+        "point_count": 3334,
+        "xmin": -12.86494526524874,
+        "xmax": 12.86524027864903,
+        "front_y": -14.472353840781766,
+        "rear_y": 14.54919139158754
+      },
+      "source_face": null
+    },
+    {
+      "z": 69,
+      "core_hair": {
+        "point_count": 200,
+        "xmin": -26.62825181351449,
+        "xmax": 25.9034471988106,
+        "front_y": -26.868243751459172,
+        "rear_y": 35.270578799006884
+      },
+      "print": {
+        "point_count": 592,
+        "xmin": -5.235069531430766,
+        "xmax": 5.234781644612774,
+        "front_y": -5.895197266592106,
+        "rear_y": 5.936274516849557
+      },
+      "source_face": null
+    },
+    {
+      "z": 70,
+      "core_hair": {
+        "point_count": 200,
+        "xmin": -25.655950378057693,
+        "xmax": 24.898992147195642,
+        "front_y": -25.66125980557024,
+        "rear_y": 34.501418450606934
+      },
+      "print": null,
+      "source_face": null
+    },
+    {
+      "z": 75,
+      "core_hair": {
+        "point_count": 164,
+        "xmin": -20.13280125670621,
+        "xmax": 19.400017202434988,
+        "front_y": -18.329888713036656,
+        "rear_y": 29.01046685661774
+      },
+      "print": null,
+      "source_face": null
+    },
+    {
+      "z": 80,
+      "core_hair": {
+        "point_count": 132,
+        "xmin": -12.141301677122605,
+        "xmax": 11.572416236272806,
+        "front_y": -14.887237456584243,
+        "rear_y": 19.27007665882752
+      },
+      "print": null,
+      "source_face": null
+    }
+  ],
+  "known_upper_forehead_changes": [
+    {
+      "z_mm": 35,
+      "source_face_front_y_mm": -29.140067142603147,
+      "v13_assembled_front_y_mm": -28.898582097677526,
+      "v13_posterior_retraction_mm": 0.2414850449256214,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    },
+    {
+      "z_mm": 40,
+      "source_face_front_y_mm": -29.9748026103569,
+      "v13_assembled_front_y_mm": -29.62154061255144,
+      "v13_posterior_retraction_mm": 0.3532619978054612,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    },
+    {
+      "z_mm": 45,
+      "source_face_front_y_mm": -30.101249234628828,
+      "v13_assembled_front_y_mm": -29.418309023928863,
+      "v13_posterior_retraction_mm": 0.6829402106999645,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    },
+    {
+      "z_mm": 50,
+      "source_face_front_y_mm": -29.570219030000697,
+      "v13_assembled_front_y_mm": -27.753648493333362,
+      "v13_posterior_retraction_mm": 1.816570536667335,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    },
+    {
+      "z_mm": 55,
+      "source_face_front_y_mm": -28.549329664814074,
+      "v13_assembled_front_y_mm": -24.8369066132504,
+      "v13_posterior_retraction_mm": 3.7124230515636754,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    },
+    {
+      "z_mm": 60,
+      "source_face_front_y_mm": -27.208571801030374,
+      "v13_assembled_front_y_mm": -20.573796670121784,
+      "v13_posterior_retraction_mm": 6.63477513090859,
+      "interpretation": "Same-height frontmost surface comparison; not point correspondence. At z60 the source patch is only a narrow central remnant."
+    }
+  ],
+  "shape_descriptors": [
+    {
+      "z_mm": 35,
+      "width_mm": 53.859008405906906,
+      "depth_mm": 59.32799862121299,
+      "center_xy_mm": [
+        0.0002940192165894473,
+        0.7654172129289698
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9907707434634013,
+        1.083091420404845
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 40,
+      "width_mm": 53.796815211592445,
+      "depth_mm": 59.97522765416217,
+      "center_xy_mm": [
+        -0.001205662794315998,
+        0.3660732145296439
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.99609283042492,
+        1.0512724340888158
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 45,
+      "width_mm": 52.22312907782785,
+      "depth_mm": 58.92482914405079,
+      "center_xy_mm": [
+        0.0011114059728409842,
+        0.04410554809653
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9996570481217699,
+        1.016923098484371
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 50,
+      "width_mm": 49.11164906200949,
+      "depth_mm": 55.51919583457628,
+      "center_xy_mm": [
+        0.0005589609811398333,
+        0.005949423954776378
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9985235637770687,
+        1.0011255242535877
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 55,
+      "width_mm": 43.99223384150129,
+      "depth_mm": 49.689111098198396,
+      "center_xy_mm": [
+        2.7413776177098725e-05,
+        0.007648935848798999
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9988414915156324,
+        1.000262352368368
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 60,
+      "width_mm": 36.48301856591479,
+      "depth_mm": 41.150651974705816,
+      "center_xy_mm": [
+        -0.00013949113893296783,
+        0.001529317231124594
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9990048702584826,
+        1.0002682469980226
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    },
+    {
+      "z_mm": 65,
+      "width_mm": 25.73018554389777,
+      "depth_mm": 29.021545232369306,
+      "center_xy_mm": [
+        0.00014750670014418432,
+        0.03841877540288685
+      ],
+      "ellipse_normalized_radius_min_max": [
+        0.9987863196755201,
+        1.0008942106162182
+      ],
+      "note": "Convex section envelope; exact ellipse has normalized radius1. This is a shape descriptor, not a source-agreement score."
+    }
+  ],
+  "optional_upper_envelope_volume_proxy": {
+    "values": {
+      "35": {
+        "print": 59754.510848320686,
+        "main_hair": 162292.32611345817,
+        "print_over_main_hair": 0.36819061183796487
+      },
+      "45": {
+        "print": 34290.279419626975,
+        "main_hair": 113302.94182665893,
+        "print_over_main_hair": 0.3026424457017836
+      }
+    },
+    "definition": "Convex hull of clipped outer envelope above indicated z, not material volume or true head volume. Main hair envelope includes air gaps and stylized bulk.",
+    "interpretation_zh": "仅描述发型与娃头外包络体量；比例不等于原头骨缩放率，不能据此判定颅壳小同样百分比。"
+  },
+  "conclusion_zh": {
+    "directly_verifiable": "v13与原上额不是完全一致：z50/55/60的前表面分别后收约1.82/3.71/6.63mm。当前属于保留角色面部基础后进行的娃头上额/颅壳改造，不能称完整原头骨复原。",
+    "estimated_cranium": "当前为较紧凑的低圆顶、椭圆后脑。它处于原主体发型包络之内且留有明显发量空间；未见大到明显超出该包络，但原颅顶和后脑尺寸无法由缺失皮肤网格核实，也不能单凭头发间距判定明显过小。",
+    "pointed_or_square": "高位z45至65截面接近椭圆：标准化径向极差约0.9997..1.0169（z45）、约0.9985..1.0011（z50）；没有明显方角。侧面和正面截线呈圆顶，没有额外尖顶。此为当前形状描述，不是原始头型一致性证明。",
+    "recommendation": "用户已接受当前头型，本次只揭示差异并保留模型。若今后追求更贴近原可见上额，可单独讨论恢复其前凸与饱满度；后脑只能作为基于脸片/发型的估计设计。"
+  },
+  "audit_limits": [
+    "No actual hidden scalp or cranial volume is present to measure.",
+    "Raw PMX is low polygon; source section curves retain its facets.",
+    "Current skull statistics include both assembled head and cap, not the main shell alone.",
+    "This audit does not claim exact final facial vertex equality; hollowing, remesh and agreed local finishing have numerical changes."
+  ],
+  "model_mutations": false,
+  "figures": [
+    "headshape-sections.png",
+    "headshape-sections.svg"
+  ],
+  "input_file_hashes_unchanged_after_analysis": true
+}

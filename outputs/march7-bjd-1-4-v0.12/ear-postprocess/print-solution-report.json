@@ -1,0 +1,121 @@
+{
+  "baseline_blend": "/private/tmp/v12-ear/pre-ear-v12/march7-bjd-head-v0.12-draft.blend",
+  "baseline_blend_sha256": "0b4a088fc8d72fbe75d02f09541070630a5ab1a042a948f1b9b0b3d84796a86d",
+  "method": "Actual print outer rear-ear/root groove and narrow shared-rim strip constrained3D cotangent minimum-bending fairing, actual mesh-border0.25mm C2 feather. Rim receives8x position prior and<=0.17mm displacement; remaining support<=0.30mm. Small active-set constraints retain>=25% baseline projected triangle area at groove slivers. No topology change or displacement clipping.",
+  "free_vertices": 8860,
+  "trials": [
+    {
+      "alpha": 0.1,
+      "max_mm": 1.034283432549536,
+      "rim_max_mm": 0.9058147674513731,
+      "p95_mm": 0.6741219564996703,
+      "normal_over_90_count": 21,
+      "orientation_constraints": []
+    },
+    {
+      "alpha": 1,
+      "max_mm": 0.6794701202151743,
+      "rim_max_mm": 0.5551876892870199,
+      "p95_mm": 0.3847170532567145,
+      "normal_over_90_count": 15,
+      "orientation_constraints": []
+    },
+    {
+      "alpha": 3,
+      "max_mm": 0.5205154754135151,
+      "rim_max_mm": 0.3839803290378138,
+      "p95_mm": 0.26406201176656857,
+      "normal_over_90_count": 11,
+      "orientation_constraints": []
+    },
+    {
+      "alpha": 10,
+      "max_mm": 0.379714557330454,
+      "rim_max_mm": 0.24351037750499627,
+      "p95_mm": 0.1700757954252028,
+      "normal_over_90_count": 8,
+      "orientation_constraints": []
+    },
+    {
+      "alpha": 30,
+      "max_mm": 0.2219688900479136,
+      "rim_max_mm": 0.15640479213571973,
+      "p95_mm": 0.10341089449306724,
+      "normal_over_90_count": 0,
+      "orientation_constraints": [
+        {
+          "iteration": 0,
+          "below_quarter_projected_area": 163,
+          "minimum_projected_area_ratio": -0.024512085961631142
+        },
+        {
+          "iteration": 1,
+          "below_quarter_projected_area": 8,
+          "minimum_projected_area_ratio": -0.010659240279368605
+        },
+        {
+          "iteration": 2,
+          "below_quarter_projected_area": 2,
+          "minimum_projected_area_ratio": 0.21864075077763354
+        },
+        {
+          "iteration": 3,
+          "below_quarter_projected_area": 0,
+          "minimum_projected_area_ratio": 0.28106463679168425
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "alpha": 30,
+    "max_mm": 0.2219688900479136,
+    "rim_max_mm": 0.15640479213571973,
+    "p95_mm": 0.10341089449306724,
+    "normal_over_90_count": 0,
+    "orientation_constraints": [
+      {
+        "iteration": 0,
+        "below_quarter_projected_area": 163,
+        "minimum_projected_area_ratio": -0.024512085961631142
+      },
+      {
+        "iteration": 1,
+        "below_quarter_projected_area": 8,
+        "minimum_projected_area_ratio": -0.010659240279368605
+      },
+      {
+        "iteration": 2,
+        "below_quarter_projected_area": 2,
+        "minimum_projected_area_ratio": 0.21864075077763354
+      },
+      {
+        "iteration": 3,
+        "below_quarter_projected_area": 0,
+        "minimum_projected_area_ratio": 0.28106463679168425
+      }
+    ]
+  },
+  "ear_rear": {
+    "count": 5314,
+    "mean_mm": 0.02661935930156394,
+    "p95_mm": 0.09915341068748933,
+    "max_mm": 0.20093747540108944
+  },
+  "scalp_root": {
+    "count": 3546,
+    "mean_mm": 0.023344066109937067,
+    "p95_mm": 0.11269353720916991,
+    "max_mm": 0.2219688900479153
+  },
+  "minimum_normal_dot": 0.5258782339251126,
+  "normal_over_90_count": 0,
+  "unchanged_outside_support": true,
+  "narrow_rim": {
+    "count": 2984,
+    "mean_mm": 0.014212273490104507,
+    "p95_mm": 0.03601928796682179,
+    "max_mm": 0.15640479213572064
+  },
+  "solution_sha256": "0b4eff172136fbdcb31247535faa2170171105589b449ada29d4670b0e3a7ac0",
+  "status": "Local intersection and thickness regression checks passed; same two actual-geometry views visually accepted. Applied final model is recorded separately in ear-finish-provenance.json."
+}

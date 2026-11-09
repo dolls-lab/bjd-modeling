@@ -1,0 +1,123 @@
+{
+  "version": "v0.9-draft",
+  "scope": "Independent mother-surface geometry, actual STL normal-ray wall samples, eye insertion and eye-aperture comparison. Full assembly and topology are reported separately by validate_mesh.py.",
+  "inputs": {
+    "head": {
+      "file": "march7-head-shell-v0.9-draft.stl",
+      "sha256": "e56e68aab2e78e83a08b2c744cba491bee10b3a3543a176f088352f49487c59d"
+    },
+    "cap": {
+      "file": "march7-head-cap-v0.9-draft.stl",
+      "sha256": "8a78f001b2dd9da11ff04ed070a9f5003dc964fda414ae126d82bd6c71a2225f"
+    },
+    "mother": {
+      "file": "mother-surface.npz",
+      "sha256": "db379e1fccc1ad524768b4c0b31a9241dbbf6f398fbe23747ff9ed2e5c21d0e2"
+    },
+    "blend": {
+      "file": "march7-bjd-head-v0.9-draft.blend",
+      "sha256": "554e10d8123171fac695229f22b8df7206eb26ae5f3b22a70c793bf421b42db3"
+    }
+  },
+  "mother_surface": {
+    "report": "mother-intersection-check.json",
+    "full_nonadjacent_triangle_self_intersection_check_pass": true,
+    "triangles": 90848,
+    "tested_AABB_candidate_pairs": 73416,
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "normal_rotations_over_90deg": 0,
+    "degenerate_triangles": 0,
+    "core_and_ear_body_exactly_preserved_in_mother": true,
+    "upper_forehead_reconstructed_max_source_shift_mm": 4.608767035807183,
+    "note": "Mother source-core preservation is not a claim that the remeshed print surface is pointwise identical to v8; source-surface audit is separate."
+  },
+  "actual_print_self_intersection": {
+    "report": "print-intersection-check.json",
+    "pass": true,
+    "head_triangles": 521956,
+    "cap_triangles": 102684,
+    "head_nonadjacent_AABB_candidate_pairs": 187811,
+    "cap_nonadjacent_AABB_candidate_pairs": 150888,
+    "strict_intersections": 0,
+    "ambiguous_contacts": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "full_mesh_covered": true,
+    "geometry_modified": false,
+    "limitations": "Any pair sharing a vertex is excluded. This does not prove neighboring triangles cannot overlap elsewhere away from that shared vertex. It is distinct from the assembly intersection check."
+  },
+  "wall_samples": {
+    "report": "side-shell-review.json",
+    "figure": "side-shell-review.png",
+    "actual_mesh_based": true,
+    "ordinary_head_minimum_mm": 2.598229944413583,
+    "new_cap_minimum_mm": 2.5977855035143453,
+    "ear_neighborhood_cranium_excluding_original_pinna_minimum_mm": 2.4415809151505536,
+    "original_ear_skin_minimum_sample_mm": 1.7777924104565281,
+    "cranium_samples_below_2mm": 0,
+    "ear_skin_samples_below_2mm": 17,
+    "classification_evidence": "All 17 sub-2mm ear-neighborhood outer hits match original ear triangles within 0.0015\u20130.0190mm; they are separately retained, not omitted.",
+    "limit": "Discrete normal-ray samples, not a mathematical global minimum-wall proof."
+  },
+  "eye_insertion": {
+    "report": "eye-insertion-check.json",
+    "pass": true,
+    "nominal_diameter_mm": 16.0,
+    "conservative_enclosing_polyhedron_diameter_mm": 16.01297088981719,
+    "minimum_selected_segment_clearance_mm": 0.1870023452097953
+  },
+  "eye_apertures": {
+    "report": "face-opening-comparison.json",
+    "figure": "eye-aperture-comparison.png",
+    "baseline": "v0.8",
+    "sample_pitch_mm": 0.05,
+    "all_projections_valid": true,
+    "current_width_height_mm": [
+      [
+        11.0,
+        9.55
+      ],
+      [
+        11.0,
+        9.55
+      ]
+    ],
+    "area_changes_mm2": [
+      0.11000000000001364,
+      0.09000000000000341
+    ],
+    "note": "Small remeshing edge-pixel changes exist; aperture is not claimed exactly pixel-identical."
+  },
+  "curvature_evidence": {
+    "report": "upper-forehead-profile-review.json",
+    "figure": "upper-forehead-profile-review.png",
+    "note": "One mid-sagittal upper-forehead profile supports removal of the prior artificial shoulder; this does not claim every facial/ear cross-section is globally convex."
+  },
+  "physical_fit": "No physical print, eye installation or cap-fit test has been performed.",
+  "assembly_and_topology": {
+    "report": "validation.json",
+    "pass": true,
+    "fully_seated_cap_intersection_pass": true,
+    "cap_removal_path_pass": true,
+    "actual_horizontal_girth_mm": 180.8627464184571,
+    "girth_measure_z_mm": 40.49297765452825,
+    "historical_girth_190mm_not_preserved": true,
+    "reason": "Complete rounded cranium reconstructed while retaining facial scale; 190mm was an earlier design target, not an exact user size constraint."
+  },
+  "independent_reviews_complete": true,
+  "blend_stl_consistency": {
+    "report": "blend-stl-consistency.json",
+    "pass": true,
+    "comparison": "Evaluated Blender world-space loop triangles cast to float32; vertices within each triangle and triangle collections canonicalized, then compared exactly, including float32 bits.",
+    "bitwise_equal_triangle_collections": true,
+    "maximum_coordinate_difference_mm": 0.0,
+    "head_polygons": 521904,
+    "head_exported_triangles": 521956,
+    "cap_polygons": 102656,
+    "cap_exported_triangles": 102684,
+    "blend_unchanged": true,
+    "stls_unchanged": true,
+    "read_only": true
+  }
+}

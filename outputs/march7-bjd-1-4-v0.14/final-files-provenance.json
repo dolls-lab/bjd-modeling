@@ -1,0 +1,22 @@
+{
+  "blend": {
+    "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend",
+    "sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a"
+  },
+  "head_stl": {
+    "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl",
+    "sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada"
+  },
+  "cap_stl": {
+    "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl",
+    "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a"
+  },
+  "solution": {
+    "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/final-change-solution.npz",
+    "sha256": "95277810376106c2bb776efa342233719024690e8a24278554ad2945c936aa92"
+  },
+  "build_report": {
+    "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14/build-report.json",
+    "sha256": "038c4e5583ad075fcc636125a38db4d0271c540e5ef7bf1b61c72a4ca42a7907"
+  }
+}

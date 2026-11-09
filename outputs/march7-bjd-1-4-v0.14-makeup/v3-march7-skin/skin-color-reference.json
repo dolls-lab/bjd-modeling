@@ -1,0 +1,29 @@
+{
+  "source_texture": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/source-reference/textures/脸.png",
+  "source_texture_sha256": "3adb1f6cbb5ecd0b4ff81226c3e29f42fb396308ea3619ddd1340749aee84af5",
+  "sample_pixel_bbox": [
+    440,
+    184,
+    583,
+    235
+  ],
+  "sample_method": "Median RGB of original unpainted forehead sample, excluding brows and eye makeup.",
+  "sample_srgb_8bit": [
+    242,
+    213,
+    202
+  ],
+  "sample_hex": "#F2D5CA",
+  "shader_linear_rgb": [
+    0.8879231178819663,
+    0.665387298282272,
+    0.5906188409193369
+  ],
+  "source_face_material_diffuse": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "application": "Uniform head and cap base color only; keep the existing local makeup RGBA layer and all eye materials."
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "file": "skin-before-after.png",
+    "sha256": "ef25f03926c2573923c4032e039869b0078813618d044bab371aaabb293c3600",
+    "inputs": [
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v2-surface-paint/previews/makeup-front.png",
+        "sha256": "b91c63baae5b32a898d11002338df11227bce56ca771b6195331dda36768a1ae"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-front.png",
+        "sha256": "3da600ffec2b1346bc5d44bb876c7e9f8ff6bb6537ca9eafae586eb315611634"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v2-surface-paint/previews/makeup-quarter-left.png",
+        "sha256": "29c263e5ebf8e6f5aaed2f0e7e65aafc5a26655c128ee0ac920a9b4974e68c5d"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-quarter-left.png",
+        "sha256": "a68f6224f5ef5397135d800fcc38a8e68b2c43cea07270ccba3d15d0c9318492"
+      }
+    ],
+    "operations": "Resize and arrange only; no recoloring or retouching."
+  },
+  {
+    "file": "skin-multiview.png",
+    "sha256": "4275486bf3379029ab3a8520d1dccab972efd018d775a00d5bddcc0baad85146",
+    "inputs": [
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-front.png",
+        "sha256": "3da600ffec2b1346bc5d44bb876c7e9f8ff6bb6537ca9eafae586eb315611634"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-quarter-left.png",
+        "sha256": "a68f6224f5ef5397135d800fcc38a8e68b2c43cea07270ccba3d15d0c9318492"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-quarter-right.png",
+        "sha256": "c96bb2f8044e5c254a90d15f5f8330d3b4a7c8ce65f24ef9626d38e3e1aa3800"
+      },
+      {
+        "path": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/previews/skin-side.png",
+        "sha256": "821bfa11ce480a34b1d0cb8f757939adcaecbe9523f44c0092df5c5a7c5c6667"
+      }
+    ],
+    "operations": "Resize and arrange only; no recoloring or retouching."
+  }
+]

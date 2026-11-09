@@ -1,0 +1,30 @@
+{
+  "accepted_final_preview_sha256": "178c0119afa160f73df1b7dc40c1493aa14e3ff0ef1f6c5d95ccce93cac2d314",
+  "actual_model_renders_reviewed": [
+    "makeup-front.png",
+    "makeup-quarter-left.png",
+    "makeup-quarter-right.png",
+    "makeup-side.png",
+    "hair-front.png",
+    "hair-quarter-left.png",
+    "hair-quarter-right.png",
+    "original-front.png",
+    "original-quarter-left.png"
+  ],
+  "checks": {
+    "front_and_both_quarter_views_reviewed": true,
+    "side_view_reviewed": true,
+    "eyebrow_tail_floating_corrected": true,
+    "no_obvious_eye_surface_penetration_in_reviewed_views": true,
+    "same_camera_original_reference_compared": true,
+    "skin_and_makeup_colors_reviewed": true,
+    "head_and_cap_geometry_hashes_unchanged": true
+  },
+  "notes": [
+    "Original face UV/eye/brow/hair assets are used for a visual preview.",
+    "Eyebrows conform to unchanged head; lashes preserve the source raised shape with minimal visibility offset.",
+    "Soft shading retains visible facial volume; this is not a calibrated physical faceup simulation.",
+    "Baked ear contour color can show a slight material boundary at the ear root; printed head geometry is unchanged.",
+    "Only preview accessories changed; original v14 remains the printable geometry."
+  ]
+}

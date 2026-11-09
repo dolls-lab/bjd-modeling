@@ -1,0 +1,67 @@
+{
+  "model_sha256": "1133e110e71d8df3e880de6cf476a0bebb01637ba6717307a9b3029e45c0ba30",
+  "model_files_unchanged_by_render": true,
+  "image_method": "Actual Blender render, same studio as v4 and original comparison, no retouching.",
+  "views": [
+    {
+      "file": "face-front.png",
+      "camera_mm": [
+        0,
+        -220,
+        28
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 61,
+      "sha256": "354bf08991d7eb99b0516973f57ed05b295d623b29eb617741256a89e84e699c"
+    },
+    {
+      "file": "face-quarter.png",
+      "camera_mm": [
+        -125,
+        -200,
+        60
+      ],
+      "target_mm": [
+        0,
+        -18,
+        27
+      ],
+      "ortho_width_mm": 65,
+      "sha256": "738ade8f4cc1f98916664d340dd01932032ebf06a8c6b669660015beb9ba29c5"
+    },
+    {
+      "file": "front.png",
+      "camera_mm": [
+        0,
+        -220,
+        27
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 133,
+      "sha256": "c549e38cdf58ee194fcab59554dd3b724d2f05042b0c933f047675a89fe7ff7f"
+    },
+    {
+      "file": "quarter-left.png",
+      "camera_mm": [
+        -140,
+        -210,
+        58
+      ],
+      "target_mm": [
+        0,
+        0,
+        27
+      ],
+      "ortho_width_mm": 135,
+      "sha256": "2e333cad8067b140b001708b58c51ff60f4ed1a15f79c240a0b13dea640f665c"
+    }
+  ]
+}

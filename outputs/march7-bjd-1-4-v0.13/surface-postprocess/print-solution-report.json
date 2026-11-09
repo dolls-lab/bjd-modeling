@@ -1,0 +1,58 @@
+{
+  "baseline_blend": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.12/march7-bjd-head-v0.12-draft.blend",
+  "baseline_blend_sha256": "d8aba34db9f1013902c94c1f532044e4d92c31af43fee0f041e8938f7c4b296f",
+  "method": "Local actual-print temple skin fairing only, cotangent minimum bending + position prior; broad C2 domain and 0.7 mm mesh-border feather; small active-set projected area constraints, no clipping/remesh",
+  "free_vertices": 17623,
+  "trials": [
+    {
+      "alpha": 0.1,
+      "max_mm": 0.3201650172815285,
+      "rim_max_mm": 0.0,
+      "p95_mm": 0.21840002404474532,
+      "normal_over_90_count": 0,
+      "orientation_constraints": [
+        {
+          "iteration": 0,
+          "below_quarter_projected_area": 0,
+          "minimum_projected_area_ratio": 0.760974459833445
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "alpha": 0.1,
+    "max_mm": 0.3201650172815285,
+    "rim_max_mm": 0.0,
+    "p95_mm": 0.21840002404474532,
+    "normal_over_90_count": 0,
+    "orientation_constraints": [
+      {
+        "iteration": 0,
+        "below_quarter_projected_area": 0,
+        "minimum_projected_area_ratio": 0.760974459833445
+      }
+    ]
+  },
+  "maximum_displacement_mm": 0.3201650172815278,
+  "mean_displacement_mm": 0.058069217916877136,
+  "p95_displacement_mm": 0.21840002404474454,
+  "normal_over_90_count": 0,
+  "minimum_normal_dot": 0.8737333892681837,
+  "outside_support_exactly_unchanged": true,
+  "ear_exactly_unchanged": true,
+  "eye_guard_exactly_unchanged": true,
+  "inner_wall_exactly_unchanged": true,
+  "envelope_direction_count": 1368,
+  "maximum_global_support_change_mm": 0.24276723171149328,
+  "before_bounds_mm": [
+    55.55591011047363,
+    57.54785919189453,
+    69.7151107788086
+  ],
+  "after_bounds_mm": [
+    55.55591011047363,
+    57.54785919189453,
+    69.7151107788086
+  ],
+  "solution_sha256": "4e5830997830360a66048cee12041f750e4cc745a19a65afcedcb1601dd3c882"
+}

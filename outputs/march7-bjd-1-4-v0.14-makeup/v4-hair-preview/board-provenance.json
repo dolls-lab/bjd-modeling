@@ -1,0 +1,40 @@
+[
+  {
+    "file": "original-hair-multiview.png",
+    "sha256": "f932751cd22ac9a239399db06659183e825ba2d4203859c2055643a163fb877c",
+    "inputs": [
+      {
+        "file": "front.png",
+        "sha256": "2a87f3374bb7a5aeb06425a99df497a0d8f23710b4908a89e137b78005b5e659"
+      },
+      {
+        "file": "quarter-left.png",
+        "sha256": "03a854f7a6634bf144c8eba0e049e358e002b6aef85f0c809dad35efa462c393"
+      },
+      {
+        "file": "quarter-right.png",
+        "sha256": "29af403f43bbb08893f509a860c6970386b13ddaaf2fb5f996b779e2fff7b3b7"
+      },
+      {
+        "file": "side.png",
+        "sha256": "18409a92bd928a490226916e52daec1ceb5c1f3532c5d47452d020bbd3d87739"
+      }
+    ],
+    "operations": "Resize and layout only; no retouching or recoloring."
+  },
+  {
+    "file": "original-hair-face-closeups.png",
+    "sha256": "8bef3eedf2d8f0d55d92ab77ef352fc517bc287f06d0116e9402ad3e3511ce19",
+    "inputs": [
+      {
+        "file": "face-front.png",
+        "sha256": "e574b05f56e59df05f56c96212242cb4d206a080e50efdce7327fd60a43e0cff"
+      },
+      {
+        "file": "face-quarter.png",
+        "sha256": "97a42af518deb3943eb16bd5c4eddb30799bc2697553d0c4c7c06b7aa58f9c08"
+      }
+    ],
+    "operations": "Resize and layout only; no retouching or recoloring."
+  }
+]

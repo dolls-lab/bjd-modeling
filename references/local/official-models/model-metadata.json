@@ -1,0 +1,457 @@
+{
+  "file": "extracted/星穹铁道—三月七/三月七 1.0.pmx",
+  "sha256": "942aef2af3a465e77c1569369b3c422fdf64f8494cbdf3b529a88c3cc66c13dc",
+  "pmx_version": 2.0,
+  "encoding": "utf-16-le",
+  "model_name": "三月七",
+  "english_name": "三月七",
+  "comment": "\r\n允许改造，优化骨骼和刚体，重制UV\r\n\r\n===================\r\n请勿二次配布\r\n\r\n请勿用于18禁作品，极端宗教宣传，血腥恐怖猎奇作品，人身攻击等\r\n\r\n请勿用于商业用途\r\n\r\n他人使用本模型所造成的一切不良后果，不由模型改造者与miHoYo承担，请向使用者追究全部责任\r\n\r\n模型编辑：神帝宇\r\n\r\n模型版权所属miHoYo",
+  "english_comment": "\r\n允许改造，优化骨骼和刚体，重制UV\r\n\r\n===================\r\n请勿二次配布\r\n\r\n请勿用于18禁作品，极端宗教宣传，血腥恐怖猎奇作品，人身攻击等\r\n\r\n请勿用于商业用途\r\n\r\n他人使用本模型所造成的一切不良后果，不由模型改造者与miHoYo承担，请向使用者追究全部责任\r\n\r\n模型编辑：神帝宇\r\n\r\n模型版权所属miHoYo",
+  "vertices": 21218,
+  "triangles": 28039,
+  "bounds_model_units": {
+    "min": [
+      -7.3655805587768555,
+      -2.3936736397445202e-05,
+      -2.119879722595215
+    ],
+    "max": [
+      7.3655805587768555,
+      21.156417846679688,
+      2.254667043685913
+    ]
+  },
+  "textures": [
+    "脸.png",
+    "toon3.png",
+    "衣服1.png",
+    "mc3.png",
+    "toon2.png",
+    "衣服.png",
+    "mc1.png",
+    "头发.png",
+    "表情.png"
+  ],
+  "materials": [
+    {
+      "name": "口腔",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 2052,
+      "triangles": 684,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "牙",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 672,
+      "triangles": 224,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "眉毛",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 1824,
+      "triangles": 608,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "眼白",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 1422,
+      "triangles": 474,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "眼睛",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 702,
+      "triangles": 234,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "眼睛1",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 150,
+      "triangles": 50,
+      "diffuse": [
+        0.0,
+        0.0,
+        0.0,
+        0.30000001192092896
+      ],
+      "memo": ""
+    },
+    {
+      "name": "脸",
+      "english_name": "",
+      "texture": "脸.png",
+      "indices": 6528,
+      "triangles": 2176,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "脖子",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1500,
+      "triangles": 500,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "手",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 5634,
+      "triangles": 1878,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "手套",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 2688,
+      "triangles": 896,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "腿",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 5874,
+      "triangles": 1958,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "衣服",
+      "english_name": "",
+      "texture": "衣服.png",
+      "indices": 16077,
+      "triangles": 5359,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "袖子",
+      "english_name": "",
+      "texture": "衣服.png",
+      "indices": 2976,
+      "triangles": 992,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "袖子1",
+      "english_name": "",
+      "texture": "衣服.png",
+      "indices": 984,
+      "triangles": 328,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "袖子2",
+      "english_name": "",
+      "texture": "衣服.png",
+      "indices": 2676,
+      "triangles": 892,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "腿环",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1722,
+      "triangles": 574,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "鞋子",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 3708,
+      "triangles": 1236,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "鞋饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 2052,
+      "triangles": 684,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "衣饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 66,
+      "triangles": 22,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "衣饰1",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 300,
+      "triangles": 100,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "衣饰铁",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1476,
+      "triangles": 492,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "腰饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 684,
+      "triangles": 228,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "腰带",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1842,
+      "triangles": 614,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "相机",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1410,
+      "triangles": 470,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "背饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1980,
+      "triangles": 660,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "背饰1",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 120,
+      "triangles": 40,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "头饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 246,
+      "triangles": 82,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "脖饰",
+      "english_name": "",
+      "texture": "衣服1.png",
+      "indices": 1722,
+      "triangles": 574,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "头发",
+      "english_name": "",
+      "texture": "头发.png",
+      "indices": 13704,
+      "triangles": 4568,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    },
+    {
+      "name": "表情",
+      "english_name": "en",
+      "texture": "表情.png",
+      "indices": 1326,
+      "triangles": 442,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "memo": ""
+    }
+  ]
+}

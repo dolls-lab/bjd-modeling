@@ -1,0 +1,48 @@
+{
+  "solution": "/private/tmp/march7-bjd-work/v7-analysis/candidate3/head-solution.npz",
+  "solution_sha256": "239a82f6f22c3b6c5c29773c116e6360b0319aa73a01064f917f879af73b6a40",
+  "candidate2_sha256": "c9ebf7d6caa1843950967b63c42db935c71776cbd47142d8a4816fc7e2b3d4bf",
+  "actual_stl": "/Users/mmj/Projects/mihoyo/hksr_database/outputs/march7-bjd-1-4-v0.7/march7-head-shell-v0.7-draft.stl",
+  "actual_stl_sha256": "c292157ccc1cacd22713c175f4c5d356b656298005510435ee06c9c13b34cb9f",
+  "actual_stl_matches_candidate3_float32_facet_corners_exactly": true,
+  "actual_stl_max_facet_corner_error_mm": 0.0,
+  "comparison": "Incremental candidate2 to candidate3 only; preceding whole-ear candidate2 checks are not repeated.",
+  "released_count": 442,
+  "changed_vertex_count": 442,
+  "changed_triangles_count": 1052,
+  "maximum_incremental_move_mm": 0.12359659284041988,
+  "nonreleased_incremental_max_mm": 0.0,
+  "remaining_source_locked_incremental_max_mm": 0.0,
+  "declared_front_nearest_incremental_max_mm": 0.0,
+  "declared_rear_ear_0_5mm_boundary_band_incremental_max_mm": 0.0,
+  "front_and_outline_limit": "Uses the provided audited geometric ear masks for fixed-region checks; independent semantic mask audit is performed by the source-audit agent.",
+  "normal_rotation_over_90_count": 0,
+  "minimum_changed_normal_dot": 0.5377154613850263,
+  "minimum_changed_area_ratio": 0.1309600556641445,
+  "degenerate_changed_triangles_count": 0,
+  "local_intersections": {
+    "affected_bbox_mm": [
+      [
+        -27.44133095605469,
+        -1.0249348150024413,
+        27.98125548498535
+      ],
+      [
+        27.441163109375,
+        1.5337744222412109,
+        31.23489670617676
+      ]
+    ],
+    "candidate_triangles_in_bbox": 4519,
+    "nonadjacent_pairs_checked": 140,
+    "exclusions": "Any shared vertex; pairs where neither triangle changed; duplicate pairs. All other model triangles intersecting each changed triangle AABB remain eligible.",
+    "tolerance_mm": 1e-06,
+    "projected_polygon_rejection": true,
+    "pairs": [],
+    "new_strict_intersections": 0,
+    "new_ambiguous_contacts": 0
+  },
+  "solution_unchanged_during_check": true,
+  "stl_unchanged_during_check": true,
+  "duration_seconds": 0.626694917678833
+}
