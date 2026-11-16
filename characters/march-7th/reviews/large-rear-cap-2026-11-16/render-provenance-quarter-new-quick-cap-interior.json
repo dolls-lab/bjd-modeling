@@ -1,0 +1,38 @@
+{
+  "method": "Direct render of final saved Blender PRINT meshes, unsaved material/camera/exploded-object transforms only. No bitmap repainting or geometry manipulation.",
+  "color_legend": "Ivory = front face shell. Muted pink = removable rear cap; illustrative colors, not proposed resin colors. Neutral front view uses ivory on both.",
+  "source_files_unchanged": true,
+  "views": [
+    {
+      "image": "quarter-new-cap-interior-quick.png",
+      "image_sha256": "10baa274056351f7a8cd3292a9328d7290220b9cea922d0d3fcd3513acd693f5",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "cap-interior",
+      "camera_mm": [
+        -75.0,
+        -140.0,
+        -55.0
+      ],
+      "target_mm": [
+        0.0,
+        2.0,
+        45.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": false,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": true
+    }
+  ]
+}

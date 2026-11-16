@@ -1,0 +1,18 @@
+{
+  "version": "march7-1-6-special-v16-large-rear-cap",
+  "files": {
+    "march7-bjd-head-1-6-special-v16.blend": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+    "parameters.json": "094d7f7a95d59973ae4af2cdfa7c156b52d1d4345012f141f91a9ecb006c9e1f",
+    "rejoined-stage.npz": "6c0d20c5953a6c9fab8b55de83234dfc7989a9a111ea73ebcd880c4e67bf664c",
+    "march7-head-shell-1-6-special-v16.stl": "d2c9e0801a8c9d2ad6abda072262b9c21973e82642c2786d20dd3d4e1b77b7e7",
+    "README.md": "8554985439950968c8f8a99b7db52520fce8a483fa223e040a472a966a8336af",
+    "geometry-stage.json": "a68446561d3c2b761e9e3003c19ea816ff8fb64e23d6eaf62ac2bca915cb42c6",
+    "source-usage-rules.txt": "38035a6e5157621d52a17c06b023d3c7460e376ecad401755d0d92ea4072dfe6",
+    "build_model.py": "cc4e5971bde69e743afe5a0b50b54ffa78b81ed0f629a861efe7a80e0eb25061",
+    "cap-stage.npz": "99ae3fb8457c29d247d0eac02ea9df72536d20218295d20c8cd2f0fa9f8b2542",
+    "rejoined-stage.json": "579527983feeaf40e72a798b73611d190f5585315215a029a90be04a136147da",
+    "march7-head-cap-1-6-special-v16.stl": "b8874e203229a2139e74fdb2d85fbe0324ce8656295ef649c867b0fbae5460ee",
+    "head-stage.npz": "ed26ac559de49eab464036253c6d6fddb9dea6526c4f2ee460d11d1b31d84b6e",
+    "build-report.json": "c55759d4f768c74680d27566f2f44ef842d92fff78f714e76de503f10e43fb88"
+  }
+}

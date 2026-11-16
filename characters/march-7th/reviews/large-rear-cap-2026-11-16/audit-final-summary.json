@@ -1,0 +1,110 @@
+{
+  "models": [
+    {
+      "version": "march7-1-4-v31-large-rear-cap",
+      "model_sha256": {
+        "blend": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+        "head": "95b04d135070a1d08841dad4c2665f85e2640f757c60405dbbf2770dfa727b5d",
+        "cap": "7f42398a23b61446d9293151b3e5382e3dbe80c57655541d5d41bcc896eb8630"
+      },
+      "final_audit": "audit-final-march7-1-4-v31-large-rear-cap.json",
+      "final_audit_sha256": "22cd4605b28a5d3764604c7487f98b5f96c1348019534693d8baa99b85b0efc7",
+      "saved_blend_audit": "audit-blend-march7-1-4-v31-large-rear-cap.json",
+      "saved_blend_audit_sha256": "67595f8bdf4997154c9ea0842bd873ff3a5c90f815e9dc755c37ec092aceda46",
+      "neck_max_vertex_error_mm": 0.0,
+      "face_ear_max_vertex_error_mm": 0.0,
+      "exterior_samples_max_error_mm": 8.969130243256055e-07,
+      "access_opening_area_ratio": 1.6074950812997177,
+      "main_access_opening_mm2": [
+        1261.4927880412179,
+        2027.8434518713252
+      ],
+      "old_new_cap_fraction_estimate": [
+        0.18342910072930105,
+        0.3668622870129293
+      ],
+      "head_cap_gap_mm": 0.24999639741508872,
+      "minimum_magnet_sampled_wall_mm": 1.2499989064584698,
+      "minimum_magnet_axial_floor_mm": 1.2500001693463676,
+      "insertion_gap_mm": 0.3999999538064003,
+      "reference_assembly_pass": true,
+      "cap_removal_continuous_clear": true,
+      "pass": true
+    },
+    {
+      "version": "march7-1-3-v15-large-rear-cap",
+      "model_sha256": {
+        "blend": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+        "head": "2ce43b359b29bf4a37dbe10f958e390c90ca1a90c897a4f332f0c609bc1aee0a",
+        "cap": "49ae669d0703255b341f0ef715c5eaa951d47511c06fd910d33a79496dcbbfcc"
+      },
+      "final_audit": "audit-final-march7-1-3-v15-large-rear-cap.json",
+      "final_audit_sha256": "5136b1aded445c6359f3815795ebb6b9a18d26ef9a6f5b01d7980e191b6124c6",
+      "saved_blend_audit": "audit-blend-march7-1-3-v15-large-rear-cap.json",
+      "saved_blend_audit_sha256": "d08c369b3dbe8e5a9755c27e08650fa71beb9755482812fd429699861aac7c3f",
+      "neck_max_vertex_error_mm": 0.0,
+      "face_ear_max_vertex_error_mm": 0.0,
+      "exterior_samples_max_error_mm": 6.528126217157305e-07,
+      "access_opening_area_ratio": 1.6080487277861362,
+      "main_access_opening_mm2": [
+        1971.0824992995922,
+        3169.5967053602267
+      ],
+      "old_new_cap_fraction_estimate": [
+        0.18259471435750646,
+        0.36571099695386455
+      ],
+      "head_cap_gap_mm": 0.3124940790477666,
+      "minimum_magnet_sampled_wall_mm": 1.5624982195581207,
+      "minimum_magnet_axial_floor_mm": 1.5624988161159545,
+      "insertion_gap_mm": 0.9994643965749496,
+      "reference_assembly_pass": true,
+      "cap_removal_continuous_clear": true,
+      "pass": true
+    },
+    {
+      "version": "march7-1-6-special-v16-large-rear-cap",
+      "model_sha256": {
+        "blend": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+        "head": "d2c9e0801a8c9d2ad6abda072262b9c21973e82642c2786d20dd3d4e1b77b7e7",
+        "cap": "b8874e203229a2139e74fdb2d85fbe0324ce8656295ef649c867b0fbae5460ee"
+      },
+      "final_audit": "audit-final-march7-1-6-special-v16-large-rear-cap.json",
+      "final_audit_sha256": "58cc75596bae9a4916dec7de63636da7e05900a76031ffc1801560151220f71c",
+      "saved_blend_audit": "audit-blend-march7-1-6-special-v16-large-rear-cap.json",
+      "saved_blend_audit_sha256": "0c45f355f1c033fbce7caf5b84040a5b8ef2990b5fdc80a857c8dbc3c5d45ffa",
+      "neck_max_vertex_error_mm": 0.0,
+      "face_ear_max_vertex_error_mm": 0.0,
+      "exterior_samples_max_error_mm": 4.875132698943859e-07,
+      "access_opening_area_ratio": 1.6063459703599943,
+      "main_access_opening_mm2": [
+        993.8771426387237,
+        1596.5105431106192
+      ],
+      "old_new_cap_fraction_estimate": [
+        0.1848263716016153,
+        0.3684175846421346
+      ],
+      "head_cap_gap_mm": 0.22223954537516377,
+      "minimum_magnet_sampled_wall_mm": 1.1112115776050366,
+      "minimum_magnet_axial_floor_mm": 1.1112116382691357,
+      "insertion_gap_mm": 0.3999999538064003,
+      "reference_assembly_pass": true,
+      "cap_removal_continuous_clear": true,
+      "pass": true
+    }
+  ],
+  "source_snapshot_file_count": 30,
+  "source_snapshot_unchanged": true,
+  "audit_scripts_sha256": {
+    "audit_blend.py": "994c1a74b4dbd796ddaef3cbf17d68747aa6eb66275f03d86090253a820a3a2e",
+    "audit_models.py": "c393a3b993dbb68961de7059196d5526b8bb72afc2bccc820606657524ab6be7",
+    "audit_summary.py": "5d7ba6d6c5ced0b238ef9c65e758db1a4522047016380d0e37cc7f81d83db831"
+  },
+  "pass": true,
+  "limitations": [
+    "Digital mesh/path checks only; real magnets/glue, physical hook/body, elastic deformation, resin strength and print tolerances untested.",
+    "Exterior sampling excludes authorized old/new seam bands and does not claim every surface point was ray-tested.",
+    "Cap fraction is approximate outward-normal/radial area classification, not literal equal volume halves."
+  ]
+}

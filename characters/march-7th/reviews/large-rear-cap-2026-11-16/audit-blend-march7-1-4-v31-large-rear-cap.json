@@ -1,0 +1,43 @@
+{
+  "version": "march7-1-4-v31-large-rear-cap",
+  "audit_script_sha256": "994c1a74b4dbd796ddaef3cbf17d68747aa6eb66275f03d86090253a820a3a2e",
+  "input_hashes": {
+    "parameters": "e293e10b47becde8e13e898032b739ca3f65cf32bb9e76febc36feca809e2185",
+    "blend": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+    "source_blend": "9869f8dde9c2a0e50b57219e2ad9b2ed65023b9ad904d3a5bd91330c9e1c087f",
+    "head": "95b04d135070a1d08841dad4c2665f85e2640f757c60405dbbf2770dfa727b5d",
+    "cap": "7f42398a23b61446d9293151b3e5382e3dbe80c57655541d5d41bcc896eb8630"
+  },
+  "parts": {
+    "head": {
+      "triangles_match_export": true,
+      "blend_triangle_sha256": "57693358808a0a0f42bef70c1400768cc1b07147bbf585e9c5aba6f5e8cfe03c",
+      "stl_triangle_sha256": "57693358808a0a0f42bef70c1400768cc1b07147bbf585e9c5aba6f5e8cfe03c",
+      "modifiers": 0
+    },
+    "cap": {
+      "triangles_match_export": true,
+      "blend_triangle_sha256": "5400ab4549bbab8988bfa59686ae19fc73dc9cc8e8f72827ebcc21faa96b7dab",
+      "stl_triangle_sha256": "5400ab4549bbab8988bfa59686ae19fc73dc9cc8e8f72827ebcc21faa96b7dab",
+      "modifiers": 0
+    }
+  },
+  "references": {
+    "REFERENCE_ONLY_S_HOOK_NOT_FOR_PRINT": {
+      "vertices_same": true,
+      "faces_same": true,
+      "hidden": true,
+      "not_for_print": true,
+      "pass": true
+    },
+    "REFERENCE_ONLY_CORD_NOT_FOR_PRINT": {
+      "vertices_same": true,
+      "faces_same": true,
+      "hidden": true,
+      "not_for_print": true,
+      "pass": true
+    }
+  },
+  "inputs_unchanged": true,
+  "pass": true
+}

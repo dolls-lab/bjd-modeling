@@ -1,0 +1,357 @@
+{
+  "version": "march7-1-4-v30-pass-turn-seat",
+  "tested_geometry": "final STL",
+  "geometry_sha256": "65d4d464ce589ecd914c1265b31ad381ff88cf9649c60e8fb0b6d4b6ed897f05",
+  "settled_delta_z_mm": -0.946287844657898,
+  "hook_bottom_z_mm": 20.94517530489094,
+  "hook_top_z_mm": 50.94517530489094,
+  "lift_before_rotation_mm": 2.5,
+  "entry_orientation_deg": 90,
+  "seated_orientation_deg": 0,
+  "entry_start_bottom_z_mm": -35.0,
+  "insertion_swept_prism": {
+    "min_gap_mm": 0.3999999538064003,
+    "overlap_mm3": 0.0,
+    "z_bounds_mm": [
+      -80.0,
+      53.445175304890945
+    ],
+    "method": "Conservative full XY projection extruded over entire vertical translation range; includes hook and attached cord."
+  },
+  "rotation_path": [
+    {
+      "angle_deg": 0.0,
+      "min_gap_mm": 2.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 2.0,
+      "min_gap_mm": 2.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 4.0,
+      "min_gap_mm": 2.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 6.0,
+      "min_gap_mm": 1.9872282435803579,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 8.0,
+      "min_gap_mm": 1.9502832034486266,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 10.0,
+      "min_gap_mm": 1.9162824643049565,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 12.0,
+      "min_gap_mm": 1.8810899731548054,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 14.0,
+      "min_gap_mm": 1.8515281166617437,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 16.0,
+      "min_gap_mm": 1.8292945064744879,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 18.0,
+      "min_gap_mm": 1.8149428994076091,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 20.0,
+      "min_gap_mm": 1.8032408839575937,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 22.0,
+      "min_gap_mm": 1.7922462099420557,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 24.0,
+      "min_gap_mm": 1.7648826157688307,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 26.0,
+      "min_gap_mm": 1.6937980364373524,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 28.0,
+      "min_gap_mm": 1.625279539704838,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 30.0,
+      "min_gap_mm": 1.5523551367538206,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 32.0,
+      "min_gap_mm": 1.4816986946595283,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 34.0,
+      "min_gap_mm": 1.4138667455407585,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 36.0,
+      "min_gap_mm": 1.3489419321788008,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 38.0,
+      "min_gap_mm": 1.287003355457836,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 40.0,
+      "min_gap_mm": 1.2257742821363236,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 42.0,
+      "min_gap_mm": 1.1625070694608786,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 44.0,
+      "min_gap_mm": 1.102453235588559,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 46.0,
+      "min_gap_mm": 1.0456859468653548,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 48.0,
+      "min_gap_mm": 0.9922743654882451,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 50.0,
+      "min_gap_mm": 0.9422835652417145,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 52.0,
+      "min_gap_mm": 0.8906000154113896,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 54.0,
+      "min_gap_mm": 0.8401089253891101,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 56.0,
+      "min_gap_mm": 0.7932240066468803,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 58.0,
+      "min_gap_mm": 0.7500023812361203,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 60.0,
+      "min_gap_mm": 0.7104967080496114,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 62.0,
+      "min_gap_mm": 0.6742846705368555,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 64.0,
+      "min_gap_mm": 0.6348253675641464,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 66.0,
+      "min_gap_mm": 0.5992223422651888,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 68.0,
+      "min_gap_mm": 0.5675189714420843,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 70.0,
+      "min_gap_mm": 0.539753880768651,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 72.0,
+      "min_gap_mm": 0.5159608977309897,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 74.0,
+      "min_gap_mm": 0.4928759989106135,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 76.0,
+      "min_gap_mm": 0.4695865567480464,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 78.0,
+      "min_gap_mm": 0.45035471029712326,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 80.0,
+      "min_gap_mm": 0.4352038906003055,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 82.0,
+      "min_gap_mm": 0.4241525565975883,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 84.0,
+      "min_gap_mm": 0.41721417263712723,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 86.0,
+      "min_gap_mm": 0.40828218143288186,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 88.0,
+      "min_gap_mm": 0.4020711404513575,
+      "overlap_mm3": 0.0
+    },
+    {
+      "angle_deg": 90.0,
+      "min_gap_mm": 0.3999999523162838,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "rotation_continuous_clearance_bound_mm": 0.15707763897073082,
+  "rotation_continuous_path_clear": true,
+  "descent_swept_hulls": [
+    {
+      "part": "hook",
+      "min_gap_mm": 0.0018127615375982805,
+      "overlap_mm3": 0.0,
+      "method": "Convex hull of both endpoint meshes covers every intermediate translation."
+    },
+    {
+      "part": "cord",
+      "min_gap_mm": 2.0,
+      "overlap_mm3": 0.0,
+      "method": "Convex hull of both endpoint meshes covers every intermediate translation."
+    }
+  ],
+  "reverse_disassembly_uses_same_clear_paths": true,
+  "seating_numerical_clearance_mm": 0.002,
+  "left_right_support": [
+    {
+      "side": -1,
+      "downward_0_08mm_overlap_mm3": 0.02314407789573044,
+      "bounds_mm": [
+        [
+          -4.500507546635095,
+          5.921989625052272,
+          21.612716350179962
+        ],
+        [
+          -3.9633122432916656,
+          7.266223702997563,
+          21.976681504239778
+        ]
+      ]
+    },
+    {
+      "side": 1,
+      "downward_0_08mm_overlap_mm3": 0.023144077892270135,
+      "bounds_mm": [
+        [
+          3.963312243369604,
+          5.921989623719721,
+          21.612716350211013
+        ],
+        [
+          4.500507546595548,
+          7.2662237016650195,
+          21.976681371744856
+        ]
+      ]
+    }
+  ],
+  "contact_is_lower_bend": true,
+  "closed_pose_intersections": {
+    "hook_head_mm3": 0.0,
+    "cord_head_mm3": 0.0,
+    "hook_cap_mm3": 0.0,
+    "cord_cap_mm3": 0.0,
+    "hook_eye_mm3": 0.0,
+    "cord_eye_mm3": 0.0
+  },
+  "seated_rotation_probes": [
+    {
+      "angle_deg": -15,
+      "overlap_mm3": 0.6344173939400016
+    },
+    {
+      "angle_deg": -10,
+      "overlap_mm3": 0.29297830630196003
+    },
+    {
+      "angle_deg": 10,
+      "overlap_mm3": 0.29318935751870273
+    },
+    {
+      "angle_deg": 15,
+      "overlap_mm3": 0.634882156630512
+    }
+  ],
+  "downward_retention_probes": [
+    {
+      "down_mm": 0.1,
+      "overlap_mm3": 0.07224049785276458
+    },
+    {
+      "down_mm": 0.5,
+      "overlap_mm3": 1.4277771126845908
+    },
+    {
+      "down_mm": 1.0,
+      "overlap_mm3": 4.765025582123766
+    },
+    {
+      "down_mm": 2.0,
+      "overlap_mm3": 15.417481554287301
+    }
+  ],
+  "assembly_method": "Hook and attached cord enter from below at 90 degrees; lift clear of cap, rotate to 0 degrees, lower into middle transverse trough. Cap is removed during assembly.",
+  "limits": [
+    "Approximate hook shape and rigid 2.2mm cord envelope, not actual product CAD.",
+    "No real body bore or elastic routing through a chosen body is modeled. Physical threading, fit and load not certified.",
+    "Three grooves retained; only middle groove is verified as a lock position."
+  ],
+  "pass": true
+}

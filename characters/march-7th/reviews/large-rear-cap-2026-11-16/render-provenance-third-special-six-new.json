@@ -1,0 +1,131 @@
+{
+  "method": "Direct render of final saved Blender PRINT meshes, unsaved material/camera/exploded-object transforms only. No bitmap repainting or geometry manipulation.",
+  "color_legend": "Ivory = front face shell. Muted pink = removable rear cap; illustrative colors, not proposed resin colors. Neutral front view uses ivory on both.",
+  "source_files_unchanged": true,
+  "views": [
+    {
+      "image": "third-new-open.png",
+      "image_sha256": "223664451910cfdec997c5f38b8f50b54803a03624b9713ae853314c60a54cc6",
+      "model": "characters/march-7th/1-3/versions/v15-large-rear-cap/march7-bjd-head-1-3-v15.blend",
+      "model_sha256": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+      "size": "third",
+      "state": "new",
+      "view": "open",
+      "camera_mm": [
+        -93.75,
+        162.5,
+        140.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        43.75
+      ],
+      "ortho_width_mm": 103.75,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "third-new-exploded.png",
+      "image_sha256": "46e45bda9a4b3c2fe2ce05532c55dbf1f41765e2de91d1b7dca5b047c1baf3e3",
+      "model": "characters/march-7th/1-3/versions/v15-large-rear-cap/march7-bjd-head-1-3-v15.blend",
+      "model_sha256": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+      "size": "third",
+      "state": "new",
+      "view": "exploded",
+      "camera_mm": [
+        -175.0,
+        200.0,
+        168.75
+      ],
+      "target_mm": [
+        28.75,
+        17.5,
+        53.75
+      ],
+      "ortho_width_mm": 165.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        68.75,
+        31.25,
+        28.125
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "special-six-new-open.png",
+      "image_sha256": "e89ca7cebbfc3d036e66ef50b60f1b2f1b7510de145424547c9d726a4043907c",
+      "model": "characters/march-7th/1-6-special/versions/v16-large-rear-cap/march7-bjd-head-1-6-special-v16.blend",
+      "model_sha256": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+      "size": "special-six",
+      "state": "new",
+      "view": "open",
+      "camera_mm": [
+        -66.67277526855469,
+        115.56614685058594,
+        99.56468200683594
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        31.113964080810547
+      ],
+      "ortho_width_mm": 73.78454006966227,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "special-six-new-exploded.png",
+      "image_sha256": "1fec9504bb4d999ea65b5fb77aca7483b9d5f3c8686f25fa1b429851f39a250c",
+      "model": "characters/march-7th/1-6-special/versions/v16-large-rear-cap/march7-bjd-head-1-6-special-v16.blend",
+      "model_sha256": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+      "size": "special-six",
+      "state": "new",
+      "view": "exploded",
+      "camera_mm": [
+        -124.45585632324219,
+        142.23526000976562,
+        120.01100158691406
+      ],
+      "target_mm": [
+        20.446319580078125,
+        12.445585250854492,
+        38.22572708129883
+      ],
+      "ortho_width_mm": 117.34408782163156,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        48.89337158203125,
+        22.224258422851562,
+        20.001832962036133
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    }
+  ]
+}

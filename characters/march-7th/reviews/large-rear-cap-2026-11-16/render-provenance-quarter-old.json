@@ -1,0 +1,67 @@
+{
+  "method": "Direct render of final saved Blender PRINT meshes, unsaved material/camera/exploded-object transforms only. No bitmap repainting or geometry manipulation.",
+  "color_legend": "Ivory = front face shell. Muted pink = removable rear cap; illustrative colors, not proposed resin colors. Neutral front view uses ivory on both.",
+  "source_files_unchanged": true,
+  "views": [
+    {
+      "image": "quarter-old-side.png",
+      "image_sha256": "60e82f5b37a27a936ed31f8a3003b95e01c302002e8905342eb7e21e5cc090d1",
+      "model": "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-bjd-head-1-4-v30.blend",
+      "model_sha256": "9869f8dde9c2a0e50b57219e2ad9b2ed65023b9ad904d3a5bd91330c9e1c087f",
+      "size": "quarter",
+      "state": "old",
+      "view": "side",
+      "camera_mm": [
+        -200.0,
+        0.0,
+        36.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false
+    },
+    {
+      "image": "quarter-old-open.png",
+      "image_sha256": "df2194b10ffcd5ea241e61ce5a6720ee715f7c36eda034d6fff4e0d61e55f55b",
+      "model": "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-bjd-head-1-4-v30.blend",
+      "model_sha256": "9869f8dde9c2a0e50b57219e2ad9b2ed65023b9ad904d3a5bd91330c9e1c087f",
+      "size": "quarter",
+      "state": "old",
+      "view": "open",
+      "camera_mm": [
+        -75.0,
+        130.0,
+        112.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 83.0,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "boards": [
+    {
+      "image": "large-cap-before-after.png",
+      "sha256": "d051bc493aa14369dd63b0c62ca995157d5bef9ea6cfa068c29ee9ebf05e0c1c",
+      "source_renders": [
+        {
+          "image": "quarter-old-side.png",
+          "sha256": "60e82f5b37a27a936ed31f8a3003b95e01c302002e8905342eb7e21e5cc090d1",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-new-side.png",
+          "sha256": "37d7e4efe04648ee51adb700c1d39ad667b3306b21abddcaf91d9528e8a6d15f",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-old-open.png",
+          "sha256": "df2194b10ffcd5ea241e61ce5a6720ee715f7c36eda034d6fff4e0d61e55f55b",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-new-open.png",
+          "sha256": "8ead8b02a1e5ecfdd46acaf6eb0719372279d5cf33be34592e2111458840bfd5",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        }
+      ],
+      "operation": "Uniform image resize and label/layout only; no crop, repainting, filtering, shape change, or generated visual content."
+    },
+    {
+      "image": "large-cap-overview.png",
+      "sha256": "adac69b78e6f6437882885ec665cd5668dc265a2bcebf7d890bbb63b8b1cec06",
+      "source_renders": [
+        {
+          "image": "quarter-new-exploded.png",
+          "sha256": "2b61b66edf2fb42c5ee5a666a0fde2bfde1ad6132bc25a609acef721f067c527",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-new-cap-interior.png",
+          "sha256": "6591229aec9cd409a4853e8aa17463a2f1587c46d763c4ddccf7a01e6950ac4c",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-new-front.png",
+          "sha256": "52f7b3de7540b4dfd4a158420fdb341e8096996127b091abdaa5af476cc889f7",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "quarter-new-top.png",
+          "sha256": "5cd046690c00f2ac988064ea5c8db3eeab103cbfa5aaf3f9d8084405bcb75576",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        }
+      ],
+      "operation": "Uniform image resize and label/layout only; no crop, repainting, filtering, shape change, or generated visual content."
+    },
+    {
+      "image": "large-cap-three-sizes.png",
+      "sha256": "63244e1a2f9e5308985daa13faa709937894d4d55bddc6927085d9ce55bc5ae9",
+      "source_renders": [
+        {
+          "image": "quarter-new-open.png",
+          "sha256": "8ead8b02a1e5ecfdd46acaf6eb0719372279d5cf33be34592e2111458840bfd5",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "third-new-open.png",
+          "sha256": "223664451910cfdec997c5f38b8f50b54803a03624b9713ae853314c60a54cc6",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            125
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "special-six-new-open.png",
+          "sha256": "e89ca7cebbfc3d036e66ef50b60f1b2f1b7510de145424547c9d726a4043907c",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            28,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        },
+        {
+          "image": "special-six-new-exploded.png",
+          "sha256": "1fec9504bb4d999ea65b5fb77aca7483b9d5f3c8686f25fa1b429851f39a250c",
+          "source_size": [
+            1100,
+            1100
+          ],
+          "destination_xy": [
+            728,
+            873
+          ],
+          "display_size": [
+            680,
+            680
+          ]
+        }
+      ],
+      "operation": "Uniform image resize and label/layout only; no crop, repainting, filtering, shape change, or generated visual content."
+    }
+  ],
+  "no_geometry_or_pixel_retouch": true
+}

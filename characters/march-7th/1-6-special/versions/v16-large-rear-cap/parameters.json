@@ -1,0 +1,183 @@
+{
+  "units": "mm",
+  "version": "march7-1-6-special-v16-large-rear-cap",
+  "source_directory": "1-6-special/versions/v15-pass-turn-seat",
+  "source_uniform_scale": 0.8889703622850876,
+  "source_files": {
+    "blend": "march7-bjd-head-1-6-special-v15.blend",
+    "head": "march7-head-shell-1-6-special-v15.stl",
+    "cap": "march7-head-cap-1-6-special-v15.stl"
+  },
+  "source_sha256": {
+    "blend": "8c3169514e97236c50f3717a89176f242cc7ebcc7d54dc3d0ab3894c03333534",
+    "head": "bdd837fca149ce848abda3093fa2af8aa42a5f84fa072b32c2466f086c5371a7",
+    "cap": "114790e4844ea45ec8e653a7fcccbe2c098b0f11771cfcb7286ef49d284106d7"
+  },
+  "output_files": {
+    "blend": "march7-bjd-head-1-6-special-v16.blend",
+    "head": "march7-head-shell-1-6-special-v16.stl",
+    "cap": "march7-head-cap-1-6-special-v16.stl"
+  },
+  "neck_center_y_mm": 5.861965332788889,
+  "neck_platform_top_mm": 17.58589599836667,
+  "neck_ball_center_z_mm": 4.285895998366669,
+  "neck_seat_diameter_mm": 21.0,
+  "neck_slot_width_mm": 6.5,
+  "neck_slot_length_mm": 13.0,
+  "pad_height_mm": 2.852833327152005,
+  "pad_root_overlap_mm": 0.35,
+  "groove_width_mm": 4.0,
+  "hook_lowest_bottom_relative_old_top_mm": 1.7528333271520047,
+  "hook": {
+    "length_mm": 30.0,
+    "width_mm": 18.0,
+    "wire_mm": 2.3,
+    "source": "https://www.dollmore.net/Mobile/Product/Detail/view/pid/20989/cid/462",
+    "source_image": "https://www.dollmore.com/shopimages/dollmore/0380240000072.jpg",
+    "status": "Complete outer dimensions from official head/neck S-hook listing; open C-bend centreline is an approximation, not manufacturer CAD. Same available reference hardware is tested in all three prototypes, not a scale standard.",
+    "pose": "Open lower U/C bend is rope-bearing and rests across neck-hole shoulders; upper open bend and stem remain above seat in cavity."
+  },
+  "cord_preview_diameter_mm": 2.2,
+  "cord_status": "Two 2.2 mm strands with a loop over the lower bend. Rigid envelope rotates with the reference hook for a conservative geometric assembly study; actual elastic flexibility not simulated.",
+  "inherited_source_parameters": {
+    "version": "march7-1-6-special-v5-magnet-seats",
+    "units": "mm",
+    "source_version": "march7-1-6-special-v4-from-v19",
+    "uniform_scale": 0.8889703622850876,
+    "source_head_girth_at_reference_section_mm": 179.983503149331,
+    "nominal_target_head_girth_mm": 160.0,
+    "source_girth_section_z_mm": 40.49297765452825,
+    "body_model": null,
+    "body_neck_circumference_reference_mm": null,
+    "body_neck_circumference_status": "Unknown; no target body selected. Do not infer ball diameter from circumference.",
+    "neck_seat_diameter_mm": 21.0,
+    "assumed_neck_ball_diameter_mm": 20.5,
+    "neck_ball_radial_clearance_mm": 0.25,
+    "neck_roof_thickness_mm": 2.8,
+    "neck_slot_width_mm": 6.5,
+    "neck_slot_length_mm": 13.0,
+    "nominal_eye_diameter_mm": 14.223525796561402,
+    "nominal_wall_mm": 2.311322941941228,
+    "cap_gap_mm": 0.2222425905712719,
+    "magnet_hole_diameter_mm": 4.25,
+    "magnet_hole_depth_mm": 2.2,
+    "neck_boolean_sphere_segments": 256,
+    "neck_boolean_sphere_rings": 128,
+    "local_merge_tolerance_mm": 1e-05,
+    "local_degenerate_tolerance_mm": 1e-06,
+    "policy": "Only local internal hardware changes. Remove central locator and its pad, retain exterior shape and all facial detail. Fit catalog magnets with provisional adhesive clearance.",
+    "parameter_limits": "Active hardware fields control pocket diameter/depth and local locator removal. Existing body/size/eye fields record unchanged source design; no whole-head resizing or face edit in this builder.",
+    "physical_fit": "NOT TESTED: pocket clearances provisional; no print or adhesive/magnet trial.",
+    "size_basis": {
+      "label": "特六 / special 1-6",
+      "girth_choice": "160 mm at the unchanged v19 reference head section; inherited prototype choice, not a universal size standard.",
+      "example_source_url": "https://www.sina.cn/news/detail/5320237174229818.html",
+      "example_source": "DFA 玩偶家族, 鹿喵喵 特六女, published 2026-07-13, head girth 16 cm. Only a size-class example; no body-fit claim.",
+      "eye_choice": "Preserve v19 eye apertures, inheriting the approximately 14.22 mm scaled original 16 mm envelope."
+    },
+    "local_sliver_area_mm2": 1e-10,
+    "local_sliver_max_edge_mm": 0.001,
+    "source_directory": "1-6-special/versions/v4-from-v19",
+    "source_uniform_scale": 0.8889703622850876,
+    "source_files": {
+      "blend": "march7-bjd-head-1-6-special-v4.blend",
+      "head": "march7-head-shell-1-6-special-v4.stl",
+      "cap": "march7-head-cap-1-6-special-v4.stl"
+    },
+    "source_sha256": {
+      "blend": "6dac0450b78ce978b8299997d9749916ea43bf317ef4bf3e29cb60a72f14977c",
+      "head": "d0aa3fbbfeb707d5ae0250c2e751f9a908143a53f90b851c0222509269955458",
+      "cap": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc"
+    },
+    "output_files": {
+      "blend": "march7-bjd-head-1-6-special-v5.blend",
+      "head": "march7-head-shell-1-6-special-v5.stl",
+      "cap": "march7-head-cap-1-6-special-v5.stl"
+    },
+    "magnet_diameter_mm": 4.0,
+    "magnet_thickness_mm": 2.0,
+    "magnet_count_per_part": 2,
+    "central_locator": false,
+    "rebuild_magnet_pockets": true,
+    "magnet_center_inward_offset_mm": 1.1,
+    "magnet_centers_mm": [
+      [
+        -13.686801365069918,
+        12.890070253133771,
+        44.448518114254384
+      ],
+      [
+        13.686801365069918,
+        12.890070253133771,
+        44.448518114254384
+      ]
+    ],
+    "inward_support_extension": true,
+    "magnet_minimum_designed_sidewall_mm": 1.15
+  },
+  "policy": "Change shell partition only, rejoin old seam and relocate internal magnetic seats. Retain accepted exterior except local old/new seam bands; keep neck mechanism unchanged.",
+  "physical_fit": "NOT TESTED physically. Full reference-hook pass/turn/seat path must be checked on final mesh; reference curve is approximate. No universal hook/body compatibility or load rating.",
+  "boss_half_width_mm": 12.001099890848684,
+  "boss_half_depth_mm": 12.001099890848684,
+  "groove_y_offsets_mm": [
+    -4.97823402879649,
+    0,
+    4.97823402879649
+  ],
+  "groove_order": "front (negative Y), middle (Y0), rear (positive Y)",
+  "active_reference_groove": "middle",
+  "prior_deep_groove_version": "1-6-special/versions/v9-three-groove-seat",
+  "groove_depth_mm": 0.8,
+  "groove_surface_profile": "Three shallow transverse troughs: full X depth weight within +/-6 mm, quintic fade to zero by +/-7.5 mm; total 15 mm remains inside 18 mm reference hook span. Actual shoulders/contact and turn resistance must be verified.",
+  "prior_shallow_version": "1-6-special/versions/v10-shallow-three-groove-seat",
+  "inner_rounding_width_mm": 0.7111762898280701,
+  "prior_rounded_version": "1-6-special/versions/v11-rounded-neck-seat",
+  "narrow_slot_width_mm": 7.6,
+  "narrow_slot_length_mm": 19.2,
+  "prior_narrow_version": "1-6-special/versions/v12-narrow-neck-slot",
+  "sphere_radius_mm": 26.66911086855263,
+  "spherical_blend_start_fraction": 0.8,
+  "prior_shallow_spherical_version": "1-6-special/versions/v13-shallow-spherical-seat",
+  "groove_full_depth_half_length_mm": 6.0,
+  "groove_zero_depth_half_length_mm": 7.5,
+  "prior_short_version": "1-6-special/versions/v14-short-seat-grooves",
+  "through_slot_width_mm": 7.6,
+  "through_slot_length_mm": 19.2,
+  "cap_plane_normal": [
+    0,
+    1,
+    0.9
+  ],
+  "cap_plane_equation_quarter": "Y + 0.9Z = 41 mm",
+  "cap_plane_intercept_mm": 36.447784853688596,
+  "cap_gap_mm": 0.2222425905712719,
+  "cap_design": "Large removable crown and occipital cap; face, ears and complete neck support remain in front shell.",
+  "magnet_centers_mm": [
+    [
+      -19.64624500650044,
+      2.8447051593122805,
+      37.33675521597368
+    ],
+    [
+      19.64624500650044,
+      2.8447051593122805,
+      37.33675521597368
+    ]
+  ],
+  "magnet_axis": [
+    0.0,
+    0.7432941462471663,
+    0.6689647316224496
+  ],
+  "magnet_diameter_mm": 4.0,
+  "magnet_thickness_mm": 2.0,
+  "magnet_hole_diameter_mm": 4.25,
+  "magnet_hole_depth_mm": 2.2,
+  "magnet_boss_radius_mm": 3.2362129528563592,
+  "magnet_pocket_floor_mm": 1.1112129528563595,
+  "magnet_count_per_part": 2,
+  "old_seam_reconstruction_band_mm": [
+    -0.08889703622850877,
+    0.31113962679978063
+  ]
+}

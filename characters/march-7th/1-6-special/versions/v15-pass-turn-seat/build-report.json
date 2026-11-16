@@ -1,0 +1,55 @@
+{
+  "version": "march7-1-6-special-v15-pass-turn-seat",
+  "units": "mm",
+  "source_sha256": {
+    "blend": "359b25a0bd98cd92c8557529496919fff2cd5a515bd948d48cf768b570bb3b43",
+    "head": "da3c80367d02c8cd0ebdc7d924d433d6295820b543d61284450ec8e0a7d0485b",
+    "cap": "114790e4844ea45ec8e653a7fcccbe2c098b0f11771cfcb7286ef49d284106d7"
+  },
+  "source_unchanged": true,
+  "parts": {
+    "head": {
+      "file": "march7-head-shell-1-6-special-v15.stl",
+      "sha256": "bdd837fca149ce848abda3093fa2af8aa42a5f84fa072b32c2466f086c5371a7",
+      "vertices": 451119,
+      "triangles": 902246,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "euler_number": -4,
+      "minimum_triangle_area_mm2": 3.1625432634628846e-10,
+      "blend_stl_triangles_equal": true,
+      "triangle_sha256": "334ee9ca99dc5a45076652d4e7e3a3a269efc6fd174f7b6119565ef7f28cc43d"
+    },
+    "cap": {
+      "file": "march7-head-cap-1-6-special-v15.stl",
+      "sha256": "114790e4844ea45ec8e653a7fcccbe2c098b0f11771cfcb7286ef49d284106d7",
+      "vertices": 63873,
+      "triangles": 127742,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "euler_number": 2,
+      "minimum_triangle_area_mm2": 2.650049697755724e-11,
+      "blend_stl_triangles_equal": true,
+      "triangle_sha256": "a46df86da606720d57e6b22723cb818caa5d52983cc627f92547a6b8b888d7ae"
+    }
+  },
+  "blend_file": "march7-bjd-head-1-6-special-v15.blend",
+  "blend_sha256": "8c3169514e97236c50f3717a89176f242cc7ebcc7d54dc3d0ab3894c03333534",
+  "parameters_sha256": "c69f0300d1784d4005a259514b6326b64b5564d361670fb977876ce8368d8288",
+  "saved_and_reopened": true,
+  "cap_stl_byte_identical_to_source": true,
+  "reference_hook_and_cord_separate_hidden_nonprint_objects": true,
+  "local_float32_cleanup_counts": {
+    "before": [
+      451226,
+      902460
+    ],
+    "after": [
+      451119,
+      902246
+    ]
+  },
+  "physical_fit": "NOT TESTED physically. Full reference-hook pass/turn/seat path must be checked on final mesh; reference curve is approximate. No universal hook/body compatibility or load rating."
+}

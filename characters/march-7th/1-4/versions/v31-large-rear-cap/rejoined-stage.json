@@ -1,0 +1,44 @@
+{
+  "old_gap_mm": 0.25,
+  "seam_reconstruction_band_mm": 0.45,
+  "bridge_triangles": 6263,
+  "old_magnet_cleanup": [
+    {
+      "sign": -1.0,
+      "fit": "cubic u-squared fit minus .22 mm; C2 smooth maximum with actual filled source inner X, blend radius .6mm, compact taper v4.6..5.1 w6.3..6.5; .002mm sampling inset",
+      "quarter_bounds": {
+        "v": [
+          -5.1,
+          5.1
+        ],
+        "w": [
+          -6.5,
+          6.5
+        ]
+      },
+      "max_fit_ray_residual_q_mm": 0.29701081740420787,
+      "minimum_sampled_radial_wall_chord_q_mm": 2.7647258775794157,
+      "max_boundary_cut_q_mm": 0,
+      "removed_surface_ray_samples": 12692
+    },
+    {
+      "sign": 1.0,
+      "fit": "cubic u-squared fit minus .22 mm; C2 smooth maximum with actual filled source inner X, blend radius .6mm, compact taper v4.6..5.1 w6.3..6.5; .002mm sampling inset",
+      "quarter_bounds": {
+        "v": [
+          -5.1,
+          5.1
+        ],
+        "w": [
+          -6.5,
+          6.5
+        ]
+      },
+      "max_fit_ray_residual_q_mm": 0.3018493761357943,
+      "minimum_sampled_radial_wall_chord_q_mm": 2.764923295390343,
+      "max_boundary_cut_q_mm": 0,
+      "removed_surface_ray_samples": 12692
+    }
+  ],
+  "method": "Remove former cut end-faces after filling blind magnet holes; stitch exact outer and inner boundary vertices across old gap with boundary-order arclength annular triangulation."
+}

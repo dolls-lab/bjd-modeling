@@ -1,0 +1,71 @@
+{
+  "version": "march7-1-6-special-v15-pass-turn-seat",
+  "hook_info": {
+    "external_dimensions_mm": [
+      30.0,
+      18.0,
+      2.3
+    ],
+    "actual_bounds_mm": [
+      [
+        -9.0,
+        -1.15,
+        -4.440892098500626e-16
+      ],
+      [
+        9.0,
+        1.15,
+        30.0
+      ]
+    ],
+    "lower_bend_center_z_mm": 7.354799999999999,
+    "bend_rx_mm": 7.85,
+    "bend_rz_mm": 6.2048,
+    "lower_free_end_mm": [
+      -7.114516128237701,
+      0.0,
+      9.97706179044869
+    ],
+    "upper_free_end_mm": [
+      7.376587073169381,
+      0.0,
+      20.523033414692893
+    ],
+    "warning": "Approximate ordinary open S with catalog outer dimensions. Lower bend supports head and cord; upper bend is free for pulling. Not actual product CAD."
+  },
+  "hook_bottom_z_mm": 19.338729325518674,
+  "cord_info": {
+    "diameter_mm": 2.2,
+    "wrap_center_z_mm": 20.488729325518673,
+    "wrap_radius_mm": 2.3,
+    "two_tail_y_mm": [
+      3.5619653327888896,
+      8.161965332788888
+    ],
+    "status": "Flexible-cord envelope only, not a material simulation"
+  },
+  "source_volume_mm3": 17395.412648783094,
+  "result_volume_mm3": 17371.369505023296,
+  "added_volume_mm3": 299.936970051022,
+  "removed_volume_mm3": 323.9801138108232,
+  "only_addition_to_source": false,
+  "boss_footprint_mm": [
+    24.002199781697367,
+    24.002199781697367
+  ],
+  "boss_height_mm": 2.852833327152005,
+  "groove_y_offsets_mm": [
+    -4.97823402879649,
+    0,
+    4.97823402879649
+  ],
+  "groove_count": 3,
+  "assembly_preview_position": "middle groove only",
+  "lower_bend_not_upper_bend_is_seated": true,
+  "groove_depth_mm": 0.8,
+  "groove_profile": "Three shallow transverse troughs: full X depth weight within +/-6 mm, quintic fade to zero by +/-7.5 mm; total 15 mm remains inside 18 mm reference hook span. Actual shoulders/contact and turn resistance must be verified.",
+  "groove_total_design_length_mm": 15.0,
+  "sphere_radius_mm": 26.66911086855263,
+  "rounding": "Shallow large-radius spherical cap over inner 80% radius; C2 quintic outer-rim blend to source platform. Continuous enlarged pass-through capsule, with a small rounded upper rim.",
+  "maximum_actual_added_height_mm": 2.402455462438771
+}

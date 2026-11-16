@@ -1,0 +1,202 @@
+{
+  "method": "Prototype source-derived local old-magnet-pad cutter checked against immutable latest source meshes, before main builder hole fill and old seam restoration. This is cutter preflight, not final-output validation.",
+  "script_sha256": "0c31a4e7dfd68b5d129d113572d1901ada16321857a5a9b715c2fbfc2aeaf284",
+  "results": [
+    {
+      "source_directory": "characters/march-7th/1-4/versions/v30-pass-turn-seat",
+      "source_sha256": {
+        "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-head-shell-1-4-v30.stl": "65d4d464ce589ecd914c1265b31ad381ff88cf9649c60e8fb0b6d4b6ed897f05",
+        "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-head-cap-1-4-v30.stl": "4ab197709affd4f3a6226d27189eedc79414e9724446a7d2f4c434543afee6a6"
+      },
+      "scale": 1.0,
+      "fits": [
+        {
+          "sign": -1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.29701081740420787,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.0284129146823098,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9092
+        },
+        {
+          "sign": 1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.3018493761357943,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.0282609065682813,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9092
+        }
+      ],
+      "removed_volume_by_left_right_then_head_cap_before_hole_fill_mm3": [
+        [
+          277.2065919142235,
+          69.39398308566183
+        ],
+        [
+          277.21020037731415,
+          69.39925287698544
+        ]
+      ],
+      "checks": {
+        "two_valid_cutters": true,
+        "no_sampled_support_boundary_cut": true,
+        "minimum_sampled_radial_chord_over_3qmm": true,
+        "source_files_unchanged": true
+      },
+      "pass": true
+    },
+    {
+      "source_directory": "characters/march-7th/1-3/versions/v14-pass-turn-seat",
+      "source_sha256": {
+        "characters/march-7th/1-3/versions/v14-pass-turn-seat/march7-head-shell-1-3-v14.stl": "feb8b86d7936d1160a901d518234874a038d163515faa6bb970e6143dc7b48de",
+        "characters/march-7th/1-3/versions/v14-pass-turn-seat/march7-head-cap-1-3-v14.stl": "b446074441bf5096f354fe8970d64dbfbeb2432c28c8aeb6570bb6f3678ea5eb"
+      },
+      "scale": 1.25,
+      "fits": [
+        {
+          "sign": -1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.29698754138457717,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.0293302833109514,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9032
+        },
+        {
+          "sign": 1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.30182987681054374,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.029515889770291,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9032
+        }
+      ],
+      "removed_volume_by_left_right_then_head_cap_before_hole_fill_mm3": [
+        [
+          560.2909021543496,
+          148.27439742844976
+        ],
+        [
+          560.2993514620999,
+          148.28408093309494
+        ]
+      ],
+      "checks": {
+        "two_valid_cutters": true,
+        "no_sampled_support_boundary_cut": true,
+        "minimum_sampled_radial_chord_over_3qmm": true,
+        "source_files_unchanged": true
+      },
+      "pass": true
+    },
+    {
+      "source_directory": "characters/march-7th/1-6-special/versions/v15-pass-turn-seat",
+      "source_sha256": {
+        "characters/march-7th/1-6-special/versions/v15-pass-turn-seat/march7-head-shell-1-6-special-v15.stl": "bdd837fca149ce848abda3093fa2af8aa42a5f84fa072b32c2466f086c5371a7",
+        "characters/march-7th/1-6-special/versions/v15-pass-turn-seat/march7-head-cap-1-6-special-v15.stl": "114790e4844ea45ec8e653a7fcccbe2c098b0f11771cfcb7286ef49d284106d7"
+      },
+      "scale": 0.8889703622850876,
+      "fits": [
+        {
+          "sign": -1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.2969848996331821,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.028412992853717,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9071
+        },
+        {
+          "sign": 1.0,
+          "fit": "cubic u-squared in v per w using |v|5.1..8; smooth axial coefficients; subtract .22 mm as retained-tissue allowance",
+          "quarter_bounds": {
+            "v": [
+              -5.1,
+              5.1
+            ],
+            "w": [
+              -6.5,
+              6.5
+            ]
+          },
+          "max_fit_ray_residual_q_mm": 0.3018199953301307,
+          "minimum_sampled_radial_wall_chord_q_mm": 3.0282600673370936,
+          "max_boundary_cut_q_mm": 0,
+          "removed_surface_ray_samples": 9068
+        }
+      ],
+      "removed_volume_by_left_right_then_head_cap_before_hole_fill_mm3": [
+        [
+          189.86820284531868,
+          45.16615776315147
+        ],
+        [
+          189.86880566248678,
+          45.17002617507369
+        ]
+      ],
+      "checks": {
+        "two_valid_cutters": true,
+        "no_sampled_support_boundary_cut": true,
+        "minimum_sampled_radial_chord_over_3qmm": true,
+        "source_files_unchanged": true
+      },
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "limitations": [
+    "Ray chord measured along old local X is not global minimum wall thickness.",
+    "Source samples around removed pad interpolate intended inner-wall shape; no claim to recover a unique historical precut mesh.",
+    "Final builder must independently check actual output, exterior preservation, wall integrity and part connectivity.",
+    "Cutters must be applied after filling obsolete blind magnet pockets."
+  ]
+}

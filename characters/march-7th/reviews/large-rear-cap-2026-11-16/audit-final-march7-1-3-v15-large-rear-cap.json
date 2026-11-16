@@ -1,0 +1,258 @@
+{
+  "version": "march7-1-3-v15-large-rear-cap",
+  "audit_script_sha256": "c393a3b993dbb68961de7059196d5526b8bb72afc2bccc820606657524ab6be7",
+  "input_hashes": {
+    "parameters": "ca872313f153f13ae6c7f23cd89f810d081a849216c0f0d148c306cb8a0c91ee",
+    "head": "2ce43b359b29bf4a37dbe10f958e390c90ca1a90c897a4f332f0c609bc1aee0a",
+    "cap": "49ae669d0703255b341f0ef715c5eaa951d47511c06fd910d33a79496dcbbfcc",
+    "source_head": "feb8b86d7936d1160a901d518234874a038d163515faa6bb970e6143dc7b48de",
+    "source_cap": "b446074441bf5096f354fe8970d64dbfbeb2432c28c8aeb6570bb6f3678ea5eb",
+    "source_reference": "bbd1c79da13e43537081ca5226fbc0147f68e28b98c2ccc3688e029adacd7c89",
+    "source_motion": "bc32e57db9f73871c4d5df859a978173087b338abed62c52e02b512a19dce6db",
+    "source_parameters": "76d279d95b90bee0c70305e0dab1c6cbbee766914bf58866ab02aeb33ca4f151",
+    "blend": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+    "blend_audit": "d08c369b3dbe8e5a9755c27e08650fa71beb9755482812fd429699861aac7c3f"
+  },
+  "mesh": {
+    "head": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "minimum_triangle_area_mm2": 1.7083012618057394e-10,
+      "volume_mm3": 37216.99318785928
+    },
+    "cap": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "minimum_triangle_area_mm2": 5.911715561524034e-11,
+      "volume_mm3": 21371.72756972752
+    }
+  },
+  "split": {
+    "normal": [
+      0.0,
+      0.7432941462471663,
+      0.6689647316224496
+    ],
+    "approved_offset_mm": 38.093824995167274,
+    "head_max_dot_mm": 38.09382811415364,
+    "cap_min_dot_mm": 38.406322193201405,
+    "actual_plane_gap_mm": 0.3124940790477666,
+    "head_cap_overlap_mm3": 0.0,
+    "plane_separation_guarantees_linear_cap_head_disassembly": true,
+    "cap_contains_entire_crown_above_mm": 81.25,
+    "front_vertices_above_crown_threshold": 0,
+    "pass": true
+  },
+  "neck": {
+    "protected_radius_mm": 17.625,
+    "protected_top_z_mm": 31.25,
+    "added_mm3": 0.0,
+    "removed_mm3": 0.0,
+    "protected_source_vertices": 231217,
+    "maximum_nearest_vertex_error_mm": 0.0,
+    "pass": true
+  },
+  "protected_face_ears": {
+    "method": "Facial feature region plus outward-facing ear-box vertices; inward cranial wall inside this box is allowed to join new magnetic supports. Exterior ray checks separately inspect the side surface.",
+    "inner_sidewall_vertices_excluded": 2408,
+    "source_vertices_checked": 107968,
+    "maximum_vertex_error_mm": 0.0,
+    "pass": true
+  },
+  "exterior_samples": {
+    "method": "Outermost surface hit from same 3552 radial rays toward a common cranial center; old and new seam bands excluded. Not every surface patch is visible radially.",
+    "tested": 3402,
+    "seam_excluded": 48,
+    "missing_hits": 0,
+    "maximum_error_mm": 6.528126217157305e-07,
+    "pass": true
+  },
+  "cap_coverage": {
+    "old": {
+      "classified_outer_areas_mm2": [
+        16095.80300606327,
+        3595.534068435475
+      ],
+      "cap_fraction": 0.18259471435750646
+    },
+    "new": {
+      "classified_outer_areas_mm2": [
+        12469.52833933373,
+        7189.536029510056
+      ],
+      "cap_fraction": 0.36571099695386455
+    },
+    "method": "Normal points away from common cranial center; approximate exterior-area classification includes some holes/edges.",
+    "pass": true
+  },
+  "access_opening": {
+    "old": {
+      "outer_section_area_mm2": 2814.7018674057654,
+      "main_access_opening_area_mm2": 1971.0824992995922,
+      "signed_contour_areas_mm2": [
+        2814.7018674057654,
+        -1971.0824992995922,
+        -21.643674698155223,
+        -21.643674695375523
+      ]
+    },
+    "new": {
+      "outer_section_area_mm2": 3971.2586070356692,
+      "main_access_opening_area_mm2": 3169.5967053602267,
+      "signed_contour_areas_mm2": [
+        3971.2586070356692,
+        -3169.5967053602267,
+        -21.64197232628129,
+        -21.641972392391096
+      ]
+    },
+    "area_ratio": 1.6080487277861362,
+    "pass": true
+  },
+  "magnets": {
+    "pockets": [
+      {
+        "part": "head",
+        "center_mm": [
+          -27.625,
+          4.0,
+          52.5
+        ],
+        "measured_depth_mm": 2.2000007816728795,
+        "maximum_radius_error_mm": 1.0893020947477794e-06,
+        "minimum_sampled_radial_sidewall_mm": 1.5624991229031746,
+        "axial_floor_mm": 1.5624988161159545
+      },
+      {
+        "part": "head",
+        "center_mm": [
+          27.625,
+          4.0,
+          52.5
+        ],
+        "measured_depth_mm": 2.2000007816728795,
+        "maximum_radius_error_mm": 1.0893020947477794e-06,
+        "minimum_sampled_radial_sidewall_mm": 1.562498903685002,
+        "axial_floor_mm": 1.5624988161159545
+      },
+      {
+        "part": "cap",
+        "center_mm": [
+          -27.625,
+          4.232279420702239,
+          52.70905147863201
+        ],
+        "measured_depth_mm": 2.1999992512255835,
+        "maximum_radius_error_mm": 1.0323520562849353e-06,
+        "minimum_sampled_radial_sidewall_mm": 1.5624982195676993,
+        "axial_floor_mm": 1.562501301558524
+      },
+      {
+        "part": "cap",
+        "center_mm": [
+          27.625,
+          4.232279420702239,
+          52.70905147863201
+        ],
+        "measured_depth_mm": 2.1999992512255835,
+        "maximum_radius_error_mm": 1.0323520545085785e-06,
+        "minimum_sampled_radial_sidewall_mm": 1.5624982195581207,
+        "axial_floor_mm": 1.562501301558524
+      }
+    ],
+    "nominal_magnet_diameter_thickness_mm": [
+      5.0,
+      2.0
+    ],
+    "nominal_pocket_diameter_depth_mm": [
+      5.25,
+      2.2
+    ],
+    "pass": true,
+    "limits": "Measured along32 radial bore sections and central axis; not a global minimum-wall or load certification."
+  },
+  "assembly": {
+    "source_reference_dimensions_mm": [
+      18.0,
+      2.3000000000000007,
+      30.0
+    ],
+    "source_pose_delta_mm": -1.4651220630407333,
+    "insertion": {
+      "overlap_mm3": 0.0,
+      "min_gap_mm": 0.9994643965749496
+    },
+    "rotation_minimum_gap_mm": 1.199999904632568,
+    "rotation_continuous_displacement_bound_mm": 0.15707763897073082,
+    "rotation_maximum_overlap_mm3": 0.0,
+    "descent": [
+      {
+        "part": "hook",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.0017049450498186284
+      },
+      {
+        "part": "cord",
+        "overlap_mm3": 0.0,
+        "gap_mm": 2.0
+      }
+    ],
+    "both_support_contacts": [
+      {
+        "side": -1,
+        "contact_volume_mm3": 0.022227920735705297
+      },
+      {
+        "side": 1,
+        "contact_volume_mm3": 0.02222792080053594
+      }
+    ],
+    "downward_obstruction": [
+      {
+        "down_mm": 0.08,
+        "overlap_mm3": 0.04445584153624123
+      },
+      {
+        "down_mm": 0.1,
+        "overlap_mm3": 0.06989666585800605
+      },
+      {
+        "down_mm": 0.5,
+        "overlap_mm3": 1.3982942808000451
+      },
+      {
+        "down_mm": 1.0,
+        "overlap_mm3": 4.6548744210307555
+      },
+      {
+        "down_mm": 2.0,
+        "overlap_mm3": 15.904613986412846
+      }
+    ],
+    "cap_removal": {
+      "sample_step_mm": 0.625,
+      "lipschitz_half_step_mm": 0.3125,
+      "minimum_sample_gap_mm": 2.0,
+      "end_offset_mm": 75.0,
+      "continuous_clear": true,
+      "initial_closed_overlap_mm3": {
+        "hook": 0.0,
+        "cord": 0.0,
+        "left_eye": 0.0,
+        "right_eye": 0.0
+      },
+      "separated_at_path_end": true
+    },
+    "pass": true
+  },
+  "source_snapshot_unchanged": true,
+  "inputs_unchanged": true,
+  "elapsed_seconds": 51.19336216710508,
+  "limits": [
+    "Geometry verification uses the previously approved approximate reference hook and rigid cord; real hardware/body fit, loads, glue and printer tolerances remain untested.",
+    "Cap coverage is approximate surface classification; do not describe as literal equal-volume halves."
+  ],
+  "pass": true
+}

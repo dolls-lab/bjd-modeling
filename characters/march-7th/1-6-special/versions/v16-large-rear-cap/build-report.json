@@ -1,0 +1,41 @@
+{
+  "version": "march7-1-6-special-v16-large-rear-cap",
+  "parts": {
+    "head": {
+      "sha256": "d2c9e0801a8c9d2ad6abda072262b9c21973e82642c2786d20dd3d4e1b77b7e7",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "min_triangle_area_mm2": 4.71700226473587e-10,
+      "before_cleanup": [
+        397208,
+        794424
+      ],
+      "after_cleanup": [
+        397208,
+        794424
+      ],
+      "saved_blend_stl_triangles_equal": true
+    },
+    "cap": {
+      "sha256": "b8874e203229a2139e74fdb2d85fbe0324ce8656295ef649c867b0fbae5460ee",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "min_triangle_area_mm2": 1.3946145611945738e-10,
+      "before_cleanup": [
+        223637,
+        447270
+      ],
+      "after_cleanup": [
+        223145,
+        446286
+      ],
+      "saved_blend_stl_triangles_equal": true
+    }
+  },
+  "source_unchanged": true,
+  "saved_reopened": true,
+  "blend_sha256": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+  "physical_fit": "Prototype only; no physical fit/load test."
+}

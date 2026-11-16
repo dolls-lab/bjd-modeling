@@ -1,0 +1,379 @@
+{
+  "direct_saved_model_renders": 12,
+  "all_model_and_image_hashes_match": true,
+  "source_files_unchanged": true,
+  "contact_sheets": 3,
+  "views": [
+    {
+      "image": "quarter-old-side.png",
+      "image_sha256": "60e82f5b37a27a936ed31f8a3003b95e01c302002e8905342eb7e21e5cc090d1",
+      "model": "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-bjd-head-1-4-v30.blend",
+      "model_sha256": "9869f8dde9c2a0e50b57219e2ad9b2ed65023b9ad904d3a5bd91330c9e1c087f",
+      "size": "quarter",
+      "state": "old",
+      "view": "side",
+      "camera_mm": [
+        -200.0,
+        0.0,
+        36.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false
+    },
+    {
+      "image": "quarter-old-open.png",
+      "image_sha256": "df2194b10ffcd5ea241e61ce5a6720ee715f7c36eda034d6fff4e0d61e55f55b",
+      "model": "characters/march-7th/1-4/versions/v30-pass-turn-seat/march7-bjd-head-1-4-v30.blend",
+      "model_sha256": "9869f8dde9c2a0e50b57219e2ad9b2ed65023b9ad904d3a5bd91330c9e1c087f",
+      "size": "quarter",
+      "state": "old",
+      "view": "open",
+      "camera_mm": [
+        -75.0,
+        130.0,
+        112.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 83.0,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false
+    },
+    {
+      "image": "quarter-new-side.png",
+      "image_sha256": "37d7e4efe04648ee51adb700c1d39ad667b3306b21abddcaf91d9528e8a6d15f",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "side",
+      "camera_mm": [
+        -200.0,
+        0.0,
+        36.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "quarter-new-open.png",
+      "image_sha256": "8ead8b02a1e5ecfdd46acaf6eb0719372279d5cf33be34592e2111458840bfd5",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "open",
+      "camera_mm": [
+        -75.0,
+        130.0,
+        112.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 83.0,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "quarter-new-exploded.png",
+      "image_sha256": "2b61b66edf2fb42c5ee5a666a0fde2bfde1ad6132bc25a609acef721f067c527",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "exploded",
+      "camera_mm": [
+        -140.0,
+        160.0,
+        135.0
+      ],
+      "target_mm": [
+        23.0,
+        14.0,
+        43.0
+      ],
+      "ortho_width_mm": 132.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        55.0,
+        25.0,
+        22.5
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "quarter-new-front.png",
+      "image_sha256": "52f7b3de7540b4dfd4a158420fdb341e8096996127b091abdaa5af476cc889f7",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "front",
+      "camera_mm": [
+        0.0,
+        -200.0,
+        34.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory both pieces",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "quarter-new-cap-interior.png",
+      "image_sha256": "6591229aec9cd409a4853e8aa17463a2f1587c46d763c4ddccf7a01e6950ac4c",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "cap-interior",
+      "camera_mm": [
+        -75.0,
+        -140.0,
+        -55.0
+      ],
+      "target_mm": [
+        0.0,
+        2.0,
+        45.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": false,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": true
+    },
+    {
+      "image": "quarter-new-top.png",
+      "image_sha256": "5cd046690c00f2ac988064ea5c8db3eeab103cbfa5aaf3f9d8084405bcb75576",
+      "model": "characters/march-7th/1-4/versions/v31-large-rear-cap/march7-bjd-head-1-4-v31.blend",
+      "model_sha256": "34f0407b8a4988968bf94d148cb118820224a92c9f21b58d80b4cd741ea0c63d",
+      "size": "quarter",
+      "state": "new",
+      "view": "top",
+      "camera_mm": [
+        0.0,
+        0.0,
+        230.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "ortho_width_mm": 82.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "third-new-open.png",
+      "image_sha256": "223664451910cfdec997c5f38b8f50b54803a03624b9713ae853314c60a54cc6",
+      "model": "characters/march-7th/1-3/versions/v15-large-rear-cap/march7-bjd-head-1-3-v15.blend",
+      "model_sha256": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+      "size": "third",
+      "state": "new",
+      "view": "open",
+      "camera_mm": [
+        -93.75,
+        162.5,
+        140.0
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        43.75
+      ],
+      "ortho_width_mm": 103.75,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "third-new-exploded.png",
+      "image_sha256": "46e45bda9a4b3c2fe2ce05532c55dbf1f41765e2de91d1b7dca5b047c1baf3e3",
+      "model": "characters/march-7th/1-3/versions/v15-large-rear-cap/march7-bjd-head-1-3-v15.blend",
+      "model_sha256": "1eccd73a6da90e7d6ed237dadb0b16bfd9f9ff241688d860d1d41c126d29c1e4",
+      "size": "third",
+      "state": "new",
+      "view": "exploded",
+      "camera_mm": [
+        -175.0,
+        200.0,
+        168.75
+      ],
+      "target_mm": [
+        28.75,
+        17.5,
+        53.75
+      ],
+      "ortho_width_mm": 165.0,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        68.75,
+        31.25,
+        28.125
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "special-six-new-open.png",
+      "image_sha256": "e89ca7cebbfc3d036e66ef50b60f1b2f1b7510de145424547c9d726a4043907c",
+      "model": "characters/march-7th/1-6-special/versions/v16-large-rear-cap/march7-bjd-head-1-6-special-v16.blend",
+      "model_sha256": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+      "size": "special-six",
+      "state": "new",
+      "view": "open",
+      "camera_mm": [
+        -66.67277526855469,
+        115.56614685058594,
+        99.56468200683594
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        31.113964080810547
+      ],
+      "ortho_width_mm": 73.78454006966227,
+      "head_visible": true,
+      "cap_visible": false,
+      "cap_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    },
+    {
+      "image": "special-six-new-exploded.png",
+      "image_sha256": "1fec9504bb4d999ea65b5fb77aca7483b9d5f3c8686f25fa1b429851f39a250c",
+      "model": "characters/march-7th/1-6-special/versions/v16-large-rear-cap/march7-bjd-head-1-6-special-v16.blend",
+      "model_sha256": "9a9b33a07cf6d83b60fc9a2bcf83a4285e49849eedaa995516ebc134222a4679",
+      "size": "special-six",
+      "state": "new",
+      "view": "exploded",
+      "camera_mm": [
+        -124.45585632324219,
+        142.23526000976562,
+        120.01100158691406
+      ],
+      "target_mm": [
+        20.446319580078125,
+        12.445585250854492,
+        38.22572708129883
+      ],
+      "ortho_width_mm": 117.34408782163156,
+      "head_visible": true,
+      "cap_visible": true,
+      "cap_translation_mm": [
+        48.89337158203125,
+        22.224258422851562,
+        20.001832962036133
+      ],
+      "review_material": "ivory face shell and muted pink rear cap",
+      "vertex_coordinates_unchanged": true,
+      "reference_hardware_visible": false,
+      "cap_interior_fill_enabled": false
+    }
+  ],
+  "method": "Final12renders and3resizing/label-only composite sheets. Pink is a diagrammatic cap color. Faint old inner-support fairing contours remain visible; no claim of invisible internal patches."
+}
