@@ -1,0 +1,280 @@
+{
+  "version": "march7-quarter-v18-lip-only",
+  "units": "mm",
+  "source_fixed_hashes_match": true,
+  "input_sha256": {
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v16-surface-fairing/march7-head-shell-1-4-v16.stl": "ed302cfdb3dce7f763e64fcdda104ec7eaed3a846ccea3f8eaaf84bd97e92c2d",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v16-surface-fairing/march7-head-cap-1-4-v16.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v18-lip-only/march7-head-shell-1-4-v18.stl": "3399309ae690b1a8cfa022442971c9480ea0d427d51a3e8a8f6e58a7bf4af062",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v18-lip-only/march7-head-cap-1-4-v18.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v16-surface-fairing/march7-bjd-head-1-4-v16.blend": "13448fe3c2018752af51c46312dbba8643ac5021e589e1f94726ca4b61f4dbe9",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v18-lip-only/march7-bjd-head-1-4-v18.blend": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066"
+  },
+  "method": "Independent raw triangle-coordinate comparison; exact source preservation outside analytic lip support; oriented-solid acceptance and thickness ray samples. No repair or input writes.",
+  "change_scope": {
+    "source_vertices": 252695,
+    "changed_vertices": 3204,
+    "raw_triangles": 505398,
+    "xz_exactly_identical": true,
+    "outside_lip_support_changed": 0,
+    "all_changes_inward": true,
+    "dy_range_mm": [
+      0.0,
+      0.12000083923339844
+    ],
+    "changed_bounds_source_xyz_mm": [
+      [
+        -4.473855972290039,
+        -29.00875473022461,
+        8.491443634033203
+      ],
+      [
+        4.473415851593018,
+        -22.577144622802734,
+        12.35800552368164
+      ]
+    ],
+    "whole_head_bounds_exactly_identical": true,
+    "minimum_source_target_normal_dot": 0.985469139966568,
+    "minimum_face_area_ratio": 0.9117307843316398,
+    "maximum_analytic_prescription_error_mm": 9.536143938206391e-07,
+    "cap_stl_byte_identical": true,
+    "pass": true
+  },
+  "protected_geometry": {
+    "all_outside_lip_support": {
+      "triangle_corners_checked": 1496679,
+      "changed_triangle_corners": 0,
+      "pass": true
+    },
+    "mouth_corners_and_adjacent_cheeks": {
+      "triangle_corners_checked": 238013,
+      "changed_triangle_corners": 0,
+      "pass": true
+    },
+    "chin_below_lips": {
+      "triangle_corners_checked": 109237,
+      "changed_triangle_corners": 0,
+      "pass": true
+    },
+    "nose_forehead_eyes_and_upper_head": {
+      "triangle_corners_checked": 1289609,
+      "changed_triangle_corners": 0,
+      "pass": true
+    },
+    "rear_and_neck_side": {
+      "triangle_corners_checked": 901850,
+      "changed_triangle_corners": 0,
+      "pass": true
+    },
+    "original_mouth_seam_xz": {
+      "triangle_corners_checked": 2449,
+      "changed_xz_triangle_corners": 0,
+      "maximum_y_retraction_mm": 0.12000083923339844,
+      "note": "The seam moves back with the rest of the lip; its original X/Z path remains exact.",
+      "pass": true
+    }
+  },
+  "parts": {
+    "head": {
+      "file": "march7-head-shell-1-4-v18.stl",
+      "sha256": "3399309ae690b1a8cfa022442971c9480ea0d427d51a3e8a8f6e58a7bf4af062",
+      "vertices": 252695,
+      "triangles": 505398,
+      "finite_coordinates": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "component_triangles": [
+        505398
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_overused_edges": 0,
+      "degenerate_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangles": 0,
+      "euler_number": -4,
+      "expected_euler_number": -4,
+      "signed_volume_mm3": 25179.42979907138,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 25179.42979907139,
+      "bounds_mm": [
+        [
+          -27.776866912841797,
+          -33.49270248413086,
+          0.06929779052734375
+        ],
+        [
+          27.779043197631836,
+          24.055156707763672,
+          69.78440856933594
+        ]
+      ],
+      "dimensions_mm": [
+        55.55591011047363,
+        57.54785919189453,
+        69.7151107788086
+      ],
+      "pass": true
+    },
+    "cap": {
+      "file": "march7-head-cap-1-4-v18.stl",
+      "sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+      "vertices": 48537,
+      "triangles": 97070,
+      "finite_coordinates": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "component_triangles": [
+        97070
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_overused_edges": 0,
+      "degenerate_area_below_1e_10_mm2": 0,
+      "repeated_vertex_triangles": 0,
+      "duplicate_triangles": 0,
+      "euler_number": 2,
+      "expected_euler_number": 2,
+      "signed_volume_mm3": 5299.616236814799,
+      "manifold_status": "Error.NoError",
+      "manifold_empty": false,
+      "manifold_volume_mm3": 5299.616236814799,
+      "bounds_mm": [
+        [
+          -21.90531349182129,
+          9.420143127441406,
+          18.3775634765625
+        ],
+        [
+          21.90537452697754,
+          30.50926971435547,
+          67.8028793334961
+        ]
+      ],
+      "dimensions_mm": [
+        43.81068801879883,
+        21.089126586914062,
+        49.425315856933594
+      ],
+      "pass": true
+    }
+  },
+  "mouth_wall_y_samples": {
+    "method": "Oriented first entry/exit pairs along Y in the mouth wall; projected samples, not global perpendicular minimum thickness.",
+    "valid_pairs": 1890,
+    "source_valid_target_invalid": [],
+    "minimum_source_sample_mm": 2.48260650351056,
+    "minimum_target_sample_mm": 2.4823125989254073,
+    "maximum_thinning_mm": 0.00490121136369126,
+    "maximum_thickening_mm": 0.005993621110150116,
+    "worst_thinning_samples": [
+      {
+        "x_mm": 2.5500000000000167,
+        "z_mm": 11.750000000000009,
+        "source_y_thickness_mm": 4.284960078997997,
+        "target_y_thickness_mm": 4.280058867634306,
+        "thickness_change_mm": -0.00490121136369126,
+        "outer_dy_mm": 0.01545237491857776,
+        "inner_dy_mm": 0.0105511635548865
+      },
+      {
+        "x_mm": -2.6999999999999957,
+        "z_mm": 10.400000000000006,
+        "source_y_thickness_mm": 4.191977747392745,
+        "target_y_thickness_mm": 4.188215941803968,
+        "thickness_change_mm": -0.003761805588776923,
+        "outer_dy_mm": 0.11446821504605253,
+        "inner_dy_mm": 0.11070640945727561
+      },
+      {
+        "x_mm": -2.5499999999999954,
+        "z_mm": 10.400000000000006,
+        "source_y_thickness_mm": 4.30989739844312,
+        "target_y_thickness_mm": 4.306510355665338,
+        "thickness_change_mm": -0.003387042777781346,
+        "outer_dy_mm": 0.1184516257535364,
+        "inner_dy_mm": 0.11506458297575506
+      },
+      {
+        "x_mm": -2.6999999999999957,
+        "z_mm": 11.300000000000008,
+        "source_y_thickness_mm": 4.374532084841249,
+        "target_y_thickness_mm": 4.3713897019117205,
+        "thickness_change_mm": -0.003142382929528509,
+        "outer_dy_mm": 0.07500334196591751,
+        "inner_dy_mm": 0.071860959036389
+      },
+      {
+        "x_mm": -2.2499999999999947,
+        "z_mm": 11.600000000000009,
+        "source_y_thickness_mm": 4.518566294005861,
+        "target_y_thickness_mm": 4.515466846563385,
+        "thickness_change_mm": -0.0030994474424765883,
+        "outer_dy_mm": 0.024511208216271285,
+        "inner_dy_mm": 0.021411760773794697
+      },
+      {
+        "x_mm": 3.150000000000018,
+        "z_mm": 12.05000000000001,
+        "source_y_thickness_mm": 3.7737146730743234,
+        "target_y_thickness_mm": 3.7706232466623533,
+        "thickness_change_mm": -0.003091426411970133,
+        "outer_dy_mm": 0.004035465720566123,
+        "inner_dy_mm": 0.0009440393085959897
+      },
+      {
+        "x_mm": 2.700000000000017,
+        "z_mm": 11.90000000000001,
+        "source_y_thickness_mm": 4.111772458380944,
+        "target_y_thickness_mm": 4.108955973017348,
+        "thickness_change_mm": -0.002816485363595689,
+        "outer_dy_mm": 0.005637473384080494,
+        "inner_dy_mm": 0.002820988020484805
+      },
+      {
+        "x_mm": 2.5500000000000167,
+        "z_mm": 11.600000000000009,
+        "source_y_thickness_mm": 4.361152722668777,
+        "target_y_thickness_mm": 4.358549417388588,
+        "thickness_change_mm": -0.002603305280189261,
+        "outer_dy_mm": 0.029417082174020948,
+        "inner_dy_mm": 0.026813776893831687
+      },
+      {
+        "x_mm": 3.450000000000019,
+        "z_mm": 11.600000000000009,
+        "source_y_thickness_mm": 3.8225576191303645,
+        "target_y_thickness_mm": 3.820024587182594,
+        "thickness_change_mm": -0.0025330319477703256,
+        "outer_dy_mm": 0.02730838788111356,
+        "inner_dy_mm": 0.024775355933343235
+      },
+      {
+        "x_mm": 3.150000000000018,
+        "z_mm": 11.600000000000009,
+        "source_y_thickness_mm": 4.0026982155295165,
+        "target_y_thickness_mm": 4.000234151515116,
+        "thickness_change_mm": -0.002464064014400691,
+        "outer_dy_mm": 0.03344353581969983,
+        "inner_dy_mm": 0.03097947180529914
+      }
+    ],
+    "pass": true
+  },
+  "interfaces": {
+    "method": "All head vertices outside the tiny anterior lip region unchanged, plus byte-identical cap. The existing eye/neck/cap interface geometry is preserved; no new fitting claim.",
+    "pass": true
+  },
+  "input_files_unchanged": true,
+  "physical_fit": "NOT TESTED",
+  "limitations": [
+    "Source and target normals remain in the same hemisphere; oriented manifold acceptance is not an exhaustive all-triangle self-intersection proof.",
+    "Wall samples are Y-projected, not a global minimum wall/strength proof.",
+    "The lip geometry is intentionally modified; fixed surrounding vertices do not prove identical perceived expression.",
+    "Appearance requires same-camera renders and user confirmation."
+  ],
+  "duration_seconds": 6.593084707856178,
+  "pass": true
+}

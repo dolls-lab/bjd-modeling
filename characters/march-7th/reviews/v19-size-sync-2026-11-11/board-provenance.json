@@ -1,0 +1,64 @@
+[
+  {
+    "file": "three-sizes-overview.png",
+    "sha256": "1df64f58025aa20048550b1b02f88b61c3c664f542c5a556c3230832ad8237bf",
+    "inputs": [
+      {
+        "file": "previews/quarter-v19-front.png",
+        "sha256": "02727087e32311f7d59b5e7be3554b29c4926a15467be9bffb9266ce20f22057"
+      },
+      {
+        "file": "previews/third-v3-front.png",
+        "sha256": "9fae136dc83e4fb57435cde6687959d275ac7ca7d527c76c4eb2e9741f82f7c2"
+      },
+      {
+        "file": "previews/special-six-v4-front.png",
+        "sha256": "d52941f440cbdfe23f542e45c57d5d3454e6d12bac1a9869d9437d16ae2dc04a"
+      },
+      {
+        "file": "previews/quarter-v19-quarter.png",
+        "sha256": "051451897cfa69958eba1fd4e45730eceda063d9fb385525bc73356b8b3481e0"
+      },
+      {
+        "file": "previews/third-v3-quarter.png",
+        "sha256": "eef0e010eee41461631a16cdf822e260688b7f03e45e95aaea38d5be439be54d"
+      },
+      {
+        "file": "previews/special-six-v4-quarter.png",
+        "sha256": "c231e7426857c599664f8469002f6e4da70301940cbfb96b443e2b97fca50a5b"
+      }
+    ],
+    "operations": "Resize and layout only; no retouching."
+  },
+  {
+    "file": "face-and-side-comparison.png",
+    "sha256": "c9f948a985a70b9c31d3b7c4af89d9fa3571e9adba06e70ce6de5d7ba437be9b",
+    "inputs": [
+      {
+        "file": "previews/quarter-v19-mouth-quarter.png",
+        "sha256": "7e8748e9bb736201e326fc92d53a41410e0ac17f2bba683cfb01142648ac64b1"
+      },
+      {
+        "file": "previews/third-v3-mouth-quarter.png",
+        "sha256": "930de6ea5f7ac5d66ea6e230d9fbd5793ee9d3ba1fe1c50c4c150651197147d3"
+      },
+      {
+        "file": "previews/special-six-v4-mouth-quarter.png",
+        "sha256": "5cb7af37520c2ba3efb580bb395a283c2cb93ac2430bf2cdfc04b54bb8e78422"
+      },
+      {
+        "file": "previews/quarter-v19-side.png",
+        "sha256": "c2c319d73988551733ab849722f56d588fa096ff492b472ebbf3fae002037e3d"
+      },
+      {
+        "file": "previews/third-v3-side.png",
+        "sha256": "268eef44c120ffda09a2c6501e95eac4c4fa85cf7ee0ae03efc134d4709fb1ce"
+      },
+      {
+        "file": "previews/special-six-v4-side.png",
+        "sha256": "abeb0d04ca688c2ca3e62451bc3cd380465607b0a8de91e40b7782468faab572"
+      }
+    ],
+    "operations": "Resize and layout only; no retouching."
+  }
+]

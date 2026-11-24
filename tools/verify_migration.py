@@ -1,4 +1,4 @@
-"""Verify preserved migration files without opening or modifying any model."""
+"""Verify preserved migration files and explicitly recorded user deletions."""
 from pathlib import Path
 import hashlib
 import json
@@ -22,15 +22,49 @@ def sha256(path):
     return result.hexdigest()
 
 
+def retired_files():
+    """Read exact file records, never skip a whole directory by prefix."""
+    path = ROOT / 'docs/retired-versions-2026-11-11.json'
+    if not path.is_file():
+        return {}
+    manifest = json.loads(path.read_text())
+    if manifest.get('schema_version') != 1:
+        raise SystemExit(f'Unsupported retirement manifest schema: {path}')
+    records = {}
+    for entry in manifest['files']:
+        relative = Path(entry['path'])
+        if (relative.is_absolute() or '..' in relative.parts
+                or relative.as_posix() != entry['path'] or not relative.parts):
+            raise SystemExit(f'Invalid retired file path: {entry["path"]}')
+        if entry['path'] in records:
+            raise SystemExit(f'Duplicate retired file record: {entry["path"]}')
+        records[entry['path']] = entry
+    return records
+
+
 def main():
     checked = 0
+    retired_count = 0
     failures = []
     layout = ROOT / 'docs/layout-map.json'
     prefixes = json.loads(layout.read_text())['prefixes'] if layout.is_file() else {}
+    retired = retired_files()
+    for relative in retired:
+        path = ROOT / relative
+        if path.exists() or path.is_symlink():
+            failures.append(f'{relative} (recorded as retired but still present)')
     for name in ['migration-manifest.json', 'reference-copy-manifest.json']:
         manifest = json.loads((ROOT / 'docs' / name).read_text())
         for entry in manifest['files']:
             path = current_path(entry['path'], prefixes)
+            retirement = retired.get(path.relative_to(ROOT).as_posix())
+            if retirement is not None:
+                if (retirement['bytes'] != entry['bytes']
+                        or retirement['sha256'] != entry['sha256']):
+                    failures.append(f'{entry["path"]} (retirement record differs from original migration)')
+                elif not path.exists() and not path.is_symlink():
+                    retired_count += 1
+                continue
             # Caches and duplicate packages were moved but are intentionally
             # untracked. A future checkout does not need these optional files.
             optional = ('__pycache__' in path.parts or path.name == '.DS_Store'
@@ -45,7 +79,9 @@ def main():
             checked += 1
     if failures:
         raise SystemExit('Migration mismatches:\n' + '\n'.join(failures))
-    print(f'PASS: {checked} preserved files match migration SHA-256 records.')
+    print(f'PASS: {checked} preserved files match migration SHA-256 records; '
+          f'{retired_count} migration files are absent as explicitly recorded '
+          'in the user-authorized retirement manifest.')
 
 
 if __name__ == '__main__':

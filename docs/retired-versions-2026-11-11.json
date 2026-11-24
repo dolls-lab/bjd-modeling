@@ -1,0 +1,4490 @@
+{
+  "directories": [
+    "characters/march-7th/1-4/versions/march7-bjd-1-4",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11"
+  ],
+  "files": [
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/README.md",
+      "bytes": 4992,
+      "sha256": "6ef098bd52090e97a86d21415a9212236f08530bc615268013e630a21ef90530",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21944,
+      "sha256": "b94b414324a58bec2671497299b085dfd5d5d7082f2d1b4d76bb1a2e46aed07d",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17653,
+      "sha256": "70e901a655894dfcd2f7c7f3c5164c8920f72c362e5738c867d67d9dbf065846",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/__pycache__/validate_mesh.cpython-312.pyc",
+      "bytes": 22210,
+      "sha256": "ad50935e6ddf55d494a9abcffb957dedd560c86816697730a1ffaee174c663cf",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/build-report.json",
+      "bytes": 1728,
+      "sha256": "918f867cc09f79e0e7d4953931f9c2347c90f1d38610846b906d8a6af2867c7d",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/build_head.py",
+      "bytes": 17021,
+      "sha256": "bb5f86d2d06299391a3d513535bfc590c79302a7828057465371b2ae68ef90ef",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/checksums.json",
+      "bytes": 2056,
+      "sha256": "d9216f75629243870a8e6654b4225e9f17b3ae0a2b29e6edf9f6a338ffe3819c",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/march7-bjd-head-v0.1-draft.blend",
+      "bytes": 19964066,
+      "sha256": "fd23058915fea256d019b4dc937d89a19052226a77f5c97c54ecd798aa4f001e",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/march7-bjd-head-v0.1-draft.zip",
+      "bytes": 48560800,
+      "sha256": "892fe55622e2eba95fed5037c1a5f660a4e91b048d780225c9a336c483fcce9f",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/march7-head-cap-v0.1-draft.stl",
+      "bytes": 5922884,
+      "sha256": "3356e9ffc6397ae6a7680fdf20ab7e9efb34af9e5cf8bdfa4abf7f901525a053",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/march7-head-shell-v0.1-draft.stl",
+      "bytes": 27118284,
+      "sha256": "34e5893897f25655689f30bcc723fb021be6fe4964ef0eaaee633611152512a9",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/package_delivery.py",
+      "bytes": 2588,
+      "sha256": "29cd0ea88d65337493560ec9ae58ab1de3c0b138eeb5b95db696e41953d900f8",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/parameters.json",
+      "bytes": 1084,
+      "sha256": "9bcab9de4a7092a5e97509707de3f3cb7cb87ec9a9956f9289ce54441f8a992c",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-back.png",
+      "bytes": 1008445,
+      "sha256": "16b10c5df5202ebb3cbacf5a173287adfba7bc9ca25b905330fb3ce1c077e883",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-cap-interior.png",
+      "bytes": 1020876,
+      "sha256": "e6d161ff89522882fce7d0981458fab9af85e2bef431b6a91b5c885188b6a9f1",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-exploded.png",
+      "bytes": 1045726,
+      "sha256": "e0351e7a2e109c1c7cee3151161b5494e75b858b180cd1809a981d4fd1740c5c",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-front.png",
+      "bytes": 1034280,
+      "sha256": "ac7e9dff680cabaf9c0d5b9c80dbe9dd680c33cf91364bfdc9f019bcf2ecbe3f",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-interior.png",
+      "bytes": 1035663,
+      "sha256": "a2eea837d1399978404b99aa41c682c0c4714f93859f84d01e95f9f253633285",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-neck.png",
+      "bytes": 1050869,
+      "sha256": "624bc0df531035e52edca4cc60948daec7a2b0f9f3423bc3bc6e9cb4b82ffb85",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-overview.png",
+      "bytes": 719490,
+      "sha256": "d7a795851c9dcd9f86bcf39601be84a595256f9078ad869086ee423e66dc5a21",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-quarter.png",
+      "bytes": 1035720,
+      "sha256": "34f1dd44c5cdd8ea66312b198c55bf21afb8020980c8c2007c600b0802856c45",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/preview-side.png",
+      "bytes": 1023977,
+      "sha256": "8c78589e9cf5cd35b51dbf3aac35b1cae213983458aa45e365fdb04b4ebc40b3",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/source-face-reference.png",
+      "bytes": 222429,
+      "sha256": "7a3726c739bba1b295a1b1d9a0a6f0336c7827608f859514f01cef79716f4003",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/validate_mesh.py",
+      "bytes": 14221,
+      "sha256": "7685141dd09a224d716093d1a2388c5b38bb853a12cbd6a4fa20c244f46f339b",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4/validation.json",
+      "bytes": 15327,
+      "sha256": "4ea96a48d2dd1b7c567673d3c77f2664a2ec028c12eea1414056c9d91957f17a",
+      "version": 1
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/README.md",
+      "bytes": 5778,
+      "sha256": "0b71b767295e7b8712a8786939fa05b0b4ace2f347bfcd7292e6545c387bcbe5",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21949,
+      "sha256": "e71e11d288d0ff0152d020fedfff98530bb9cfc97ede73520ec6e4300a3693de",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "c54e0b8d599f17d0ee9558b228c23f958d165c1f9847134bf5bbddf14aa06cb8",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/__pycache__/validate_mesh.cpython-312.pyc",
+      "bytes": 30140,
+      "sha256": "8a376f24d0d6ae7e0c5cbf46551c27c98d46b28b0ff235eb786076c8a6d0a917",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/build-report.json",
+      "bytes": 2127,
+      "sha256": "414fa063310a123b5653317f4f7d6199eb06d6386b05ace35fb8372624575f26",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/build_head.py",
+      "bytes": 17928,
+      "sha256": "0f705666264c034b2f9b0cdc2f778d5fb988cb0721d419ab2b8e47eebd447490",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "2cfb839aa284a6cc62fb3358d89503e548f94b439cd08f4c9b1da36a369d61e8",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/checksums.json",
+      "bytes": 2349,
+      "sha256": "31f1ca23b43e152d01e0232905b7d50620bfc0e052bea8d7cc1108715a094e82",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/design-reference-notes.md",
+      "bytes": 2324,
+      "sha256": "c96d7b3a775fa02fed3fa85c3ead4f43879e9d5f251ddea309bee4c35b55cddf",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/eye-insertion-check.json",
+      "bytes": 14182,
+      "sha256": "cb489fbb51259eeef1d6c5e89d5d7747c92258506c3214eaaaec16bb744d16c7",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/march7-bjd-head-v0.2-draft.blend",
+      "bytes": 19981358,
+      "sha256": "1fb1de5fc284bfed3b273a3aaa465c8f39b1626058dce7dcc5d5f0d3055d595a",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/march7-bjd-head-v0.2-draft.zip",
+      "bytes": 48572154,
+      "sha256": "3052f785260ce6b0130ee3eeaa3cca9d7c02c574347d11f581a076ef786886be",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/march7-head-cap-v0.2-draft.stl",
+      "bytes": 5445484,
+      "sha256": "fa4122820721aef24643d5e10a21bf1b26302df442f6caac7a57f4c7e3a9b562",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/march7-head-shell-v0.2-draft.stl",
+      "bytes": 27465484,
+      "sha256": "6d133deec33b33a9c610ca9a99e97cae409bdcbe348893bd1525cb993c5f58b5",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/package_delivery.py",
+      "bytes": 2941,
+      "sha256": "fa1026189cf522957a8788d51544c0e922e3e90f3a3edf3820a558a608db1cbf",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/parameters.json",
+      "bytes": 1297,
+      "sha256": "c29dd16ba84fe8144243d0b0d708b02bbd161c5d23bca8504917dd1a1a22f58f",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-back.png",
+      "bytes": 1012029,
+      "sha256": "58f2b67d9b4bebcf76fa5ab9f152e66f2993acfd54d455a6b0bd9d802279b702",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-cap-interior.png",
+      "bytes": 1028175,
+      "sha256": "5ba017f3c01c9e7e2963cb6c57baa131791ab8ac633ed086fff974c9ea43bbc7",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-exploded.png",
+      "bytes": 1029946,
+      "sha256": "7acb2e42232f6aa7645ec96078df3146e1195675543f5867ac1f070691ceb56a",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-front.png",
+      "bytes": 1032133,
+      "sha256": "2bbb8b2e0fdff15b7193b3c9925069ea84f952752becbdd1e859d7e16d892717",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-interior.png",
+      "bytes": 1051802,
+      "sha256": "e1c08903b42529bfbc42937742b82fcf11e3c927393414dc8f31e995b661a97c",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-neck.png",
+      "bytes": 1047758,
+      "sha256": "e3c1ec4288f40f3dc1da34371495dac6e31de04b25af96a3150f282c1d63b45c",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-overview.png",
+      "bytes": 713614,
+      "sha256": "e7e5128ddd8428101b8202c62cf3d9ca2acd2aba72fb4e8575b1838e41a3f556",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-quarter.png",
+      "bytes": 1027886,
+      "sha256": "07051ae9b6df4162a45b42bec02b47f55f3c01199e9082d9d466c997b0b343c5",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/preview-side.png",
+      "bytes": 1033837,
+      "sha256": "e502910f3cb82a1248240dce2c6be54a1b4989fdfd5601f8bddc560c3dd1bbda",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/source-face-reference.png",
+      "bytes": 222429,
+      "sha256": "7a3726c739bba1b295a1b1d9a0a6f0336c7827608f859514f01cef79716f4003",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/validate_mesh.py",
+      "bytes": 22571,
+      "sha256": "48b82b5b923163d9e4f3558df8a9f30e2c94dc1cf7b50af5b1c8e3179940400b",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.2/validation.json",
+      "bytes": 24402,
+      "sha256": "610bb48fe3bf6c011441e9237a1e2625e11af45fc1df96ccb13198385fb36161",
+      "version": 2
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/README.md",
+      "bytes": 4630,
+      "sha256": "d6141e434bf98400a76465299f3effa2ef0b04db2532ddf5069242bf7b3fb545",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21949,
+      "sha256": "f5e851b970650ec4ee5c913655ca46b7dcdda64d8dc92d07dd49836450fde801",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "a6f25037da83c876bdeedc78ad3f22b514a8e2770e9d974177d1a4b3a8ec8062",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/__pycache__/validate_mesh.cpython-312.pyc",
+      "bytes": 33251,
+      "sha256": "50e96a356aa3f7ba29292387a1545b7a121d282c5281974adac1a7958561a266",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/build-report.json",
+      "bytes": 2588,
+      "sha256": "f55a129fe6f20a27ab4daec4806a9a4e5f3fafb16521610ad1dce311c0daf0c0",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/build_head.py",
+      "bytes": 22204,
+      "sha256": "971086e52bcbc5d33fa40345db44ddabf94c3945e671b9133873f472193345a6",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "f240cc894541fc964356a4060d52cfbf82579d902d39a52ee61d604c6cf728ba",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/checksums.json",
+      "bytes": 2851,
+      "sha256": "e89aa4ab592d982a633e418ccda35d12028b742e95e7e7e6a29135ccf86c08be",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "58b887aa1f4da5ce56258251f13b94c4ec1c5af27cb4fcac13803e1add392a67",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/design-reference-notes.md",
+      "bytes": 2324,
+      "sha256": "c96d7b3a775fa02fed3fa85c3ead4f43879e9d5f251ddea309bee4c35b55cddf",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/eye-insertion-check.json",
+      "bytes": 14183,
+      "sha256": "86b39fb517f1f19a186edb2f8117d493b8f50940dafaf503a86a02dd287a7422",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/face-opening-comparison.json",
+      "bytes": 6193,
+      "sha256": "b481f610a01960d76777507a2c2bd214de99d7fcd6f5a5ae1816e97ce8d80a4e",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/march7-bjd-head-v0.3-draft.blend",
+      "bytes": 20105420,
+      "sha256": "6a180b073dc0da956e87830ceea90e5a880d9aa7741fd0e823398aa68de2f368",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/march7-bjd-head-v0.3-draft.zip",
+      "bytes": 50322623,
+      "sha256": "c3ddec588d2df4f893cfc05bf917bcaebb0833c307f0e412d6e5505185b505d9",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/march7-head-cap-v0.3-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/march7-head-shell-v0.3-draft.stl",
+      "bytes": 27367084,
+      "sha256": "7eaf457536430e9bebd79b5a2d3a4cba259cb70074f352f0e5261566310b3f80",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/package_delivery.py",
+      "bytes": 4028,
+      "sha256": "299ce386a98e8fb8ef818ac1d309d065e92efef648c586f7f60f897b9abf550e",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/parameters.json",
+      "bytes": 1441,
+      "sha256": "2c29b9927473075d522845b5f63198e38f967a333fd88ad4de9f22944ebaf16b",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-back.png",
+      "bytes": 1012250,
+      "sha256": "db4944b3e06fd75c7ce8d53f58fccf19cafe0b5ca605dae8a0a2eae25151d033",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-before-v0.2-quarter.png",
+      "bytes": 1027886,
+      "sha256": "07051ae9b6df4162a45b42bec02b47f55f3c01199e9082d9d466c997b0b343c5",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-cap-interior.png",
+      "bytes": 1026958,
+      "sha256": "d869eed44db192f4c4426c87ef045d404594127492b079cbdb98a49c32e2ddef",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-comparison.png",
+      "bytes": 624207,
+      "sha256": "032d39cf6d55e0ef799cc5461e37e290f22c8ba634e7f43ff3c589e27e81c957",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-exploded.png",
+      "bytes": 1030211,
+      "sha256": "abac72c4152ac8d0e0bbcd6d0c2665242f6afb03ee23127b239b7ca9d0bd61e1",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-front.png",
+      "bytes": 1030342,
+      "sha256": "03d2d846c34814d3c6184c94c420d0b2fa4b3f312df523b7c0d2d79aa55253b9",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-interior.png",
+      "bytes": 1051477,
+      "sha256": "020290138bde22315c042506ba17c56cc49ce49e9dc5551da3c972fcea216adb",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-neck.png",
+      "bytes": 1045763,
+      "sha256": "297a154f9955b6b27a79b1854430be505a50e03fb931c9b12c2eca3c3e3e34a9",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-overview.png",
+      "bytes": 712880,
+      "sha256": "469b006c7c49059db09bbf007688bd393f2b4503be8ae30bd96c8fd41f9c55e8",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-quarter.png",
+      "bytes": 1026433,
+      "sha256": "e9a48a49803eb20a27273a68817cf14e7a80a07cbe8ed66a99331f3e890013e0",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/preview-side.png",
+      "bytes": 1032186,
+      "sha256": "a77b605d6b95e83ebaccb570dcf1d4f5ab1071c5bf1778562bf34575c443c76f",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/source-face-reference.png",
+      "bytes": 222429,
+      "sha256": "7a3726c739bba1b295a1b1d9a0a6f0336c7827608f859514f01cef79716f4003",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/validate_mesh.py",
+      "bytes": 22571,
+      "sha256": "ed68e007dc82d2b49518a155c2bbbf7b88185f0b92c3e0e2c0475aab0e8f291b",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.3/validation.json",
+      "bytes": 24445,
+      "sha256": "ce07e6ed5d7fac9641031855182eeaa7408132935b224e2899576e7de5910ba6",
+      "version": 3
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/README.md",
+      "bytes": 4261,
+      "sha256": "3e2d7e14aa13c2cc42b949e62c140c1d1b2c9d454451aa06d876810eeca05241",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "144dc0a4ae1ade80f1b685277ea50d2b20c0698dc3c9bc0e66e3e4fadbc4f3ec",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/baseline-build-report.json",
+      "bytes": 2588,
+      "sha256": "f55a129fe6f20a27ab4daec4806a9a4e5f3fafb16521610ad1dce311c0daf0c0",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/baseline-v0.3.blend",
+      "bytes": 20105420,
+      "sha256": "6a180b073dc0da956e87830ceea90e5a880d9aa7741fd0e823398aa68de2f368",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/build-report.json",
+      "bytes": 3956,
+      "sha256": "b0c6d46bcdbcc3c2eeb0b8646c10054306513e46a6d3967fb0cb589b464ec24c",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/build_head.py",
+      "bytes": 7283,
+      "sha256": "4e88481466d8ebf52ad59b5e886665bc7f6dbacfe70927a5cb86ed8c59b84a56",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "bce5e573f3d2c7fa6bfec93c71e420344cf4f010bc168fe5974dae509d2590d4",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/checksums.json",
+      "bytes": 3745,
+      "sha256": "2c463f2415cededbe4816d096bce36e726a5f52b1607f49c1005b17edc5f21fa",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "90c1af4c3cdc439c957a8333148b5dccc2ced53634a3f5f09143a4a15f7149a4",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/cranium-profile-comparison.png",
+      "bytes": 152880,
+      "sha256": "199840fe4d0ebe332b41672ae697185880cb503c6239cd8ca813d83b47fb81bb",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/cranium-profile-review.json",
+      "bytes": 72670,
+      "sha256": "2e2e0432cfab911794cb86aaf89b302a4fdd50ed156bee0d24672f2ffb76fc77",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/design-reference-notes.md",
+      "bytes": 2324,
+      "sha256": "c96d7b3a775fa02fed3fa85c3ead4f43879e9d5f251ddea309bee4c35b55cddf",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/eye-insertion-check.json",
+      "bytes": 14183,
+      "sha256": "844a18f4f6e30ec87f980329a5f0d38dd3e04348d684c1414d467f42bd936456",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/face-opening-comparison.json",
+      "bytes": 6193,
+      "sha256": "156eb952e32f4b59b0c2d1fd3c35ab24a2d4ac5d6a36961a91e02f3ef0226312",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/march7-bjd-head-v0.4-draft.blend",
+      "bytes": 20104696,
+      "sha256": "877d30a1b529420b71695481ae54c8c8bdd73dbbd4a10b3320028f2b8ac272cd",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/march7-bjd-head-v0.4-draft.zip",
+      "bytes": 76260140,
+      "sha256": "3f4a41f47b9cb3effaada4bfc80089aa8ea7bc2f12ab3cdbf8204b06bdca0a32",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/march7-head-cap-v0.4-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/march7-head-shell-v0.4-draft.stl",
+      "bytes": 27367084,
+      "sha256": "340a5c8f431c8b5fb4aae5a2cc6d31d39ae3e375dc587a35da5f187880b835d2",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/package_delivery.py",
+      "bytes": 5214,
+      "sha256": "22c719d94e60662cb1e22a4106eba2482d176791b1ab990004ebb84bdc3e87d8",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/parameters.json",
+      "bytes": 1832,
+      "sha256": "6c5900362e14c70fb5f4e924f0b223b18bb55577aa4c49221c6168a31fc20a2b",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-back.png",
+      "bytes": 1011738,
+      "sha256": "c7f55c506188ecf768d044286b264026eddf368fb1ec96b865c7637a415f7956",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-before-v0.3-front.png",
+      "bytes": 1030342,
+      "sha256": "03d2d846c34814d3c6184c94c420d0b2fa4b3f312df523b7c0d2d79aa55253b9",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-before-v0.3-quarter.png",
+      "bytes": 1026433,
+      "sha256": "e9a48a49803eb20a27273a68817cf14e7a80a07cbe8ed66a99331f3e890013e0",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-before-v0.3-side.png",
+      "bytes": 1032186,
+      "sha256": "a77b605d6b95e83ebaccb570dcf1d4f5ab1071c5bf1778562bf34575c443c76f",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-cap-interior.png",
+      "bytes": 1027036,
+      "sha256": "10d618f4111b225252bc07723975553856ccf476f1104eefed8328f4c94bc512",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-comparison.png",
+      "bytes": 603059,
+      "sha256": "d4831a8d3406eb4f4aa34983af857b65f20f5a0571310bff85a43337ae4b8792",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-exploded.png",
+      "bytes": 1029738,
+      "sha256": "8c5c6b9419ff3b2ee2135ef66bd3f8ce670dbfe5051dd75c9745a2c6b81cdbc8",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-front.png",
+      "bytes": 1030310,
+      "sha256": "a6f72fd7d166734f9280a90f0340ba5ec675b29143ccee80476a6cf96ba3a226",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-interior.png",
+      "bytes": 1050815,
+      "sha256": "caa0e7133f81910245bdefd653e9f9f9b536fb393fd63f92994df24a90b87a4e",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-neck.png",
+      "bytes": 1044452,
+      "sha256": "ba59bfd3def59715e018ca7b4535e7e228beb0cae06e242db7027c79777e9565",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-overview.png",
+      "bytes": 715284,
+      "sha256": "ce78237be496b059056f13a487eb713454cc0c8c4b66b6cf32f20ee16de0c7d4",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-quarter.png",
+      "bytes": 1028186,
+      "sha256": "5ce440ec077152ee006b4a47ddd1d04a001e9ececef06a49bef242127e5a9225",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-side-comparison.png",
+      "bytes": 571551,
+      "sha256": "155de83a8e41848d48c43920815abb7f86db402df26a70a3f9f76d2fc6160f18",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/preview-side.png",
+      "bytes": 1033050,
+      "sha256": "7f8f7a69a476b53b971969771ec9305c27e497d34be2acca9e0de5330d309981",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/review_cranium_profiles.py",
+      "bytes": 6918,
+      "sha256": "3ca651d672d1abaec431090fea2b16083f117db91db425134583cf66f7b69f11",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/source-face-reference.png",
+      "bytes": 222429,
+      "sha256": "7a3726c739bba1b295a1b1d9a0a6f0336c7827608f859514f01cef79716f4003",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/validate_mesh.py",
+      "bytes": 22571,
+      "sha256": "2cc24dce462039609ea2d279ad0985e61ece0c0c3ad9631cfbdb1649951e370d",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.4/validation.json",
+      "bytes": 24430,
+      "sha256": "c109c03e9c2b0c888a03bd75918aea519c215f95f997877f6c7c660fff0e3cbc",
+      "version": 4
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/README.md",
+      "bytes": 4924,
+      "sha256": "588f1a512c39d499fca68d7c23489bb8b931257293e90e50d10b5f751de61930",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/__pycache__/bridge_geometry.cpython-312.pyc",
+      "bytes": 15347,
+      "sha256": "35703599674af9ab1022191ad7ef700e4f353b4af57de13d1e3e975053d0eac4",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21949,
+      "sha256": "04bd8893850d1d4fcb61b6d220b6b2191a5b02e00eceacd28a4179e161c6de0b",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "a2a2a559dd9c722189153ec703f4f3563945f999e86aab37c8c6d4ff55f67268",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/__pycache__/review_transition_profiles.cpython-312.pyc",
+      "bytes": 19249,
+      "sha256": "e6283700b29b527363facf3e7f2ee622a4b375a4f22ac043f2470f0f5a55d703",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/audit_source_faithfulness.py",
+      "bytes": 11946,
+      "sha256": "8a8fb29dd660b6205d7041c28a1dd8c83886c854898b0ceed21d2ffebcfb3722",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/baseline-build-report.json",
+      "bytes": 2588,
+      "sha256": "f55a129fe6f20a27ab4daec4806a9a4e5f3fafb16521610ad1dce311c0daf0c0",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/baseline-source-audit.json",
+      "bytes": 29783,
+      "sha256": "1c84f111b4ff8f304f8022c0f068473aa0bd2bd5cc5aebad9582bd39023f91be",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/baseline-v0.3.blend",
+      "bytes": 20105420,
+      "sha256": "6a180b073dc0da956e87830ceea90e5a880d9aa7741fd0e823398aa68de2f368",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/build-report.json",
+      "bytes": 4408,
+      "sha256": "cf9fd5616aabf60ca302d29782d329f2d0bf429f1209ae0f7a8b131e41990a3e",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/build_head.py",
+      "bytes": 10808,
+      "sha256": "fc7634917003467e8b8bcc0ecb6558c6f92028bfe9fd5a1b303d2bd2cb7a1e08",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "0d31edf4acdbef2f577b25b0eb6ce3c1322f5f175069b6eda956b295afe4e88b",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/checksums.json",
+      "bytes": 5684,
+      "sha256": "fad5da1031fb2506cfd2b7d89818bfe85264dc819a095208208fbf503edc0dad",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "1b8a4268c642531a210d821b7ae88371467c5ec5ed0ee45d1dec776e64b36552",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/design-reference-notes.md",
+      "bytes": 2327,
+      "sha256": "cf2f9dacd54f570ec90d04794a3fb3f98cdb94e0ef70dfd5e02d2561338fd5ba",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/ear-back-profile-comparison.png",
+      "bytes": 94222,
+      "sha256": "551bf97ebdd60cc969e4608c53a6a0febe47e92fe49e44a8dd5bfe91833e0a99",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/eye-insertion-check.json",
+      "bytes": 14181,
+      "sha256": "f5eee112b4817e43d39ce3c501cdcd3a5bd8f773763a30430e53126e839418e2",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/face-opening-comparison.json",
+      "bytes": 6192,
+      "sha256": "c8282505fd6dd6ab3e6bc16d879810150e1b021d2c896f0b484db66b7bbc5656",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/fairing-problem.npz",
+      "bytes": 3638654,
+      "sha256": "ec7f7bc946dcef615a78c768647c90d2fe9b520da05718a9c7c3c847b7c73750",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/fairing-solution.npz",
+      "bytes": 5825474,
+      "sha256": "38d162ad1741224bd2adb325abc6b474a205c0b6c88d27237bce951ffbca8fc3",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/fairing-solver-report.json",
+      "bytes": 606,
+      "sha256": "655331512b250c4fc2f0328f4bd99f8915a378753c78f6557f8a1a07895e80a7",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/head-protection-weights.json",
+      "bytes": 1791,
+      "sha256": "4c1ed3662829a93544f0f12e2d26ba52fe2955bde34e9b9b7de83c43b34bbc2a",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/head-protection-weights.npz",
+      "bytes": 6077360,
+      "sha256": "b27873bd2fa0551560c74c94a1947381fe95e8ff984a8152d9b9cd8d6823415c",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/make_head_protection.py",
+      "bytes": 5998,
+      "sha256": "c3a60349b194c585c5499abe4e01b6d3f353017eaf59d9f4364a5bacbf14747d",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/march7-bjd-head-v0.5-draft.blend",
+      "bytes": 20114807,
+      "sha256": "b38e0f939fe84f066358d557b069c1f2b8675b3a1511a9535b83083dd5b32f6f",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/march7-bjd-head-v0.5-draft.zip",
+      "bytes": 90896050,
+      "sha256": "646848fc4a30856e3962f396f2530a7e92b1922933de95d8f3d1a46e44b3e94c",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/march7-head-cap-v0.5-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/march7-head-shell-v0.5-draft.stl",
+      "bytes": 27367084,
+      "sha256": "473905cad78eb186a496833c82429a1029846bc6ee7a41bbe0f85ad70c7773c8",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/master-ear-back-profile-comparison.png",
+      "bytes": 93936,
+      "sha256": "62d4039d65b241262b1d71ff73f57a89687f642f5db738e824222393f1a0b633",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/master-transition-profile-comparison.png",
+      "bytes": 306874,
+      "sha256": "ec14e0703a5bf9b5edebb0995770ef5fde4666f3711d80452f49d0661f641b2a",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/master-transition-profile-review.json",
+      "bytes": 458714,
+      "sha256": "0ab70ab85274a613a36ec5ecd2095ac03643bc382103ee8e4e51967b35aee84a",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/package_delivery.py",
+      "bytes": 6039,
+      "sha256": "a5d9e038dbbe1d4652a7c33d8cbf0617fd311d17e2b59219c4977680f9e3f94f",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/parameters.json",
+      "bytes": 2230,
+      "sha256": "9e786d3983f19fb4f70f849926aee01147f3d0f75204e24913ec03393ef27a90",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-back.png",
+      "bytes": 1012226,
+      "sha256": "acc8644e0c176b9fab04158cb35f508df290ccafa92cd89f5292ce38168c96ba",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-back.png",
+      "bytes": 1012250,
+      "sha256": "db4944b3e06fd75c7ce8d53f58fccf19cafe0b5ca605dae8a0a2eae25151d033",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-ear-detail.png",
+      "bytes": 1010480,
+      "sha256": "2bc2315ff2428a4a78f0cdcc8bb6a71541317f0cbbb44b8ec07239c437db5f60",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-forehead-detail.png",
+      "bytes": 1007828,
+      "sha256": "df963c9f684bb28ff12aaeff46802ffeac53a2e478b6a4eb2a3213ba5fb97f83",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-front.png",
+      "bytes": 1030342,
+      "sha256": "03d2d846c34814d3c6184c94c420d0b2fa4b3f312df523b7c0d2d79aa55253b9",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-quarter.png",
+      "bytes": 1026511,
+      "sha256": "0442d3e99b89d8b8acfa19de713e921f396283192dd2e773e06e0cc1b8f19307",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-before-v0.3-side.png",
+      "bytes": 1032186,
+      "sha256": "a77b605d6b95e83ebaccb570dcf1d4f5ab1071c5bf1778562bf34575c443c76f",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-cap-interior.png",
+      "bytes": 1027036,
+      "sha256": "e396bb2e7a972440e4df28887f90ad6a0400836eba22bb040bccf68cc59539de",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-comparison.png",
+      "bytes": 577862,
+      "sha256": "d9da220923c2ffa73bdc6f70bd72f02e7e96af0f4b84e767acc89ea18da82060",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-ear-detail-comparison.png",
+      "bytes": 627931,
+      "sha256": "6a9be2e5c7737de4ae666662b3d2bcdc456779c0c64a2cc91805828f9cf3c194",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-ear-detail.png",
+      "bytes": 1011978,
+      "sha256": "abe5f74e2bbcc4385ef44a00fdca2f00ab6e0bdce6f7d331ab2451bffca70e24",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-exploded.png",
+      "bytes": 1028847,
+      "sha256": "226ff3fc8d69a97a8b0399720c279f246e85c584f8917b96634958cce4bbc40d",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-forehead-detail-comparison.png",
+      "bytes": 621149,
+      "sha256": "de038a5bc08e0474e4a2cec446d285ea37a3c58f2bf7125529f8cb9a84178bd5",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-forehead-detail.png",
+      "bytes": 1009668,
+      "sha256": "94a96e03c358d0d7510e6c5f5939bd952889b8069d86142670209a8492870159",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-front.png",
+      "bytes": 1029192,
+      "sha256": "965166b16004637df67188ba2f6cd21783996ba3b5a629f040c207f0dcd6bdc1",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-interior.png",
+      "bytes": 1051952,
+      "sha256": "5a198eeb95d0b05706af2340da49426d47ed0269f5b813698df122b60da29281",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-neck.png",
+      "bytes": 1045410,
+      "sha256": "a0722635044c795cea54c1e3c18afe6e7b147569f67a18588c41311320011534",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-overview.png",
+      "bytes": 720950,
+      "sha256": "1903228f249786b1c350e9cd21c1c64695a0d301174c047df2f6ebd8605f6fa9",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-quarter.png",
+      "bytes": 1026839,
+      "sha256": "98c5adbc0b725464339493f4fab8c02cbc9481eea4cc864ecc52e686915d94d7",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/preview-side.png",
+      "bytes": 1031832,
+      "sha256": "6508cd16d7f78a041aa61a902dd0898a1fa115ca3908a954b9cd97fb9946fc8c",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/render_detail_comparison.py",
+      "bytes": 2281,
+      "sha256": "0dfc3caad03487a236979dba2cc9fe256fa8460682d0c6029d2767a1758d98ca",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/review_transition_profiles.py",
+      "bytes": 8564,
+      "sha256": "57a0b5e584efb7146c05cd3186f76534f3c10bf900a77974c704bc3af116b94e",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/solve_junction.py",
+      "bytes": 2525,
+      "sha256": "753cc1aaefcbb3d2c6cb7411321de4ec9973044a70587716f13f7f152ccb9617",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/source-face-reference.png",
+      "bytes": 222429,
+      "sha256": "7a3726c739bba1b295a1b1d9a0a6f0336c7827608f859514f01cef79716f4003",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/source-faithfulness-review.json",
+      "bytes": 24756,
+      "sha256": "c568bf853e9f6723da100e981fda02b3039d0c7a0e2d299b55a82454e1072ec7",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/source-protection-masks.npz",
+      "bytes": 48481,
+      "sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/transition-profile-comparison.png",
+      "bytes": 283517,
+      "sha256": "f97893e375a324de4f250d317998b07d70f313837d87557ec71306aadf2e7663",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/transition-profile-review.json",
+      "bytes": 462734,
+      "sha256": "a62e8c43649b80c7940a9fe4830651b5b14e74dec0d22233fb7f40f4ebd7a112",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/validate_mesh.py",
+      "bytes": 22571,
+      "sha256": "0ab61b138e484c37c9b9527713355e35a674c0d17e4beb160adb88d5dc61c3b8",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/validation.json",
+      "bytes": 24449,
+      "sha256": "f1212160120b9de471c1e512f5bf9149a6f3fbb6f83162e3e8bf67bae9104f07",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/README.md",
+      "bytes": 1311,
+      "sha256": "816824026967684e64c37d8969a742a2c497d9e9620dc83dd39720b0417c9818",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/assemble_view_boards.py",
+      "bytes": 5021,
+      "sha256": "146bf5a2f91b03c472bc78384406d871c3fde3c5a3ca10f1f89572b479cbcd5e",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-original-front.png",
+      "bytes": 1684646,
+      "sha256": "2bfc1597196050eaf1914eaee0a4b3c6aecaeaa11a01d311a868a8cc7191eb75",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-original-overview.png",
+      "bytes": 1716329,
+      "sha256": "2184773df41642341e095df1373ccbbdb415319d0c3ef6a842adace61806fa2c",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-original-quarter.png",
+      "bytes": 1646243,
+      "sha256": "870c1bc314d1f3d9da8f01d1bfd74a241b69ed3bb1dd0ed4799a7cb1bd8e6542",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-original-side.png",
+      "bytes": 1592865,
+      "sha256": "9b1b77384e3e85bb4487255d4ccedd1fab9b4667ed9fd7915e50641ff59d6965",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-render-notes.json",
+      "bytes": 16128,
+      "sha256": "b4f3b55b3287994e1fd4366f75333d7f253d2fec143a5e01c1e4dc66061368bc",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-texture-front.png",
+      "bytes": 1486861,
+      "sha256": "aac633dc78ed0e9d8e994ec4e965b117bb8a954f550220956f3c002818fc9830",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-texture-notes.json",
+      "bytes": 15891,
+      "sha256": "8cac1bbe1f2af05ce499bd49e03665177cd4be35391f9b8f3a2d7d24f78560a1",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-texture-quarter.png",
+      "bytes": 1452864,
+      "sha256": "d9ac092610256992ee78ef11b8b74bfd517eef2121612a18105bd11b919eee0c",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/character-texture-side.png",
+      "bytes": 1390331,
+      "sha256": "7e5bc9c49e09cc189bba5a3b7408c50f22401b42df11106e18c29d7fb8d9a871",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/march7-v5-view-comparisons.zip",
+      "bytes": 39473844,
+      "sha256": "042388aa94e97501d12c306849c855c312b4bd1d621bf9073aa68c409e41a99a",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/raw-face-front.png",
+      "bytes": 1454828,
+      "sha256": "b46ab6d301a0c426dc317c5b142c01836b3eb1422b5998e875ff3173986f3db7",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/raw-face-quarter.png",
+      "bytes": 1449875,
+      "sha256": "3f4aab39a3e265c71b97c6a9d4e23eb5c2260cf6babff49962e36938dd479639",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/raw-face-side.png",
+      "bytes": 1443188,
+      "sha256": "f6979b0affb9934a02a8bb4b0522345bd8c738b274ab9506f1ee21459339348e",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/render_head_views.py",
+      "bytes": 5492,
+      "sha256": "5a1ec47dd0ebecb1ddaa033ec19b10891214483671db597a689c9d5ccc2c4db5",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/render_original_character.py",
+      "bytes": 8973,
+      "sha256": "eaecb6e622739cc21e738dbac5562cade6e5d3bce0129ca16610ab2f0064c787",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/source-comparison-front.png",
+      "bytes": 1255673,
+      "sha256": "2bcabc6f583d82b25b7c8352bf798a74a82a1ecc759bdb1d0da630ffeffa6f18",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/source-comparison-overview.png",
+      "bytes": 1907338,
+      "sha256": "f30af12daa88a9800ade2ef82c90894a457284743110288534220f959b0fd987",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/source-comparison-quarter.png",
+      "bytes": 1253209,
+      "sha256": "886418246c5d1e9757af3a4e95590d0ba64d1768e54944fb17f3dcee78291f6f",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/source-comparison-side.png",
+      "bytes": 1226643,
+      "sha256": "3996420e48f8e72d591478861f52a0c3743efd900bab351f8130713731def805",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-back.png",
+      "bytes": 1449066,
+      "sha256": "0a44727a371f9657076756d88b092e7326b6a486810db83c8ef33e92fcd952b3",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-clay-front.png",
+      "bytes": 1457677,
+      "sha256": "f20863da1d1c175b8800a6fe5964b93468e588673645f430f951969c6234fdc5",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-clay-quarter.png",
+      "bytes": 1456101,
+      "sha256": "8eacb3659416bfd2b6228eb32310d1f841e58c7b20615370771b0052385c96bd",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-clay-side.png",
+      "bytes": 1471263,
+      "sha256": "0b7864f9814912c413626be9435c0b3486c05ef89d3feaf16015259219e8f659",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-eight-views.png",
+      "bytes": 985796,
+      "sha256": "354135fe7762ee0631798691dacbad9e3c049239af9f97f6f1c1c3d292a44851",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-front.png",
+      "bytes": 1464638,
+      "sha256": "dc66cbbe9f5ccc169fb599dfcf037ce9e7e28e843a54c4d9716d5245ffb5edf3",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-left-quarter.png",
+      "bytes": 1462688,
+      "sha256": "ab2c75591d4eff391f943d7f438005f0be1554c23573723d0f061f8ffe10ee34",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-left-side.png",
+      "bytes": 1473373,
+      "sha256": "12332e87f741a09fd2f42e783902ba4b0a85fec3e5d47fb167ccf5b05aec2da2",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-low-front.png",
+      "bytes": 1471993,
+      "sha256": "ee1d4b105e39dc1f5aa98c8270200d0e9da5bcdd15a0d572341a726473f42381",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-rear-quarter.png",
+      "bytes": 1441134,
+      "sha256": "96743263a68a64effca188e70859ec904b977fbcd761ffe61291f1c3d08cdeba",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-right-quarter.png",
+      "bytes": 1471381,
+      "sha256": "645857c5dc0fe46292d3616880ad7199d87599685c459618cfe4077d0320fae8",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-right-side.png",
+      "bytes": 1473135,
+      "sha256": "046a1228757dd37c93aad4c29ca72b379363577234d21f0d45db40ec7f5fbb43",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/v5-top.png",
+      "bytes": 1432167,
+      "sha256": "d37903a11c9433e504f436f7c0de77d5e6eeecc782c21b08f97101a66ccdff6f",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/view-checksums.json",
+      "bytes": 3250,
+      "sha256": "a1a2f3f186337398b8b7f74c50eac278a81ce733e689bd9d42a489148e7f016b",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.5/views/views-provenance.json",
+      "bytes": 2958,
+      "sha256": "a94213db6435560a4fa8801809a26e011de9f6bdc551d1188a2e2aa7b64dc743",
+      "version": 5
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/README.md",
+      "bytes": 3227,
+      "sha256": "23557a0456c76364c35fc234d05c608d5903fc0090a5bc2ac12a3e56eb6e7688",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/SOURCE_AUDIT.md",
+      "bytes": 3033,
+      "sha256": "ecdd4e68852a81fffc455fabdde88518aa4b57f93dcf30d602ad9a4568796d6e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "5fb86d858c2998306546ec35e133885ecff157dc922928f1ff8f47ac7b4a33ae",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/__pycache__/review_side_shell.cpython-312.pyc",
+      "bytes": 13658,
+      "sha256": "28e034ec4ec4d3d71db11c3839f4e3397da63951e06ca722cb4eb9ecfab292ea",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/__pycache__/validate_mesh.cpython-312.pyc",
+      "bytes": 33807,
+      "sha256": "abb8e031e3bfb2f477be7cf47334d827f64c96994d2619968fef86ef046b8433",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/audit_source_preservation.py",
+      "bytes": 13829,
+      "sha256": "01d5a3a5bf1886eb8ebb8f80cbc0b398042dd112add403bf4660d467677fe7e1",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/baseline-build-report.json",
+      "bytes": 4408,
+      "sha256": "cf9fd5616aabf60ca302d29782d329f2d0bf429f1209ae0f7a8b131e41990a3e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/baseline-head.stl",
+      "bytes": 27367084,
+      "sha256": "473905cad78eb186a496833c82429a1029846bc6ee7a41bbe0f85ad70c7773c8",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/baseline-v0.5.blend",
+      "bytes": 20114807,
+      "sha256": "b38e0f939fe84f066358d557b069c1f2b8675b3a1511a9535b83083dd5b32f6f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/build-report.json",
+      "bytes": 471371,
+      "sha256": "87c1f557d8eef6bfc0b2e0104bb471dddb6eda201d57b845a0a60139b7c80078",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/build_head.py",
+      "bytes": 11309,
+      "sha256": "b1cef722ffaba29b527b312845804d61becaae0845f8672d0b8fe849bafef75a",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "38ee5da80fc9b8823cf791c22181efd9734ab8dd881041532596065dea4c2f57",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/checksums.json",
+      "bytes": 7767,
+      "sha256": "36ce39988696709b4a60baa173412d3399f602f17f47036afc3064548c3c5f74",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "d5010f7c7c1dd72fdc502d221f2e85f23690672cd3307e738fd5c30d018c4df7",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/derive_side_field.py",
+      "bytes": 3600,
+      "sha256": "36e06fe43cda07c9d5dcf53a7e490bf2954be0120082eae82ec9511dcb8593e3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/derive_source_provenance.py",
+      "bytes": 7978,
+      "sha256": "f58df2d93f2015588dab62cf0adb33cfd752b6b82f0e9609c73285b768b3eaeb",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/eye-insertion-check.json",
+      "bytes": 14183,
+      "sha256": "30fc6a1330efaf200391be3e48e353adb512b7875e07605ae530631011dc639d",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/face-opening-comparison.json",
+      "bytes": 6193,
+      "sha256": "ce59c5cd91218d7addebbc36c22e3d4ce7f465d9fa3d9c981101cc367f415f89",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/head-deformation.npz",
+      "bytes": 6508243,
+      "sha256": "5544a7387111357131b1eee5ccff7a9baeaab90cf7db330d32540eee1577403d",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/head-source-surface-diagnostics.json",
+      "bytes": 17904,
+      "sha256": "e2cd44b970aa5597bbd4423fd11fe419cd0d288cd496e8626a87efbc894c9d5b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/head-source-surface-diagnostics.npz",
+      "bytes": 5569659,
+      "sha256": "ee29c3e017353da4159bf776d57a595b3a5a0d5dfbe48623e65367ea950c1270",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/head-visible-source-protection.json",
+      "bytes": 2290,
+      "sha256": "5c1d9a14fd3ea46c00c4743c2f824bd5de0fce53297be7c2dd3c3b7e3a7806e6",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/head-visible-source-protection.npz",
+      "bytes": 6143121,
+      "sha256": "bf670a81ed857df69f82eb689b1845f06a0b352fa4af5c51eae528cbd82d5b4e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/inspect_head_source_surfaces.py",
+      "bytes": 4239,
+      "sha256": "66795237044cd2464c70c57ebf91a2a62998dd25cff60c1fd7fe4e32f9159703",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/lower-side-profiles.json",
+      "bytes": 106318,
+      "sha256": "089a8397711aecd3523bf574e81b67e65d13a0b9bdad9de2d4a207716ae9eb8c",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/lower-side-profiles.png",
+      "bytes": 124523,
+      "sha256": "a13a42171b139ab2cc56308d1a7656916b034cbd8620d6c48479da3c576af6f1",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/make_side_protection.py",
+      "bytes": 9938,
+      "sha256": "e60f9818f0198efe845c4e7c02245967d0908720959f029b7cc417562cfafcfa",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/make_visible_head_protection.py",
+      "bytes": 5526,
+      "sha256": "cfa07cf7d0373e0a8819c45b47352a4029e1a625ab3b2eaa95af1fd63a1ce628",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/march7-bjd-head-v0.6-draft.blend",
+      "bytes": 20114769,
+      "sha256": "294ca014f8cb70d5fb3858fd67efedd8e3727c25b01293dc4d66fb8f17a6412e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/march7-bjd-head-v0.6-draft.zip",
+      "bytes": 145140407,
+      "sha256": "f6fb64b0fd8f988e1e24a748bd0b1cda98812a645dc3d724b194782bc22b3651",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/march7-head-cap-v0.6-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/march7-head-shell-v0.6-draft.stl",
+      "bytes": 27367084,
+      "sha256": "c6da660f02c600357b1aa981d7f624bf2ab038273d76edee95d6eb05e9a4297e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/master-deformation.npz",
+      "bytes": 1038593,
+      "sha256": "eecdbeccc42381f7875b76b916767617e157c2111b8dc547dc4ffe5d1cfe0117",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/package_delivery.py",
+      "bytes": 3604,
+      "sha256": "e92c0ed25d33e92399eb6fff15b791d8cff1cbf7a2a5828187ca6750eb78291e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/parameters.json",
+      "bytes": 2969,
+      "sha256": "230fd9c84e9461bbb3d13c97a668ad7c567a14f2f0a0e661e6ee91f156c76fc9",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-back.png",
+      "bytes": 1017606,
+      "sha256": "88e2f33e6583b013b185599f4a04dd447ae460c26545c0a0e765d2510ee52de1",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-ear-detail.png",
+      "bytes": 1011965,
+      "sha256": "018c813050e7bb78853600150b422b90ef6363ceaa2924a08f7380810ae7d5c9",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-forehead-detail.png",
+      "bytes": 1009655,
+      "sha256": "e9fe1017ea8f1a64b11265d186c3355614f48cfac9ff69ab9459dbc943f61ff6",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-front.png",
+      "bytes": 1029192,
+      "sha256": "af61849b0ddcfaff3077e317c64b76f5b22ef955974ae93bd6f6a927ce8bbc2b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-quarter.png",
+      "bytes": 1026826,
+      "sha256": "07964b9310f2cb6763fe25ac30b5e55aee054a9ffb1bf16509809fd7181e8be7",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-side.png",
+      "bytes": 1031832,
+      "sha256": "63139c8ba95660effa6dabb1f32feea89c6969829d520d1885548fdcf9fcc2ad",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-before-v0.5-top.png",
+      "bytes": 1003822,
+      "sha256": "7c0adce17657f6856f0483ed577936309394429b5c05777480afcbdcedd1caf9",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-cap-interior.png",
+      "bytes": 1027036,
+      "sha256": "1fecd5b78e9dd198c8e1817c8a3b71e1a15070bbcf055e1bce8dd7d10ba00a93",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-comparison-overview.png",
+      "bytes": 1413458,
+      "sha256": "9e5b0c4875e4f13c1384a1502ce51fb720fdd8283dfdaad35b8b2847224277ba",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-ear-detail-comparison.png",
+      "bytes": 796399,
+      "sha256": "fd8b373cbc207ae2e005ca164ca2056c5483b6dea02bc8a893303d066962be16",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-ear-detail.png",
+      "bytes": 1009816,
+      "sha256": "0a9d6e18f2bdd9a88b25a660d4666cea4ccd06105e62d17416b5bff00ad73a15",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-exploded.png",
+      "bytes": 1031270,
+      "sha256": "1dfb5826c951ff9c854ff6319f5d1ccab243ba9e4f62a709efa683127a4a65f7",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-forehead-detail.png",
+      "bytes": 1007718,
+      "sha256": "5c048464254f300b339faac544209e57837b481ced9f18d0491549e352005b33",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-front-comparison.png",
+      "bytes": 697332,
+      "sha256": "9b55bf764fe80dcbefb5eb499e40cb075abcac3d198a13d128d07f5653ae6495",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-front.png",
+      "bytes": 1027549,
+      "sha256": "22fb58661d2b2cfe031cea224d2a6fade5c1f0348bf6c63a40a964575a9f5c86",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-interior.png",
+      "bytes": 1055357,
+      "sha256": "7304aa8ec9c0843a253c0aecb88f2416e18aa9ac0fddb3183d857ac31bbeb1fc",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-neck.png",
+      "bytes": 1044158,
+      "sha256": "f2385e8551ca14ae3ffcebac82b36c4f471e30d5e6ae187931929feab0080322",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-quarter-comparison.png",
+      "bytes": 686851,
+      "sha256": "df77f9eaae90c830735ad07b43041963bf5c34537c37b98fa1616d3f27234b8f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-quarter.png",
+      "bytes": 1025819,
+      "sha256": "159891334709691c526d5b8ce0d061613ba91631fb949b7ae631ca786fef2044",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-side-comparison.png",
+      "bytes": 705908,
+      "sha256": "eae1732d54be4dfa92fbd956fcc601945d7c39e0cf57d4274db8376f967cb91e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-side.png",
+      "bytes": 1031905,
+      "sha256": "fe1aa8a8b8683aca8bd67cfb236c185dc4dde63dced123a7a1ef32cea5515d87",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-top-comparison.png",
+      "bytes": 642241,
+      "sha256": "88d1ce5fb52ad6466150a6f972536ff7e16df5c36e3590558e8cf64e0b38fcf9",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/preview-top.png",
+      "bytes": 1003939,
+      "sha256": "de4dc7224f7d6f5a0df121495069e0661e3151d72c0d05d6b40781e6779b6465",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/raw_surface.py",
+      "bytes": 1081,
+      "sha256": "6a7343a3b4f6bd80fe573f8277c0941b9ede78841372d97093e3a2318973b58b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/relax_upper_junction.py",
+      "bytes": 9355,
+      "sha256": "275f3ab7df03dfa41a27f054a9c2f9e1e54d91a78602598e5b7322911b70511f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/render_detail_comparison.py",
+      "bytes": 2384,
+      "sha256": "ca561eda0719d5f649812500bfca0d5e697aa96a298c6649178d1b3e0811bf9a",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/review_lower_side_profiles.py",
+      "bytes": 1857,
+      "sha256": "2ccfd6d205e74a5e986bae07466c88e145d1937c06196d112061e69e7067e032",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/review_side_shell.py",
+      "bytes": 6205,
+      "sha256": "2fb85aa1932850622248daa9d53d832b3fcc20d7aa22fc46f528a0c9e00ce523",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/shared-wall-displacement-field.npz",
+      "bytes": 83480,
+      "sha256": "8c926300dc4e8830025f483a426fb263db2db49f04f4626910d96f92301ca99b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-envelope-comparison.png",
+      "bytes": 148783,
+      "sha256": "a269698601dc08bdc03bf2eff64a44b7e943242c215c79d7d3ac83ef457bd5c3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-field-report.json",
+      "bytes": 7704,
+      "sha256": "20d318883a3c9ff6b26e4cbc2a2cca73156202c9e82da7a86c269ce054639664",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-retraction-field.npz",
+      "bytes": 240444,
+      "sha256": "6664cdda0301aae64f3479fb38b32f4de9eaf055007554c45e6b766cb68b5652",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-shell-heatmap.png",
+      "bytes": 147447,
+      "sha256": "dca329c1ce7d02cadf50963ca05c8fb98007b5903b5d9e416973acec94e446c3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-shell-review.json",
+      "bytes": 1961504,
+      "sha256": "e0de7a5b89407dd2227c5cc68ffee4335edc22b243978d360ed16a8580d7aff4",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/README.md",
+      "bytes": 1126,
+      "sha256": "7dea44f0bb41beff5d5cacb563288d6e66a173420946ad6b27459b939f39cec5",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/SHA256SUMS.txt",
+      "bytes": 1294,
+      "sha256": "1c2578d2f002c219cb8929f772532e8c2b0180aa2d162f24acdbf4b9515ae382",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/all-side-views.png",
+      "bytes": 1323750,
+      "sha256": "dbb73169af5da0d0a3a1e815783fb3bd510d66ce0126e37b7a834a36cd19de97",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/assemble_sides.py",
+      "bytes": 10312,
+      "sha256": "d07a41982ead8487bde1c9e6adcd1ce397db18ad3ae02e945f7d9d969bedcbce",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/ear-closeups.png",
+      "bytes": 2049270,
+      "sha256": "8df1cdaa255a39834e13b01096ff83cadb05c77b697abd8cfa9765232568e831",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/march7-v6-side-views.zip",
+      "bytes": 17949351,
+      "sha256": "60f9ae5489c84cd64d946217209d18e54acd7ffc66b873a0be5741eae80d348c",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/march7-v6-side-views.zip.sha256",
+      "bytes": 91,
+      "sha256": "3da3d0418311d52bb8c6b97058ce03491f5904733d2fc58da89550cb7aa3128e",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/render-provenance.json",
+      "bytes": 2812,
+      "sha256": "18c706fea869bfd5a1ce964930c9e9ec3f2b59edb24e479dca416448c2d174a3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/render_sides.py",
+      "bytes": 3073,
+      "sha256": "2c517ee9e49ae7641039093aa1414960f90c028dd7b9fd729d2a704e2d549d64",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/side-view-checksums.json",
+      "bytes": 4449,
+      "sha256": "653e8fffcff6153e8fc8d0cced7f27f90a9583d21a28b85164efc79ade348d99",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-left-ear-front.png",
+      "bytes": 1447763,
+      "sha256": "6f09d6b89ceaa106141f8afbb7fc5a839fca7c1e3b12882b4609242b549ad7f7",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-left-ear-rear.png",
+      "bytes": 1442228,
+      "sha256": "46260765f6bede62d3da38feb9351d78ad62ca267c56c779cfa7b5be58ffe4c1",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-left-front-side.png",
+      "bytes": 1465971,
+      "sha256": "3fcc81855c534039b5b8905210e7d203e575fde6e04311a8c5424533e8fc0fbf",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-left-rear-side.png",
+      "bytes": 1455648,
+      "sha256": "307e6823884e9436607c0031b4deabc46e610f6bae212b0d09c27095c1d019a3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-left-side.png",
+      "bytes": 1474868,
+      "sha256": "4841781726f6bab1b79965c0f55ac0b6324fd74ccdaccf010ee43dee748a89b9",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-right-ear-front.png",
+      "bytes": 1440095,
+      "sha256": "8ebe0c3aed9a355838567796c0d802e631d1fcd03464013451a4088b0bb4d04f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-right-ear-rear.png",
+      "bytes": 1444325,
+      "sha256": "fe27c96f08b2171c37f78db9efd57351116daeb197759a1340fc781772719e72",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-right-front-side.png",
+      "bytes": 1469094,
+      "sha256": "1e19a268b355d5f823c9ca0b8ddd70b5d2fcb2d88f818f28c258aa75c0cafca5",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-right-rear-side.png",
+      "bytes": 1461607,
+      "sha256": "caa8018695107c9899ea8199b9df2e93675723cc28d757a555c3b4f99a7723b5",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/side-views/v6-right-side.png",
+      "bytes": 1476002,
+      "sha256": "f4321a74352b988339367d006ba02b753c838b90bbd4d044d7bf0dc9bf4a69aa",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/source-preservation-review.json",
+      "bytes": 40269,
+      "sha256": "03fa848c6346b37db5eb6e75248dac26ffeaae1958346cc07f760fd02b2a560b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/source-protection-masks.npz",
+      "bytes": 48481,
+      "sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/upper-junction-input.npz",
+      "bytes": 1038477,
+      "sha256": "6aa62b4a0919be96ecf1f5b518a1f968405e2105f4b1716041351c4d64e33e05",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/upper-junction-profiles.png",
+      "bytes": 265868,
+      "sha256": "d812b36f5190cf90c2a3055709e5eb0535f34b867fbb9c1bd75bb505a2bdff7f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/upper-junction-report.json",
+      "bytes": 399602,
+      "sha256": "1444f307365bdd073dc2d1a64b73c3e02e55882ab09d47cf24e8afb23d1d9bce",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/upper-junction-solution.npz",
+      "bytes": 1488973,
+      "sha256": "9e76b4f778097f7d3d4b346f2602f25158aa517a35f7db59e8f5d98021928a6b",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/v5-master-source-provenance.npz",
+      "bytes": 985950,
+      "sha256": "f8017677f509db0e7ab6325b6ee75a89114cd4e835df890336948e18bfb3ca8c",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/v6-side-protection.json",
+      "bytes": 6359,
+      "sha256": "9fcbe831508af5390c06e53c1da7e056312f4091c354b8abf75d52af5983e559",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/v6-side-protection.npz",
+      "bytes": 20873309,
+      "sha256": "f2363c58eed8ead024c26247bba62c6290c3d6232b1b019c14f12ce563f8970f",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/validate_mesh.py",
+      "bytes": 23018,
+      "sha256": "99efdf70d6fb3f3ec360585b711fc1906ea1112112164fc35e40f097adaf4515",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.6/validation.json",
+      "bytes": 24816,
+      "sha256": "4c374d507766f808dfc3463cd1170e10fd1a32f1f4698bf0899da771992b0fa8",
+      "version": 6
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/README.md",
+      "bytes": 2763,
+      "sha256": "3b768a8f9852f06b533f2d0d5479c1003906de364049d33ba675d0634255ae4b",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21949,
+      "sha256": "eae811c96dacc435316b66ccdfe7c1ab509810f23b195dadd98bdb032501f065",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "d68680832ade2c673bd785379799089e912cecdc956972095d073c189395c95c",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/assemble_comparisons.py",
+      "bytes": 1603,
+      "sha256": "8590b80c3bf673960c383bde9350ed4a38628f5ce0af8942730cc57c42ac44c5",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/audit_source_preservation.py",
+      "bytes": 19950,
+      "sha256": "743eb05c9ff3cc01c03edb9acd38054abdaf103288281c721d26916302ae4592",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/baseline-build-report.json",
+      "bytes": 471371,
+      "sha256": "87c1f557d8eef6bfc0b2e0104bb471dddb6eda201d57b845a0a60139b7c80078",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/baseline-head.stl",
+      "bytes": 27367084,
+      "sha256": "c6da660f02c600357b1aa981d7f624bf2ab038273d76edee95d6eb05e9a4297e",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/baseline-v0.6.blend",
+      "bytes": 20114769,
+      "sha256": "294ca014f8cb70d5fb3858fd67efedd8e3727c25b01293dc4d66fb8f17a6412e",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/build-report.json",
+      "bytes": 503557,
+      "sha256": "a59f9ec08c8fdc4cc59b5d08e9e1557eb5775ad37e6ad954dacb06ed098ae7ef",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/build_head.py",
+      "bytes": 3521,
+      "sha256": "74c68322faac1ef994d73019dbfde6362516828f76f94154039c222273035c5d",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/candidate-views/render-provenance.json",
+      "bytes": 1115,
+      "sha256": "52d8be75377dbd43283b8b6d9a223de71393a83e50f5cf13b40c75a9a3e711fe",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/candidate-views/v7-left-ear-rear.png",
+      "bytes": 1437283,
+      "sha256": "65a73c1400e7fb7831039c5fb77ee1c497752e54adf42de36a9002e04eb087e2",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/candidate-views/v7-right-ear-front.png",
+      "bytes": 1437589,
+      "sha256": "3d6d861ddf947cd919af2c2603e6e4cc17365b8bd968a0a0754358765e795c36",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/candidate-views/v7-right-ear-rear.png",
+      "bytes": 1437173,
+      "sha256": "5f7565802f972451c16331e5ba9402c676f3ef66150f55be8aa5005d2f6a411f",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "9acdb3507f0605ae70aa0a6e17939e9f2ffa6c841c9eb316dcc60f2ab67245c2",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/checksums.json",
+      "bytes": 4262,
+      "sha256": "77edf623759bb3fe128b09c24b50fc6dbedfb89762506362424ac14e9eec0ab5",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "40c07ec773ed68e43e7f0361145262df983dba7a370480263711133e51bcf745",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/ear-front-comparison.png",
+      "bytes": 1385252,
+      "sha256": "d5d9bde25c3be33a9c091a33ce2b5df1e8ae055a889d204bfc6f24ec2eadaf51",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/ear-rear-comparison.png",
+      "bytes": 1381315,
+      "sha256": "e8649f7c34f9fbb312809c8a7215ccc878a27e7e46af751dc3360ce6f124a026",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/earback-micro-release.npz",
+      "bytes": 3452406,
+      "sha256": "5cced90a493e39e840e78846de91252d562c512465cccd11ea493cbd1a75850e",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/eye-insertion-check.json",
+      "bytes": 14183,
+      "sha256": "6969faeadab018ca25c93dff387ec498c3ba0776169652ad2fbf70e3bf76a04a",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/face-opening-comparison.json",
+      "bytes": 6192,
+      "sha256": "5f33a239e6e61d1c566ab891bb941e895274af7ec536480ced8c127406760610",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/head-deformation.npz",
+      "bytes": 6492934,
+      "sha256": "ba949aaabc48bf2e8a9902ba4a457e5e4ff286817f2f8f7c93ce6029851db302",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/head-solution.npz",
+      "bytes": 12671186,
+      "sha256": "239a82f6f22c3b6c5c29773c116e6360b0319aa73a01064f917f879af73b6a40",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/head-visible-source-protection.json",
+      "bytes": 2290,
+      "sha256": "5c1d9a14fd3ea46c00c4743c2f824bd5de0fce53297be7c2dd3c3b7e3a7806e6",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/head-visible-source-protection.npz",
+      "bytes": 6143121,
+      "sha256": "bf670a81ed857df69f82eb689b1845f06a0b352fa4af5c51eae528cbd82d5b4e",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/local-earback-intersection-check.json",
+      "bytes": 2227,
+      "sha256": "b700a34bc5af4ae139d6d3d5db6d9a5fecfcec6e414a49cdbf45afe495b0b99e",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/local-fairing-report.json",
+      "bytes": 2352,
+      "sha256": "55fd7b211d563cac8eb9e35d59e4cd210ddd9a2d8ba1704db1de97c8c28ace13",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/local-junction-intersection-check.json",
+      "bytes": 17912,
+      "sha256": "69c33604bf1d707abd29a558b9d2eed408d9ee1aa63456600c61ad0de32bba02",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/local-quality-review.json",
+      "bytes": 7132,
+      "sha256": "a1abb12d1b063ebd502234d5efa430c745d9e6d6d8dfd7867858c4a80b047109",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/march7-bjd-head-v0.7-draft.blend",
+      "bytes": 20111957,
+      "sha256": "07872ca22265cf1ef2dc52cb726a32f4a29b25171bde8fe372b06b7b9f0a2295",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/march7-bjd-head-v0.7-draft.zip",
+      "bytes": 58747885,
+      "sha256": "606d74af0fd4f0ede048bd1144e18147af2d32996d9f1694755d62555c2d76be",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/march7-head-cap-v0.7-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/march7-head-shell-v0.7-draft.stl",
+      "bytes": 27367084,
+      "sha256": "c292157ccc1cacd22713c175f4c5d356b656298005510435ee06c9c13b34cb9f",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/package_delivery.py",
+      "bytes": 2505,
+      "sha256": "f111f824f6c53fb25e6827dcc0ef63eb94dc885d679c48efef2f1064524a84a9",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/parameters.json",
+      "bytes": 2951,
+      "sha256": "271253618424528e00bc8adfd5587b1c92f71aa6ff5477fc5f1783e053d6e3ac",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/raw_surface.py",
+      "bytes": 1081,
+      "sha256": "6a7343a3b4f6bd80fe573f8277c0941b9ede78841372d97093e3a2318973b58b",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/refine_earback.py",
+      "bytes": 3616,
+      "sha256": "5df41ce3c0ca6f7e8b7320ea4b81b55fea2c1dedffa3be4fcb43119e26b435ef",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/render_candidate.py",
+      "bytes": 3186,
+      "sha256": "17bc6967c9835dab2e801e6f751dbeb229752f497ddae34cb21d33584e061bbf",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/review_side_shell.py",
+      "bytes": 3691,
+      "sha256": "dde9c7992f7c0331b0c7466427fa98800414026499dcd48691b4dee37e6cf722",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-comparison.png",
+      "bytes": 1281221,
+      "sha256": "6e461f41ab679aff0c104bdd9fa6a06711830221c1c170770db63db1c7fb3e30",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-shell-review.json",
+      "bytes": 4803198,
+      "sha256": "618fe461184193ebcfae0615812c35567453f72ace2b456ff6c181e96265f6bf",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/render-provenance.json",
+      "bytes": 2812,
+      "sha256": "91b0049bd268c0921f29cf429221df898e77bab685c2d530f9e13fd0c5285389",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/render_sides.py",
+      "bytes": 3073,
+      "sha256": "c7ffbe193d8846bdbd3b179c51fd4ce7d7b312a877cebe24ffc336ff1f18a170",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-left-ear-front.png",
+      "bytes": 1445699,
+      "sha256": "a28a7c4ba41a539a489e693f5832d5fac695f5355a332bd0bf1bf3061bca9da7",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-left-ear-rear.png",
+      "bytes": 1437283,
+      "sha256": "d266c2f642ae1b700143e3c85cf651bb043044140353cb921ca1ddfda63dabc2",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-left-front-side.png",
+      "bytes": 1465136,
+      "sha256": "2c0105840de5453834e8e27d1c46ea4e826d9e53a28abfa2fcd281fc2253627c",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-left-rear-side.png",
+      "bytes": 1453862,
+      "sha256": "63493b90b9696f1bf229e502d3f67b24428e6c8341ae3e91985618d210fa73ff",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-left-side.png",
+      "bytes": 1474346,
+      "sha256": "832a00ee6c97c23ed22a65b2e21007c432ee2afa924cca0405ae112c02f26750",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-right-ear-front.png",
+      "bytes": 1437589,
+      "sha256": "ac5488dce2d232ea535925e1d35ab374037318d444fdf4abbdb5797e2a61402b",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-right-ear-rear.png",
+      "bytes": 1437173,
+      "sha256": "60698c436466008aa5cedf5e71b5eb2c7c0d9eb4f06dd3c32dc662729a53d0b0",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-right-front-side.png",
+      "bytes": 1466755,
+      "sha256": "7599ea6ac98b1e50efdeb00fbeda461e424c768613a6dbe0ac3a4b58e00a42c8",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-right-rear-side.png",
+      "bytes": 1459092,
+      "sha256": "770902831cf6ab36574d2d9d9c674f0d41393d084cdaca878df69d3b2c0afcf4",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/side-views/v7-right-side.png",
+      "bytes": 1474614,
+      "sha256": "a6d1e7162d7e73b834234870e5fce4ce96367b8d12ddae64e59e3ca90d8482ff",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/solve_head_junction.py",
+      "bytes": 4424,
+      "sha256": "f0e95ae53a22db818b18c7b8a39c3087ca8e32e1c13670636092655a22fce2eb",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/source-preservation-review.json",
+      "bytes": 46847,
+      "sha256": "4ac97cbadf78aacd2a2c6a9e04b67ae993e2ca7711fb507892cd0eed16001fe8",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/source-protection-masks.npz",
+      "bytes": 48481,
+      "sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/v6-side-protection.npz",
+      "bytes": 20873309,
+      "sha256": "f2363c58eed8ead024c26247bba62c6290c3d6232b1b019c14f12ce563f8970f",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/validate_mesh.py",
+      "bytes": 23018,
+      "sha256": "d3c7166b773679d5492d818ed86b34f047dea33531c06e6c51a710f370c7b51c",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.7/validation.json",
+      "bytes": 23673,
+      "sha256": "ec3ef46da83f3b2cc41df4a444f17158ea87dcfe05ed84ac7b393cf16ce3f6fc",
+      "version": 7
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/README.md",
+      "bytes": 2270,
+      "sha256": "8d25123a069c7a034c7a43be686f2cc59121b5fb103a108d6734780f0c5dc2c3",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "7ef96c12b51331ed9d1a0695a549cd0a3fccbc5081df9dc3a1df8d4c82bfc456",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/__pycache__/triangle_intersection_helpers.cpython-312.pyc",
+      "bytes": 5988,
+      "sha256": "1c534e5d9fb934174e35e7db2924fa52cab9b72822f6b4260097112eab96aecf",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/assemble_comparisons.py",
+      "bytes": 1461,
+      "sha256": "60803f6f34e68a2111a5434c7b61283acafdc82e6b98b26136fd394cb352eea7",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/audit_source_preservation.py",
+      "bytes": 17239,
+      "sha256": "99d6d0abdeaebca3993023e3eab902a6e8a727998afa9b99f3dde86113767330",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/baseline-build-report.json",
+      "bytes": 503557,
+      "sha256": "a59f9ec08c8fdc4cc59b5d08e9e1557eb5775ad37e6ad954dacb06ed098ae7ef",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/baseline-head.stl",
+      "bytes": 27367084,
+      "sha256": "c292157ccc1cacd22713c175f4c5d356b656298005510435ee06c9c13b34cb9f",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/baseline-v0.7.blend",
+      "bytes": 20111957,
+      "sha256": "07872ca22265cf1ef2dc52cb726a32f4a29b25171bde8fe372b06b7b9f0a2295",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/build-report.json",
+      "bytes": 505511,
+      "sha256": "db5d576ca695d21b743770a600d2faa2b9864f2c195e478af05101b1e4b11d4d",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/build_head.py",
+      "bytes": 3559,
+      "sha256": "d0170c55cbcd9181b725f0f7a120430eb9a0102a6b581582b7f64fa0cfe237b1",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/check_eye_insertion.py",
+      "bytes": 7544,
+      "sha256": "acb8e6fdd888c427735538e9bb9d05ca2a46c828ceb238afc7910a6be447dc58",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/check_local_junction.py",
+      "bytes": 3468,
+      "sha256": "4e70f8ce8bb9dad6e446337f7412f2bdaf02ec8be6a804f94ba264065198c50f",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/checksums.json",
+      "bytes": 6216,
+      "sha256": "053a255fb9da4faa4bacd52c29ee603930d942d35532fa280a5e30897658c8c8",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/compare_eye_apertures.py",
+      "bytes": 9398,
+      "sha256": "feb12bf2292181fd261677de60c0421ee3ae7ec04bc99e09567c4d19336e8d95",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v7-front.png",
+      "bytes": 1462604,
+      "sha256": "523a611da4af0f793ca41af4082b6d690d2703b2a6c03832fe7da1b2e9613d2b",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v7-render-provenance.json",
+      "bytes": 1297,
+      "sha256": "633069bbf0c9aa433ecf7b55e0b3ac7a9655e23b5f410a996bea62bcf0c78724",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v7-right-ear-rear.png",
+      "bytes": 1437160,
+      "sha256": "13fa772efbe154e495a864d45845637ed1c193d590a6dbc4a6f922c8656a29f3",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v7-right-quarter.png",
+      "bytes": 1465562,
+      "sha256": "31d87a7d0d7f9c41e1073e8db327426b2420cce09288736a95099acd969d267b",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v7-top.png",
+      "bytes": 1432297,
+      "sha256": "d42ede3ea21b477c0b7e6a2831a88a8960c77e04482ac2b392e42d38627d841d",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v8-front.png",
+      "bytes": 1464316,
+      "sha256": "b2b4f219391a1c91a02af18ebd052a1abfbf89baecb44d805b3a078a307749a9",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v8-render-provenance.json",
+      "bytes": 1310,
+      "sha256": "371d7782f60daf615ab4b67ff3cb849278542a8fffadfe8b07cab9a00f542b67",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v8-right-ear-rear.png",
+      "bytes": 1434113,
+      "sha256": "a5ebe8a7ec212aebf1d7c261ca395a962cbb82164fe42165a5e9fc057540446c",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v8-right-quarter.png",
+      "bytes": 1466233,
+      "sha256": "01915e29fc404f3030b0b8973cb94241e7379bb849592716090ec06e47da63a0",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/comparison-renders/v8-top.png",
+      "bytes": 1432151,
+      "sha256": "08103cf691496c9e3576ad8a6b0d9cf3eff982ebf2490a20ddd0836f7a68f3f7",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/eye-aperture-comparison.png",
+      "bytes": 25880,
+      "sha256": "426d15c881cfa62f33bd75c259132f649c79db736ab5cde226dfbd64a9e101a2",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/eye-insertion-check.json",
+      "bytes": 14458,
+      "sha256": "517eae6d9df158835a13b8ac5437d7e3ccceedbb6f13354537350e6b543a8a25",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/face-opening-comparison.json",
+      "bytes": 6468,
+      "sha256": "72559fe33c0599097fc766c38b82d0ce6cbd3a23c3ee213a2e22a5f80a1a89ec",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/head-deformation.npz",
+      "bytes": 6527699,
+      "sha256": "3bb72ac538ef794ac6a6101bbf81bd24f1b2cab91d7f8e7530ec04d879850d98",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/head-solution.npz",
+      "bytes": 15887502,
+      "sha256": "23cbcc5276f9d848c0cbe014a5d17ed7dab94168a892fd314da2a6d5d2b0f32a",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/head-visible-source-protection.json",
+      "bytes": 2290,
+      "sha256": "5c1d9a14fd3ea46c00c4743c2f824bd5de0fce53297be7c2dd3c3b7e3a7806e6",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/head-visible-source-protection.npz",
+      "bytes": 6143121,
+      "sha256": "bf670a81ed857df69f82eb689b1845f06a0b352fa4af5c51eae528cbd82d5b4e",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/horizontal-roundness-review.json",
+      "bytes": 506377,
+      "sha256": "04fccd661751ec8fb1b7834330ae1eb50039bbb93295213ade42f756d8385727",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/horizontal-roundness-review.png",
+      "bytes": 543822,
+      "sha256": "08c2530a3f5916b3585d9c7c48ac302a7119067085e376fd079283dfdff63981",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/local-fairing-report.json",
+      "bytes": 1142,
+      "sha256": "ae0ca560c4e6789aa4356afdc9d4b15f49f61f8253e8de4f474faaa0c377a959",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/local-junction-intersection-check.json",
+      "bytes": 1221,
+      "sha256": "86b1313a423c3bbd9140c315e12be743839c4ab4959d526b551b14b811005704",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/local-quality-review.json",
+      "bytes": 22750,
+      "sha256": "bd13c26aec3c78eb405916ff68ab27440b6990ffa1c4e725fbc9c9b8b04b6730",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/march7-bjd-head-v0.8-draft.blend",
+      "bytes": 20115446,
+      "sha256": "4ea04ae429876fe0a2ed0a750b74453d054c089777ecf9ad1c22d89585bf6034",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/march7-bjd-head-v0.8-draft.zip",
+      "bytes": 70222799,
+      "sha256": "5495b58ac473d7947d235cbb98c1f2196c5fd5e9ca5070a1443f461f4f85de9e",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/march7-head-cap-v0.8-draft.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/march7-head-shell-v0.8-draft.stl",
+      "bytes": 27367084,
+      "sha256": "0ea36a9f547666948328f47f21a14cf2815be2f16b9a3796a44d4ee22f927d51",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/measure_horizontal_roundness.py",
+      "bytes": 8565,
+      "sha256": "a46aa984cc047cb43aae2563dd4b5528a2d45dbbc14d24ca9e9f450ffc9a3fb9",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/measure_top_silhouette.py",
+      "bytes": 7276,
+      "sha256": "35a2ae68ff3d0e5cdea8c24d36be8392104fc99b8ed3d0b07223bfa669b645cb",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/package_delivery.py",
+      "bytes": 2756,
+      "sha256": "fbab4014617318bcfc87a2a845d11a139cbf07070b9bbf7770d22986a5a29f7b",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/parameters.json",
+      "bytes": 3008,
+      "sha256": "d9dd7d541cb0aa6fb6f55b4ca380fed42070513518a4474af35f1a4deef60571",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/preserved-v7-earback-mask.npz",
+      "bytes": 6641,
+      "sha256": "9525afcac4ce4185be46caa8ea118fe8e93918bc1b6bb086d7ed6575ddf60ef8",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/render_candidate.py",
+      "bytes": 3186,
+      "sha256": "86a676530d382eacd151982defb1c1603924ccbc60c451f91f77f4787e64ca0f",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/render_comparison.py",
+      "bytes": 3189,
+      "sha256": "e4f2c645996b558bc16a003352d95ac36b0613dfa12c20f6faa324c6d7a3b27a",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/review_side_shell.py",
+      "bytes": 5019,
+      "sha256": "e2d3d744d911046d88216d5e50f1d922b4d6fef5187d14edb08d3054b88fffde",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/roundness-comparison.png",
+      "bytes": 1245231,
+      "sha256": "340e7642bb1077831131b5e4f1a0294445fce962c8bd037b26092240fd02306a",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-shell-review.json",
+      "bytes": 7384011,
+      "sha256": "7f8e25f635b7722d6ee8820b2ef304bf95f5093bb2f3619985c88f5aa70aad1d",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/render-provenance.json",
+      "bytes": 2812,
+      "sha256": "aeb789d634aca3ee13288ebb16930266c27f9685d5f2fe7ecdceb5bdb205ede6",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/render_sides.py",
+      "bytes": 3073,
+      "sha256": "dd4a451868c8d0787f22a3c78d3582b57411ccfb5f0bb70833fc0c7e3ca9c6b4",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-left-ear-front.png",
+      "bytes": 1444854,
+      "sha256": "ab58bfcca86c5a44981c3c606c6be0ac797823844c5d602c9d2620faff1bcbec",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-left-ear-rear.png",
+      "bytes": 1436960,
+      "sha256": "6ec5560624034df8e01ee4aa0869c75f22657bec500bcb5aaab861705ad53f48",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-left-front-side.png",
+      "bytes": 1465283,
+      "sha256": "f6d8c9b5b8119fa6625caf1b7871c9e26e74ccda056b4f22e25bca4619b4e38d",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-left-rear-side.png",
+      "bytes": 1452337,
+      "sha256": "bd31853cc5bf631b9a478300e4da7d69381d412b2a5ba86f5262c71d92cbbb6d",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-left-side.png",
+      "bytes": 1474615,
+      "sha256": "b7a9705ca917d492a5eea085f8ace5f9fc7c4ab4da8094c900475585048e71f6",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-right-ear-front.png",
+      "bytes": 1438670,
+      "sha256": "8c41504ed70174df7383470e6d4ba99713cbfe42b73b502cb2db6cb6a8fa7175",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-right-ear-rear.png",
+      "bytes": 1434113,
+      "sha256": "62d0b23738b3120de30a25deafea2c5cf769bd05e43659bfd76902c088423e8b",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-right-front-side.png",
+      "bytes": 1467514,
+      "sha256": "850504e580728325261ea4345695da6dd7d1d568f8e49728f336b5aef749f3b9",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-right-rear-side.png",
+      "bytes": 1456722,
+      "sha256": "d20a21997e38ded567c9905d397c53ff747e821a830752867e38e9bb90d30214",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/side-views/v8-right-side.png",
+      "bytes": 1472673,
+      "sha256": "a84e9f5e771a97a2fbad9fd24556c1fe412b1bcfcf695af8e18ea04a8ac9fbcc",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/solve_rounded_cranium.py",
+      "bytes": 4586,
+      "sha256": "a87e2e2507c1472d2745a3ed7bf0190afd8f8f6e82f736e601e4bda3353b167a",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/source-preservation-review.json",
+      "bytes": 43137,
+      "sha256": "1281d014c6c7ec493bdf34ac011b84bfbfca71ffb0d596e97bfefa2115ff4ef3",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/source-protection-masks.npz",
+      "bytes": 48481,
+      "sha256": "9b02cb63e5dae1ed07945db621ceff4b30f9ee5b4197661c5674908add11e5ff",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/surface-comparison.png",
+      "bytes": 1341383,
+      "sha256": "3e7949ad4f78c7a0ab1386d6660e83ac532559fa9d011a1195812f3a02262b80",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/top-silhouette-review.json",
+      "bytes": 541441,
+      "sha256": "00e870e03a833e6b0a777a05e09f4f55aed370959046fd19e3db06e8c2c2196e",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/top-silhouette-review.png",
+      "bytes": 290374,
+      "sha256": "6f00edf21964729133f7e3a93598e0c647369c16f95a67c343f7a90430d7de5b",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/triangle_intersection_helpers.py",
+      "bytes": 2873,
+      "sha256": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/v6-side-protection.npz",
+      "bytes": 20873309,
+      "sha256": "f2363c58eed8ead024c26247bba62c6290c3d6232b1b019c14f12ce563f8970f",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/validate_mesh.py",
+      "bytes": 23018,
+      "sha256": "ee77a93ed7b2e0b298e754ecb343abfd40116e0c877c36a53b887d695c1f29c7",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.8/validation.json",
+      "bytes": 23677,
+      "sha256": "1b48f0ddf90c45b02ba7f7d3e9ccec32ef980b1fb2f564176e5afdfb6a09f9ec",
+      "version": 8
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/README.md",
+      "bytes": 4534,
+      "sha256": "8b9ba6525eea7a6ba8403ac910b4bfbc48685414325be5ebf34913b741acbbaf",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21949,
+      "sha256": "ef2f25ae2206905861949c0e264379e8dcddc36f3b0009a8f7ae9a68d4c4093c",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17658,
+      "sha256": "01a1841da670c8baf8768afda5079679e0281c3dc738ceda88d3c9817951384d",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/assemble_comparisons.py",
+      "bytes": 1539,
+      "sha256": "78a8720c3a25e9a504e3f3d3362e293ad52a42ff24201db74cff64d05baf5307",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/back-top-comparison.png",
+      "bytes": 1224747,
+      "sha256": "1315505ef4c0370c1fca5126bccfd06d9651b2e060da1f26922fa249334761ba",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/baseline-build-report.json",
+      "bytes": 505511,
+      "sha256": "db5d576ca695d21b743770a600d2faa2b9864f2c195e478af05101b1e4b11d4d",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/baseline-cap.stl",
+      "bytes": 5509184,
+      "sha256": "3b1b53316c4bee1ad08fad670901a7ab9723f664dfb0de8ea3bd8311e6a18495",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/baseline-head.stl",
+      "bytes": 27367084,
+      "sha256": "0ea36a9f547666948328f47f21a14cf2815be2f16b9a3796a44d4ee22f927d51",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/baseline-v0.8.blend",
+      "bytes": 20115446,
+      "sha256": "4ea04ae429876fe0a2ed0a750b74453d054c089777ecf9ad1c22d89585bf6034",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/blend-stl-consistency.json",
+      "bytes": 4617,
+      "sha256": "37fcae33f96c2ae43bb43ec0229bc999e46beb45dfcea0232db0beb1e20ff911",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/build-report.json",
+      "bytes": 6132,
+      "sha256": "3e32cc68e06bafee78a3751d8be916e2f491f26f4480a1d195c4a9a234c64c80",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/build_head.py",
+      "bytes": 15082,
+      "sha256": "b45b155daec59e4ff67071134675139707d7fa3ae469ae5bfc5ce57758b0be76",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/central-source-protection.npz",
+      "bytes": 2215728,
+      "sha256": "7185f32cee9a19480c255aea74ac6ed858852123d357ee67e3dce8f58321ec27",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/check_eye_insertion.py",
+      "bytes": 8206,
+      "sha256": "690b1d9139ffa43cbcf98eac004644b4fcae5d69809ac9a1159275dbc0228a7b",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/check_print_intersections.py",
+      "bytes": 5215,
+      "sha256": "cf2aa7b8ebddf1d61a5f222875171ea5ccc5051e24002892474f205385ccb2b1",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/checksums.json",
+      "bytes": 7629,
+      "sha256": "86461f1b450a0ce831f01592312818e1647efafd8e5259fd1c443859d8241fd4",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/compare_eye_apertures.py",
+      "bytes": 10068,
+      "sha256": "29ff45ac6684562c4b67e8aa06ff4da0f1b6fed648bb99411545fa2e3017454d",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v8-back.png",
+      "bytes": 1453673,
+      "sha256": "e104e03728bf14a5673d942234da29307bce1d20b133ebb7a8494def751e66c9",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v8-render-provenance.json",
+      "bytes": 1283,
+      "sha256": "e41df283b7e7812c092aba0b186a6aa493ea777b05c0f99e01c58cbdac7b56fc",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v8-right-quarter.png",
+      "bytes": 1466220,
+      "sha256": "fdf403ed570299b59da042b173e1ba7ae81376af0af586758209450a44c8dfe7",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v8-side.png",
+      "bytes": 1468217,
+      "sha256": "d174eaa62e706bc508f14595e6865551996880953e6c9eda2dff149f06a41fb4",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v8-top.png",
+      "bytes": 1432138,
+      "sha256": "b08dd24678e913ad4685f56c3ccfba325990b9f69d30b45d2f3f0cd772bd0843",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v9-back.png",
+      "bytes": 1452442,
+      "sha256": "eecabeded9c52b988e07d2c8903c6d1d7ca707e979f7697d8c9b67c9117dfae8",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v9-render-provenance.json",
+      "bytes": 1296,
+      "sha256": "8eb3a7bee38a6c7736c8991b5c9afc70c0419b8b05bd139462306899d60efabd",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v9-right-quarter.png",
+      "bytes": 1476099,
+      "sha256": "9308246536d2db6b6ea0609287527fb882f010f2219319390d861ee94c591b1e",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v9-side.png",
+      "bytes": 1473924,
+      "sha256": "ea4eb1b75cf969324a9b21dff6e7587a5b533b9cc4db130bee8574a556aa814a",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/comparison-renders/v9-top.png",
+      "bytes": 1436285,
+      "sha256": "e7a3907af0a8d2ae988c2be0d941d3a9143323452dad63066aefdd43cff89816",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/earback-review/render-provenance.json",
+      "bytes": 668,
+      "sha256": "cbaaef0a95be95ea6d23fe8049cacb1ee74b600d17af3c86c0932c51126753ee",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/earback-review/v8-earback-outside.png",
+      "bytes": 1159477,
+      "sha256": "e6a460a0e18a0fd82d4ad63056d6a8f4fdd4d09304cffd40e918c0b34970c926",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/earback-review/v8-earback-worst-region.png",
+      "bytes": 1177893,
+      "sha256": "9a61d425293ec598a377f8ff3a54a182fca993b6658f19733189e9480ed407ad",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/earback-review/v9-earback-outside.png",
+      "bytes": 1161543,
+      "sha256": "e925d26a2a76cd4652d54d4648de75c879c5b35b685b868fef718192cdaccdc2",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/earback-review/v9-earback-worst-region.png",
+      "bytes": 1171237,
+      "sha256": "297126d960aaf5ba06dfba2bc95a48cb0500a98b2ac68ff39d7350a116b5091d",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/eye-aperture-comparison.png",
+      "bytes": 26330,
+      "sha256": "a2e72962c054b472d55453387de8c8aa34b4d9ad4e6925fb312234fea40f9a06",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/eye-insertion-check.json",
+      "bytes": 14403,
+      "sha256": "d7ff6fbe5c2c24dbfd4e08bdcec77b796086e7778771198affcb5503ac9ef6aa",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/face-opening-comparison.json",
+      "bytes": 6705,
+      "sha256": "0cd7379faa03e31920c1b68552fd1a81a3903195d1a73bff8a4529fe59608157",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/local-quality-review.json",
+      "bytes": 5159,
+      "sha256": "e1ffda69b6fe8bf5adbf5446fde7875fd825ec3a542637c6c882e780e672da6c",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/march7-bjd-head-v0.9-draft.blend",
+      "bytes": 19618205,
+      "sha256": "554e10d8123171fac695229f22b8df7206eb26ae5f3b22a70c793bf421b42db3",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/march7-bjd-head-v0.9-draft.zip",
+      "bytes": 64927000,
+      "sha256": "c45f26e8c8a75bfce6c2ec9f3e74e93dfed27d71859bf00db48b8c8baf191f32",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/march7-head-cap-v0.9-draft.stl",
+      "bytes": 5134284,
+      "sha256": "8a78f001b2dd9da11ff04ed070a9f5003dc964fda414ae126d82bd6c71a2225f",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/march7-head-shell-v0.9-draft.stl",
+      "bytes": 26097884,
+      "sha256": "e56e68aab2e78e83a08b2c744cba491bee10b3a3543a176f088352f49487c59d",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-intersection-check.json",
+      "bytes": 1700,
+      "sha256": "3a9d36f4252db7505bfcc869396f5fea3ebdd4586d57f4fcbe137d776b37cb20",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v8-back.png",
+      "bytes": 1453673,
+      "sha256": "de9b9b1352c7d4ff2b0fadf880ae1f6de0c4a918b50c81905741372182619394",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v8-quarter.png",
+      "bytes": 1466220,
+      "sha256": "7fbdc79b60f247329e720b97ee8dfbf5d4ca94ebc0874d18670f0ca712f0de98",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v8-render-provenance.json",
+      "bytes": 1277,
+      "sha256": "a433f2b7dfd86fafb2791d53078d2ad77ead39fe11c3f8007ed2f63f5eba3925",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v8-side.png",
+      "bytes": 1468217,
+      "sha256": "97356d393c6a60d561551aafd16651d430975872ff25c8424bd6a79384904b60",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v8-top.png",
+      "bytes": 1432138,
+      "sha256": "222a02974b6e409144fbe854d488889d4b057269c41cb762d6cb84ae78a00101",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v9-mother-back.png",
+      "bytes": 1436642,
+      "sha256": "41f058a8839d7916b797139245501125ed7dc2ebe49e61ff012e08926ba4fbd3",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v9-mother-quarter.png",
+      "bytes": 1465945,
+      "sha256": "fb0606678fa3fda818640ad2ad3797aebbdd53b2a027ad09a2b1d32f1dab7d59",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v9-mother-render-provenance.json",
+      "bytes": 1400,
+      "sha256": "2ca94c1ebdc4431cc4840e2ada8733d8e980b7c7b371a49553e620743a5975c3",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v9-mother-side.png",
+      "bytes": 1446754,
+      "sha256": "f971a035858813f56132d184fb3c7ffc3c574385a52d8abecd934d742326db26",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-review/v9-mother-top.png",
+      "bytes": 1424616,
+      "sha256": "035bbda2d770539c599892aafae9f9a9dee0873dabc6f391cca42ae17dc9693e",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-sections.png",
+      "bytes": 392416,
+      "sha256": "546fd6327d2455d9bc6dfb72cf4e14fe2a7a3caf04a3eaed7b59fec0c7941bed",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-surface-report.json",
+      "bytes": 3790,
+      "sha256": "393ef3fe65fe88eac957a7bb60eefd1151d66a727a34807100996bef563223a3",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/mother-surface.npz",
+      "bytes": 4663167,
+      "sha256": "db379e1fccc1ad524768b4c0b31a9241dbbf6f398fbe23747ff9ed2e5c21d0e2",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/package_delivery.py",
+      "bytes": 3508,
+      "sha256": "3148a63a3881516aaba7128b55c546219c5061e56cb6bfed080bb4209c5388fb",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/parameters.json",
+      "bytes": 3036,
+      "sha256": "d9400cc10fb57a2dfc28fa108c1fea4583ea7e8f49e55a2935224637427f7202",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/print-intersection-check.json",
+      "bytes": 3114,
+      "sha256": "5df9e4c6264f57f812f81c9e2a1d3d20709893b94db353e278869465d40be964",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/render_comparison.py",
+      "bytes": 3153,
+      "sha256": "9caaf999de47e6189977f8eb59ae93c223068a6016607689e567109958a4f026",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/render_mother.py",
+      "bytes": 3580,
+      "sha256": "e2a895d73e56cc96da2009ba6a9321da10925a8c5caece4a1346896715f6625e",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/review_shell_thickness.py",
+      "bytes": 7065,
+      "sha256": "c7623b86184bef697d31719ee63814363f08adf8e16ec20c90da03df522dc7fc",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/review_source_surface.py",
+      "bytes": 12311,
+      "sha256": "4b59ad53666a6a366b935dc5e298731479f11fd070b359cffac8d9ab6fcc98ed",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/side-comparison.png",
+      "bytes": 1274642,
+      "sha256": "4fb1a0aa270e219afc341c243499a80092ce02b6b11f91c60e4d32389ab678d6",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/side-shell-review.json",
+      "bytes": 3819786,
+      "sha256": "8ba5a6608cb7a6d90c28027524393ec20003feb0fcf37e997464445d6a8f9628",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/side-shell-review.png",
+      "bytes": 230071,
+      "sha256": "ee40dd357e667d6f432ebb682ef8187e801d1a61845e30b544f5d7181e9c628b",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/solve_mother_surface.py",
+      "bytes": 7612,
+      "sha256": "862a339367d47a1c6f0a5ae712f6321841ecaded6d9e7075ea797dda14fa64e2",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/source-surface-review.json",
+      "bytes": 63618,
+      "sha256": "bc40313327a54878b00add91c0061b1d5c4eb14d932bff2b106c24a0f22041c2",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/triangle_intersection_helpers.py",
+      "bytes": 2873,
+      "sha256": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/upper-forehead-profile-review.json",
+      "bytes": 841,
+      "sha256": "3257520c7dbaeb4fa3173b0bdbb6b0e4ced06b14171f0b5705c6d73fa4d989d8",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/upper-forehead-profile-review.png",
+      "bytes": 152469,
+      "sha256": "b73d95087617883f628cde459ff5501e908682b036abd7af90516b4cb324c78f",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/validate_mesh.py",
+      "bytes": 23018,
+      "sha256": "9746a9c71b504c0a889ed6dec5e80667f2d25eb6cdcbfb93c6d8128d02a20463",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.9/validation.json",
+      "bytes": 24625,
+      "sha256": "bfd1a5b93fb5a790d70ecd3bc563ce3055bc5d35c7e7c1ae65b682365f18b53e",
+      "version": 9
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/README.md",
+      "bytes": 1997,
+      "sha256": "a9344d750459956b2c50ce423174ee895cc2823a98682cd67c9b704386d4a907",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21950,
+      "sha256": "cc458f98a368b8c5507c1e3235921ed0c5238249dff677c127b8cb1abf0eae82",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17659,
+      "sha256": "79540fb9004e1e9932384d6e98a6ad8bb8f409e2fd66cfefae67741b8478fb9b",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/assemble_comparisons.py",
+      "bytes": 1409,
+      "sha256": "bd9075c7c040ae4ecc68265a95ea3e484ea553742367318633827787ad4c236e",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/baseline-v0.9.blend",
+      "bytes": 19618205,
+      "sha256": "554e10d8123171fac695229f22b8df7206eb26ae5f3b22a70c793bf421b42db3",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/build-report.json",
+      "bytes": 3446,
+      "sha256": "fb57c644a3d12551f81ef78930a24f7914753e76c8d43ad116eee98743560d54",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/build_head.py",
+      "bytes": 15086,
+      "sha256": "e3106f5e6a7fcc2b4874fb4bce65debebfe2d2e1b254b6d0565870b063e0c41b",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/central-source-protection.npz",
+      "bytes": 2215728,
+      "sha256": "7185f32cee9a19480c255aea74ac6ed858852123d357ee67e3dce8f58321ec27",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/check_eye_insertion.py",
+      "bytes": 8209,
+      "sha256": "92187dc881f1f6b5fc65188fea287b920d5fb72c3168937451775fe9d0370eeb",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/check_print_intersections.py",
+      "bytes": 5597,
+      "sha256": "7c42015e49bec6789972fac5eee519f800cce8bc504a70563a9be6c6059e32a4",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/checksums.json",
+      "bytes": 5872,
+      "sha256": "472faf20988342ec429d22add5d637093b628ea3063a7a58341d81975bbfb395",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/compare_eye_apertures.py",
+      "bytes": 10070,
+      "sha256": "5ff60d32e0e14a135ba41bc8a10a070ea6616516798f1a8e48adafdbffafd763",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v10-front.png",
+      "bytes": 1468534,
+      "sha256": "5d3c76e830ca744a84eb436ebb20d1c2554b90793730a099d6c27dab88e35eea",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v10-render-provenance.json",
+      "bytes": 1099,
+      "sha256": "7aef33c8c69de5f0cfd7c95c2b122d0bac4bb5ee78fec83eb1796efbe0b833d3",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v10-right-quarter.png",
+      "bytes": 1474775,
+      "sha256": "1bc2c26c66e997de923b3a1686e1baac455ea7b1cf1ed4f160b3d7beea3018fd",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v10-side.png",
+      "bytes": 1472179,
+      "sha256": "057ea3b468eda590cdd23ca1ce2ae66528982540a6561cc5272e5b55ce8a175c",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v9-front.png",
+      "bytes": 1468785,
+      "sha256": "ff580e591cb499aefd7756864515de85977eeaf539d5bb63f0f795da96e1c1ad",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v9-render-provenance.json",
+      "bytes": 1081,
+      "sha256": "bd65c9402f099cb9f9ebdc523447f78f5a891b1f08aaeb55f88ee0d01bd1c933",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v9-right-quarter.png",
+      "bytes": 1476087,
+      "sha256": "a3a48faa94975aadb2cd135bfcc7d3cacf06df989c03d20face547449290c6b3",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/comparison-renders/v9-side.png",
+      "bytes": 1473912,
+      "sha256": "bddeba4fb2d4e84d9816171089b048a40f6c8e94b49064c24d6d0e32d5e151f5",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/crown-lowering-assessment.json",
+      "bytes": 2995,
+      "sha256": "cd9e2568afab1bf2f375c62a24adc9989da9718fe23e1f7714943f0f04e31650",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/eye-aperture-comparison.png",
+      "bytes": 25884,
+      "sha256": "02a2081f5016048829ee7ef680e5822db095089575bba1c0aa730dda2ce1445d",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/eye-insertion-check.json",
+      "bytes": 14462,
+      "sha256": "9479493974cb91f999c7495bb0e3e04131d8816d031c9723148f94f27c0fc90c",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/face-opening-comparison.json",
+      "bytes": 6492,
+      "sha256": "c0e66fbbc743c3cb523a5f30162220d394e2d1522c2da7c3457f01a648da9dcd",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/forehead-height-comparison.png",
+      "bytes": 1164083,
+      "sha256": "16cd32ceca474216c7f3474d5d033d1b2afb6d831564bef4f4242b84fc516b9f",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/local-quality-review.json",
+      "bytes": 4997,
+      "sha256": "ac688a107dec4de6d7632a04f1f7e432e4f82ca25e67171b0a106e09d6a61f2f",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/lower_crown.py",
+      "bytes": 3093,
+      "sha256": "99389351306e9ce702a16fb9482f202c09c6494550357d044ea1e431f772d944",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/march7-bjd-head-v0.10-draft.blend",
+      "bytes": 19085182,
+      "sha256": "bbc2e3b1af4b143eeab8d6e49b8db49e7354b3594cd70525e7a2ae2a7a89cebb",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/march7-bjd-head-v0.10-draft.zip",
+      "bytes": 55566600,
+      "sha256": "904bd764566cdf7c0ae54e47406639e006e5b4e7adda1bbcfb604d5cd90757f0",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/march7-head-cap-v0.10-draft.stl",
+      "bytes": 4749284,
+      "sha256": "edd7adc8523c5b0514dde481ce3ef5c9b0482f52d41de080d3078bd4e0b08d13",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/march7-head-shell-v0.10-draft.stl",
+      "bytes": 25463384,
+      "sha256": "eedb04e989373f506c7c73c20ccbe0f4051572833fea95198acd407c638371bc",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/mother-surface-report.json",
+      "bytes": 1230,
+      "sha256": "394d437f8ad94b0f3e96506525c3b3b1bf04aa084c81e5dbe526a80692507e60",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/mother-surface.npz",
+      "bytes": 5840327,
+      "sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/package_delivery.py",
+      "bytes": 2121,
+      "sha256": "51e369dd2e6949984bf6b5d36fdd6dc366668a473f4706e22d0c4537307cb09f",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/parameters.json",
+      "bytes": 3077,
+      "sha256": "384c34a42c56aadcd3a2e3548f6e5efca691e8a050f3401e6c78faee5b7bb138",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/print-intersection-check.json",
+      "bytes": 3114,
+      "sha256": "82a83dbc23c0aaa3fd67cd7d7dd95a045945df9708fbc0c6d867ac3fb146351c",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/render_comparison.py",
+      "bytes": 3097,
+      "sha256": "c3be194cd811974dea9fef0069073c77d1628033a7c5578e60c3d29b25823aef",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/review_shell_thickness.py",
+      "bytes": 7371,
+      "sha256": "a83c4528aeae4f7f165249210bfcba22b646ba6d6872f55783f3879b142d267c",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/review_source_surface.py",
+      "bytes": 9057,
+      "sha256": "5fd7325188256b8e48cfd979abc20630bb8fb1b1b5c0575b33f8e9f9a845efe0",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/side-shell-review.json",
+      "bytes": 3713576,
+      "sha256": "ea9b9ef922ce5e97acd8b195b57bab2a0748874a6d670214788d812714e7b167",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/side-shell-review.png",
+      "bytes": 217506,
+      "sha256": "88b32cdb70eccf7a8ab9c4ea09e9a6c972b4cbe65ff6543f0f56fcc059e0bb5f",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/source-surface-review.json",
+      "bytes": 18309,
+      "sha256": "a100788a1a415e73a42cefb6f03d469d9ab3c8eb88fb553b62a286913d6d71ee",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/triangle_intersection_helpers.py",
+      "bytes": 2873,
+      "sha256": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/validate_mesh.py",
+      "bytes": 23022,
+      "sha256": "f390646a5464d44e00b43571ae63e0b252cd2cce1ef4d4fc2f1deb6b25c3dec5",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/validation.json",
+      "bytes": 24587,
+      "sha256": "a2c4b09afbcff7ef902cad991def1eb4e031e06a379b120697afe1d46fb1e852",
+      "version": 10
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/.DS_Store",
+      "bytes": 12292,
+      "sha256": "c19dc591d96af02687344a8f0b944007d6eb3e2e9d2aaaf63f4210ba59c042e8",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/README.md",
+      "bytes": 3480,
+      "sha256": "9391b3543b488e2ba6cb17f1d1ac7ed0d5e691e1b88d3f32b23650430f024284",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/__pycache__/parse_pmx.cpython-311.pyc",
+      "bytes": 21950,
+      "sha256": "e8fb0169d19e0a975d51fbb3ac83b077e04f7ff071c4f6dc16993617873e8f2b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/__pycache__/parse_pmx.cpython-312.pyc",
+      "bytes": 17659,
+      "sha256": "d56cc7434b0e1e71934fb2d2572b87981b4a7b937a497a004876b4f77a60a33c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/analyze_forehead.py",
+      "bytes": 2343,
+      "sha256": "0e7334812a87c8c9b8c92b997e112edfe43a6ad74d1bd5717ceb093103d68bd7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/assemble_comparisons.py",
+      "bytes": 1646,
+      "sha256": "694f03f01afbb012c1d0fe3faec0dd9bdf3da6418697ed9c79b91e4aae80c7c7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/baseline-v0.10.blend",
+      "bytes": 19085182,
+      "sha256": "bbc2e3b1af4b143eeab8d6e49b8db49e7354b3594cd70525e7a2ae2a7a89cebb",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/build-report.json",
+      "bytes": 4216,
+      "sha256": "90e6d64d4d91ff644bd68fe8887bc0057e8aac17daf584f959714ae27d4fc3ee",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/build_head.py",
+      "bytes": 15086,
+      "sha256": "af3d3ce6105c136386647ec216ebc1e74ce905348cb0a704a6b2670698a220a3",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/candidate-profile-review.json",
+      "bytes": 5420,
+      "sha256": "0b5a9d47de960ba5f7f48ece6f93a9f96d170347f2db792d4f47f822ae13b416",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/candidate-profile-review.png",
+      "bytes": 256401,
+      "sha256": "d0e3fba779285818ef3fed9ba7fe5c9bfa0785a9dbc2724865f2a19b98fe421c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/check_eye_insertion.py",
+      "bytes": 8209,
+      "sha256": "bf556049cf54d565ac118039c4b3aa7db2a15c114871337302aec32149477d84",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/check_mother_intersections.py",
+      "bytes": 4494,
+      "sha256": "1ceb541a80672c8f8b387fdf571a9556e55eb5c14a006a129fccb1e2bac7a492",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/check_print_intersections.py",
+      "bytes": 5597,
+      "sha256": "fc13072c3dbceb60bf47607d0dbcccf0bb9abfafdbf65d7e6720cd424e1db6a1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/checksums.json",
+      "bytes": 8743,
+      "sha256": "b5255908964d9114735c6485d141afcbbfe7773f17705822479b031bfd8c075c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/compare_eye_apertures.py",
+      "bytes": 10072,
+      "sha256": "2f347581c9105108b645b6208311b81bf825ee7f905adeb188d6cfbe24a7f8d1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v10-front.png",
+      "bytes": 1468521,
+      "sha256": "a42a5c34db4514204615ac2f8c88d03833c5362605261c04f09bca32a977e8b1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v10-render-provenance.json",
+      "bytes": 1292,
+      "sha256": "27ff2fc05918f6d232babda8b3a43d23f3bb6ec442391d5ea1cf56b0d5395b59",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v10-right-quarter.png",
+      "bytes": 1474762,
+      "sha256": "f3a91c0bc79e4ede7e91156c5486e8b72153656bb4f1180d758603aefb1f0575",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v10-side.png",
+      "bytes": 1472166,
+      "sha256": "11c6d0594e3af980bb88201673de55aeb3c01dba048758eb877c5a406bba25a0",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v10-top.png",
+      "bytes": 1435548,
+      "sha256": "ab97184b2961315853ec0fd7577bc0edf28d26e7f7f70cae3c9b2ce5dfc06b8b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v11-front.png",
+      "bytes": 1466202,
+      "sha256": "4fc58351d20634c5fc4047520c4a0f47c3a230c838ad18544a3665fc2e0d99b2",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v11-render-provenance.json",
+      "bytes": 1305,
+      "sha256": "d49e5e839d20c995c5bcd7b2149fe2b3a9e740c698745bed22f8e248e77d8a04",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v11-right-quarter.png",
+      "bytes": 1472337,
+      "sha256": "a7c1fcc61c5d37cd1c2f9a8ef0771719ac9c5afe5f4d99d59b3c8440750ac76b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v11-side.png",
+      "bytes": 1471599,
+      "sha256": "326629e49a6904b2f67c38cb982def5cfb2044684b95251396d74e1b3bcf934f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v11-top.png",
+      "bytes": 1434976,
+      "sha256": "4e9394717d971c2eda7faad41e3c790b1b899d136bd9e30f00b81a10647945dc",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v8-front.png",
+      "bytes": 1464316,
+      "sha256": "7e1127e5fc64df98997b5d2e9b1c0f7a426c868b02447d425c2969609abbe76f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v8-render-provenance.json",
+      "bytes": 1298,
+      "sha256": "adfc61f4f795f357b6b600c9c1a92ba5412dbbf21fe8f5e765f94ebc8fa66829",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v8-right-quarter.png",
+      "bytes": 1466233,
+      "sha256": "d5b616ad741c4ba03bed3fccd12bd446d370ec3ffb8ecd8db7f7d572ff2c415b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v8-side.png",
+      "bytes": 1468230,
+      "sha256": "346ae68852361394b5f762575cb7abbcfc79e3bf47dea7dc09152f5929a9c3d1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/comparison-renders/v8-top.png",
+      "bytes": 1432151,
+      "sha256": "8aab92f0e6a144a5e9a6d7b39caa63758c3a02ebbd17c7f0e4f8a8e91926063a",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/eye-aperture-comparison.png",
+      "bytes": 25884,
+      "sha256": "02a2081f5016048829ee7ef680e5822db095089575bba1c0aa730dda2ce1445d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/eye-insertion-check.json",
+      "bytes": 14465,
+      "sha256": "c3b1cc39d17edacf4efa06f43d0c7b4f61d5a2bdbd142af8ac0e62038b19017c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/face-opening-comparison.json",
+      "bytes": 6497,
+      "sha256": "e34bdafe1563020906dcf314d5b0b32a3943889840df0118c610bfe4206eabdc",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/forehead-profile-comparison.json",
+      "bytes": 13352,
+      "sha256": "63d0af0b3906f37e623c2419542e7f17c0b9098b220145ef1c08751c598dfc77",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/forehead-profile-comparison.png",
+      "bytes": 271990,
+      "sha256": "c3a661e8c0e45ddbf7cdc83a248fa1feb268602fe15d66f735ac871b6d1ae1e4",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/forehead-profiles.npz",
+      "bytes": 25502,
+      "sha256": "735d3d54dc672e17d8997ad14c9f5b6c679bf46f589e390435b066a561c8a171",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/forehead-transition-comparison.png",
+      "bytes": 764522,
+      "sha256": "c537898f095b70c43dce70a46af879af4d346f161ca564486143c68360f88512",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/front-side-comparison.png",
+      "bytes": 773410,
+      "sha256": "3c7b41d751076203897d48046a710d4ff9818c0c64e2e9f58047818e86c56ee5",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/local-quality-review.json",
+      "bytes": 6880,
+      "sha256": "28a246b112383e2227bea3f4c3cfbb169741bbf1e68e8929ea2f6eb0918d7bfa",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/make_forehead_protection.py",
+      "bytes": 4455,
+      "sha256": "e06dc69bfcc2eaceef01b62183d5d1e5bb8795edc3f16d27da481d3f638291d8",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/README.md",
+      "bytes": 3480,
+      "sha256": "9391b3543b488e2ba6cb17f1d1ac7ed0d5e691e1b88d3f32b23650430f024284",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/analyze_forehead.py",
+      "bytes": 2343,
+      "sha256": "0e7334812a87c8c9b8c92b997e112edfe43a6ad74d1bd5717ceb093103d68bd7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/assemble_comparisons.py",
+      "bytes": 1646,
+      "sha256": "694f03f01afbb012c1d0fe3faec0dd9bdf3da6418697ed9c79b91e4aae80c7c7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/build-report.json",
+      "bytes": 4216,
+      "sha256": "90e6d64d4d91ff644bd68fe8887bc0057e8aac17daf584f959714ae27d4fc3ee",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/build_head.py",
+      "bytes": 15086,
+      "sha256": "af3d3ce6105c136386647ec216ebc1e74ce905348cb0a704a6b2670698a220a3",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/candidate-profile-review.json",
+      "bytes": 5420,
+      "sha256": "0b5a9d47de960ba5f7f48ece6f93a9f96d170347f2db792d4f47f822ae13b416",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/candidate-profile-review.png",
+      "bytes": 256401,
+      "sha256": "d0e3fba779285818ef3fed9ba7fe5c9bfa0785a9dbc2724865f2a19b98fe421c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/check_eye_insertion.py",
+      "bytes": 8209,
+      "sha256": "bf556049cf54d565ac118039c4b3aa7db2a15c114871337302aec32149477d84",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/check_mother_intersections.py",
+      "bytes": 4494,
+      "sha256": "1ceb541a80672c8f8b387fdf571a9556e55eb5c14a006a129fccb1e2bac7a492",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/check_print_intersections.py",
+      "bytes": 5597,
+      "sha256": "fc13072c3dbceb60bf47607d0dbcccf0bb9abfafdbf65d7e6720cd424e1db6a1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/checksums.json",
+      "bytes": 8743,
+      "sha256": "b5255908964d9114735c6485d141afcbbfe7773f17705822479b031bfd8c075c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/compare_eye_apertures.py",
+      "bytes": 10072,
+      "sha256": "2f347581c9105108b645b6208311b81bf825ee7f905adeb188d6cfbe24a7f8d1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v10-front.png",
+      "bytes": 1468521,
+      "sha256": "a42a5c34db4514204615ac2f8c88d03833c5362605261c04f09bca32a977e8b1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v10-render-provenance.json",
+      "bytes": 1292,
+      "sha256": "27ff2fc05918f6d232babda8b3a43d23f3bb6ec442391d5ea1cf56b0d5395b59",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v10-right-quarter.png",
+      "bytes": 1474762,
+      "sha256": "f3a91c0bc79e4ede7e91156c5486e8b72153656bb4f1180d758603aefb1f0575",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v10-side.png",
+      "bytes": 1472166,
+      "sha256": "11c6d0594e3af980bb88201673de55aeb3c01dba048758eb877c5a406bba25a0",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v10-top.png",
+      "bytes": 1435548,
+      "sha256": "ab97184b2961315853ec0fd7577bc0edf28d26e7f7f70cae3c9b2ce5dfc06b8b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v11-front.png",
+      "bytes": 1466202,
+      "sha256": "4fc58351d20634c5fc4047520c4a0f47c3a230c838ad18544a3665fc2e0d99b2",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v11-render-provenance.json",
+      "bytes": 1305,
+      "sha256": "d49e5e839d20c995c5bcd7b2149fe2b3a9e740c698745bed22f8e248e77d8a04",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v11-right-quarter.png",
+      "bytes": 1472337,
+      "sha256": "a7c1fcc61c5d37cd1c2f9a8ef0771719ac9c5afe5f4d99d59b3c8440750ac76b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v11-side.png",
+      "bytes": 1471599,
+      "sha256": "326629e49a6904b2f67c38cb982def5cfb2044684b95251396d74e1b3bcf934f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v11-top.png",
+      "bytes": 1434976,
+      "sha256": "4e9394717d971c2eda7faad41e3c790b1b899d136bd9e30f00b81a10647945dc",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v8-front.png",
+      "bytes": 1464316,
+      "sha256": "7e1127e5fc64df98997b5d2e9b1c0f7a426c868b02447d425c2969609abbe76f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v8-render-provenance.json",
+      "bytes": 1298,
+      "sha256": "adfc61f4f795f357b6b600c9c1a92ba5412dbbf21fe8f5e765f94ebc8fa66829",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v8-right-quarter.png",
+      "bytes": 1466233,
+      "sha256": "d5b616ad741c4ba03bed3fccd12bd446d370ec3ffb8ecd8db7f7d572ff2c415b",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v8-side.png",
+      "bytes": 1468230,
+      "sha256": "346ae68852361394b5f762575cb7abbcfc79e3bf47dea7dc09152f5929a9c3d1",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/comparison-renders/v8-top.png",
+      "bytes": 1432151,
+      "sha256": "8aab92f0e6a144a5e9a6d7b39caa63758c3a02ebbd17c7f0e4f8a8e91926063a",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/eye-aperture-comparison.png",
+      "bytes": 25884,
+      "sha256": "02a2081f5016048829ee7ef680e5822db095089575bba1c0aa730dda2ce1445d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/eye-insertion-check.json",
+      "bytes": 14465,
+      "sha256": "c3b1cc39d17edacf4efa06f43d0c7b4f61d5a2bdbd142af8ac0e62038b19017c",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/face-opening-comparison.json",
+      "bytes": 6497,
+      "sha256": "e34bdafe1563020906dcf314d5b0b32a3943889840df0118c610bfe4206eabdc",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/forehead-profile-comparison.json",
+      "bytes": 13352,
+      "sha256": "63d0af0b3906f37e623c2419542e7f17c0b9098b220145ef1c08751c598dfc77",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/forehead-profile-comparison.png",
+      "bytes": 271990,
+      "sha256": "c3a661e8c0e45ddbf7cdc83a248fa1feb268602fe15d66f735ac871b6d1ae1e4",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/forehead-profiles.npz",
+      "bytes": 25502,
+      "sha256": "735d3d54dc672e17d8997ad14c9f5b6c679bf46f589e390435b066a561c8a171",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/forehead-transition-comparison.png",
+      "bytes": 764522,
+      "sha256": "c537898f095b70c43dce70a46af879af4d346f161ca564486143c68360f88512",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/front-side-comparison.png",
+      "bytes": 773410,
+      "sha256": "3c7b41d751076203897d48046a710d4ff9818c0c64e2e9f58047818e86c56ee5",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/local-quality-review.json",
+      "bytes": 6880,
+      "sha256": "28a246b112383e2227bea3f4c3cfbb169741bbf1e68e8929ea2f6eb0918d7bfa",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/make_forehead_protection.py",
+      "bytes": 4455,
+      "sha256": "e06dc69bfcc2eaceef01b62183d5d1e5bb8795edc3f16d27da481d3f638291d8",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/march7-bjd-head-v0.11-draft.blend",
+      "bytes": 19125625,
+      "sha256": "41422bbb781f7b3b6e0d7accc24892effdd5e1a75657f8bf1f46c9320de9df65",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/march7-head-cap-v0.11-draft.stl",
+      "bytes": 4758484,
+      "sha256": "b1019fadc2f6acc87376367027c98c200844c9a92838cd18de3e48f18f2bbd04",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/march7-head-shell-v0.11-draft.stl",
+      "bytes": 25509784,
+      "sha256": "feb6e73787a5aedfc0c5dd8a45f2aa27ab623d8b7a09b65e6f8fe07a72b4cf8e",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/mother-intersection-check.json",
+      "bytes": 1561,
+      "sha256": "1a65e4aeb6d7d1d002fc0c29b280f49f177f77566735e5e78b9eaff7f59e4d1f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/mother-surface-report.json",
+      "bytes": 1944,
+      "sha256": "dcd87dcf285b46c0f40e2687d26108f598b75671b46943c32fcdd7bec7d3bf98",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/mother-surface.npz",
+      "bytes": 5270812,
+      "sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/package_delivery.py",
+      "bytes": 2131,
+      "sha256": "8392d102dfe793b1bbb27f755d3b01d49362256c4c606fe8edeb0e8c07c0cca0",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/parameters.json",
+      "bytes": 3222,
+      "sha256": "f145003e545fdb134f35f271bf7cc1e2309989e2473928d2a3c12a55b7ae1d62",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/print-intersection-check.json",
+      "bytes": 3112,
+      "sha256": "9a8e20078d0e80f31db4e29bda26c392d9b6cdcc324decffbcbf5b43ad44be43",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/render_comparison.py",
+      "bytes": 3256,
+      "sha256": "31a37c5296b5e65d16826452aae04432c6e343e1f75c8a60dc782cf66f188355",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/render_mother.py",
+      "bytes": 3600,
+      "sha256": "7b35d844781b07b54de42c4389c0464211b0074589bdd821fde77ad938e60236",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/review_candidate_profiles.py",
+      "bytes": 3110,
+      "sha256": "0688a1586dc2c6aeca616182d798bb51c721370b3ff4f86fe8fb0f0dfc535c25",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/review_shell_thickness.py",
+      "bytes": 7360,
+      "sha256": "8637e935c54cb64c0a9f42feabdd60bc1ebbbf4ede9d155b3a9d67df6cf7db2a",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/review_source_surface.py",
+      "bytes": 10757,
+      "sha256": "a0649485ab760a179d8be2f041e208511bd793609aad86e35cd2b771ca528598",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/side-shell-review.json",
+      "bytes": 3714351,
+      "sha256": "79fd6b6d8e79d5169a8c8ef5c89bf493d448aec11822753490aad517b21d81a7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/side-shell-review.png",
+      "bytes": 217393,
+      "sha256": "97cce2626b6b5cb1a2abbd412d36d6d22a8c5e569daad7ee868bb4fbbfc1945d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/solve_forehead.py",
+      "bytes": 5057,
+      "sha256": "66329a20d225c483522f22d51cab00a1e7d17757cf82a1fcc28dd0b55144eb55",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/source-surface-review.json",
+      "bytes": 22545,
+      "sha256": "adce1971ac6bc414ee5721557e975904ba6121ef701ab4c7127743e3a0e55c1f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/triangle_intersection_helpers.py",
+      "bytes": 2873,
+      "sha256": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/v11-forehead-protection.json",
+      "bytes": 2549,
+      "sha256": "e027ef94f19e74faa501938aaea81dee82c916b268a9994d1cb01cd14e163120",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/v11-forehead-protection.npz",
+      "bytes": 2204134,
+      "sha256": "691a407eb490b85a0d9d5ebc580e1e803dd2c6f6f561cb25809f47e6d1232860",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/v8-reference-comparison.png",
+      "bytes": 1005279,
+      "sha256": "6b0d83e87c9dee1e1852c1823730c0f4ed5343ec4f734ca2fec01de23453f64f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/validate_mesh.py",
+      "bytes": 23022,
+      "sha256": "2b3d7a3f4f78b4f7e19d83a687d28495723d84d23769f336562a5808a563f58d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft/validation.json",
+      "bytes": 24606,
+      "sha256": "0687b6e71f4877c1703b778b7119f3de882b5980d6b53127ce4f48245a87d0b9",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft.blend",
+      "bytes": 19125625,
+      "sha256": "41422bbb781f7b3b6e0d7accc24892effdd5e1a75657f8bf1f46c9320de9df65",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-bjd-head-v0.11-draft.zip",
+      "bytes": 65730497,
+      "sha256": "5503fa626336317c822587041ea151f8098110fb2a1a1d81ce34da89ce72a2f2",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-head-cap-v0.11-draft.stl",
+      "bytes": 4758484,
+      "sha256": "b1019fadc2f6acc87376367027c98c200844c9a92838cd18de3e48f18f2bbd04",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/march7-head-shell-v0.11-draft.stl",
+      "bytes": 25509784,
+      "sha256": "feb6e73787a5aedfc0c5dd8a45f2aa27ab623d8b7a09b65e6f8fe07a72b4cf8e",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-intersection-check.json",
+      "bytes": 1561,
+      "sha256": "1a65e4aeb6d7d1d002fc0c29b280f49f177f77566735e5e78b9eaff7f59e4d1f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-review/v11-mother-quarter.png",
+      "bytes": 1030401,
+      "sha256": "4437825df19bfea8ed7ae980014d0401866c662669c13ffaf5915cf83a0fd8b9",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-review/v11-mother-render-provenance.json",
+      "bytes": 1246,
+      "sha256": "d965029c00e99680742a5a3684db289bce1fca4ba7e522f755d964fa52127c06",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-review/v11-mother-side.png",
+      "bytes": 1014932,
+      "sha256": "576eea4731bff4f8f8ecdf7f96757749aa3c66899481af8d3075d55f6ea309be",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-review/v11-mother-top.png",
+      "bytes": 995100,
+      "sha256": "22e30049f874d0f1ce4103ef9e2d3bc8194ff3cd9987f6e79e19b8007dc9b2ec",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-surface-report.json",
+      "bytes": 1944,
+      "sha256": "dcd87dcf285b46c0f40e2687d26108f598b75671b46943c32fcdd7bec7d3bf98",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-surface.npz",
+      "bytes": 5270812,
+      "sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/package_delivery.py",
+      "bytes": 2131,
+      "sha256": "8392d102dfe793b1bbb27f755d3b01d49362256c4c606fe8edeb0e8c07c0cca0",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/parameters.json",
+      "bytes": 3222,
+      "sha256": "f145003e545fdb134f35f271bf7cc1e2309989e2473928d2a3c12a55b7ae1d62",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/parse_pmx.py",
+      "bytes": 8382,
+      "sha256": "cf58edb0926b202a65a7f6910d58a751d591da653ec102e97d9692eb1d5666da",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/print-intersection-check.json",
+      "bytes": 3112,
+      "sha256": "9a8e20078d0e80f31db4e29bda26c392d9b6cdcc324decffbcbf5b43ad44be43",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/render_comparison.py",
+      "bytes": 3256,
+      "sha256": "31a37c5296b5e65d16826452aae04432c6e343e1f75c8a60dc782cf66f188355",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/render_mother.py",
+      "bytes": 3600,
+      "sha256": "7b35d844781b07b54de42c4389c0464211b0074589bdd821fde77ad938e60236",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/review_candidate_profiles.py",
+      "bytes": 3110,
+      "sha256": "0688a1586dc2c6aeca616182d798bb51c721370b3ff4f86fe8fb0f0dfc535c25",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/review_shell_thickness.py",
+      "bytes": 7360,
+      "sha256": "8637e935c54cb64c0a9f42feabdd60bc1ebbbf4ede9d155b3a9d67df6cf7db2a",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/review_source_surface.py",
+      "bytes": 10757,
+      "sha256": "a0649485ab760a179d8be2f041e208511bd793609aad86e35cd2b771ca528598",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/side-shell-review.json",
+      "bytes": 3714351,
+      "sha256": "79fd6b6d8e79d5169a8c8ef5c89bf493d448aec11822753490aad517b21d81a7",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/side-shell-review.png",
+      "bytes": 217393,
+      "sha256": "97cce2626b6b5cb1a2abbd412d36d6d22a8c5e569daad7ee868bb4fbbfc1945d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/solve_forehead.py",
+      "bytes": 5057,
+      "sha256": "66329a20d225c483522f22d51cab00a1e7d17757cf82a1fcc28dd0b55144eb55",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/source-surface-review.json",
+      "bytes": 22545,
+      "sha256": "adce1971ac6bc414ee5721557e975904ba6121ef701ab4c7127743e3a0e55c1f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/source-usage-rules.txt",
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/triangle_intersection_helpers.py",
+      "bytes": 2873,
+      "sha256": "ff75366b566a5f559ed8adefbd29827d6d50a410cbb2b5de4a1c69befaf2f5ec",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/v11-forehead-protection.json",
+      "bytes": 2549,
+      "sha256": "e027ef94f19e74faa501938aaea81dee82c916b268a9994d1cb01cd14e163120",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/v11-forehead-protection.npz",
+      "bytes": 2204134,
+      "sha256": "691a407eb490b85a0d9d5ebc580e1e803dd2c6f6f561cb25809f47e6d1232860",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/v8-reference-comparison.png",
+      "bytes": 1005279,
+      "sha256": "6b0d83e87c9dee1e1852c1823730c0f4ed5343ec4f734ca2fec01de23453f64f",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/validate_mesh.py",
+      "bytes": 23022,
+      "sha256": "2b3d7a3f4f78b4f7e19d83a687d28495723d84d23769f336562a5808a563f58d",
+      "version": 11
+    },
+    {
+      "path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/validation.json",
+      "bytes": 24606,
+      "sha256": "0687b6e71f4877c1703b778b7119f3de882b5980d6b53127ce4f48245a87d0b9",
+      "version": 11
+    }
+  ],
+  "file_count": 735,
+  "total_bytes": 2265421214,
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "reason": "User explicitly requested deleting quarter v1 through v11. Scope is the eleven version directories; retained versions and other sizes remain unchanged.",
+  "preserved_build_inputs": [
+    {
+      "original_path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.10/mother-surface.npz",
+      "retained_input": "characters/march-7th/references/derived/v12-build-inputs/v10-mother-surface.npz",
+      "bytes": 5840327,
+      "sha256": "0733f8eef1744a3e18b2b07fba971cd10120e489099d692f42eb7d4b27252b52"
+    },
+    {
+      "original_path": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.11/mother-surface.npz",
+      "retained_input": "characters/march-7th/references/derived/v12-build-inputs/v11-mother-surface.npz",
+      "bytes": 5270812,
+      "sha256": "f9c8692a6f0e3a72d6e25ddbc8cad422c9f9b8b56fcee104a8a0c904c0894033"
+    }
+  ],
+  "preserved_baseline_note": "v12/baseline-v0.11.blend already belongs to the retained v12 build inputs and is unchanged; no full old models were copied.",
+  "status": "deleted",
+  "deleted_directories": 11,
+  "retained_model_files_verified": 37,
+  "retained_models_sha256": {
+    "characters/march-7th/1-6-special/versions/v1/march7-bjd-head-1-6-special-v1.blend": "eb29335097fc8bc8af6f0492a0e759d4797bde520a734e5c43188afb79d5c62c",
+    "characters/march-7th/1-6-special/versions/v1/march7-head-cap-1-6-special-v1.stl": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc",
+    "characters/march-7th/1-6-special/versions/v1/march7-head-shell-1-6-special-v1.stl": "ae54ca095e9b7950e7f1055442f9a87f8204dc90a963e16468da217a97c47310",
+    "characters/march-7th/1-6-special/versions/v2-mouth-soft/march7-head-shell-1-6-special-v2.stl": "222db52bacf58542e2f28d4688702f3293bad0b83f7c67a9b07f28c4ab6f40fb",
+    "characters/march-7th/1-6-special/versions/v2-mouth-soft/march7-bjd-head-1-6-special-v2.blend": "f53c1a84b526cbef0fe44c4ca604509a303c28e215bf3c7a36efe194f0b8c3de",
+    "characters/march-7th/1-6-special/versions/v2-mouth-soft/march7-head-cap-1-6-special-v2.stl": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc",
+    "characters/march-7th/1-6-special/versions/v3-cheek-smooth/march7-bjd-head-1-6-special-v3.blend": "157a94de615756f248d33ddb7b209cab4a0280a1460c94d9d3a48cfd8b6689a4",
+    "characters/march-7th/1-6-special/versions/v3-cheek-smooth/march7-head-shell-1-6-special-v3.stl": "83c6a96ce33c74def944240eb556374922966ad456e83baed649b74ddf54a27e",
+    "characters/march-7th/1-6-special/versions/v3-cheek-smooth/march7-head-cap-1-6-special-v3.stl": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc",
+    "characters/march-7th/1-3/versions/v1/march7-head-shell-1-3-v1.stl": "c1708a6ff2167af87430c36967e9d4fd7fb43322cba7e2093d5052679a0e0dde",
+    "characters/march-7th/1-3/versions/v1/march7-head-cap-1-3-v1.stl": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953",
+    "characters/march-7th/1-3/versions/v1/march7-bjd-head-1-3-v1.blend": "45972a012f29686fe2c783e118d61d400e24d8af5e9a3be4e6f3f0e444ae5c81",
+    "characters/march-7th/1-3/versions/v2-mouth-soft/march7-head-shell-1-3-v2.stl": "c18f9dcc8247434a3f414d3e7263816c3e78c0a30ee7603db4ba764dd095461d",
+    "characters/march-7th/1-3/versions/v2-mouth-soft/march7-bjd-head-1-3-v2.blend": "577bbf114360f2da5cf1cab22eb0d4602946b7b7b2fa1d8077b216afab1d28fe",
+    "characters/march-7th/1-3/versions/v2-mouth-soft/march7-head-cap-1-3-v2.stl": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/march7-v14-makeup-preview.blend": "178c0119afa160f73df1b7dc40c1493aa14e3ff0ef1f6c5d95ccce93cac2d314",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/v2-surface-paint/march7-v14-local-makeup-v2.blend": "a0cd63f6956b78f98251cfa1256b87c4145d1a4d74c0ed5c14eabe4b9cbbc5d8",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/source-reference/source-reference.blend": "446cc1013de352866632d84f9614d6dcd938a368e360fdbcbd6c197fe57cf844",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/v5-fair-skin/march7-v14-fair-skin-original-hair.blend": "1133e110e71d8df3e880de6cf476a0bebb01637ba6717307a9b3029e45c0ba30",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/v4-hair-preview/march7-v14-pale-skin-original-hair.blend": "3fe03f533575cd2d50ff53c75d278d28c69f0390286718e7db1e57931acf6dd8",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14-makeup/v3-march7-skin/march7-v14-local-makeup-v3-skin.blend": "bd1d320897bbc25f3a002c5bc8458e7c0fea7747b8a7ad2b677680b97af39f4d",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.13/march7-head-cap-v0.13-draft.stl": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.13/march7-head-shell-v0.13-draft.stl": "a382b257380f066a1e616298d869e88a5f6c39ffa208c962383c3db8949b6c9d",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.13/march7-bjd-head-v0.13-draft.blend": "20ef80dfb192116a10e61da95f981e5b27bb7bde0f0e0cec4227258c839d4a56",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/march7-bjd-head-v0.14-draft.blend": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/march7-head-shell-v0.14-draft.stl": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/march7-head-cap-v0.14-draft.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.12/march7-bjd-head-v0.12-draft.blend": "d8aba34db9f1013902c94c1f532044e4d92c31af43fee0f041e8938f7c4b296f",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.12/march7-head-shell-v0.12-draft.stl": "d2013af41c3585389af0108cd00afd863a6d7587f60a78666b63b702bed3257c",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.12/baseline-v0.11.blend": "41422bbb781f7b3b6e0d7accc24892effdd5e1a75657f8bf1f46c9320de9df65",
+    "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.12/march7-head-cap-v0.12-draft.stl": "8fb25870bb3a6007699b484883a20037ecded68c903007651ed2a71d00a8b591",
+    "characters/march-7th/1-4/versions/v16-surface-fairing/march7-head-cap-1-4-v16.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "characters/march-7th/1-4/versions/v16-surface-fairing/march7-head-shell-1-4-v16.stl": "ed302cfdb3dce7f763e64fcdda104ec7eaed3a846ccea3f8eaaf84bd97e92c2d",
+    "characters/march-7th/1-4/versions/v16-surface-fairing/march7-bjd-head-1-4-v16.blend": "13448fe3c2018752af51c46312dbba8643ac5021e589e1f94726ca4b61f4dbe9",
+    "characters/march-7th/1-4/versions/v18-lip-only/march7-bjd-head-1-4-v18.blend": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066",
+    "characters/march-7th/1-4/versions/v18-lip-only/march7-head-cap-1-4-v18.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "characters/march-7th/1-4/versions/v18-lip-only/march7-head-shell-1-4-v18.stl": "3399309ae690b1a8cfa022442971c9480ea0d427d51a3e8a8f6e58a7bf4af062"
+  },
+  "retained_models_unchanged": true
+}

@@ -1,0 +1,234 @@
+{
+  "source_models_sha256": {
+    "march7-bjd-head-1-4-v18.blend": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066",
+    "march7-bjd-head-1-4-v16.blend": "13448fe3c2018752af51c46312dbba8643ac5021e589e1f94726ca4b61f4dbe9"
+  },
+  "model_files_unchanged": true,
+  "method": "Actual saved v16/v18 meshes; identical orthographic cameras, lighting, neutral clay material and AgX exposure. Scene changes are in unsaved memory; source model files never saved or retouched.",
+  "views": [
+    {
+      "file": "previews/v16-front.png",
+      "sha256": "e70a4172aaf17ee8db541d04a729a92fcf5259d9f1efdf3a624a20ce962f8d1a",
+      "camera_mm": [
+        0.0,
+        -281.2242236708297,
+        34.87180373518289
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 89.99175157466551,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-quarter.png",
+      "sha256": "6857f07c04a6d56ea8bd29d1dfa62eedc5989ab5ca7f36d02f72781a6e50fb77",
+      "camera_mm": [
+        -179.98350314933103,
+        -269.97525472399656,
+        67.49381368099914
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 92.24154536403215,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-side.png",
+      "sha256": "59010143db3745806e9a8e731bfd91db78006db6446b3af760390d47e509c797",
+      "camera_mm": [
+        -281.2242236708297,
+        0.0,
+        34.87180373518289
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 89.99175157466551,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-mouth-front.png",
+      "sha256": "f0a0180f61fd5dbef8cf7675243c60747d3935a9a4ddd58d1c9f5a925f02670f",
+      "camera_mm": [
+        0.0,
+        -179.98350314933103,
+        11.24896894683319
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-mouth-quarter.png",
+      "sha256": "f9525aa8e80fb47da4ec3c4d2727d21de264d58c21f97edca4ee1d9295cdebba",
+      "camera_mm": [
+        -112.48968946833189,
+        -157.48556525566465,
+        17.998350314933102
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-mouth-side.png",
+      "sha256": "9b49981ca80c34bd8b0d8f0215549af4b8dcd195517ed91e384b29f93d51c3ec",
+      "camera_mm": [
+        -168.73453420249783,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v16-mouth-grazing.png",
+      "sha256": "00fb060c405a2a2d523fb6cb113dc663e5413efa83742ad66bb807f44cb3ad60",
+      "camera_mm": [
+        0.0,
+        -179.98350314933103,
+        12.373865841516508
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        12.373865841516508
+      ],
+      "ortho_width_mm": 29.24731926176629,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-front.png",
+      "sha256": "6451d75d9381ac4d655f515887d80cc57e540503cbe47c42580664577083071c",
+      "camera_mm": [
+        0.0,
+        -281.2242236708297,
+        34.87180373518289
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 89.99175157466551,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-quarter.png",
+      "sha256": "e02f8918429a9b13e983f21a537086da31743b4319377d3d0e9f6a05e3f71590",
+      "camera_mm": [
+        -179.98350314933103,
+        -269.97525472399656,
+        67.49381368099914
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 92.24154536403215,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-side.png",
+      "sha256": "f4d72594799201af0e707f4c68327d5edbe876019f3d870d7fd4672fea54d35e",
+      "camera_mm": [
+        -281.2242236708297,
+        0.0,
+        34.87180373518289
+      ],
+      "target_mm": [
+        0.0,
+        0.0,
+        34.87180373518289
+      ],
+      "ortho_width_mm": 89.99175157466551,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-mouth-front.png",
+      "sha256": "f5b7490754e21c1cea0fcf68726efafe5877c04635e8eecccaa31b0fbc37792b",
+      "camera_mm": [
+        0.0,
+        -179.98350314933103,
+        11.24896894683319
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-mouth-quarter.png",
+      "sha256": "8b1bf4cbee49b0602e71e65e200254bd6e1bfd162da8c076e43787be86a9b977",
+      "camera_mm": [
+        -112.48968946833189,
+        -157.48556525566465,
+        17.998350314933102
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-mouth-side.png",
+      "sha256": "ea4616de4d2bbcbd01c246c139e4ae9004a505c0db44f6ef065905a624d81e96",
+      "camera_mm": [
+        -168.73453420249783,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        11.24896894683319
+      ],
+      "ortho_width_mm": 24.747731683033017,
+      "cap_visible": true
+    },
+    {
+      "file": "previews/v18-mouth-grazing.png",
+      "sha256": "cf473d86bdc3b751f85b576354f9926294e11ec9ef5c860d022f3787c19221be",
+      "camera_mm": [
+        0.0,
+        -179.98350314933103,
+        12.373865841516508
+      ],
+      "target_mm": [
+        0.0,
+        -26.99752547239965,
+        12.373865841516508
+      ],
+      "ortho_width_mm": 29.24731926176629,
+      "cap_visible": true
+    }
+  ]
+}

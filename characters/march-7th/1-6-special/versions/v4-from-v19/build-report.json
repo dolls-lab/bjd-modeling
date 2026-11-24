@@ -1,0 +1,118 @@
+{
+  "version": "march7-1-6-special-v4-from-v19",
+  "units": "mm",
+  "uniform_scale": 0.8889703622850876,
+  "source_blend": "1-4/versions/v19-lip-refine/march7-bjd-head-1-4-v19.blend",
+  "source_blend_sha256": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+  "source_blend_unchanged": true,
+  "blend": "march7-bjd-head-1-6-special-v4.blend",
+  "blend_sha256": "6dac0450b78ce978b8299997d9749916ea43bf317ef4bf3e29cb60a72f14977c",
+  "saved_reopened_meshes_identical": true,
+  "parts": {
+    "PRINT_01_Head_Shell": {
+      "file": "march7-head-shell-1-6-special-v4.stl",
+      "sha256": "d0aa3fbbfeb707d5ae0250c2e751f9a908143a53f90b851c0222509269955458",
+      "vertices": 257890,
+      "triangles": 515788,
+      "bounds_mm": [
+        [
+          -24.692811965942383,
+          -29.77402114868164,
+          0.06160368397831917
+        ],
+        [
+          24.694746017456055,
+          21.384321212768555,
+          62.03627014160156
+        ]
+      ],
+      "dimensions_mm": [
+        49.38755798339844,
+        51.158342361450195,
+        61.97466645762324
+      ]
+    },
+    "PRINT_02_Removable_Cap": {
+      "file": "march7-head-cap-1-6-special-v4.stl",
+      "sha256": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc",
+      "vertices": 48537,
+      "triangles": 97070,
+      "bounds_mm": [
+        [
+          -19.473175048828125,
+          8.374228477478027,
+          16.337108612060547
+        ],
+        [
+          19.473228454589844,
+          27.121837615966797,
+          60.274749755859375
+        ]
+      ],
+      "dimensions_mm": [
+        38.94640350341797,
+        18.74760913848877,
+        43.93764114379883
+      ]
+    }
+  },
+  "neck_center_y_mm": 5.861965332788889,
+  "neck_platform_top_mm": 17.58589599836667,
+  "neck_seat_center_z_mm": 4.285895998366669,
+  "neck_seat_diameter_mm": 21.0,
+  "neck_roof_nominal_mm": 2.8,
+  "neck_slot_mm": [
+    6.5,
+    13.0
+  ],
+  "cap_plane_origin_mm": [
+    0.0,
+    12.890070253133771,
+    44.448518114254384
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "eye_centers_mm": [
+    [
+      12.146858067373618,
+      -11.813822488137674,
+      24.600580641686925
+    ],
+    [
+      -12.146858067373618,
+      -11.813822488137674,
+      24.600580641686925
+    ]
+  ],
+  "head_girth_reference_section_mm": 160.0,
+  "girth_measure_z_mm": 35.99705701554793,
+  "change_scope": "Uniformly scale accepted v19 PRINT meshes. Only enlarge the local neck seat, lower opening and hook slot using inherited special-six dimensions. No old lip/cheek field is reapplied, no global smoothing or remeshing.",
+  "physical_fit": "NOT TESTED: adjustable draft, no target body selected.",
+  "neck_cleanup_only": {
+    "merge_mm": 1e-05,
+    "dissolve_degenerate_mm": 1e-06,
+    "local_slivers_collapsed": [
+      {
+        "area_mm2": 8.731149137020111e-11,
+        "collapsed_edge_mm": 0.0003083083138335496,
+        "center_mm": [
+          -8.39917278289795,
+          3.6709728240966797,
+          10.19163703918457
+        ]
+      },
+      {
+        "area_mm2": 1.4551915228366852e-11,
+        "collapsed_edge_mm": 0.00012750468158628792,
+        "center_mm": [
+          -8.384390830993652,
+          4.903876304626465,
+          10.53262710571289
+        ]
+      }
+    ]
+  }
+}

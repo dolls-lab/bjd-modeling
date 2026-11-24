@@ -1,0 +1,79 @@
+[
+  {
+    "file": "whole-head-comparison.png",
+    "sha256": "5c24e0b64f85969bc04eaad114742879921137b1b6819a593aac2dbdf0875a24",
+    "inputs": [
+      {
+        "file": "previews/v18-front.png",
+        "sha256": "05587ee0f6ee2cf515f50141605e9ec57a00b2ebeb09074759fc866823bbabb4"
+      },
+      {
+        "file": "previews/v19-front.png",
+        "sha256": "02727087e32311f7d59b5e7be3554b29c4926a15467be9bffb9266ce20f22057"
+      },
+      {
+        "file": "previews/v18-quarter.png",
+        "sha256": "307d55336cfec2fdefbd3b2de0494e5e1c5159fdb415defecd366f4fa968c753"
+      },
+      {
+        "file": "previews/v19-quarter.png",
+        "sha256": "051451897cfa69958eba1fd4e45730eceda063d9fb385525bc73356b8b3481e0"
+      },
+      {
+        "file": "previews/v18-side.png",
+        "sha256": "fde325aae9a0a900fc5ea56454402f6e03b50a5acad70c22f2bc799098a0316e"
+      },
+      {
+        "file": "previews/v19-side.png",
+        "sha256": "c2c319d73988551733ab849722f56d588fa096ff492b472ebbf3fae002037e3d"
+      }
+    ],
+    "operations": "Resize and layout only; actual model renders, no retouching."
+  },
+  {
+    "file": "mouth-closeup-comparison.png",
+    "sha256": "c56b0798de9308a431ce536270c899063615eed44cd53b00154c546a3da3782b",
+    "inputs": [
+      {
+        "file": "previews/v18-mouth-front.png",
+        "sha256": "6cfe3c38d50ff9248e143e6564b05409239d59e9b9f65c49623de618d41561f3"
+      },
+      {
+        "file": "previews/v19-mouth-front.png",
+        "sha256": "05f3abe792fb088e3d4e67a31ffe95fb122f8721bd5de84f8c4ce3a25e4a50a4"
+      },
+      {
+        "file": "previews/v18-mouth-quarter.png",
+        "sha256": "37c98fcf1c4989d405bc60f8a9ab29bf16ceed22590c14c3d13557e9610d3e13"
+      },
+      {
+        "file": "previews/v19-mouth-quarter.png",
+        "sha256": "7e8748e9bb736201e326fc92d53a41410e0ac17f2bba683cfb01142648ac64b1"
+      }
+    ],
+    "operations": "Resize and layout only; actual model renders, no retouching."
+  },
+  {
+    "file": "side-light-comparison.png",
+    "sha256": "b0d1b3bd9c3bf1d3248add61f9b15e02418048e9c0d44934e615a0732bbec915",
+    "inputs": [
+      {
+        "file": "previews/v18-mouth-side.png",
+        "sha256": "8a87b0c8836546df021b015b2379dffa68765ea3b2dc17e625d1e17779b77742"
+      },
+      {
+        "file": "previews/v19-mouth-side.png",
+        "sha256": "d60942478a992e66b7ea60186534d04883429738ae884a5c7222e6f476e94d77"
+      },
+      {
+        "file": "previews/v18-mouth-grazing.png",
+        "sha256": "dc7c61025c4a99be76f15c9ad0d4965807285aabd1030ae7176accb767f5388d"
+      },
+      {
+        "file": "previews/v19-mouth-grazing.png",
+        "sha256": "1a79c70c8f16124cad9b1faf9d0c7ac6cdfa802e1270390ce266627f8c93133c"
+      }
+    ],
+    "operations": "Resize and layout only; actual model renders, no retouching."
+  }
+]

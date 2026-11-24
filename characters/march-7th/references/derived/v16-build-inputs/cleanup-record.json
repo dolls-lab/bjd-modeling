@@ -1,0 +1,18 @@
+{
+  "user_requested_action": "Delete rejected quarter v15 version; retain only the derived numeric input needed by the retained v16 build/validation.",
+  "deleted_version_directory": "characters/march-7th/1-4/versions/v15-mouth-soft",
+  "deleted_file_count": 32,
+  "deleted_bytes": 57513746,
+  "retained_dependency": {
+    "original_relative_path": "characters/march-7th/1-4/versions/v15-mouth-soft/mouth-field.npz",
+    "new_relative_path": "characters/march-7th/references/derived/v16-build-inputs/mouth-field.npz",
+    "sha256": "bf4ae0b2f305e8947076ff7df8bbafc4fe065428d3b4ca83dedd55fa4c81be17",
+    "size_bytes": 224542,
+    "v16_recorded_source_hash_match": true
+  },
+  "v16_historical_scripts_unchanged": true,
+  "v16_historical_file_count": 48,
+  "model_or_preview_copied": false,
+  "v15_model_and_screenshots_retained_in_dependency_directory": false,
+  "scope_note": "Existing historical comparison images in other version/review directories were not modified; the rejected v15 version directory itself is removed."
+}

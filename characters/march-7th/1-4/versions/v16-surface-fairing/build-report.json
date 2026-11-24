@@ -1,0 +1,57 @@
+{
+  "version": "march7-1-4-v16-surface-fairing",
+  "source_blend_sha256": "cdb0839449d64a6867cae512fef653a1221315ab97c70b1a8e554a4aa232f96a",
+  "source_unchanged": true,
+  "saved_reopened_meshes_identical": true,
+  "blend": "march7-bjd-head-1-4-v16.blend",
+  "blend_sha256": "13448fe3c2018752af51c46312dbba8643ac5021e589e1f94726ca4b61f4dbe9",
+  "head_stl_sha256": "ed302cfdb3dce7f763e64fcdda104ec7eaed3a846ccea3f8eaaf84bd97e92c2d",
+  "cap_stl_sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+  "vertices": 252695,
+  "triangles": 505398,
+  "topology_unchanged": true,
+  "xz_unchanged": true,
+  "outside_mouth_and_cheeks_unchanged": true,
+  "cap_unchanged": true,
+  "changed_vertices": 18996,
+  "max_displacement_mm": 0.5259933471679688,
+  "dy_range_mm": [
+    -0.3804454803466797,
+    0.5259933471679688
+  ],
+  "changed_bounds_mm": [
+    [
+      -12.996496200561523,
+      -29.911571502685547,
+      3.400299072265625
+    ],
+    [
+      13.16529369354248,
+      -18.025089263916016,
+      20.175228118896484
+    ]
+  ],
+  "deformation": "Connected perioral thin-plate fairing with positional fidelity; bidirectional Y adjustment, no localized cheek fill. No remesh or resizing.",
+  "field_provenance": {
+    "method": "Minimize ||L(surface)||^2 + lambda*||delta||^2 over a broad connected perioral domain, with fixed collar, nose and central lip patch. Both inward and outward movement permitted. No sign clipping, peak filling or post-solve blend mask.",
+    "source_head_sha256": "d3ac436defacb1db2a9aca6da84b8e6f4fe3ee995591e095e5ac43b9624b7ada",
+    "lip_field_source_sha256": "bf4ae0b2f305e8947076ff7df8bbafc4fe065428d3b4ca83dedd55fa4c81be17",
+    "field_sha256": "b4271b9c5b5c5033328dbc31bea4d35dcd0edf8463aca47c17b8d147577d4976",
+    "grid_step_mm": 0.2,
+    "free_nodes": 7115,
+    "fair_dy_range_mm": [
+      -0.39392425855303664,
+      0.04388051501450645
+    ],
+    "total_dy_range_mm": [
+      -0.3813170059420052,
+      0.5225119752397649
+    ],
+    "curvature_energy_before": 168320294.90699166,
+    "curvature_energy_after": 168320057.46416026,
+    "linear_residual_max": 6.546985176214548e-12,
+    "curvature_energy_local_before": 761.0247220652268,
+    "curvature_energy_local_after": 523.5818906693925,
+    "local_energy_note": "Only rows influenced by free variables; whole-grid energy includes unrelated fixed rectangle edges."
+  }
+}

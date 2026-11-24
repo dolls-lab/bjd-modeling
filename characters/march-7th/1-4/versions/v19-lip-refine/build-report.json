@@ -1,0 +1,56 @@
+{
+  "version": "march7-1-4-v19-lip-refine",
+  "source_blend_sha256": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066",
+  "source_unchanged": true,
+  "saved_reopened_meshes_identical": true,
+  "blend": "march7-bjd-head-1-4-v19.blend",
+  "blend_sha256": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+  "head_stl_sha256": "4f725eb85a9964eca07883d8aec4e4f52bd2622ac20c60c3a333b25d5bf7ccfb",
+  "cap_stl_sha256": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+  "vertices": 252695,
+  "triangles": 505398,
+  "topology_unchanged": true,
+  "xz_unchanged": true,
+  "outside_declared_lip_support_unchanged": true,
+  "mouth_corners_unchanged": true,
+  "cap_unchanged": true,
+  "changed_vertices": 3199,
+  "max_displacement_mm": 0.07035446166992188,
+  "dy_range_mm": [
+    0.0,
+    0.07035446166992188
+  ],
+  "changed_bounds_mm": [
+    [
+      -4.483677387237549,
+      -29.008647918701172,
+      8.491443634033203
+    ],
+    [
+      4.479596138000488,
+      -22.582687377929688,
+      12.35800552368164
+    ]
+  ],
+  "field_provenance": {
+    "source_head_sha256": "3399309ae690b1a8cfa022442971c9480ea0d427d51a3e8a8f6e58a7bf4af062",
+    "field_sha256": "9a716fa97388d1ee7b1960d46cae721f11246ab308370b68238a113a7753a7d9",
+    "array_order": "[u_index, x_index]; u = Z - (9.85 + 0.033*X^2)",
+    "grid_shape": [
+      86,
+      226
+    ],
+    "grid_step_mm": 0.04,
+    "x_smoothing_sigma_mm": 0.35,
+    "amplitude_global_scale": 0.657235697412114,
+    "amplitude_bounded_by_source": true,
+    "smoothing": "Gaussian only on A(X), followed by one global factor so A never exceeds each original source-depth bound; preserve the original per-X source-depth transition and compact X window. No Z mixing and no source geometry smoothing.",
+    "raw_peak_mm": 0.10962438853948918,
+    "final_peak_mm": 0.07038050433794389,
+    "unordered_source_columns": 0,
+    "source_unchanged": true,
+    "boundary_zero": true,
+    "limitations": "A-only smoothing preserves the continuous per-X depth-mapping bound; interpolation and final triangulation still require actual profile checks. Final STL profiles and appearance require independent checks."
+  },
+  "deformation": "Additional compact lip-only inward offset relative to v18. Transition coordinates use original outer-surface depth; only retraction amplitude is smoothed across X and capped by source depth bounds before compact tapering. All X/Z and outside-lip vertices fixed; inner/outer wall share the field."
+}

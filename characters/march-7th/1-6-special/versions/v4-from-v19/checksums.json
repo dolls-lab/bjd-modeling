@@ -1,0 +1,60 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 3578,
+      "sha256": "1eec2a162b11dcd4110dbb2fd7cd2af0dd312231526e3e01f85d4f6e64635d6d"
+    },
+    "build-report.json": {
+      "bytes": 3303,
+      "sha256": "d61a5345c3a3b50979f2046935dcb3f2a5af179eee3ef70624cd0af4d2107e80"
+    },
+    "build_model.py": {
+      "bytes": 10782,
+      "sha256": "10254661dd7f95f029b2dc18dc8af5febf63366dc36bb7b5d196d8114e0581d7"
+    },
+    "independent-review.json": {
+      "bytes": 12168,
+      "sha256": "7a2491d1d8326472b9d5c1bccb020270eaf7569445212e9a011add5ff2389e9a"
+    },
+    "march7-bjd-head-1-6-special-v4.blend": {
+      "bytes": 17038860,
+      "sha256": "6dac0450b78ce978b8299997d9749916ea43bf317ef4bf3e29cb60a72f14977c"
+    },
+    "march7-head-cap-1-6-special-v4.stl": {
+      "bytes": 4853584,
+      "sha256": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc"
+    },
+    "march7-head-shell-1-6-special-v4.stl": {
+      "bytes": 25789484,
+      "sha256": "d0aa3fbbfeb707d5ae0250c2e751f9a908143a53f90b851c0222509269955458"
+    },
+    "parameters.json": {
+      "bytes": 2374,
+      "sha256": "b961df3acd6475b43236af7bb9a92ea3458a11d3e95c015d52e7124437f205a6"
+    },
+    "source-integrity-after.json": {
+      "bytes": 25631,
+      "sha256": "26e99f8f8fc7ed404b9506f4c6400b4b0fb5051de17ae17517d912175e0a9c94"
+    },
+    "source-integrity-before.json": {
+      "bytes": 25204,
+      "sha256": "1d79bc7a80ce316e4c1933881b619850c63d18f74d07ec663554ee9a6d2426a9"
+    },
+    "source-interface-reference.json": {
+      "bytes": 805,
+      "sha256": "7acbed41a98b570e7c68f4aeb8908b9b8a9e1f113eae30939c7ba5e1c3119030"
+    },
+    "source-usage-rules.txt": {
+      "bytes": 399,
+      "sha256": "7aaceed25c4aeee2db86e49d66d740a4c491e7b8c87db8b297d2947d5f3208b3"
+    },
+    "validate_model.py": {
+      "bytes": 27150,
+      "sha256": "0a51221ddcf0d8ce82bd3f4d429b3fd799009540c7d9ec59dfd92b73147476a8"
+    },
+    "validation.json": {
+      "bytes": 43170,
+      "sha256": "0fa3084060809baf16aa50608629ccce05378ecc7c76684a361e253e83b2adea"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "neck_center_y_mm": 6.59410659959549,
+  "neck_platform_top_mm": 19.78231979878647,
+  "neck_seat_center_z_mm": 5.082319798786472,
+  "cap_plane_origin_mm": [
+    0.0,
+    14.5,
+    50.0
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "eye_centers_mm": [
+    [
+      13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ],
+    [
+      -13.663962920147602,
+      -13.289332231246028,
+      27.67311677124019
+    ]
+  ],
+  "eye_nominal_diameter_mm": 16.0,
+  "provenance": {
+    "source": "characters/march-7th/1-4/versions/march7-bjd-1-4-v0.14/build-report.json",
+    "sha256": "038c4e5583ad075fcc636125a38db4d0271c540e5ef7bf1b61c72a4ca42a7907",
+    "use": "Interface placement metadata only. Geometry is loaded exclusively from v19."
+  }
+}

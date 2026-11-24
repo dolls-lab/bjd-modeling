@@ -1,0 +1,100 @@
+{
+  "version": "march7-1-3-v3-from-v19",
+  "units": "mm",
+  "uniform_scale": 1.25,
+  "source_blend": "1-4/versions/v19-lip-refine/march7-bjd-head-1-4-v19.blend",
+  "source_blend_sha256": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+  "source_blend_unchanged": true,
+  "blend": "march7-bjd-head-1-3-v3.blend",
+  "blend_sha256": "c7654475837ecafd39cf2dfb7a9f493364576c3977d7bb92039152312470218a",
+  "saved_reopened_meshes_identical": true,
+  "parts": {
+    "PRINT_01_Head_Shell": {
+      "file": "march7-head-shell-1-3-v3.stl",
+      "sha256": "d9db037b01f7856cfe270a982c5937c9032d4e0c518273d695ff88497b2c253a",
+      "vertices": 257309,
+      "triangles": 514626,
+      "bounds_mm": [
+        [
+          -34.72108459472656,
+          -41.86587905883789,
+          0.08662223815917969
+        ],
+        [
+          34.72380447387695,
+          30.068946838378906,
+          87.23051452636719
+        ]
+      ],
+      "dimensions_mm": [
+        69.44488906860352,
+        71.9348258972168,
+        87.14389228820801
+      ]
+    },
+    "PRINT_02_Removable_Cap": {
+      "file": "march7-head-cap-1-3-v3.stl",
+      "sha256": "d1b75e5f2f32b525e725cee12231a8440b23292fdc3dad932258ed6cf3b63953",
+      "vertices": 48537,
+      "triangles": 97070,
+      "bounds_mm": [
+        [
+          -27.381641387939453,
+          11.775178909301758,
+          22.971954345703125
+        ],
+        [
+          27.381717681884766,
+          38.13658905029297,
+          84.75360107421875
+        ]
+      ],
+      "dimensions_mm": [
+        54.76335906982422,
+        26.36141014099121,
+        61.781646728515625
+      ]
+    }
+  },
+  "neck_center_y_mm": 8.242633249494363,
+  "neck_platform_top_mm": 24.72789974848309,
+  "neck_seat_center_z_mm": 4.72789974848309,
+  "neck_seat_diameter_mm": 32.0,
+  "neck_roof_nominal_mm": 4.0,
+  "neck_slot_mm": [
+    9.0,
+    18.0
+  ],
+  "cap_plane_origin_mm": [
+    0.0,
+    18.125,
+    62.5
+  ],
+  "cap_plane_normal": [
+    0.0,
+    0.9578262567520142,
+    0.2873478829860687
+  ],
+  "eye_centers_mm": [
+    [
+      17.079953650184503,
+      -16.611665289057534,
+      34.591395964050236
+    ],
+    [
+      -17.079953650184503,
+      -16.611665289057534,
+      34.591395964050236
+    ]
+  ],
+  "head_girth_reference_section_mm": 224.97937893666375,
+  "girth_measure_z_mm": 50.61622206816031,
+  "interface_metadata_sha256": "83a9d8bf663aab1caa19004a27ddd48d6e90f8596f5ee6892857846c5bda1c1c",
+  "source_parameters_sha256": "dffe46555e05e62fad88beee9d10dfa262b0ad064145af32a8dbff2e148c2637",
+  "change_scope": "Uniformly scale the accepted v19 PRINT meshes, then enlarge only the neck seat, lower neck entrance and hook slot. No global smoothing, remeshing, or additional face/lip editing.",
+  "physical_fit": "NOT TESTED: adjustable draft, no target body selected.",
+  "neck_cleanup_only": {
+    "merge_mm": 1e-05,
+    "dissolve_degenerate_mm": 1e-06
+  }
+}

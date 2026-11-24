@@ -1,0 +1,16 @@
+{
+  "status": "Ready for user visual confirmation; mild lip-only candidate, not approval to propagate.",
+  "blend_sha256": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066",
+  "reviewed_images": {
+    "whole-head-comparison.png": "89c98fc69311f8fc30cd6a13a24b95ba8eb24e312326ed4bba9f253a15caf20e",
+    "mouth-closeup-comparison.png": "c538dffa9e76bfa799237b824b7576030f317bc262c2dec9c9b1a27a3990abb4",
+    "side-light-comparison.png": "1a3e13895a91b1c128f2910549e4e12e6a0a706a199fe1fb2bc8cf4e323568c3"
+  },
+  "observations": [
+    "Only a small inward lip change is intended; the existing v16 lip outline remains visible.",
+    "Final front/oblique/side/grazing images show no obvious new double rim or patch edge.",
+    "Whole-head front/oblique/side appearance remains close to the source; independent geometry checks prove zero vertex changes outside the declared lip support.",
+    "Cheek, chin and mouth-corner geometry remains v16; source v16 files preserved."
+  ],
+  "physical_fit": "NOT TESTED"
+}

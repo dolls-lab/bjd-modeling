@@ -1,0 +1,59 @@
+{
+  "version": "march7-1-4-v16-surface-fairing",
+  "units": "mm",
+  "source_version": "march7-bjd-1-4-v0.14",
+  "uniform_scale": 1.0,
+  "field_transfer_ratio": 1.1248968946833189,
+  "head_girth_at_reference_section_mm": 179.983503149331,
+  "girth_measure_z_mm": 40.49297765452825,
+  "body_neck_circumference_reference_mm": 66.0,
+  "neck_seat_diameter_mm": 23.0,
+  "neck_slot_width_mm": 7.0,
+  "neck_slot_length_mm": 14.0,
+  "assumed_neck_ball_diameter_mm": 22.5,
+  "assumed_neck_ball_status": "Conservative geometry-check envelope only; not an observed or guaranteed UFdoll ball size. Neck cavity is unchanged from v14.",
+  "nominal_eye_diameter_mm": 16.0,
+  "nominal_wall_mm": 2.6,
+  "cap_gap_mm": 0.25,
+  "magnet_hole_diameter_mm": 4.25,
+  "magnet_hole_depth_mm": 2.2,
+  "physical_fit": "NOT TESTED: source interface retained; no physical print/body trial.",
+  "policy": "Quarter-size only: retain lip-only softening, discard v15 localized cheek fill, solve broad bidirectional thin-plate surface fairing. X/Z, topology and interfaces locked.",
+  "parameter_limits": "Only declared mouth/cheek field transfer controls affect geometry. Other size and interface fields document unchanged v14 geometry.",
+  "mouth_adjustment": {
+    "center_z_mm": 9.899092673213207,
+    "radius_x_mm": 7.199340125973241,
+    "radius_z_mm": 4.4995875787332755,
+    "smooth_sigma_x_mm": 0.8999175157466551,
+    "smooth_sigma_z_mm": 0.7311829815441573,
+    "smoothing_fraction": 0.45,
+    "peak_retraction_mm": 0.33746906840499563,
+    "maximum_allowed_displacement_mm": 1.5,
+    "full_weight_y_below_mm": -21.373040998983058,
+    "zero_weight_y_above_mm": -17.998350314933102
+  },
+  "deformation_regions": [
+    {
+      "center_x_mm": 0,
+      "center_z_mm": 12.0,
+      "radius_x_mm": 13.5,
+      "radius_z_mm": 9.0
+    }
+  ],
+  "field_source_directory": "1-4/versions/v15-mouth-soft (lip_dy only; cheek_dy deliberately discarded)",
+  "surface_fairing": {
+    "grid_step_mm": 0.2,
+    "center_z_mm": 12.0,
+    "radius_x_mm": 13.0,
+    "radius_z_mm": 8.5,
+    "nose_lock_z_mm": 20.0,
+    "nose_lock_rx_mm": 4.0,
+    "nose_lock_rz_mm": 6.0,
+    "lip_lock_z_mm": 9.9,
+    "lip_lock_rx_mm": 3.8,
+    "lip_lock_rz_mm": 1.8,
+    "positional_fidelity_per_mm4": 0.06,
+    "max_fairing_displacement_mm": 1.2,
+    "lip_sampling": "Evaluate original v15 lip_dy directly at mesh vertices; no intermediate grid resampling for lip displacement."
+  }
+}

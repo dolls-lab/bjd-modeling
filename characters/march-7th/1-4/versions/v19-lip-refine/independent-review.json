@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-11",
+  "status": "Final conservative v19 candidate ready for user comparison; aesthetic approval remains pending.",
+  "blend_sha256": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+  "head_stl_sha256": "4f725eb85a9964eca07883d8aec4e4f52bd2622ac20c60c3a333b25d5bf7ccfb",
+  "field_sha256": "9a716fa97388d1ee7b1960d46cae721f11246ab308370b68238a113a7753a7d9",
+  "method_reviewed": "Source-depth-normalized lip retreat with only its X amplitude curve smoothed and globally capped; original lip support retained.",
+  "geometry_validation_pass": true,
+  "visual_candidate_pass": true,
+  "reviewed_comparison_images": {
+    "whole-head-comparison.png": "5c24e0b64f85969bc04eaad114742879921137b1b6819a593aac2dbdf0875a24",
+    "mouth-closeup-comparison.png": "c56b0798de9308a431ce536270c899063615eed44cd53b00154c546a3da3782b",
+    "side-light-comparison.png": "b0d1b3bd9c3bf1d3248add61f9b15e02418048e9c0d44934e615a0732bbec915"
+  },
+  "render_provenance_verified": 14,
+  "board_provenance_verified": 3,
+  "observations": [
+    "Final same-camera front, oblique, side, grazing-light and whole-head views show a slight further lip retreat relative to v18.",
+    "No prominent newly introduced vertical grooves, steps or patch boundary were seen in the final inspected images.",
+    "The surrounding cheeks, chin and head silhouette remain visually consistent; independent coordinate checks confirm all geometry outside the small lip support unchanged.",
+    "Original lip edges and shading remain visible. The effect is deliberately small and should not be described as complete elimination of pouting."
+  ],
+  "geometry_summary": {
+    "changed_vertices": 3199,
+    "maximum_incremental_y_retraction_mm": 0.07035446166992188,
+    "all_xyz_outside_support_unchanged": true,
+    "all_xz_unchanged": true,
+    "cap_byte_identical": true,
+    "actual_profile_sample_lines": 9,
+    "actual_profile_diagnostic": "No additional peaks/troughs above .01 mm prominence in 9 sampled actual STL sections; not a global smoothness proof.",
+    "minimum_y_projected_wall_sample_mm": 2.4831229046764314,
+    "maximum_sampled_thinning_mm": 0.009145502258487426
+  },
+  "physical_fit": "NOT TESTED",
+  "scope": "Reviewer wrote only new v19 validation/review files and temporary analysis; v18 and other source models were not modified."
+}

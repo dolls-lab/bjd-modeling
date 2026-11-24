@@ -1,0 +1,267 @@
+{
+  "version": "march7-1-6-special-v4-from-v19",
+  "review_scope": "Independent geometry inheritance audit; read-only inputs.",
+  "input_sha256": {
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v19-lip-refine/march7-head-shell-1-4-v19.stl": "4f725eb85a9964eca07883d8aec4e4f52bd2622ac20c60c3a333b25d5bf7ccfb",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v19-lip-refine/march7-head-cap-1-4-v19.stl": "83ee07951213b490a5203cd0a5663a4033c98d5f24131bd720559543a4cf824a",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-4/versions/v19-lip-refine/march7-bjd-head-1-4-v19.blend": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-6-special/versions/v4-from-v19/march7-head-shell-1-6-special-v4.stl": "d0aa3fbbfeb707d5ae0250c2e751f9a908143a53f90b851c0222509269955458",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-6-special/versions/v4-from-v19/march7-head-cap-1-6-special-v4.stl": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-6-special/versions/v4-from-v19/march7-bjd-head-1-6-special-v4.blend": "6dac0450b78ce978b8299997d9749916ea43bf317ef4bf3e29cb60a72f14977c",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-6-special/versions/v1/march7-head-shell-1-6-special-v1.stl": "ae54ca095e9b7950e7f1055442f9a87f8204dc90a963e16468da217a97c47310",
+    "/Users/mmj/Projects/mihoyo/bjd-modeling/characters/march-7th/1-6-special/versions/v1/march7-head-cap-1-6-special-v1.stl": "e113c2aff10903e00cca947a003f820c7bdcda4f77bf5d8d8ef63c4fbffeaacc"
+  },
+  "source_v19_fixed_hashes_match": true,
+  "uniform_scale": 0.8889703622850876,
+  "normalized_geometry_inheritance": {
+    "method": "STL normalized by declared scale. Bidirectional protected vertices are checked independently; triangle-centroid mismatches are diagnosed with full-mesh BVH surface distances instead of treating centroid separation as shape error.",
+    "normalized_tolerance_mm": 5e-05,
+    "neck_exception_target_mm": {
+      "x_abs_less_than": 10.8,
+      "y_center": 5.861965332788889,
+      "y_radius": 10.8,
+      "z_less_than": 17.68589599836667
+    },
+    "protected_source_vertices": 245150,
+    "protected_target_vertices": 245150,
+    "max_source_to_target_vertex_mm": 3.2600555081151295e-06,
+    "max_target_to_source_vertex_mm": 3.2600555081151295e-06,
+    "protected_source_faces": 489631,
+    "protected_target_faces": 489631,
+    "max_source_to_target_face_centroid_mm": 0.04468475979975775,
+    "max_target_to_source_face_centroid_mm": 0.03659349402170056,
+    "regional_checks": {
+      "mouth_and_adjacent_cheeks": {
+        "source_vertices": 30243,
+        "target_vertices": 30243,
+        "max_source_to_target_mm": 2.030863315710947e-06,
+        "max_target_to_source_mm": 2.030863315710947e-06,
+        "pass": true
+      },
+      "nose_and_eyes": {
+        "source_vertices": 51761,
+        "target_vertices": 51761,
+        "max_source_to_target_mm": 3.0663146625871376e-06,
+        "max_target_to_source_mm": 3.0663146625871376e-06,
+        "pass": true
+      },
+      "forehead_and_crown": {
+        "source_vertices": 76897,
+        "target_vertices": 76897,
+        "max_source_to_target_mm": 3.2600555081151295e-06,
+        "max_target_to_source_mm": 3.2600555081151295e-06,
+        "pass": true
+      },
+      "rear_cranium": {
+        "source_vertices": 52011,
+        "target_vertices": 52011,
+        "max_source_to_target_mm": 3.2081172795387015e-06,
+        "max_target_to_source_mm": 3.2081172795387015e-06,
+        "pass": true
+      },
+      "ears_and_lateral_head": {
+        "source_vertices": 98357,
+        "target_vertices": 98357,
+        "max_source_to_target_mm": 3.2600555081151295e-06,
+        "max_target_to_source_mm": 3.2600555081151295e-06,
+        "pass": true
+      }
+    },
+    "pass": true,
+    "strict_corresponding_protected_triangulation_pass": false,
+    "internal_neck_triangulation_diagnostic": {
+      "affected_source_faces": 10,
+      "affected_target_faces": 10,
+      "all_other_protected_face_centroids_within_normalized_tolerance": true,
+      "location": "Front-facing internal neck/platform-adjacent facets; not the external facial skin or cranium.",
+      "normalized_vertex_bounds_mm": [
+        [
+          -1.9228821992874146,
+          -7.405893325805664,
+          7.378410339355469
+        ],
+        [
+          4.693709373474121,
+          -6.590066909790039,
+          19.78232192993164
+        ]
+      ],
+      "exact_bvh_sample_records": [
+        {
+          "direction": "source_to_target",
+          "affected_faces": 10,
+          "samples_per_face": 231,
+          "total_samples": 2310,
+          "max_exact_bvh_surface_distance_normalized_mm": 0.00962503906339407,
+          "mean_exact_bvh_surface_distance_normalized_mm": 0.00015886290944476536,
+          "worst_point_normalized_mm": [
+            -0.3455622762441635,
+            -7.394582557678223,
+            10.481228065490724
+          ],
+          "affected_bounds_normalized_mm": [
+            [
+              -1.9228821992874146,
+              -7.405893325805664,
+              7.378410339355469
+            ],
+            [
+              4.693709373474121,
+              -6.590066909790039,
+              19.78232192993164
+            ]
+          ]
+        },
+        {
+          "direction": "target_to_source",
+          "affected_faces": 10,
+          "samples_per_face": 231,
+          "total_samples": 2310,
+          "max_exact_bvh_surface_distance_normalized_mm": 0.007570106536149979,
+          "mean_exact_bvh_surface_distance_normalized_mm": 3.963980933810521e-05,
+          "worst_point_normalized_mm": [
+            4.54896064373594,
+            -6.644545196994479,
+            10.81219606099658
+          ],
+          "affected_bounds_normalized_mm": [
+            [
+              -1.9228821886106584,
+              -7.405893237712514,
+              7.3784106244846726
+            ],
+            [
+              4.693709683796035,
+              -6.590066854136792,
+              19.78232142686329
+            ]
+          ]
+        }
+      ],
+      "maximum_sampled_normalized_surface_distance_mm": 0.00962503906339407,
+      "maximum_sampled_native_surface_distance_mm": 0.008556374463193546,
+      "comparison_to_existing_same_size_v1": {
+        "method": "For each of the ten differently triangulated internal faces versus quarter-v19, find a same-size-v1 triangle with matching three corners (all six permutations checked). Matching triangle corners bound the entire linear facet error.",
+        "faces": [
+          {
+            "new_internal_face": 376739,
+            "matching_v1_face": 376739,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 376743,
+            "matching_v1_face": 376743,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 497583,
+            "matching_v1_face": 497583,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 497621,
+            "matching_v1_face": 497621,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 497635,
+            "matching_v1_face": 497635,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 508293,
+            "matching_v1_face": 508293,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 508296,
+            "matching_v1_face": 508296,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 508406,
+            "matching_v1_face": 508406,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 508407,
+            "matching_v1_face": 508407,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          },
+          {
+            "new_internal_face": 508410,
+            "matching_v1_face": 508410,
+            "max_corresponding_vertex_error_normalized_mm": 0.0
+          }
+        ],
+        "max_normalized_corresponding_vertex_error_mm": 0.0,
+        "max_native_corresponding_vertex_error_mm": 0.0,
+        "pass": true
+      },
+      "interpretation": "The ten target facets match the existing special-six v1 facets corner-for-corner exactly. Their difference from the quarter-v19 reference is inherited neck-region triangulation, not a new external facial deformation. Surface values are finite-sampling maxima, not certified Hausdorff bounds."
+    }
+  },
+  "cap_inheritance": {
+    "method": "All cap vertices normalized to v19, bidirectional correspondence; no neck exception.",
+    "max_source_to_target_mm": 3.241000216959602e-06,
+    "max_target_to_source_mm": 3.241000216959602e-06,
+    "pass": true
+  },
+  "same_size_v1_neck_preservation": {
+    "method": "Native-size nearest-vertex comparison of the new neck region to the same-size original v1 neck; no physical fitting assertion.",
+    "source_vertices": 12740,
+    "target_vertices": 12740,
+    "max_old_to_new_mm": 1.7487291986407621e-06,
+    "max_new_to_old_mm": 1.7487291986407621e-06,
+    "pass": true
+  },
+  "mesh_structure": {
+    "head": {
+      "vertices": 257890,
+      "faces": 515788,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 1,
+      "minimum_triangle_area_mm2": 1.0926914773161986e-08,
+      "euler_number": -4,
+      "pass": true
+    },
+    "cap": {
+      "vertices": 48537,
+      "faces": 97070,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 1,
+      "minimum_triangle_area_mm2": 4.062957047305219e-09,
+      "euler_number": 2,
+      "pass": true
+    }
+  },
+  "source_and_target_files_unchanged": true,
+  "digital_geometry_pass": true,
+  "physical_fit": "NOT TESTED; inherited parameters describe a prototype, not an actual selected body.",
+  "limitations": [
+    "Nearest-vertex and face-centroid checks are geometric inheritance checks, not a full triangle-triangle intersection sweep.",
+    "The neck exception is deliberately local and explicitly bounded; face and cranium checks do not exclude a broad face region.",
+    "This report does not independently verify Blender viewport materials or a physical print.",
+    "Ten internal neck/platform-adjacent facets differ in triangulation from the quarter reference; dense full-mesh BVH sampling measured up to about 0.00856 mm in native special-six units. Those facets exactly retain the original special-six v1 geometry."
+  ],
+  "duration_seconds": 6.966543207876384,
+  "review_conclusion": "PASS for v19 external face/cranium inheritance and preserved same-size v1 neck geometry. Entire internal facet geometry is not claimed identical to the uniformly scaled quarter reference; the explicit local triangulation diagnostic is retained.",
+  "shared_visual_review": {
+    "reviewed_board": "face-and-side-comparison.png",
+    "reviewed_board_sha256": "c9f948a985a70b9c31d3b7c4af89d9fa3571e9adba06e70ce6de5d7ba437be9b",
+    "observations": [
+      "Normalized side and close-face views are visually consistent across quarter v19, third v3 and special-six v4.",
+      "This comparison equalizes image head size to inspect shape; it does not imply identical physical size or interchangeable neck fit."
+    ],
+    "board_files_sha256": {
+      "three-sizes-overview.png": "1df64f58025aa20048550b1b02f88b61c3c664f542c5a556c3230832ad8237bf",
+      "face-and-side-comparison.png": "c9f948a985a70b9c31d3b7c4af89d9fa3571e9adba06e70ce6de5d7ba437be9b"
+    },
+    "review_type": "Actual saved model comparison, no retouching."
+  },
+  "final_review_status": "Independent review complete; ready for packaging. Physical body fit remains untested."
+}

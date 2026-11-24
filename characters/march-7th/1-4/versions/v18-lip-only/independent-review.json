@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "status": "Conservative local-lip candidate ready for user comparison; not user-approved.",
+  "geometry_validation_pass": true,
+  "visual_candidate_pass": true,
+  "blend_sha256": "28197c2f02555c02885a5d8e065e844d2f1b842b940fd9c73e4a40f720a41066",
+  "head_stl_sha256": "3399309ae690b1a8cfa022442971c9480ea0d427d51a3e8a8f6e58a7bf4af062",
+  "reviewed_comparisons": {
+    "whole-head-comparison.png": "89c98fc69311f8fc30cd6a13a24b95ba8eb24e312326ed4bba9f253a15caf20e",
+    "mouth-closeup-comparison.png": "c538dffa9e76bfa799237b824b7576030f317bc262c2dec9c9b1a27a3990abb4",
+    "side-light-comparison.png": "1a3e13895a91b1c128f2910549e4e12e6a0a706a199fe1fb2bc8cf4e323568c3"
+  },
+  "render_provenance_verified": 14,
+  "board_provenance_verified": 3,
+  "observations": [
+    "Final continuous 0.12 mm retraction removes the first trial's extra upper groove and double bright lip rim.",
+    "The visual change relative to v16 is deliberately slight; the surrounding cheeks, chin and broad head silhouette remain consistent in full front, oblique and side views.",
+    "No prominent new patch edge or fold was seen in the inspected front, oblique, side and grazing-light renders.",
+    "The original mouth details and a visible lower lip remain. The change is a modest reduction of forward lip relief, not a completely erased lip or a guaranteed elimination of perceived pouting.",
+    "Exact STL checks prove all vertices outside the small lip support unchanged. The original mouth-seam X/Z path is retained while its Y position retracts with the lip."
+  ],
+  "geometry_summary": {
+    "changed_vertices": 3204,
+    "maximum_y_retraction_mm": 0.12000083923339844,
+    "outside_support_changed": 0,
+    "mouth_corner_and_cheek_changed_triangle_corners": 0,
+    "minimum_y_projected_wall_sample_mm": 2.4823125989254073,
+    "maximum_sampled_thinning_mm": 0.00490121136369126
+  },
+  "physical_fit": "NOT TESTED",
+  "scope": "Only new quarter v18 validator/report files written by this reviewer; source models and other sizes not modified."
+}

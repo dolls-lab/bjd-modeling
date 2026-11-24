@@ -1,0 +1,24 @@
+{
+  "version": "march7-1-4-v19-lip-refine",
+  "reviewed_model_sha256": {
+    "march7-bjd-head-1-4-v19.blend": "62c142e53949baefc35cc869112f584ce03a612c0e8e0a76e6d32337a0dbdebb",
+    "march7-head-shell-1-4-v19.stl": "4f725eb85a9964eca07883d8aec4e4f52bd2622ac20c60c3a333b25d5bf7ccfb"
+  },
+  "reviewed_boards": {
+    "whole-head-comparison.png": "5c24e0b64f85969bc04eaad114742879921137b1b6819a593aac2dbdf0875a24",
+    "mouth-closeup-comparison.png": "c56b0798de9308a431ce536270c899063615eed44cd53b00154c546a3da3782b",
+    "side-light-comparison.png": "b0d1b3bd9c3bf1d3248add61f9b15e02418048e9c0d44934e615a0732bbec915"
+  },
+  "review_method": "Visual inspection of actual saved source/target Blender renders under identical cameras, lighting and material; geometry protection checked separately in validation.json.",
+  "observations": [
+    "Whole-head front, quarter and side contours appear unchanged outside the lips; separate geometry checks confirm exact protected vertex preservation.",
+    "Lip projection is gently reduced; the existing lip rim remains visible and side-profile change is subtle. This is not a claim of completely removing the pout.",
+    "No obvious newly introduced vertical corrugations, steps or perioral grooves observed in the final amplitude-limited candidate, including grazing illumination."
+  ],
+  "status": "conservative_candidate_ready_for_user_review",
+  "limitations": [
+    "Visual inspection does not prove global surface smoothness.",
+    "Fixed surrounding vertices do not guarantee identical perceived expression; final appearance awaits user assessment.",
+    "No physical printing or body fitting performed."
+  ]
+}
